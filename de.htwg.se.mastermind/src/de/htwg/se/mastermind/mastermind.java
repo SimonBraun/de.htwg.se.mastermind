@@ -6,5 +6,6 @@ public class mastermind {
 		int i = 0;
 		i++;
 		System.out.println(i);
+		//SERVUS!!!!!!!!!!!!!!!
 	}
 }
