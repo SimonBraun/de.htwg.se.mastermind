@@ -12,4 +12,6 @@ public interface ICell {
 	 * @return the value of a cell.
 	 */
 	String getValue();
+	
+	
 }

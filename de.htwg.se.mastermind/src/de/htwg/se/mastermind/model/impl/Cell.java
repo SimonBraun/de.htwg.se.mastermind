@@ -1,6 +1,6 @@
 package de.htwg.se.mastermind.model.impl;
 
-import de.htwg.se.mastermind.model.AbstractCell;;
+import de.htwg.se.mastermind.model.AbstractCell;
 
 public class Cell extends AbstractCell {
 	
