@@ -6,6 +6,8 @@ public interface IGrid {
 	
 	String getCellValue(int row, int column);
 	
-	
-	
+	/**
+	 * Creates a new Mastermind-Game
+	 */
+	void create(int rows, int columns);
 }

@@ -6,5 +6,4 @@ public class Cell extends AbstractCell  {
 		setRow(row);
 		setColumn(column);
 	}
-
 }
