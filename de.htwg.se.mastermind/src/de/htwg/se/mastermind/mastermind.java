@@ -2,7 +2,6 @@
 
 package de.htwg.se.mastermind;
 
-import de.htwg.se.mastermind.model.*;
 import de.htwg.se.mastermind.controller.*;
 
 public class mastermind {
