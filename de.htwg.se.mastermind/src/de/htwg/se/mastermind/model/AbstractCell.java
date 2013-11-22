@@ -13,7 +13,6 @@ public abstract class AbstractCell implements ICell {
 		this.value = value;
 	}
 
-	
 	/**
 	 * Returns a value of a cell
 	 * @return

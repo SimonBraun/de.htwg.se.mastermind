@@ -13,11 +13,12 @@ public class GridTest {
 	@Before
 	public void setUp() throws Exception {
 		grid = new Grid();
+		grid.create(8, 8);
 	}
 	
 	@Test
-	public void createTest() {
-		grid.create(8, 8);
-		assertTrue(grid.cells[0][0].equals(null));
+	public void getCellValueTest() {
+		grid.setCellValue(0, 0, "rd");
+		assertEquals("rd", grid.getCellValue(0, 0));
 	}
 }
