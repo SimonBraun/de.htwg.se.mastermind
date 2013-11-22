@@ -23,6 +23,4 @@ public class Grid extends AbstractGrid implements IGrid {
 	public String getCellValue(int row, int column) {
 		return cells[row][column].getValue();
 	}
-
-	
 }

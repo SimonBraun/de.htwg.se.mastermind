@@ -1,3 +1,5 @@
+// Gruppe 10
+
 package de.htwg.se.mastermind;
 
 import de.htwg.se.mastermind.model.*;
