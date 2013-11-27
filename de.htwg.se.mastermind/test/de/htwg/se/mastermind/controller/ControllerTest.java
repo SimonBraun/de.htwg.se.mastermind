@@ -1,7 +1,5 @@
 package de.htwg.se.mastermind.controller;
 
-
-
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
 import org.junit.Before;
@@ -34,6 +32,4 @@ public class ControllerTest {
 		grid = controller.getGrid();
 		assertFalse(grid == null);
 	}
-
-	
 }
