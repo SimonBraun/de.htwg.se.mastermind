@@ -1,5 +1,7 @@
 package de.htwg.se.mastermind.controller;
 
+import de.htwg.se.mastermind.model.IGrid;
+
 public interface IController {
 	
 	/**
@@ -22,4 +24,10 @@ public interface IController {
 	 * Creates a new Mastermind-Game
 	 */
 	void create(int rows, int columns);
+	
+	/**
+	 * Returns a grid
+	 * @return grid
+	 */
+	IGrid getGrid();
 }

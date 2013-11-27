@@ -2,12 +2,15 @@ package de.htwg.se.mastermind.model;
 
 public class Grid extends AbstractGrid implements IGrid {
 	
-	Cell [][] cells;
+	public Grid(int rows, int columns) {
+		this.create(rows, columns);
+	}
 	
 	@Override
 	public void create(int rows, int columns) {
+		cells = new Cell[rows][columns];
 		for (int i = 0; i < rows; i++) {
-			for (int j = 0; i < columns; j++) {
+			for (int j = 0; j < columns; j++) {
 				cells[i][j] = new Cell(i,j);
 			}
 		}

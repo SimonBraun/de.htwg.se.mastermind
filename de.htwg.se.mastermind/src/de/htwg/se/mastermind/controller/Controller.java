@@ -8,6 +8,11 @@ public class Controller extends Observable implements IController {
 	private IGrid grid;
 
 	@Override
+	public void create(int rows, int columns) {
+		grid = new Grid(rows, columns);
+	}
+	
+	@Override
 	public void setValue(int row, int column, String value) {
 		grid.setCellValue(row, column, value);
 		
@@ -17,10 +22,9 @@ public class Controller extends Observable implements IController {
 	public String getValue(int row, int column) {
 		return grid.getCellValue(row, column);
 	}
-
+	
 	@Override
-	public void create(int rows, int columns) {
-		grid.create(rows, columns);
+	public IGrid getGrid() {
+		return this.grid;
 	}
-
 }

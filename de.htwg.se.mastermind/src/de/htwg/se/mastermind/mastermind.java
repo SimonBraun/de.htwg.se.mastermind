@@ -3,6 +3,7 @@
 package de.htwg.se.mastermind;
 
 import de.htwg.se.mastermind.controller.*;
+import de.htwg.se.mastermind.model.Grid;
 
 public class mastermind {
 	
@@ -14,5 +15,7 @@ public class mastermind {
 		
 		controller = new Controller();
 		controller.create(ROWS, COLUMNS);
+		controller.setValue(0, 0, "yl");
+		//grid = new Grid(8,8);
 	}
 }
