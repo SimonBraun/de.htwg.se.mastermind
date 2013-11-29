@@ -24,10 +24,10 @@ public class TextUI implements IObserver {
 		// TODO Auto-generated method stub
 	}
 	
-	public boolean processInputLine(String input) {
+	public boolean processInputLine(char input) {
 		
 		switch(input) {
-			case "n":
+			case 'c':
 				controller.create(ROWS, COLUMNS);
 				break;
 		}
