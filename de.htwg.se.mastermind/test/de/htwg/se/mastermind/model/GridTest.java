@@ -53,4 +53,15 @@ public class GridTest {
 		grid.setCellValue(1, 5, "bl");
 		assertEquals("bl", grid.getCellValue(1, 5));
 	}
+	
+	@Test
+	public void testGetRowAmount() {
+		assertEquals(8, grid.getRowsAmount());
+	}
+	
+	@Test
+	public void testColumnAmount() {
+		assertEquals(8, grid.getColumnsAmount());
+	}
+	
 }

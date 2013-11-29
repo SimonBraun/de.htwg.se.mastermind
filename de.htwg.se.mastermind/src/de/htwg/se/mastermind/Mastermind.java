@@ -5,7 +5,7 @@ package de.htwg.se.mastermind;
 import de.htwg.se.mastermind.controller.IController;
 import de.htwg.se.mastermind.controller.Controller;
 
-public class mastermind {
+public class Mastermind {
 	
 	private static IController controller;
 	private static final int ROWS=8;
