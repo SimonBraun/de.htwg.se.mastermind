@@ -31,8 +31,9 @@ public class Mastermind {
 	private Mastermind() {
 		PropertyConfigurator.configure("log4j.properties");
 		controller = new Controller();
-		tui = new TextUI(controller);
 		controller.create(ROWS, COLUMNS);
+		tui = new TextUI(controller);
+		tui.print();
 	}
 	
 	public static void main (String[] args) {

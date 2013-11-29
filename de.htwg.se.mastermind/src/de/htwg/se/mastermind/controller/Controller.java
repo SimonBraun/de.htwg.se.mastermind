@@ -40,4 +40,9 @@ public class Controller extends Observable implements IController {
 	public int getColumnsAmount() {
 		return grid.getColumnsAmount();
 	}
+
+	@Override
+	public String getGridString() {
+		return grid.toString();
+	}
 }

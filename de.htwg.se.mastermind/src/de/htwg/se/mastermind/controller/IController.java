@@ -42,4 +42,10 @@ public interface IController {
 	 * @return columns
 	 */
 	int getColumnsAmount();
+	
+	/**
+	 * Returns a string grid
+	 * @return grid
+	 */
+	String getGridString();
 }

@@ -10,6 +10,7 @@ public class TextUI implements IObserver {
 
 	private static final int ROWS=8;
 	private static final int COLUMNS=8;
+	private String newLine = System.getProperty("line.separator");
 	
 	private IController controller;
 	
@@ -36,6 +37,10 @@ public class TextUI implements IObserver {
 		}
 		
 		return true;
+	}
+	
+	public void print() {
+		logger.info(newLine + controller.getGridString());
 	}
 
 }
