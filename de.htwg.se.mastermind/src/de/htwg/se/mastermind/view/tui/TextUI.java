@@ -17,19 +17,22 @@ public class TextUI implements IObserver {
 	
 	public TextUI(IController controller) {
 		this.controller = controller;
-		//controller.addObserver(this);
+		//this.controller.addObserver(this);
 	}
 	@Override
 	public void update(Event e) {
 		// TODO Auto-generated method stub
 	}
 	
-	public boolean processInputLine(char input) {
+	public boolean processInputLine(String input) {
 		
 		switch(input) {
-			case 'c':
+			case "n":
 				controller.create(ROWS, COLUMNS);
 				break;
+				
+			case "q":
+				return false;
 		}
 		
 		return true;
