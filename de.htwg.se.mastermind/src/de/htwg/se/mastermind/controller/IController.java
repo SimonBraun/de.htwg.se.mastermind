@@ -30,4 +30,16 @@ public interface IController {
 	 * @return grid
 	 */
 	IGrid getGrid();
+	
+	/**
+	 * Returns the amount of rows the grid has
+	 * @return row
+	 */
+	int getRowsAmount();
+	
+	/**
+	 * Returns the amount of columns
+	 * @return columns
+	 */
+	int getColumnsAmount();
 }

@@ -30,4 +30,14 @@ public class Controller extends Observable implements IController {
 	public IGrid getGrid() {
 		return this.grid;
 	}
+
+	@Override
+	public int getRowsAmount() {
+		return grid.getRowsAmount();
+	}
+
+	@Override
+	public int getColumnsAmount() {
+		return grid.getColumnsAmount();
+	}
 }
