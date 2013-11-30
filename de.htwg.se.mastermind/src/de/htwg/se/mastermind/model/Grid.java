@@ -4,6 +4,7 @@ public class Grid extends AbstractGrid implements IGrid {
 	
 	public Grid(int rows, int columns) {
 		this.create(rows, columns);
+		this.setBlockSize(2);
 	}
 	
 	@Override

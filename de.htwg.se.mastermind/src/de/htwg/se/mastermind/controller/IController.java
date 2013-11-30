@@ -1,8 +1,9 @@
 package de.htwg.se.mastermind.controller;
 
 import de.htwg.se.mastermind.model.IGrid;
+import de.htwg.se.mastermind.observer.IObservable;;
 
-public interface IController {
+public interface IController extends IObservable {
 	
 	/**
 	 * Sets a value.

@@ -18,11 +18,11 @@ public class TextUI implements IObserver {
 	
 	public TextUI(IController controller) {
 		this.controller = controller;
-		//this.controller.addObserver(this);
+		this.controller.addObserver(this);
 	}
 	@Override
 	public void update(Event e) {
-		// TODO Auto-generated method stub
+		print();
 	}
 	
 	public boolean processInputLine(String input) {
@@ -41,6 +41,7 @@ public class TextUI implements IObserver {
 	
 	public void print() {
 		logger.info(newLine + controller.getGridString());
+		logger.info(newLine + "Possible Commands: n-new, q-quit");
 	}
 
 }
