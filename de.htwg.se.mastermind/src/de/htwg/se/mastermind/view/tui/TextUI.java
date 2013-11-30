@@ -34,14 +34,33 @@ public class TextUI implements IObserver {
 				
 			case "q":
 				return false;
+				
+			case "c":
+				controller.confirmRow();
+				break;
+		}
+		
+		if(input.matches("[0-9][0-9][a-z][a-z]")) {
+			String [] args = readToArray(input);
+			controller.setValue(Integer.parseInt(args[0]), Integer.parseInt(args[1]), args[2] + args[3]);
 		}
 		
 		return true;
 	}
 	
+	private String [] readToArray(String input) {
+		String [] args = new String[input.length()];
+		
+		for (int i = 0; i < args.length; i++) {
+			args[i] = input.substring(i, i+1);
+		}
+		
+		return args;
+	}
+	
 	public void print() {
 		logger.info(newLine + controller.getGridString());
-		logger.info(newLine + "Possible Commands: n-new, q-quit");
+		logger.info(newLine + "Possible Commands: n-new, q-quit, c-confirm row, RowColumnColor-set a color at row, column");
 	}
 
 }

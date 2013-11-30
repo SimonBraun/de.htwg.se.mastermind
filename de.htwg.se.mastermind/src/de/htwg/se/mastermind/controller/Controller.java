@@ -9,21 +9,32 @@ public class Controller extends Observable implements IController {
 
 	@Override
 	public void create(int rows, int columns) {
-		grid = new Grid(rows, columns);
+		this.grid = new Grid(rows, columns);
+		notifyObservers();
+	}
+	
+	@Override
+	public void confirmRow() {
+		if (this.grid.rowIsSet()) {
+			this.grid.incrementActualRow();
+		}
 		notifyObservers();
 	}
 	
 	@Override
 	public void setValue(int row, int column, String value) {
-		grid.setCellValue(row, column, value);
+		
+		int actualRow = this.grid.getActualRow();
+		if(row == actualRow && column < 4) {
+			this.grid.setCellValue(row, column, value);
+		}
 		notifyObservers();
 		
 	}
 
 	@Override
 	public String getValue(int row, int column) {
-		return grid.getCellValue(row, column);
-
+		return this.grid.getCellValue(row, column);
 	}
 	
 	@Override

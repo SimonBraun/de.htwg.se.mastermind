@@ -27,6 +27,12 @@ public interface IController extends IObservable {
 	void create(int rows, int columns);
 	
 	/**
+	 * User confirms that actual row is set
+	 * @param row
+	 */
+	void confirmRow();
+	
+	/**
 	 * Returns a grid
 	 * @return grid
 	 */

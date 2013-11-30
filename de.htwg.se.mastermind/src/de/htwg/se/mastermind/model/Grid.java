@@ -2,9 +2,13 @@ package de.htwg.se.mastermind.model;
 
 public class Grid extends AbstractGrid implements IGrid {
 	
+	private int actualRow;
+	private static final int SETROWS = 4;
+	
 	public Grid(int rows, int columns) {
 		this.create(rows, columns);
 		this.setBlockSize(2);
+		this.actualRow = 0;
 	}
 	
 	@Override
@@ -40,5 +44,31 @@ public class Grid extends AbstractGrid implements IGrid {
 	@Override
 	public int getColumnsAmount() {
 		return this.amountOfColumns;
+	}
+	
+	@Override
+	public ICell getCell(int row, int column) {
+		return this.cells[row][column];
+	}
+
+	@Override
+	public int getActualRow() {
+		return this.actualRow;
+	}
+	
+	@Override
+	public void incrementActualRow() {
+		this.actualRow++;
+	}
+
+	@Override
+	public boolean rowIsSet() {
+		for (int i = 0; i < SETROWS; i++) {
+			if (this.cells[actualRow][i].getValue() == null) {
+				return false;
+			}
+		}
+		
+		return true;
 	}
 }

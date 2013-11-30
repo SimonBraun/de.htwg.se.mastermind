@@ -38,9 +38,9 @@ public abstract class AbstractGrid implements IGrid {
 		
 		StringBuilder sb = new StringBuilder(result);
 		
-		for (int j = amountOfRows - 1; j > 0; j--) {
+		for (int j = amountOfRows - 1; j >= 0; j--) {
 			sb.append("|");
-			for (int k = amountOfColumns - 1; k > 0; k--) {
+			for (int k = amountOfColumns - 1; k >= 0; k--) {
 				sb.append(" ");
 				
 				if (getCellValue(j,k) == null) {
@@ -53,13 +53,12 @@ public abstract class AbstractGrid implements IGrid {
 					sb.append("|");
 				}
 			}
-			sb.append("   |" + newLine);
+			sb.append("|" + newLine);
 		}
 		
 		sb.append(blockSeparator(blockSize));
 		
 		return sb.toString();
-		
 	}
 	
 }

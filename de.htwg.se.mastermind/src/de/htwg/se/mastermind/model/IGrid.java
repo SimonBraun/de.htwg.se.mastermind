@@ -34,4 +34,29 @@ public interface IGrid {
 	 * @return amount
 	 */
 	int getColumnsAmount();
+	
+	/**
+	 * 
+	 * @param row
+	 * @param column
+	 * @return the cell at the coordinates(row, column)
+	 */
+	ICell getCell(int row, int column);
+	
+	/**
+	 * Returns the row that can be set
+	 * @return row
+	 */
+	int getActualRow();
+	
+	/**
+	 * Increments the actual row
+	 */
+	void incrementActualRow();
+	
+	/**
+	 * Checks if the actual row is fully set
+	 * @return
+	 */
+	boolean rowIsSet();
 }
