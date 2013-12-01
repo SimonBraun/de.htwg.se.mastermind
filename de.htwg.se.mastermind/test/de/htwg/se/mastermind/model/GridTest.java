@@ -64,4 +64,48 @@ public class GridTest {
 		assertEquals(8, grid.getColumnsAmount());
 	}
 	
+	@Test
+	public void testGetICell() {
+		assertEquals(grid.cells[0][0], grid.getCell(0, 0));
+	}
+	
+	@Test
+	public void testGetActualRow() {
+		assertEquals(0, grid.getActualRow());
+		grid.incrementActualRow();
+		assertEquals(1, grid.getActualRow());
+	}
+	
+	@Test
+	public void rowIsSet() {
+		assertEquals(null, grid.cells[0][0].getValue());
+		grid.cells[0][0].setValue("yl");
+		assertEquals("yl", grid.cells[0][0].getValue());
+	}
+	
+	@Test
+	public void testIsColor() {
+		assertEquals(true, grid.isColor("yl"));
+		assertEquals(true, grid.isColor("bl"));
+		assertEquals(true, grid.isColor("rd"));
+		assertEquals(true, grid.isColor("pk"));
+		assertEquals(true, grid.isColor("gr"));
+		assertEquals(true, grid.isColor("pu"));
+		assertEquals(true, grid.isColor("or"));
+		assertEquals(false, grid.isColor("pp"));
+		assertEquals(false, grid.isColor("bk"));
+	}
+	
+	@Test
+	public void testIsSolved() {
+		assertEquals(false, grid.isSolved());
+	}
+	
+	@Test
+	public void testShowSolution() {
+		assertEquals("xx", grid.getCellValue(grid.getRowsAmount() - 1, 0));
+		grid.showSolution();
+		assertFalse(grid.getCellValue(grid.getRowsAmount() - 1, 0) == "xx");
+	}
+	
 }

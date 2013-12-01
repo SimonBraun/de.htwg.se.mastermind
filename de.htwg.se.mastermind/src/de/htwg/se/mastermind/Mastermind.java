@@ -21,7 +21,7 @@ public class Mastermind {
 	private static final int COLUMNS=8;
 
 	public static Mastermind getInstance() {
-		if(instance == null) {
+		if (instance == null) {
 			instance = new Mastermind();
 		}
 		

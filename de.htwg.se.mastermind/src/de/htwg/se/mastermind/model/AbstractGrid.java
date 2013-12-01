@@ -39,7 +39,7 @@ public abstract class AbstractGrid implements IGrid {
 		StringBuilder sb = new StringBuilder(result);
 		
 		for (int j = amountOfRows - 1; j >= 0; j--) {
-			sb.append("|");
+				sb.append("|");
 			for (int k = amountOfColumns - 1; k >= 0; k--) {
 				sb.append(" ");
 				

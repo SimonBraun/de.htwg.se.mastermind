@@ -38,6 +38,9 @@ public class TextUI implements IObserver {
 			case "c":
 				controller.confirmRow();
 				break;
+				
+			case "s":
+				controller.showSolution();
 		}
 		
 		if(input.matches("[0-9][0-9][a-z][a-z]")) {
@@ -52,6 +55,7 @@ public class TextUI implements IObserver {
 		String [] args = new String[input.length()];
 		
 		for (int i = 0; i < args.length; i++) {
+			
 			args[i] = input.substring(i, i+1);
 		}
 		
@@ -60,7 +64,8 @@ public class TextUI implements IObserver {
 	
 	public void print() {
 		logger.info(newLine + controller.getGridString());
-		logger.info(newLine + "Possible Commands: n-new, q-quit, c-confirm row, RowColumnColor-set a color at row, column");
+		logger.info(newLine + controller.getStatusLine());
+		logger.info(newLine + "Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution");
 	}
 
 }

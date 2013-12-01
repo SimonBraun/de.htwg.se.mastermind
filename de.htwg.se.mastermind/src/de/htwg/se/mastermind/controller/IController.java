@@ -55,4 +55,15 @@ public interface IController extends IObservable {
 	 * @return grid
 	 */
 	String getGridString();
+	
+	/**
+	 * Returns the status line
+	 * @return status line
+	 */
+	String getStatusLine();
+	
+	/**
+	 * Shows the solution of the mastermind game
+	 */
+	void showSolution();
 }

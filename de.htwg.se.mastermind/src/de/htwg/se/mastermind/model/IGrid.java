@@ -59,4 +59,27 @@ public interface IGrid {
 	 * @return
 	 */
 	boolean rowIsSet();
+	
+	/**
+	 * Verifies if the value is an color
+	 * @param value
+	 * @return true/false
+	 */
+	boolean isColor(String value);
+	
+	/**
+	 * Sets the white and black sticks
+	 */
+	void setSticks();
+	
+	/**
+	 * Verifies if the user have won
+	 * @return true/false
+	 */
+	boolean isSolved();
+	
+	/**
+	 * Shows the solution of the mastermind game
+	 */
+	public void showSolution();
 }
