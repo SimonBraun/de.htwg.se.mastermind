@@ -22,8 +22,8 @@ public class ControllerTest {
 	public void testGetValue() {
 		controller.setValue(0, 0, "yl");
 		assertEquals("yl", grid.getCellValue(0, 0));
-		controller.setValue(1, 0, "bl");
-		assertEquals("bl", grid.getCellValue(1, 0));
+		controller.setValue(0, 1, "bl");
+		assertEquals("bl", grid.getCellValue(0, 1));
 	}
 	
 	@Test
