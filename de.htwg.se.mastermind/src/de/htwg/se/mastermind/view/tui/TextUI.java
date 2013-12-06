@@ -27,20 +27,28 @@ public class TextUI implements IObserver {
 	
 	public boolean processInputLine(String input) {
 		
-		switch(input) {
-			case "n":
-				controller.create(ROWS, COLUMNS);
-				break;
-				
-			case "q":
-				return false;
-				
-			case "c":
-				controller.confirmRow();
-				break;
-				
-			case "s":
-				controller.showSolution();
+		char [] inputChar = new char[input.length()];
+		
+		for (int i = 0; i < input.length(); i++) {
+			inputChar[i] = input.charAt(i);
+		}
+		
+		for (int i = 0; i < inputChar.length; i++) {
+			switch(inputChar[i]) {
+				case 'n':
+					controller.create(ROWS, COLUMNS);
+					break;
+					
+				case 'q':
+					return false;
+					
+				case 'c':
+					controller.confirmRow();
+					break;
+					
+				case 's':
+					controller.showSolution();
+			}
 		}
 		
 		if(input.matches("[0-9][0-9][a-z][a-z]")) {
