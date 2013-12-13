@@ -19,10 +19,12 @@ public class Controller extends Observable implements IController {
 	@Override
 	public void confirmRow() {
 		if (this.grid.rowIsSet()) {
+			statusLine = "Row confirmed!";
 			this.grid.setSticks();
 			
 			if (this.grid.isSolved()) {
 				statusLine = "You have won!!";
+				this.grid.showSolution();
 			}
 			
 			this.grid.incrementActualRow();
@@ -34,8 +36,9 @@ public class Controller extends Observable implements IController {
 	public void setValue(int row, int column, String value) {
 		int actualRow = this.grid.getActualRow();
 		int maxColumns = this.grid.getColumnsAmount()/2;
+		int maxRows = this.grid.getRowsAmount() - 1;
 		if (this.grid.isColor(value)) {
-			if(row == actualRow && column < maxColumns) {
+			if(row == actualRow && column < maxColumns && row < maxRows) {
 				this.grid.setCellValue(row, column, value);
 				statusLine = "The cell at [" + row + "],[" + column + "] has been set!";
 			}
@@ -75,6 +78,7 @@ public class Controller extends Observable implements IController {
 
 	@Override
 	public void showSolution() {
+		statusLine = "The solution of the game:";
 		this.grid.showSolution();
 		notifyObservers();
 	}

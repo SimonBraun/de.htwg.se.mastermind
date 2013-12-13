@@ -7,6 +7,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 public class GridTest {
+	String newLine = System.getProperty("line.separator");
 	private Grid grid;
 	
 	@Before
@@ -14,10 +15,12 @@ public class GridTest {
 		grid = new Grid(8,8);
 	}
 	
+	/* Tests for Grid*/
+	
 	@Test
 	public void testCreate() {
 		grid.create(8, 8);
-		assertFalse(grid.cells[0][0] == null);
+		assertFalse(grid.cells[0][0].equals(null));
 	}
 	
 	@Test
@@ -78,9 +81,15 @@ public class GridTest {
 	
 	@Test
 	public void rowIsSet() {
-		assertEquals(null, grid.cells[0][0].getValue());
+		assertEquals(false, grid.rowIsSet());
 		grid.cells[0][0].setValue("yl");
-		assertEquals("yl", grid.cells[0][0].getValue());
+		assertEquals(false, grid.rowIsSet());
+		grid.cells[0][1].setValue("yl");
+		assertEquals(false, grid.rowIsSet());
+		grid.cells[0][2].setValue("yl");
+		assertEquals(false, grid.rowIsSet());
+		grid.cells[0][3].setValue("yl");
+		assertEquals(true, grid.rowIsSet());
 	}
 	
 	@Test
@@ -99,13 +108,63 @@ public class GridTest {
 	@Test
 	public void testIsSolved() {
 		assertEquals(false, grid.isSolved());
+		grid.solve();
+		assertEquals(true, grid.isSolved());
 	}
 	
 	@Test
 	public void testShowSolution() {
 		assertEquals("xx", grid.getCellValue(grid.getRowsAmount() - 1, 0));
 		grid.showSolution();
-		assertFalse(grid.getCellValue(grid.getRowsAmount() - 1, 0) == "xx");
+		assertFalse(grid.getCellValue(grid.getRowsAmount() - 1, 0).equals("xx"));
 	}
+	
+	@Test
+	public void testSetSticks() {
+		/*grid.cells[0][0].setValue("yl");
+		grid.cells[0][1].setValue("yl");
+		grid.cells[0][1].setValue("yl");
+		grid.cells[0][0].setValue("yl");*/
+		/*grid.showSolution();
+		String value = grid.cells[0][grid.amountOfRows-1].getValue();*/
+		
+		
+		grid.solve();
+		grid.setSticks();
+		assertEquals("bk", grid.cells[grid.getActualRow()][grid.amountOfRows-1].getValue());
+		assertEquals("bk", grid.cells[grid.getActualRow()][grid.amountOfRows-2].getValue());
+		assertEquals("bk", grid.cells[grid.getActualRow()][grid.amountOfRows-3].getValue());
+		assertEquals("bk", grid.cells[grid.getActualRow()][grid.amountOfRows-4].getValue());
+		assertFalse(grid.cells[grid.getActualRow()][grid.amountOfRows-1].getValue().equals("wh"));
+		
+	}
+	
+	/* Tests for Abstract Grid*/
+	
+	@Test
+	public void setBlockSize() {
+		grid.setBlockSize(0);
+		assertEquals(0, grid.getBlockSize());
+		grid.setBlockSize(2);
+		assertEquals(2, grid.getBlockSize());
+	}
+	
+	@Test
+	public void testBlockSeparator() {
+		grid.setBlockSize(0);
+		assertEquals("+", grid.blockSeparator(grid.getBlockSize()));
+		grid.setBlockSize(1);
+		assertEquals("+------+", grid.blockSeparator(grid.getBlockSize()));
+		grid.setBlockSize(2);
+		assertEquals("+------------+------------+", grid.blockSeparator(grid.getBlockSize()));
+	}
+	
+	/*@Test
+	public void testToString() {
+		grid.setBlockSize(1);
+		assertEquals("+-----+"+ newLine + "|   |" +newLine+ "+------+" + newLine, grid.toString());
+		grid.setCellValue(0, 0, "yl");
+		//assertEquals("+---+"+newLine+"| yl |"+newLine+"+---+"+newLine, grid.toString());
+	}*/
 	
 }

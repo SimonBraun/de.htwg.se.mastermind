@@ -1,781 +1,70 @@
 INFO main de.htwg.sudoku.aview.tui - 
-+------+------+
-||||||||
-INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit
+New game has been created!
 INFO main de.htwg.sudoku.aview.tui - 
-+------+------+
-||||||||
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
 INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit
-INFO main de.htwg.sudoku.aview.tui - 
-+------+------+
-||||||||
-INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit
-INFO main de.htwg.sudoku.aview.tui - 
-+------+------+
-|        |      |
-|        |      |
-|        |      |
-|        |      |
-|        |      |
-|        |      |
-|        |      |
-+------+------+
-INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit
-INFO main de.htwg.sudoku.aview.tui - 
-+------+------+
-|        |      | 
-|        |      | 
-|        |      | 
-|        |      | 
-|        |      | 
-|        |      | 
-|        |      | 
-+------+------+
-INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit
-INFO main de.htwg.sudoku.aview.tui - 
-+------+------+
-|        |       |
-|        |       |
-|        |       |
-|        |       |
-|        |       |
-|        |       |
-|        |       |
-+------+------+
-INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit
-INFO main de.htwg.sudoku.aview.tui - 
-+------+------+
-|            |           |
-|            |           |
-|            |           |
-|            |           |
-|            |           |
-|            |           |
-|            |           |
-+------+------+
-INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit
-INFO main de.htwg.sudoku.aview.tui - 
-+--------+--------+
-|            |           |
-|            |           |
-|            |           |
-|            |           |
-|            |           |
-|            |           |
-|            |           |
-+--------+--------+
-INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit
-INFO main de.htwg.sudoku.aview.tui - 
-+----------+----------+
-|            |           |
-|            |           |
-|            |           |
-|            |           |
-|            |           |
-|            |           |
-|            |           |
-+----------+----------+
-INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit
-INFO main de.htwg.sudoku.aview.tui - 
-+------------+------------+
-|            |           |
-|            |           |
-|            |           |
-|            |           |
-|            |           |
-|            |           |
-|            |           |
-+------------+------------+
-INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit
-INFO main de.htwg.sudoku.aview.tui - 
-+------------+------------+
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-+------------+------------+
-INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit
-INFO main de.htwg.sudoku.aview.tui - 
-+------------+------------+
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-+------------+------------+
-INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit
-INFO main de.htwg.sudoku.aview.tui - 
-+------------+------------+
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-+------------+------------+
-INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit
-INFO main de.htwg.sudoku.aview.tui - 
-+------------+------------+
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-+------------+------------+
-INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit
-INFO main de.htwg.sudoku.aview.tui - 
-+------------+------------+
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-+------------+------------+
-INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit
-INFO main de.htwg.sudoku.aview.tui - 
-+------------+------------+
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-+------------+------------+
-INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit
-INFO main de.htwg.sudoku.aview.tui - 
-+------------+------------+
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-+------------+------------+
-INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit
-INFO main de.htwg.sudoku.aview.tui - 
-+------------+------------+
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-+------------+------------+
-INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit
-INFO main de.htwg.sudoku.aview.tui - 
-+------------+------------+
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-+------------+------------+
-INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit
-INFO main de.htwg.sudoku.aview.tui - 
-+------------+------------+
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-+------------+------------+
-INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit
-INFO main de.htwg.sudoku.aview.tui - 
-+------------+------------+
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-+------------+------------+
-INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit
-INFO main de.htwg.sudoku.aview.tui - 
-+------------+------------+
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-+------------+------------+
-INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit
-INFO main de.htwg.sudoku.aview.tui - 
-+------------+------------+
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-+------------+------------+
-INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit
-INFO main de.htwg.sudoku.aview.tui - 
-+------------+------------+
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-+------------+------------+
-INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit
-INFO main de.htwg.sudoku.aview.tui - 
-+------------+------------+
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |       rd   |
-+------------+------------+
-INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit
-INFO main de.htwg.sudoku.aview.tui - 
-+------------+------------+
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |       rd   |
-+------------+------------+
-INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit
-INFO main de.htwg.sudoku.aview.tui - 
-+------------+------------+
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|       rd   |       rd   |
-+------------+------------+
-INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit
-INFO main de.htwg.sudoku.aview.tui - 
-+------------+------------+
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-+------------+------------+
-INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit
-INFO main de.htwg.sudoku.aview.tui - 
-+------------+------------+
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-+------------+------------+
-INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit
-INFO main de.htwg.sudoku.aview.tui - 
-+------------+------------+
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-+------------+------------+
-INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit
-INFO main de.htwg.sudoku.aview.tui - 
-+------------+------------+
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-+------------+------------+
-INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit
-INFO main de.htwg.sudoku.aview.tui - 
-+------------+------------+
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |       yl   |
-+------------+------------+
-INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit
-INFO main de.htwg.sudoku.aview.tui - 
-+------------+------------+
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |    gr yl   |
-+------------+------------+
-INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit
-INFO main de.htwg.sudoku.aview.tui - 
-+------------+------------+
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            | bl gr yl   |
-+------------+------------+
-INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit
-INFO main de.htwg.sudoku.aview.tui - 
-+------------+------------+
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            | bl gr yl   |
-+------------+------------+
-INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit
-INFO main de.htwg.sudoku.aview.tui - 
-+------------+------------+
-|            |               |
-|            |               |
-|            |               |
-|            |               |
-|            |               |
-|            |               |
-|            |               |
-|            |               |
-+------------+------------+
-INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit
-INFO main de.htwg.sudoku.aview.tui - 
-+------------+------------+
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-+------------+------------+
-INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit
-INFO main de.htwg.sudoku.aview.tui - 
-+------------+------------+
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |       yl   |
-|            |            |
-+------------+------------+
-INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit
-INFO main de.htwg.sudoku.aview.tui - 
-+------------+------------+
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-+------------+------------+
-INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit
-INFO main de.htwg.sudoku.aview.tui - 
-+------------+------------+
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |          yl|
-+------------+------------+
-INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit
-INFO main de.htwg.sudoku.aview.tui - 
-+------------+------------+
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |       bl yl|
-+------------+------------+
-INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit
-INFO main de.htwg.sudoku.aview.tui - 
-+------------+------------+
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |    gr bl yl|
-+------------+------------+
-INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit
-INFO main de.htwg.sudoku.aview.tui - 
-+------------+------------+
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            | rd gr bl yl|
-+------------+------------+
-INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit
-INFO main de.htwg.sudoku.aview.tui - 
-+------------+------------+
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-+------------+------------+
-INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit
-INFO main de.htwg.sudoku.aview.tui - 
-+------------+------------+
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-| ww         |            |
-+------------+------------+
-INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit
-INFO main de.htwg.sudoku.aview.tui - 
-+------------+------------+
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-| ww ad      |            |
-+------------+------------+
-INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit
-INFO main de.htwg.sudoku.aview.tui - 
-+------------+------------+
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-| ww ad ak   |            |
-+------------+------------+
-INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit
-INFO main de.htwg.sudoku.aview.tui - 
-+------------+------------+
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-| ww ad ak ag|            |
-+------------+------------+
-INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit
-INFO main de.htwg.sudoku.aview.tui - 
-+------------+------------+
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-| ww ad ak ag| hh         |
-+------------+------------+
-INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit
-INFO main de.htwg.sudoku.aview.tui - 
-+------------+------------+
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-| ww ad ak ag| hh ff      |
-+------------+------------+
-INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit
-INFO main de.htwg.sudoku.aview.tui - 
-+------------+------------+
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-| ww ad ak ag| hh ff zz   |
-+------------+------------+
-INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit
-INFO main de.htwg.sudoku.aview.tui - 
-+------------+------------+
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-| ww ad ak ag| hh ff zz pp|
-+------------+------------+
-INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit
-INFO main de.htwg.sudoku.aview.tui - 
-+------------+------------+
-| aa         |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-| ww ad ak ag| hh ff zz pp|
-+------------+------------+
-INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit
-INFO main de.htwg.sudoku.aview.tui - 
-+------------+------------+
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-+------------+------------+
-INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit
-INFO main de.htwg.sudoku.aview.tui - 
-+------------+------------+
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |       yl   |
-|            |            |
-+------------+------------+
-INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit
-INFO main de.htwg.sudoku.aview.tui - 
-+------------+------------+
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-+------------+------------+
-INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit
-INFO main de.htwg.sudoku.aview.tui - 
 +------------+------------+
+|            | xx xx xx xx|
 |            |            |
 |            |            |
 |            |            |
 |            |            |
 |            |            |
 |            |            |
-|            |       yl   |
-|            |            |
+|            |          or|
 +------------+------------+
-INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit
 INFO main de.htwg.sudoku.aview.tui - 
-+------------+------------+
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-+------------+------------+
+The cell at [0],[0] has been set!
 INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
 INFO main de.htwg.sudoku.aview.tui - 
 +------------+------------+
+|            | xx xx xx xx|
 |            |            |
 |            |            |
 |            |            |
 |            |            |
 |            |            |
 |            |            |
-|            |            |
-|            |            |
+|            |       rd or|
 +------------+------------+
 INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit
-INFO main de.htwg.sudoku.aview.tui - 
-+------------+------------+
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |          yl|
-+------------+------------+
+The cell at [0],[1] has been set!
 INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
 INFO main de.htwg.sudoku.aview.tui - 
 +------------+------------+
+|            | xx xx xx xx|
 |            |            |
 |            |            |
 |            |            |
 |            |            |
 |            |            |
 |            |            |
-|            |            |
-|            |          yl|
+|            |    gr rd or|
 +------------+------------+
-INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit
 INFO main de.htwg.sudoku.aview.tui - 
-+------------+------------+
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |       rd yl|
-+------------+------------+
+The cell at [0],[2] has been set!
 INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
 INFO main de.htwg.sudoku.aview.tui - 
 +------------+------------+
-|            |            |
+|            | xx xx xx xx|
 |            |            |
 |            |            |
 |            |            |
 |            |            |
 |            |            |
 |            |            |
-|            | gr    rd yl|
+|            | or gr rd or|
 +------------+------------+
 INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit
-INFO main de.htwg.sudoku.aview.tui - 
-+------------+------------+
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            | gr bl rd yl|
-+------------+------------+
+The cell at [0],[3] has been set!
 INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
 INFO main de.htwg.sudoku.aview.tui - 
 +------------+------------+
+|            | xx xx xx xx|
 |            |            |
 |            |            |
 |            |            |
@@ -783,155 +72,89 @@ INFO main de.htwg.sudoku.aview.tui -
 |            |            |
 |            |            |
 |            |            |
-|            | gr bl rd yl|
 +------------+------------+
 INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit
-INFO main de.htwg.sudoku.aview.tui - 
-+------------+------------+
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-+------------+------------+
+New game has been created!
 INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
 INFO main de.htwg.sudoku.aview.tui - 
 +------------+------------+
-|            |            |
+|            | xx xx xx xx|
 |            |            |
 |            |            |
 |            |            |
 |            |            |
 |            |            |
 |            |            |
-|            |            |
+|            |          or|
 +------------+------------+
-INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row
 INFO main de.htwg.sudoku.aview.tui - 
-+------------+------------+
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-+------------+------------+
+The cell at [0],[0] has been set!
 INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
 INFO main de.htwg.sudoku.aview.tui - 
 +------------+------------+
-|            |            |
-|            |            |
+|            | xx xx xx xx|
 |            |            |
 |            |            |
 |            |            |
 |            |            |
 |            |            |
 |            |            |
+|            |       rd or|
 +------------+------------+
 INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row
-INFO main de.htwg.sudoku.aview.tui - 
-+------------+------------+
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-+------------+------------+
+The cell at [0],[1] has been set!
 INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
 INFO main de.htwg.sudoku.aview.tui - 
 +------------+------------+
-|            |            |
+|            | xx xx xx xx|
 |            |            |
 |            |            |
 |            |            |
 |            |            |
 |            |            |
 |            |            |
-|            |            |
+|            |    gr rd or|
 +------------+------------+
-INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row
 INFO main de.htwg.sudoku.aview.tui - 
-+------------+------------+
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-+------------+------------+
+The cell at [0],[2] has been set!
 INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
 INFO main de.htwg.sudoku.aview.tui - 
 +------------+------------+
+|            | xx xx xx xx|
 |            |            |
 |            |            |
 |            |            |
 |            |            |
 |            |            |
 |            |            |
-|            |            |
-|            |          yl|
+|            | or gr rd or|
 +------------+------------+
-INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row
 INFO main de.htwg.sudoku.aview.tui - 
-+------------+------------+
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |          yl|
-+------------+------------+
+The cell at [0],[3] has been set!
 INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
 INFO main de.htwg.sudoku.aview.tui - 
 +------------+------------+
-|            |            |
+|            | xx xx xx xx|
 |            |            |
 |            |            |
 |            |            |
 |            |            |
 |            |            |
 |            |            |
-|            |          yl|
+| bk wh      | or gr rd or|
 +------------+------------+
 INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row
+Row confirmed!
 INFO main de.htwg.sudoku.aview.tui - 
-+------------+------------+
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |          yl|
-+------------+------------+
-INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
 INFO main de.htwg.sudoku.aview.tui - 
 +------------+------------+
+|            | xx xx xx xx|
 |            |            |
 |            |            |
 |            |            |
@@ -939,103 +162,89 @@ INFO main de.htwg.sudoku.aview.tui -
 |            |            |
 |            |            |
 |            |            |
-|            | rd       yl|
 +------------+------------+
 INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row
-INFO main de.htwg.sudoku.aview.tui - 
-+------------+------------+
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            | rd bl    yl|
-+------------+------------+
+New game has been created!
 INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
 INFO main de.htwg.sudoku.aview.tui - 
 +------------+------------+
+|            | xx xx xx xx|
 |            |            |
 |            |            |
 |            |            |
 |            |            |
 |            |            |
 |            |            |
-|            |            |
-|            | rd bl    yl|
+|            |          or|
 +------------+------------+
-INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row
 INFO main de.htwg.sudoku.aview.tui - 
-+------------+------------+
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            | rd bl gr yl|
-+------------+------------+
+The cell at [0],[0] has been set!
 INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
 INFO main de.htwg.sudoku.aview.tui - 
 +------------+------------+
-|            |            |
+|            | xx xx xx xx|
 |            |            |
 |            |            |
 |            |            |
 |            |            |
 |            |            |
 |            |            |
-|            | rd bl yl yl|
+|            |       rd or|
 +------------+------------+
 INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row
+The cell at [0],[1] has been set!
 INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
 +------------+------------+
-|            |            |
+|            | xx xx xx xx|
 |            |            |
 |            |            |
 |            |            |
 |            |            |
 |            |            |
 |            |            |
-|            | rd bl gr yl|
+|            |    gr rd or|
 +------------+------------+
 INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row
+The cell at [0],[2] has been set!
 INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
 +------------+------------+
-|            |            |
+|            | xx xx xx xx|
 |            |            |
 |            |            |
 |            |            |
 |            |            |
 |            |            |
 |            |            |
-|            | rd bl gr yl|
+|            | or gr rd or|
 +------------+------------+
 INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row
+The cell at [0],[3] has been set!
 INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
 +------------+------------+
-|            |            |
+|            | xx xx xx xx|
 |            |            |
 |            |            |
 |            |            |
 |            |            |
 |            |            |
 |            |            |
-|            | rd bl gr yl|
+| bk wh wh wh| or gr rd or|
 +------------+------------+
 INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row
+Row confirmed!
 INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
 +------------+------------+
+|            | xx xx xx xx|
 |            |            |
 |            |            |
 |            |            |
@@ -1043,77 +252,89 @@ INFO main de.htwg.sudoku.aview.tui -
 |            |            |
 |            |            |
 |            |            |
-|            | rd bl gr yl|
 +------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+New game has been created!
 INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
 INFO main de.htwg.sudoku.aview.tui - 
 +------------+------------+
+|            | xx xx xx xx|
 |            |            |
 |            |            |
 |            |            |
 |            |            |
 |            |            |
 |            |            |
-|            |          fr|
-|            | rd bl gr yl|
+|            |          or|
 +------------+------------+
 INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row
+The cell at [0],[0] has been set!
 INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
 +------------+------------+
+|            | xx xx xx xx|
 |            |            |
 |            |            |
 |            |            |
 |            |            |
 |            |            |
 |            |            |
-|            |          fr|
-|            | rd bl gr yl|
+|            |       rd or|
 +------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+The cell at [0],[1] has been set!
 INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
 INFO main de.htwg.sudoku.aview.tui - 
 +------------+------------+
-|            |            |
-|            |            |
+|            | xx xx xx xx|
 |            |            |
 |            |            |
 |            |            |
 |            |            |
 |            |            |
 |            |            |
+|            |    gr rd or|
 +------------+------------+
 INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, RowColumnColor-set a color at row, column
+The cell at [0],[2] has been set!
 INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
 +------------+------------+
-|            |            |
+|            | xx xx xx xx|
 |            |            |
 |            |            |
 |            |            |
 |            |            |
 |            |            |
 |            |            |
-|            |            |
+|            | or gr rd or|
 +------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+The cell at [0],[3] has been set!
 INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, RowColumnColor-set a color at row, column
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
 INFO main de.htwg.sudoku.aview.tui - 
 +------------+------------+
+|            | xx xx xx xx|
 |            |            |
 |            |            |
 |            |            |
 |            |            |
 |            |            |
 |            |            |
-|            |            |
-|            |          yl|
+| bk wh wh wh| wh gr rd or|
 +------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+Row confirmed!
 INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, RowColumnColor-set a color at row, column
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
 INFO main de.htwg.sudoku.aview.tui - 
 +------------+------------+
+|            | xx xx xx xx|
 |            |            |
 |            |            |
 |            |            |
@@ -1121,77 +342,89 @@ INFO main de.htwg.sudoku.aview.tui -
 |            |            |
 |            |            |
 |            |            |
-|            |       rd yl|
 +------------+------------+
 INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, RowColumnColor-set a color at row, column
+New game has been created!
 INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
 +------------+------------+
-|            |            |
+|            | xx xx xx xx|
 |            |            |
 |            |            |
 |            |            |
 |            |            |
 |            |            |
 |            |            |
-|            |    bl rd yl|
+|            |          or|
 +------------+------------+
 INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, RowColumnColor-set a color at row, column
+The cell at [0],[0] has been set!
 INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
 +------------+------------+
-|            |            |
+|            | xx xx xx xx|
 |            |            |
 |            |            |
 |            |            |
 |            |            |
 |            |            |
 |            |            |
-|            | tr bl rd yl|
+|            |       rd or|
 +------------+------------+
 INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, RowColumnColor-set a color at row, column
+The cell at [0],[1] has been set!
 INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
 +------------+------------+
-|            |            |
+|            | xx xx xx xx|
 |            |            |
 |            |            |
 |            |            |
 |            |            |
 |            |            |
 |            |            |
-|            | gr bl rd yl|
+|            |    gr rd or|
 +------------+------------+
 INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, RowColumnColor-set a color at row, column
+The cell at [0],[2] has been set!
 INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
 +------------+------------+
-|            |            |
+|            | xx xx xx xx|
 |            |            |
 |            |            |
 |            |            |
 |            |            |
 |            |            |
 |            |            |
-|            | gr bl rd yl|
+|            | or gr rd or|
 +------------+------------+
 INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, RowColumnColor-set a color at row, column
+The cell at [0],[3] has been set!
 INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
 +------------+------------+
-|            |            |
+|            | xx xx xx xx|
 |            |            |
 |            |            |
 |            |            |
 |            |            |
 |            |            |
 |            |            |
-|            | gr bl rd yl|
+| bk wh wh wh| wh gr rd or|
 +------------+------------+
 INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, RowColumnColor-set a color at row, column
+Row confirmed!
 INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
 +------------+------------+
+|            | xx xx xx xx|
 |            |            |
 |            |            |
 |            |            |
@@ -1199,90 +432,104 @@ INFO main de.htwg.sudoku.aview.tui -
 |            |            |
 |            |            |
 |            |            |
-|            | gr bl rd yl|
 +------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+New game has been created!
 INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, RowColumnColor-set a color at row, column
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
 INFO main de.htwg.sudoku.aview.tui - 
 +------------+------------+
+|            | xx xx xx xx|
 |            |            |
 |            |            |
 |            |            |
 |            |            |
 |            |            |
 |            |            |
-|            |          bl|
-|            | gr bl rd yl|
+|            |          or|
 +------------+------------+
 INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, RowColumnColor-set a color at row, column
+The cell at [0],[0] has been set!
 INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
 +------------+------------+
-|            |            |
+|            | xx xx xx xx|
 |            |            |
 |            |            |
 |            |            |
 |            |            |
 |            |            |
 |            |            |
-|            |            |
+|            |       gr or|
 +------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+The cell at [0],[1] has been set!
 INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, RowColumnColor-set a color at row, column
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
 INFO main de.htwg.sudoku.aview.tui - 
 +------------+------------+
+|            | xx xx xx xx|
 |            |            |
 |            |            |
 |            |            |
 |            |            |
 |            |            |
 |            |            |
-|            |            |
-|            |          yl|
+|            |       rd or|
 +------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+The cell at [0],[1] has been set!
 INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, RowColumnColor-set a color at row, column
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
 INFO main de.htwg.sudoku.aview.tui - 
 +------------+------------+
+|            | xx xx xx xx|
 |            |            |
 |            |            |
 |            |            |
 |            |            |
 |            |            |
 |            |            |
-|            |            |
-|            |       bl yl|
+|            |    gr rd or|
 +------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+The cell at [0],[2] has been set!
 INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, RowColumnColor-set a color at row, column
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
 INFO main de.htwg.sudoku.aview.tui - 
 +------------+------------+
+|            | xx xx xx xx|
 |            |            |
 |            |            |
 |            |            |
 |            |            |
 |            |            |
 |            |            |
-|            |            |
-|            |       bl yl|
+|            | or gr rd or|
 +------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+The cell at [0],[3] has been set!
 INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, RowColumnColor-set a color at row, column
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
 INFO main de.htwg.sudoku.aview.tui - 
 +------------+------------+
+|            | xx xx xx xx|
 |            |            |
 |            |            |
 |            |            |
 |            |            |
 |            |            |
 |            |            |
-|            |            |
-|            |            |
+| bk wh wh wh| or gr rd or|
 +------------+------------+
 INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, RowColumnColor-set a color at row, column
+Row confirmed!
 INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
 +------------+------------+
+|            | xx xx xx xx|
 |            |            |
 |            |            |
 |            |            |
@@ -1290,64 +537,74 @@ INFO main de.htwg.sudoku.aview.tui -
 |            |            |
 |            |            |
 |            |            |
-|            |          yl|
 +------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+New game has been created!
 INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, RowColumnColor-set a color at row, column
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
 INFO main de.htwg.sudoku.aview.tui - 
 +------------+------------+
+|            | xx xx xx xx|
 |            |            |
 |            |            |
 |            |            |
 |            |            |
 |            |            |
 |            |            |
-|            |            |
-|            |          yl|
+|            |          or|
 +------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+The cell at [0],[0] has been set!
 INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, RowColumnColor-set a color at row, column
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
 INFO main de.htwg.sudoku.aview.tui - 
 +------------+------------+
-|            |            |
-|            |            |
+|            | xx xx xx xx|
 |            |            |
 |            |            |
 |            |            |
 |            |            |
 |            |            |
 |            |            |
+|            |       rd or|
 +------------+------------+
 INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, RowColumnColor-set a color at row, column
+The cell at [0],[1] has been set!
 INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
 +------------+------------+
-|            |            |
+|            | xx xx xx xx|
 |            |            |
 |            |            |
 |            |            |
 |            |            |
 |            |            |
 |            |            |
-|            |            |
+|            |    gr rd or|
 +------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+The cell at [0],[2] has been set!
 INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, RowColumnColor-set a color at row, column
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
 INFO main de.htwg.sudoku.aview.tui - 
 +------------+------------+
+|            | xx xx xx xx|
 |            |            |
 |            |            |
 |            |            |
 |            |            |
 |            |            |
 |            |            |
-|            |            |
-|            |            |
+|            | or gr rd or|
 +------------+------------+
 INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, RowColumnColor-set a color at row, column
+The cell at [0],[3] has been set!
 INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
 +------------+------------+
+|            | xx xx xx xx|
 |            |            |
 |            |            |
 |            |            |
@@ -1355,77 +612,89 @@ INFO main de.htwg.sudoku.aview.tui -
 |            |            |
 |            |            |
 |            |            |
-|            |       yl   |
 +------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+New game has been created!
 INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, RowColumnColor-set a color at row, column
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
 INFO main de.htwg.sudoku.aview.tui - 
 +------------+------------+
+|            | xx xx xx xx|
 |            |            |
 |            |            |
 |            |            |
 |            |            |
 |            |            |
 |            |            |
-|            |            |
-|            |       yl   |
+|            |          or|
 +------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+The cell at [0],[0] has been set!
 INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, RowColumnColor-set a color at row, column
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
 INFO main de.htwg.sudoku.aview.tui - 
 +------------+------------+
+|            | xx xx xx xx|
 |            |            |
 |            |            |
 |            |            |
 |            |            |
 |            |            |
 |            |            |
-|            |            |
-|            |       yl   |
+|            |       rd or|
 +------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+The cell at [0],[1] has been set!
 INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, RowColumnColor-set a color at row, column
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
 INFO main de.htwg.sudoku.aview.tui - 
 +------------+------------+
+|            | xx xx xx xx|
 |            |            |
 |            |            |
 |            |            |
 |            |            |
 |            |            |
 |            |            |
-|            |            |
-|            |       yl   |
+|            |    gr rd or|
 +------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+The cell at [0],[2] has been set!
 INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, RowColumnColor-set a color at row, column
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
 INFO main de.htwg.sudoku.aview.tui - 
 +------------+------------+
-|            |            |
-|            |            |
+|            | xx xx xx xx|
 |            |            |
 |            |            |
 |            |            |
 |            |            |
 |            |            |
 |            |            |
+|            | or gr rd or|
 +------------+------------+
 INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, RowColumnColor-set a color at row, column
+The cell at [0],[3] has been set!
 INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
 +------------+------------+
-|            |            |
+|            | xx xx xx xx|
 |            |            |
 |            |            |
 |            |            |
 |            |            |
 |            |            |
 |            |            |
-|            |            |
+| bk wh      | or gr rd or|
 +------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+Row confirmed!
 INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, RowColumnColor-set a color at row, column
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
 INFO main de.htwg.sudoku.aview.tui - 
 +------------+------------+
+|            | xx xx xx xx|
 |            |            |
 |            |            |
 |            |            |
@@ -1433,64 +702,74 @@ INFO main de.htwg.sudoku.aview.tui -
 |            |            |
 |            |            |
 |            |            |
-|            |       yl   |
 +------------+------------+
 INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, RowColumnColor-set a color at row, column
+New game has been created!
 INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
 +------------+------------+
-|            |            |
+|            | xx xx xx xx|
 |            |            |
 |            |            |
 |            |            |
 |            |            |
 |            |            |
 |            |            |
-|            |       yl gr|
+|            |          or|
 +------------+------------+
 INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, RowColumnColor-set a color at row, column
+The cell at [0],[0] has been set!
 INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
 +------------+------------+
-|            |            |
+|            | xx xx xx xx|
 |            |            |
 |            |            |
 |            |            |
 |            |            |
 |            |            |
 |            |            |
-|            |    bl yl gr|
+|            |       rd or|
 +------------+------------+
 INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, RowColumnColor-set a color at row, column
+The cell at [0],[1] has been set!
 INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
 +------------+------------+
-|            |            |
+|            | xx xx xx xx|
 |            |            |
 |            |            |
 |            |            |
 |            |            |
 |            |            |
 |            |            |
-|            | bl bl yl gr|
+|            |    gr rd or|
 +------------+------------+
 INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, RowColumnColor-set a color at row, column
+The cell at [0],[2] has been set!
 INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
 +------------+------------+
-|            |            |
+|            | xx xx xx xx|
 |            |            |
 |            |            |
 |            |            |
 |            |            |
 |            |            |
 |            |            |
-|            | bl bl yl gr|
+|            | or gr rd or|
 +------------+------------+
 INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, RowColumnColor-set a color at row, column
+The cell at [0],[3] has been set!
 INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
 +------------+------------+
+|            | xx xx xx xx|
 |            |            |
 |            |            |
 |            |            |
@@ -1498,103 +777,89 @@ INFO main de.htwg.sudoku.aview.tui -
 |            |            |
 |            |            |
 |            |            |
-|            | bl bl yl gr|
 +------------+------------+
-INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, RowColumnColor-set a color at row, column
 INFO main de.htwg.sudoku.aview.tui - 
-+------------+------------+
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |          bl|
-|            | bl bl yl gr|
-+------------+------------+
+New game has been created!
 INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, RowColumnColor-set a color at row, column
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
 INFO main de.htwg.sudoku.aview.tui - 
 +------------+------------+
+|            | xx xx xx xx|
 |            |            |
 |            |            |
 |            |            |
 |            |            |
 |            |            |
 |            |            |
-|            |          rd|
-|            | bl bl yl gr|
+|            |          or|
 +------------+------------+
 INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, RowColumnColor-set a color at row, column
-INFO main de.htwg.sudoku.aview.tui - 
-+------------+------------+
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |       pu rd|
-|            | bl bl yl gr|
-+------------+------------+
+The cell at [0],[0] has been set!
 INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, RowColumnColor-set a color at row, column
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
 INFO main de.htwg.sudoku.aview.tui - 
 +------------+------------+
+|            | xx xx xx xx|
 |            |            |
 |            |            |
 |            |            |
 |            |            |
 |            |            |
 |            |            |
-|            |    pk pu rd|
-|            | bl bl yl gr|
+|            |       rd or|
 +------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+The cell at [0],[1] has been set!
 INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, RowColumnColor-set a color at row, column
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
 INFO main de.htwg.sudoku.aview.tui - 
 +------------+------------+
+|            | xx xx xx xx|
 |            |            |
 |            |            |
 |            |            |
 |            |            |
 |            |            |
 |            |            |
-|            | rd pk pu rd|
-|            | bl bl yl gr|
+|            |    gr rd or|
 +------------+------------+
 INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, RowColumnColor-set a color at row, column
+The cell at [0],[2] has been set!
 INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
 +------------+------------+
+|            | xx xx xx xx|
 |            |            |
 |            |            |
 |            |            |
 |            |            |
 |            |            |
 |            |            |
-|            | rd pk pu rd|
-|            | bl bl yl gr|
+|            | or gr rd or|
 +------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+The cell at [0],[3] has been set!
 INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, RowColumnColor-set a color at row, column
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
 INFO main de.htwg.sudoku.aview.tui - 
 +------------+------------+
-|            |            |
-|            |            |
+|            | xx xx xx xx|
 |            |            |
 |            |            |
 |            |            |
 |            |            |
 |            |            |
 |            |            |
+| bk wh wh wh| or gr rd or|
 +------------+------------+
 INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, RowColumnColor-set a color at row, column
+Row confirmed!
 INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
 +------------+------------+
+|            | xx xx xx xx|
 |            |            |
 |            |            |
 |            |            |
@@ -1602,64 +867,74 @@ INFO main de.htwg.sudoku.aview.tui -
 |            |            |
 |            |            |
 |            |            |
-|            |          yl|
 +------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+New game has been created!
 INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, RowColumnColor-set a color at row, column
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
 INFO main de.htwg.sudoku.aview.tui - 
 +------------+------------+
+|            | xx xx xx xx|
 |            |            |
 |            |            |
 |            |            |
 |            |            |
 |            |            |
 |            |            |
-|            |            |
-|            |          yl|
+|            |          or|
 +------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+The cell at [0],[0] has been set!
 INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, RowColumnColor-set a color at row, column
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
 INFO main de.htwg.sudoku.aview.tui - 
 +------------+------------+
+|            | xx xx xx xx|
 |            |            |
 |            |            |
 |            |            |
 |            |            |
 |            |            |
 |            |            |
-|            |            |
-|            |       rd yl|
+|            |       rd or|
 +------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+The cell at [0],[1] has been set!
 INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, RowColumnColor-set a color at row, column
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
 INFO main de.htwg.sudoku.aview.tui - 
 +------------+------------+
+|            | xx xx xx xx|
 |            |            |
 |            |            |
 |            |            |
 |            |            |
 |            |            |
 |            |            |
-|            |            |
-|            |    bl rd yl|
+|            |    gr rd or|
 +------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+The cell at [0],[2] has been set!
 INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, RowColumnColor-set a color at row, column
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
 INFO main de.htwg.sudoku.aview.tui - 
 +------------+------------+
+|            | xx xx xx xx|
 |            |            |
 |            |            |
 |            |            |
 |            |            |
 |            |            |
 |            |            |
-|            |            |
-|            | pk bl rd yl|
+|            | or gr rd or|
 +------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+The cell at [0],[3] has been set!
 INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, RowColumnColor-set a color at row, column
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
 INFO main de.htwg.sudoku.aview.tui - 
 +------------+------------+
+|            | xx xx xx xx|
 |            |            |
 |            |            |
 |            |            |
@@ -1667,13 +942,14 @@ INFO main de.htwg.sudoku.aview.tui -
 |            |            |
 |            |            |
 |            |            |
-|            |            |
 +------------+------------+
 INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, RowColumnColor-set a color at row, column
+New game has been created!
 INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
 +------------+------------+
-|            |            |
+|            | xx xx xx xx|
 |            |            |
 |            |            |
 |            |            |
@@ -1683,1063 +959,2212 @@ INFO main de.htwg.sudoku.aview.tui -
 |            |          rd|
 +------------+------------+
 INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, RowColumnColor-set a color at row, column
+The cell at [0],[0] has been set!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
 INFO main de.htwg.sudoku.aview.tui - 
 +------------+------------+
+|            | xx xx xx xx|
 |            |            |
 |            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |          or|
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+The cell at [0],[0] has been set!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |       rd or|
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+The cell at [0],[1] has been set!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |    gr rd or|
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+The cell at [0],[2] has been set!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            | or gr rd or|
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+The cell at [0],[3] has been set!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+| bk wh wh   | or gr rd or|
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+Row confirmed!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |          or|
+| bk wh wh   | or gr rd or|
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+The cell at [1],[0] has been set!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |       or or|
+| bk wh wh   | or gr rd or|
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+The cell at [1],[1] has been set!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |    gr or or|
+| bk wh wh   | or gr rd or|
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+The cell at [1],[2] has been set!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            | rd gr or or|
+| bk wh wh   | or gr rd or|
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+The cell at [1],[3] has been set!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+| bk wh wh   | rd gr or or|
+| bk wh wh   | or gr rd or|
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+Row confirmed!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |          gr|
+| bk wh wh   | rd gr or or|
+| bk wh wh   | or gr rd or|
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+The cell at [2],[0] has been set!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |       or gr|
+| bk wh wh   | rd gr or or|
+| bk wh wh   | or gr rd or|
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+The cell at [2],[1] has been set!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |    or or gr|
+| bk wh wh   | rd gr or or|
+| bk wh wh   | or gr rd or|
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+The cell at [2],[2] has been set!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            | rd or or gr|
+| bk wh wh   | rd gr or or|
+| bk wh wh   | or gr rd or|
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+The cell at [2],[3] has been set!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+| wh wh wh   | rd or or gr|
+| bk wh wh   | rd gr or or|
+| bk wh wh   | or gr rd or|
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+Row confirmed!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+|            |            |
+|            |            |
+|            |          or|
+| wh wh wh   | rd or or gr|
+| bk wh wh   | rd gr or or|
+| bk wh wh   | or gr rd or|
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+The cell at [3],[0] has been set!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+|            |            |
+|            |            |
+|            |       gr or|
+| wh wh wh   | rd or or gr|
+| bk wh wh   | rd gr or or|
+| bk wh wh   | or gr rd or|
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+The cell at [3],[1] has been set!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+|            |            |
+|            |            |
+|            |    bl gr or|
+| wh wh wh   | rd or or gr|
+| bk wh wh   | rd gr or or|
+| bk wh wh   | or gr rd or|
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+The cell at [3],[2] has been set!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+|            |            |
+|            |            |
+|            | rd bl gr or|
+| wh wh wh   | rd or or gr|
+| bk wh wh   | rd gr or or|
+| bk wh wh   | or gr rd or|
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+The cell at [3],[3] has been set!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+|            |            |
+|            |            |
+| bk bk      | rd bl gr or|
+| wh wh wh   | rd or or gr|
+| bk wh wh   | rd gr or or|
+| bk wh wh   | or gr rd or|
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+Row confirmed!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+New game has been created!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |          or|
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+The cell at [0],[0] has been set!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |       gr or|
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+The cell at [0],[1] has been set!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |    bl gr or|
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+The cell at [0],[2] has been set!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            | rd bl gr or|
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+The cell at [0],[3] has been set!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+New game has been created!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |          or|
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+The cell at [0],[0] has been set!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |       gr or|
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+The cell at [0],[1] has been set!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |    bl gr or|
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+The cell at [0],[2] has been set!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            | rd bl gr or|
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+The cell at [0],[3] has been set!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+| bk bk wh   | rd bl gr or|
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+Row confirmed!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |          or|
+| bk bk wh   | rd bl gr or|
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+The cell at [1],[0] has been set!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |       rd or|
+| bk bk wh   | rd bl gr or|
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+The cell at [1],[1] has been set!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |    gr rd or|
+| bk bk wh   | rd bl gr or|
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+The cell at [1],[2] has been set!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            | yl gr rd or|
+| bk bk wh   | rd bl gr or|
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+The cell at [1],[3] has been set!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+| bk bk wh wh| yl gr rd or|
+| bk bk wh   | rd bl gr or|
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+Row confirmed!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |          or|
+| bk bk wh wh| yl gr rd or|
+| bk bk wh   | rd bl gr or|
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+The cell at [2],[0] has been set!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |       rd or|
+| bk bk wh wh| yl gr rd or|
+| bk bk wh   | rd bl gr or|
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+The cell at [2],[1] has been set!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |    gr rd or|
+| bk bk wh wh| yl gr rd or|
+| bk bk wh   | rd bl gr or|
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+The cell at [2],[2] has been set!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            | or gr rd or|
+| bk bk wh wh| yl gr rd or|
+| bk bk wh   | rd bl gr or|
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+The cell at [2],[3] has been set!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+| bk wh wh wh| or gr rd or|
+| bk bk wh wh| yl gr rd or|
+| bk bk wh   | rd bl gr or|
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+Row confirmed!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+New game has been created!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |          or|
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+The cell at [0],[0] has been set!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |       rd or|
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+The cell at [0],[1] has been set!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |    gr rd or|
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+The cell at [0],[2] has been set!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            | or gr rd or|
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+The cell at [0],[3] has been set!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+New game has been created!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |          or|
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+The cell at [0],[0] has been set!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |       rd or|
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+The cell at [0],[1] has been set!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |    gr rd or|
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+The cell at [0],[2] has been set!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            | or gr rd or|
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+The cell at [0],[3] has been set!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+New game has been created!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |          or|
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+The cell at [0],[0] has been set!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |       rd or|
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+The cell at [0],[1] has been set!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |    gr rd or|
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+The cell at [0],[2] has been set!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            | or gr rd or|
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+The cell at [0],[3] has been set!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+New game has been created!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |          or|
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+The cell at [0],[0] has been set!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |       rd or|
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+The cell at [0],[1] has been set!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |    gr rd or|
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+The cell at [0],[2] has been set!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            | or gr rd or|
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+The cell at [0],[3] has been set!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+| bk wh wh wh| or gr rd or|
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+Row confirmed!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+New game has been created!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |          or|
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+The cell at [0],[0] has been set!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |       rd or|
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+The cell at [0],[1] has been set!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |    gr rd or|
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+The cell at [0],[2] has been set!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            | or gr rd or|
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+The cell at [0],[3] has been set!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+New game has been created!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |          or|
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+The cell at [0],[0] has been set!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |       rd or|
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+The cell at [0],[1] has been set!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |    gr rd or|
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+The cell at [0],[2] has been set!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            | or gr rd or|
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+The cell at [0],[3] has been set!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+| bk wh wh   | or gr rd or|
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+Row confirmed!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |          or|
+| bk wh wh   | or gr rd or|
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+The cell at [1],[0] has been set!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |       gr or|
+| bk wh wh   | or gr rd or|
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+The cell at [1],[1] has been set!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |    bl gr or|
+| bk wh wh   | or gr rd or|
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+The cell at [1],[2] has been set!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            | rd bl gr or|
+| bk wh wh   | or gr rd or|
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+The cell at [1],[3] has been set!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+| bk bk      | rd bl gr or|
+| bk wh wh   | or gr rd or|
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+Row confirmed!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+New game has been created!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |          or|
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+The cell at [0],[0] has been set!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |       gr or|
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+The cell at [0],[1] has been set!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |    bl gr or|
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+The cell at [0],[2] has been set!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            | rd bl gr or|
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+The cell at [0],[3] has been set!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+New game has been created!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |          or|
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+The cell at [0],[0] has been set!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |       rd or|
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+The cell at [0],[1] has been set!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |    gr rd or|
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+The cell at [0],[2] has been set!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            | or gr rd or|
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+The cell at [0],[3] has been set!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+New game has been created!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |          or|
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+The cell at [0],[0] has been set!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |       gr or|
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+The cell at [0],[1] has been set!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |    bl gr or|
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+The cell at [0],[2] has been set!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            | rd bl gr or|
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+The cell at [0],[3] has been set!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+New game has been created!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |          or|
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+The cell at [0],[0] has been set!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |          gr|
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+The cell at [0],[0] has been set!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |          or|
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+The cell at [0],[0] has been set!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |       gr or|
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+The cell at [0],[1] has been set!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |    bl gr or|
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+The cell at [0],[2] has been set!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            | rd bl gr or|
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+The cell at [0],[3] has been set!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+| bk bk wh   | rd bl gr or|
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+Row confirmed!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+New game has been created!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |          or|
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+The cell at [0],[0] has been set!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |       gr or|
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+The cell at [0],[1] has been set!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |    bl gr or|
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+The cell at [0],[2] has been set!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            | rd bl gr or|
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+The cell at [0],[3] has been set!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+| bk bk wh   | rd bl gr or|
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+Row confirmed!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |          or|
+| bk bk wh   | rd bl gr or|
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+The cell at [1],[0] has been set!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |       rd or|
+| bk bk wh   | rd bl gr or|
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+The cell at [1],[1] has been set!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |    gr rd or|
+| bk bk wh   | rd bl gr or|
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+The cell at [1],[2] has been set!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            | or gr rd or|
+| bk bk wh   | rd bl gr or|
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+The cell at [1],[3] has been set!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+| bk wh wh   | or gr rd or|
+| bk bk wh   | rd bl gr or|
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+Row confirmed!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |          or|
+| bk wh wh   | or gr rd or|
+| bk bk wh   | rd bl gr or|
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+The cell at [2],[0] has been set!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |       or or|
+| bk wh wh   | or gr rd or|
+| bk bk wh   | rd bl gr or|
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+The cell at [2],[1] has been set!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |    or or or|
+| bk wh wh   | or gr rd or|
+| bk bk wh   | rd bl gr or|
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+The cell at [2],[2] has been set!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            | or or or or|
+| bk wh wh   | or gr rd or|
+| bk bk wh   | rd bl gr or|
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+The cell at [2],[3] has been set!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+| bk         | or or or or|
+| bk wh wh   | or gr rd or|
+| bk bk wh   | rd bl gr or|
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+Row confirmed!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+|            |            |
+|            |            |
+|            |          or|
+| bk         | or or or or|
+| bk wh wh   | or gr rd or|
+| bk bk wh   | rd bl gr or|
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+The cell at [3],[0] has been set!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+|            |            |
+|            |            |
+|            |       bl or|
+| bk         | or or or or|
+| bk wh wh   | or gr rd or|
+| bk bk wh   | rd bl gr or|
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+The cell at [3],[1] has been set!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+|            |            |
+|            |            |
+|            |    yl bl or|
+| bk         | or or or or|
+| bk wh wh   | or gr rd or|
+| bk bk wh   | rd bl gr or|
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+The cell at [3],[2] has been set!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+|            |            |
+|            |            |
+|            | yl yl bl or|
+| bk         | or or or or|
+| bk wh wh   | or gr rd or|
+| bk bk wh   | rd bl gr or|
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+The cell at [3],[3] has been set!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+|            |            |
+|            |            |
+| bk bk      | yl yl bl or|
+| bk         | or or or or|
+| bk wh wh   | or gr rd or|
+| bk bk wh   | rd bl gr or|
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+Row confirmed!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+|            |            |
+|            |          yl|
+| bk bk      | yl yl bl or|
+| bk         | or or or or|
+| bk wh wh   | or gr rd or|
+| bk bk wh   | rd bl gr or|
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+The cell at [4],[0] has been set!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+|            |            |
+|            |       gr yl|
+| bk bk      | yl yl bl or|
+| bk         | or or or or|
+| bk wh wh   | or gr rd or|
+| bk bk wh   | rd bl gr or|
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+The cell at [4],[1] has been set!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+|            |            |
+|            |    rd gr yl|
+| bk bk      | yl yl bl or|
+| bk         | or or or or|
+| bk wh wh   | or gr rd or|
+| bk bk wh   | rd bl gr or|
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+The cell at [4],[2] has been set!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+|            |            |
+|            | bl rd gr yl|
+| bk bk      | yl yl bl or|
+| bk         | or or or or|
+| bk wh wh   | or gr rd or|
+| bk bk wh   | rd bl gr or|
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+The cell at [4],[3] has been set!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+|            |            |
+| bk bk wh   | bl rd gr yl|
+| bk bk      | yl yl bl or|
+| bk         | or or or or|
+| bk wh wh   | or gr rd or|
+| bk bk wh   | rd bl gr or|
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+Row confirmed!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+|            |            |
+| bk bk wh   | bl rd gr yl|
+| bk bk      | yl yl bl or|
+| bk         | or or or or|
+| bk wh wh   | or gr rd or|
+| bk bk wh   | rd bl gr or|
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+Row confirmed!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+|            |          or|
+| bk bk wh   | bl rd gr yl|
+| bk bk      | yl yl bl or|
+| bk         | or or or or|
+| bk wh wh   | or gr rd or|
+| bk bk wh   | rd bl gr or|
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+The cell at [5],[0] has been set!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+|            |       gr or|
+| bk bk wh   | bl rd gr yl|
+| bk bk      | yl yl bl or|
+| bk         | or or or or|
+| bk wh wh   | or gr rd or|
+| bk bk wh   | rd bl gr or|
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+The cell at [5],[1] has been set!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+|            |    rd gr or|
+| bk bk wh   | bl rd gr yl|
+| bk bk      | yl yl bl or|
+| bk         | or or or or|
+| bk wh wh   | or gr rd or|
+| bk bk wh   | rd bl gr or|
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+The cell at [5],[2] has been set!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+|            |    rd gr or|
+| bk bk wh   | bl rd gr yl|
+| bk bk      | yl yl bl or|
+| bk         | or or or or|
+| bk wh wh   | or gr rd or|
+| bk bk wh   | rd bl gr or|
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+The cell at [5],[2] has been set!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+|            | pk rd gr or|
+| bk bk wh   | bl rd gr yl|
+| bk bk      | yl yl bl or|
+| bk         | or or or or|
+| bk wh wh   | or gr rd or|
+| bk bk wh   | rd bl gr or|
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+The cell at [5],[3] has been set!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+| bk bk bk   | pk rd gr or|
+| bk bk wh   | bl rd gr yl|
+| bk bk      | yl yl bl or|
+| bk         | or or or or|
+| bk wh wh   | or gr rd or|
+| bk bk wh   | rd bl gr or|
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+Row confirmed!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+| bk bk bk   | pk rd gr or|
+| bk bk wh   | bl rd gr yl|
+| bk bk      | yl yl bl or|
+| bk         | or or or or|
+| bk wh wh   | or gr rd or|
+| bk bk wh   | rd bl gr or|
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+Row confirmed!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+| bk bk bk   | pk rd gr or|
+| bk bk wh   | bl rd gr yl|
+| bk bk      | yl yl bl or|
+| bk         | or or or or|
+| bk wh wh   | or gr rd or|
+| bk bk wh   | rd bl gr or|
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+Row confirmed!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+| bk bk bk   | pk rd gr or|
+| bk bk wh   | bl rd gr yl|
+| bk bk      | yl yl bl or|
+| bk         | or or or or|
+| bk wh wh   | or gr rd or|
+| bk bk wh   | rd bl gr or|
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+Row confirmed!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+| bk bk bk   | pk rd gr or|
+| bk bk wh   | bl rd gr yl|
+| bk bk      | yl yl bl or|
+| bk         | or or or or|
+| bk wh wh   | or gr rd or|
+| bk bk wh   | rd bl gr or|
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+Row confirmed!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+New game has been created!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+New game has been created!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |          rd|
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+The cell at [0],[0] has been set!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |       or rd|
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+The cell at [0],[1] has been set!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |    yl or rd|
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+The cell at [0],[2] has been set!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            | or yl or rd|
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+The cell at [0],[3] has been set!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+| bk wh wh wh| or yl or rd|
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+Row confirmed!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+|            |          rd|
+| bk wh wh wh| or yl or rd|
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+The cell at [1],[0] has been set!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
 |            |            |
 |            |            |
 |            |            |
 |            |            |
 |            |            |
 |            |       yl rd|
+| bk wh wh wh| or yl or rd|
 +------------+------------+
 INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, RowColumnColor-set a color at row, column
-INFO main de.htwg.sudoku.aview.tui - 
-+------------+------------+
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |    rd yl rd|
-+------------+------------+
-INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, RowColumnColor-set a color at row, column
-INFO main de.htwg.sudoku.aview.tui - 
-+------------+------------+
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            | bl rd yl rd|
-+------------+------------+
-INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, RowColumnColor-set a color at row, column
-INFO main de.htwg.sudoku.aview.tui - 
-+------------+------------+
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-| wh wh wh wh| bl rd yl rd|
-+------------+------------+
-INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, RowColumnColor-set a color at row, column
-INFO main de.htwg.sudoku.aview.tui - 
-+------------+------------+
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-+------------+------------+
-INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, RowColumnColor-set a color at row, column
-INFO main de.htwg.sudoku.aview.tui - 
-+------------+------------+
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |          yl|
-+------------+------------+
-INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, RowColumnColor-set a color at row, column
-INFO main de.htwg.sudoku.aview.tui - 
-+------------+------------+
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |    rd    yl|
-+------------+------------+
-INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, RowColumnColor-set a color at row, column
-INFO main de.htwg.sudoku.aview.tui - 
-+------------+------------+
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |    rd rd yl|
-+------------+------------+
-INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, RowColumnColor-set a color at row, column
-INFO main de.htwg.sudoku.aview.tui - 
-+------------+------------+
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |    rd rd yl|
-+------------+------------+
-INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, RowColumnColor-set a color at row, column
-INFO main de.htwg.sudoku.aview.tui - 
-+------------+------------+
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            | bl rd rd yl|
-+------------+------------+
-INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, RowColumnColor-set a color at row, column
-INFO main de.htwg.sudoku.aview.tui - 
-+------------+------------+
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            | bl rd rd gr|
-+------------+------------+
-INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, RowColumnColor-set a color at row, column
-INFO main de.htwg.sudoku.aview.tui - 
-+------------+------------+
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-| wh wh      | bl rd rd gr|
-+------------+------------+
-INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, RowColumnColor-set a color at row, column
-INFO main de.htwg.sudoku.aview.tui - 
-+------------+------------+
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-+------------+------------+
-INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, RowColumnColor-set a color at row, column
-INFO main de.htwg.sudoku.aview.tui - 
-+------------+------------+
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |          yl|
-+------------+------------+
-INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, RowColumnColor-set a color at row, column
-INFO main de.htwg.sudoku.aview.tui - 
-+------------+------------+
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |       bl yl|
-+------------+------------+
-INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, RowColumnColor-set a color at row, column
-INFO main de.htwg.sudoku.aview.tui - 
-+------------+------------+
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |    rd bl yl|
-+------------+------------+
-INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, RowColumnColor-set a color at row, column
-INFO main de.htwg.sudoku.aview.tui - 
-+------------+------------+
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            | gr rd bl yl|
-+------------+------------+
-INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, RowColumnColor-set a color at row, column
-INFO main de.htwg.sudoku.aview.tui - 
-+------------+------------+
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-| wh wh wh   | gr rd bl yl|
-+------------+------------+
-INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, RowColumnColor-set a color at row, column
-INFO main de.htwg.sudoku.aview.tui - 
-+------------+------------+
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-| wh wh wh   | gr rd bl yl|
-+------------+------------+
-INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, RowColumnColor-set a color at row, column
-INFO main de.htwg.sudoku.aview.tui - 
-+------------+------------+
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |          yl|
-| wh wh wh   | gr rd bl yl|
-+------------+------------+
-INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, RowColumnColor-set a color at row, column
-INFO main de.htwg.sudoku.aview.tui - 
-+------------+------------+
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |       rd yl|
-| wh wh wh   | gr rd bl yl|
-+------------+------------+
-INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, RowColumnColor-set a color at row, column
-INFO main de.htwg.sudoku.aview.tui - 
-+------------+------------+
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |    gr rd yl|
-| wh wh wh   | gr rd bl yl|
-+------------+------------+
-INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, RowColumnColor-set a color at row, column
-INFO main de.htwg.sudoku.aview.tui - 
-+------------+------------+
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            | pk gr rd yl|
-| wh wh wh   | gr rd bl yl|
-+------------+------------+
-INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, RowColumnColor-set a color at row, column
-INFO main de.htwg.sudoku.aview.tui - 
-+------------+------------+
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-| wh         | pk gr rd yl|
-| wh wh wh   | gr rd bl yl|
-+------------+------------+
-INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, RowColumnColor-set a color at row, column
-INFO main de.htwg.sudoku.aview.tui - 
-+------------+------------+
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-+------------+------------+
-INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, RowColumnColor-set a color at row, column
-INFO main de.htwg.sudoku.aview.tui - 
-+------------+------------+
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |          yl|
-+------------+------------+
-INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, RowColumnColor-set a color at row, column
-INFO main de.htwg.sudoku.aview.tui - 
-+------------+------------+
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |       rd yl|
-+------------+------------+
-INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, RowColumnColor-set a color at row, column
-INFO main de.htwg.sudoku.aview.tui - 
-+------------+------------+
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |    bl rd yl|
-+------------+------------+
-INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, RowColumnColor-set a color at row, column
-INFO main de.htwg.sudoku.aview.tui - 
-+------------+------------+
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            | gr bl rd yl|
-+------------+------------+
-INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, RowColumnColor-set a color at row, column
-INFO main de.htwg.sudoku.aview.tui - 
-+------------+------------+
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-| wh wh      | gr bl rd yl|
-+------------+------------+
-INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, RowColumnColor-set a color at row, column
-INFO main de.htwg.sudoku.aview.tui - 
-+------------+------------+
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-+------------+------------+
-INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, RowColumnColor-set a color at row, column
-INFO main de.htwg.sudoku.aview.tui - 
-+------------+------------+
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-+------------+------------+
-INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, RowColumnColor-set a color at row, column
-INFO main de.htwg.sudoku.aview.tui - 
-+------------+------------+
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-+------------+------------+
-INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, RowColumnColor-set a color at row, column
-INFO main de.htwg.sudoku.aview.tui - 
-+------------+------------+
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |          gr|
-+------------+------------+
-INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, RowColumnColor-set a color at row, column
-INFO main de.htwg.sudoku.aview.tui - 
-+------------+------------+
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |       bl gr|
-+------------+------------+
-INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, RowColumnColor-set a color at row, column
-INFO main de.htwg.sudoku.aview.tui - 
-+------------+------------+
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |    bl bl gr|
-+------------+------------+
-INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, RowColumnColor-set a color at row, column
-INFO main de.htwg.sudoku.aview.tui - 
-+------------+------------+
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            | pk bl bl gr|
-+------------+------------+
-INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, RowColumnColor-set a color at row, column
-INFO main de.htwg.sudoku.aview.tui - 
-+------------+------------+
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-| bk bk bk bk| pk bl bl gr|
-+------------+------------+
-INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, RowColumnColor-set a color at row, column
-INFO main de.htwg.sudoku.aview.tui - 
-+------------+------------+
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |          rd|
-| bk bk bk bk| pk bl bl gr|
-+------------+------------+
-INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, RowColumnColor-set a color at row, column
-INFO main de.htwg.sudoku.aview.tui - 
-+------------+------------+
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |       bl rd|
-| bk bk bk bk| pk bl bl gr|
-+------------+------------+
-INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, RowColumnColor-set a color at row, column
-INFO main de.htwg.sudoku.aview.tui - 
-+------------+------------+
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |    bl bl rd|
-| bk bk bk bk| pk bl bl gr|
-+------------+------------+
-INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, RowColumnColor-set a color at row, column
-INFO main de.htwg.sudoku.aview.tui - 
-+------------+------------+
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            | pk bl bl rd|
-| bk bk bk bk| pk bl bl gr|
-+------------+------------+
-INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, RowColumnColor-set a color at row, column
-INFO main de.htwg.sudoku.aview.tui - 
-+------------+------------+
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-| bk bk bk   | pk bl bl rd|
-| bk bk bk bk| pk bl bl gr|
-+------------+------------+
-INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, RowColumnColor-set a color at row, column
-INFO main de.htwg.sudoku.aview.tui - 
-+------------+------------+
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-| bk bk bk   | pk bl bl rd|
-| bk bk bk bk| pk bl bl gr|
-+------------+------------+
-INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, RowColumnColor-set a color at row, column
-INFO main de.htwg.sudoku.aview.tui - 
-+------------+------------+
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |          bl|
-| bk bk bk   | pk bl bl rd|
-| bk bk bk bk| pk bl bl gr|
-+------------+------------+
-INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, RowColumnColor-set a color at row, column
-INFO main de.htwg.sudoku.aview.tui - 
-+------------+------------+
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |       gr bl|
-| bk bk bk   | pk bl bl rd|
-| bk bk bk bk| pk bl bl gr|
-+------------+------------+
-INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, RowColumnColor-set a color at row, column
-INFO main de.htwg.sudoku.aview.tui - 
-+------------+------------+
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |    bl gr bl|
-| bk bk bk   | pk bl bl rd|
-| bk bk bk bk| pk bl bl gr|
-+------------+------------+
-INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, RowColumnColor-set a color at row, column
-INFO main de.htwg.sudoku.aview.tui - 
-+------------+------------+
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            | pk bl gr bl|
-| bk bk bk   | pk bl bl rd|
-| bk bk bk bk| pk bl bl gr|
-+------------+------------+
-INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, RowColumnColor-set a color at row, column
-INFO main de.htwg.sudoku.aview.tui - 
-+------------+------------+
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-| wh wh bk bk| pk bl gr bl|
-| bk bk bk   | pk bl bl rd|
-| bk bk bk bk| pk bl bl gr|
-+------------+------------+
-INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, RowColumnColor-set a color at row, column
-INFO main de.htwg.sudoku.aview.tui - 
-+------------+------------+
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-| wh wh bk bk| pk bl gr bl|
-| bk bk bk   | pk bl bl rd|
-| bk bk bk bk| pk bl bl gr|
-+------------+------------+
-INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, RowColumnColor-set a color at row, column
-INFO main de.htwg.sudoku.aview.tui - 
-+------------+------------+
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |          bl|
-| wh wh bk bk| pk bl gr bl|
-| bk bk bk   | pk bl bl rd|
-| bk bk bk bk| pk bl bl gr|
-+------------+------------+
-INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, RowColumnColor-set a color at row, column
-INFO main de.htwg.sudoku.aview.tui - 
-+------------+------------+
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |          gr|
-| wh wh bk bk| pk bl gr bl|
-| bk bk bk   | pk bl bl rd|
-| bk bk bk bk| pk bl bl gr|
-+------------+------------+
-INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, RowColumnColor-set a color at row, column
-INFO main de.htwg.sudoku.aview.tui - 
-+------------+------------+
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |       pk gr|
-| wh wh bk bk| pk bl gr bl|
-| bk bk bk   | pk bl bl rd|
-| bk bk bk bk| pk bl bl gr|
-+------------+------------+
-INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, RowColumnColor-set a color at row, column
-INFO main de.htwg.sudoku.aview.tui - 
-+------------+------------+
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |    bl pk gr|
-| wh wh bk bk| pk bl gr bl|
-| bk bk bk   | pk bl bl rd|
-| bk bk bk bk| pk bl bl gr|
-+------------+------------+
-INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, RowColumnColor-set a color at row, column
-INFO main de.htwg.sudoku.aview.tui - 
-+------------+------------+
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            | bl bl pk gr|
-| wh wh bk bk| pk bl gr bl|
-| bk bk bk   | pk bl bl rd|
-| bk bk bk bk| pk bl bl gr|
-+------------+------------+
-INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, RowColumnColor-set a color at row, column
-INFO main de.htwg.sudoku.aview.tui - 
-+------------+------------+
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-| bk wh bk wh| bl bl pk gr|
-| wh wh bk bk| pk bl gr bl|
-| bk bk bk   | pk bl bl rd|
-| bk bk bk bk| pk bl bl gr|
-+------------+------------+
-INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, RowColumnColor-set a color at row, column
-INFO main de.htwg.sudoku.aview.tui - 
-+------------+------------+
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-+------------+------------+
-INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, RowColumnColor-set a color at row, column
-INFO main de.htwg.sudoku.aview.tui - 
-+------------+------------+
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-+------------+------------+
-INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, RowColumnColor-set a color at row, column
-INFO main de.htwg.sudoku.aview.tui - 
-+------------+------------+
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-+------------+------------+
-INFO main de.htwg.sudoku.aview.tui - 
-New game has been created!
-INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, RowColumnColor-set a color at row, column
-INFO main de.htwg.sudoku.aview.tui - 
-+------------+------------+
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |          yl|
-+------------+------------+
-INFO main de.htwg.sudoku.aview.tui - 
-The cell at 0, 0 has been set!
-INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, RowColumnColor-set a color at row, column
-INFO main de.htwg.sudoku.aview.tui - 
-+------------+------------+
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |       rd yl|
-+------------+------------+
-INFO main de.htwg.sudoku.aview.tui - 
-The cell at 0, 1 has been set!
-INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, RowColumnColor-set a color at row, column
-INFO main de.htwg.sudoku.aview.tui - 
-+------------+------------+
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-+------------+------------+
-INFO main de.htwg.sudoku.aview.tui - 
-New game has been created!
-INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y
-INFO main de.htwg.sudoku.aview.tui - 
-+------------+------------+
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |          bl|
-+------------+------------+
-INFO main de.htwg.sudoku.aview.tui - 
-The cell at [0],[0] has been set!
-INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y
-INFO main de.htwg.sudoku.aview.tui - 
-+------------+------------+
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |       bl bl|
-+------------+------------+
-INFO main de.htwg.sudoku.aview.tui - 
-The cell at [0],[1] has been set!
-INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y
-INFO main de.htwg.sudoku.aview.tui - 
-+------------+------------+
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |    yl bl bl|
-+------------+------------+
-INFO main de.htwg.sudoku.aview.tui - 
-The cell at [0],[2] has been set!
-INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y
-INFO main de.htwg.sudoku.aview.tui - 
-+------------+------------+
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            | yl yl bl bl|
-+------------+------------+
-INFO main de.htwg.sudoku.aview.tui - 
-The cell at [0],[3] has been set!
-INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y
-INFO main de.htwg.sudoku.aview.tui - 
-+------------+------------+
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            | bl yl bl bl|
-+------------+------------+
-INFO main de.htwg.sudoku.aview.tui - 
-The cell at [0],[3] has been set!
-INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y
-INFO main de.htwg.sudoku.aview.tui - 
-+------------+------------+
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-| bk bk bk bk| bl yl bl bl|
-+------------+------------+
-INFO main de.htwg.sudoku.aview.tui - 
-You have won!!
-INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y
-INFO main de.htwg.sudoku.aview.tui - 
-+------------+------------+
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-| bk bk bk bk| bl yl bl bl|
-+------------+------------+
-INFO main de.htwg.sudoku.aview.tui - 
-The cell at [0],[2] has been set!
-INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y
-INFO main de.htwg.sudoku.aview.tui - 
-+      ------+      ------+
-+------------+------------+
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-+------------+------------+
-INFO main de.htwg.sudoku.aview.tui - 
-New game has been created!
-INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y
-INFO main de.htwg.sudoku.aview.tui - 
-            +            +
-+------------+------------+
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-+------------+------------+
-INFO main de.htwg.sudoku.aview.tui - 
-New game has been created!
-INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y
-INFO main de.htwg.sudoku.aview.tui - 
-            +------------+
-+------------+------------+
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-+------------+------------+
-INFO main de.htwg.sudoku.aview.tui - 
-New game has been created!
-INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y
-INFO main de.htwg.sudoku.aview.tui - 
-             +------------+
-+------------+------------+
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-+------------+------------+
-INFO main de.htwg.sudoku.aview.tui - 
-New game has been created!
-INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y
-INFO main de.htwg.sudoku.aview.tui - 
-+------------+------------+
-             |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-+------------+------------+
-INFO main de.htwg.sudoku.aview.tui - 
-New game has been created!
-INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y
-INFO main de.htwg.sudoku.aview.tui - 
-+------------+------------+
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-+------------+------------+
-INFO main de.htwg.sudoku.aview.tui - 
-New game has been created!
-INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y
-INFO main de.htwg.sudoku.aview.tui - 
-+------------+------------+
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-| xx         |            |
-| xx         |            |
-| xx         |            |
-| xx         |            |
-+------------+------------+
-INFO main de.htwg.sudoku.aview.tui - 
-New game has been created!
-INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y
-INFO main de.htwg.sudoku.aview.tui - 
-+------------+------------+
-|            | xx xx xx xx|
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-+------------+------------+
-INFO main de.htwg.sudoku.aview.tui - 
-New game has been created!
-INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y
-INFO main de.htwg.sudoku.aview.tui - 
-+------------+------------+
-|            | xx xx xx xx|
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-+------------+------------+
-INFO main de.htwg.sudoku.aview.tui - 
-New game has been created!
+The cell at [1],[1] has been set!
 INFO main de.htwg.sudoku.aview.tui - 
 Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
 INFO main de.htwg.sudoku.aview.tui - 
@@ -2750,101 +3175,11 @@ INFO main de.htwg.sudoku.aview.tui -
 |            |            |
 |            |            |
 |            |            |
-|            |            |
-|            |            |
+|            |    or yl rd|
+| bk wh wh wh| or yl or rd|
 +------------+------------+
 INFO main de.htwg.sudoku.aview.tui - 
-New game has been created!
-INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
-INFO main de.htwg.sudoku.aview.tui - 
-+------------+------------+
-|            | pk bl rd bl|
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-+------------+------------+
-INFO main de.htwg.sudoku.aview.tui - 
-New game has been created!
-INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
-INFO main de.htwg.sudoku.aview.tui - 
-+------------+------------+
-|            | pk bl rd bl|
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |          bl|
-+------------+------------+
-INFO main de.htwg.sudoku.aview.tui - 
-The cell at [0],[0] has been set!
-INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
-INFO main de.htwg.sudoku.aview.tui - 
-+------------+------------+
-|            | pk bl rd bl|
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |       rd bl|
-+------------+------------+
-INFO main de.htwg.sudoku.aview.tui - 
-The cell at [0],[1] has been set!
-INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
-INFO main de.htwg.sudoku.aview.tui - 
-+------------+------------+
-|            | pk bl rd bl|
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |    yl rd bl|
-+------------+------------+
-INFO main de.htwg.sudoku.aview.tui - 
-The cell at [0],[2] has been set!
-INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
-INFO main de.htwg.sudoku.aview.tui - 
-+------------+------------+
-|            | pk bl rd bl|
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            | yl yl rd bl|
-+------------+------------+
-INFO main de.htwg.sudoku.aview.tui - 
-The cell at [0],[3] has been set!
-INFO main de.htwg.sudoku.aview.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
-INFO main de.htwg.sudoku.aview.tui - 
-+------------+------------+
-|            | pk bl rd bl|
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-|            |            |
-| bk bk wh   | yl yl rd bl|
-+------------+------------+
-INFO main de.htwg.sudoku.aview.tui - 
-The cell at [0],[3] has been set!
+The cell at [1],[2] has been set!
 INFO main de.htwg.sudoku.aview.tui - 
 Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
 INFO main de.htwg.sudoku.aview.tui - 
@@ -2855,11 +3190,11 @@ INFO main de.htwg.sudoku.aview.tui -
 |            |            |
 |            |            |
 |            |            |
-|            |            |
-|            |            |
+|            | or or yl rd|
+| bk wh wh wh| or yl or rd|
 +------------+------------+
 INFO main de.htwg.sudoku.aview.tui - 
-New game has been created!
+The cell at [1],[3] has been set!
 INFO main de.htwg.sudoku.aview.tui - 
 Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
 INFO main de.htwg.sudoku.aview.tui - 
@@ -2870,11 +3205,11 @@ INFO main de.htwg.sudoku.aview.tui -
 |            |            |
 |            |            |
 |            |            |
-|            |            |
-|            |            |
+| wh wh wh wh| or or yl rd|
+| bk wh wh wh| or yl or rd|
 +------------+------------+
 INFO main de.htwg.sudoku.aview.tui - 
-New game has been created!
+Row confirmed!
 INFO main de.htwg.sudoku.aview.tui - 
 Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
 INFO main de.htwg.sudoku.aview.tui - 
@@ -2884,12 +3219,12 @@ INFO main de.htwg.sudoku.aview.tui -
 |            |            |
 |            |            |
 |            |            |
-|            |            |
-|            |            |
-|            |          bl|
+|            |          or|
+| wh wh wh wh| or or yl rd|
+| bk wh wh wh| or yl or rd|
 +------------+------------+
 INFO main de.htwg.sudoku.aview.tui - 
-The cell at [0],[0] has been set!
+The cell at [2],[0] has been set!
 INFO main de.htwg.sudoku.aview.tui - 
 Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
 INFO main de.htwg.sudoku.aview.tui - 
@@ -2899,12 +3234,12 @@ INFO main de.htwg.sudoku.aview.tui -
 |            |            |
 |            |            |
 |            |            |
-|            |            |
-|            |            |
-|            |          bl|
+|            |       or or|
+| wh wh wh wh| or or yl rd|
+| bk wh wh wh| or yl or rd|
 +------------+------------+
 INFO main de.htwg.sudoku.aview.tui - 
-The cell at [0],[0] has been set!
+The cell at [2],[1] has been set!
 INFO main de.htwg.sudoku.aview.tui - 
 Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
 INFO main de.htwg.sudoku.aview.tui - 
@@ -2914,12 +3249,12 @@ INFO main de.htwg.sudoku.aview.tui -
 |            |            |
 |            |            |
 |            |            |
-|            |            |
-|            |            |
-|            |          bl|
+|            |    yl or or|
+| wh wh wh wh| or or yl rd|
+| bk wh wh wh| or yl or rd|
 +------------+------------+
 INFO main de.htwg.sudoku.aview.tui - 
-The cell at [0],[0] has been set!
+The cell at [2],[2] has been set!
 INFO main de.htwg.sudoku.aview.tui - 
 Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
 INFO main de.htwg.sudoku.aview.tui - 
@@ -2929,11 +3264,101 @@ INFO main de.htwg.sudoku.aview.tui -
 |            |            |
 |            |            |
 |            |            |
-|            |            |
-|            |            |
-|            |       yl bl|
+|            | bl yl or or|
+| wh wh wh wh| or or yl rd|
+| bk wh wh wh| or yl or rd|
 +------------+------------+
 INFO main de.htwg.sudoku.aview.tui - 
-The cell at [0],[1] has been set!
+The cell at [2],[3] has been set!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+|            |            |
+|            |            |
+|            |            |
+| bk bk wh   | bl yl or or|
+| wh wh wh wh| or or yl rd|
+| bk wh wh wh| or yl or rd|
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+Row confirmed!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+|            |            |
+|            |            |
+|            |          or|
+| bk bk wh   | bl yl or or|
+| wh wh wh wh| or or yl rd|
+| bk wh wh wh| or yl or rd|
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+The cell at [3],[0] has been set!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+|            |            |
+|            |            |
+|            |       or or|
+| bk bk wh   | bl yl or or|
+| wh wh wh wh| or or yl rd|
+| bk wh wh wh| or yl or rd|
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+The cell at [3],[1] has been set!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+|            |            |
+|            |            |
+|            |    bl or or|
+| bk bk wh   | bl yl or or|
+| wh wh wh wh| or or yl rd|
+| bk wh wh wh| or yl or rd|
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+The cell at [3],[2] has been set!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+|            |            |
+|            |            |
+|            | yl bl or or|
+| bk bk wh   | bl yl or or|
+| wh wh wh wh| or or yl rd|
+| bk wh wh wh| or yl or rd|
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+The cell at [3],[3] has been set!
+INFO main de.htwg.sudoku.aview.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution
+INFO main de.htwg.sudoku.aview.tui - 
++------------+------------+
+|            | xx xx xx xx|
+|            |            |
+|            |            |
+|            |            |
+| bk bk bk   | yl bl or or|
+| bk bk wh   | bl yl or or|
+| wh wh wh wh| or or yl rd|
+| bk wh wh wh| or yl or rd|
++------------+------------+
+INFO main de.htwg.sudoku.aview.tui - 
+Row confirmed!
 INFO main de.htwg.sudoku.aview.tui - 
 Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution

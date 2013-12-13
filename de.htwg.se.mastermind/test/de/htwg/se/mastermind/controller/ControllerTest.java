@@ -30,6 +30,6 @@ public class ControllerTest {
 	public void testCreate() {
 		controller.create(5,5);
 		grid = controller.getGrid();
-		assertFalse(grid == null);
+		assertFalse(grid.equals(null));
 	}
 }

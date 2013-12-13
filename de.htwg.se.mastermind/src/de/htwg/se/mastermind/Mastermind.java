@@ -27,7 +27,7 @@ public class Mastermind {
 		
 		return instance;
 	}
-	
+
 	private Mastermind() {
 		PropertyConfigurator.configure("log4j.properties");
 		controller = new Controller();

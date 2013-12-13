@@ -1,20 +1,24 @@
 package de.htwg.se.mastermind.model;
 
+import java.util.Map;
+import java.util.TreeMap;
+
 public class Grid extends AbstractGrid implements IGrid {
 	
 	private int actualRow;
-	private static final int SETROWS = 4;
 	private static final int MASTERCOLORS = 4;
 	private static final String [] availableColors = {"rd", "bl", "gr", "yl", "or", "pu", "pk"};
-	private String [] masterColors;
-	private int rightColors;
+	private String [] masterColors = {"or", "or", "rd", "yl"};
+	private String [] settedColors;
+	private boolean [] checkedColors;
 	
 	public Grid(int rows, int columns) {
 		this.create(rows, columns);
 		this.setBlockSize(2);
 		this.actualRow = 0;
-		this.rightColors = 0;
 		this.masterColors = this.randomColors();
+		this.settedColors = new String [MASTERCOLORS];
+		this.checkedColors = new boolean[MASTERCOLORS];
 		this.setInvisibleMasterColors();
 	}
 	
@@ -70,12 +74,13 @@ public class Grid extends AbstractGrid implements IGrid {
 
 	@Override
 	public boolean rowIsSet() {
-		for (int i = 0; i < SETROWS; i++) {
-			if (this.cells[actualRow][i].getValue() == null) {
+		
+		for (int i = 0; i < settedColors.length; i++) {
+			settedColors[i] = this.cells[actualRow][i].getValue();
+			if (settedColors[i] == null) {
 				return false;
 			}
 		}
-		
 		return true;
 	}
 
@@ -92,67 +97,124 @@ public class Grid extends AbstractGrid implements IGrid {
 	
 	@Override
 	public void setSticks() {
-		int stickIndex = this.getRowsAmount() - 1;
-		for (int i = 0; i < SETROWS; i++) {
-			if (this.containsColor(i)) {
-				if (this.colorOnRightPlace(i)) {
-					this.setCellValue(actualRow, stickIndex, "bk");
-					stickIndex--;
-					rightColors++;
-					continue;
-				}
-				this.setCellValue(actualRow, stickIndex, "wh");
-				stickIndex--;
+		int blackSticks = 0;
+		int whiteSticks = 0;
+		Map<String, Integer> mapSettedColors = new TreeMap<>();
+		
+		for (int i = 0; i < settedColors.length; i++) {
+			if (mapSettedColors.containsKey(settedColors[i])) {
+				int value = mapSettedColors.get(settedColors[i]);
+				value++;
+				mapSettedColors.put(settedColors[i], value);
+			} else {
+				mapSettedColors.put(settedColors[i], 1);
+			}
+		}
+		
+		for (int i = 0; i < settedColors.length; i++) {
+			if (colorOnRightPlace(i)) {
+				checkedColors[i] = true;
+				blackSticks++;
 				continue;
+			} else if (!checkedColors[i] && colorsEqual(mapSettedColors, i) && colorOnWrongPlace(i)) {
+				checkedColors[i] = true;
+				whiteSticks++;
 			}
 		}
-	}
-	
-	private boolean containsColor(int index) {
-		for (int i = 0; i < SETROWS; i++) {
-			if (this.getCellValue(this.actualRow, i).equals(masterColors[index])) {
-				return true;
-			}
+		
+		int indexSticks = this.amountOfColumns - 1;
+		
+		for (int i = 0; i < blackSticks; i++) {
+			this.cells[actualRow][indexSticks].setValue("bk");
+			indexSticks--;
+			
 		}
-		return false;
+		
+		for (int i = 0; i < whiteSticks; i++) {
+			this.cells[actualRow][indexSticks].setValue("wh");
+			indexSticks--;
+		}
+		
+		this.checkedColors = new boolean [MASTERCOLORS];
 	}
 	
 	private boolean colorOnRightPlace(int index) {
-		for (int i = 0; i < SETROWS; i++) {
-			if (this.getCellValue(this.actualRow, i).equals(masterColors[index]) && index == i) {
-				return true;
+		if (settedColors[index].equals(masterColors[index])) {
+			return true;
+		}
+		
+		return false;
+	}
+	
+	private boolean colorOnWrongPlace(int index) {
+		for (int i = 0; i < masterColors.length; i++) {
+			if (i!= index && settedColors[index].equals(masterColors[i])) {
+					return true;
 			}
 		}
 		return false;
 	}
 	
-	private String [] randomColors() {
-		this.masterColors = new String[MASTERCOLORS];
-		
-		for (int i = 0; i < this.masterColors.length; i++) {
-			int random = (int) (Math.random() * (availableColors.length - 0) + 0);
-			this.masterColors[i] = availableColors[random];
-			System.out.print(this.masterColors[i]+ "[" + i + "]" + ", ");
+	private boolean colorsEqual(Map<String, Integer> mapSettedColors, int index) {
+		Map<String, Integer> mapMasterColors = new TreeMap<>();
+		for (int i = 0; i < masterColors.length; i++) {
+			if (mapMasterColors.containsKey(masterColors[i])) {
+				int value = mapMasterColors.get(masterColors[i]);
+				value++;
+				mapMasterColors.put(masterColors[i], value);
+			} else {
+				mapMasterColors.put(masterColors[i], 1);
+			}
 		}
 		
-		System.out.println();
+		if (mapMasterColors.containsKey((settedColors[index]))) {
+			int value1 = mapMasterColors.get(settedColors[index]);
+			int value2 = mapSettedColors.get(settedColors[index]);
+			
+			if (value1 != value2) {
+				return false;
+			}
+		} else {
+			return false;
+		}
+		
+		return true;
+	}
+	
+	private String [] randomColors() {
+		//this.masterColors = new String[MASTERCOLORS];
+		/*for (int i = 0; i < this.masterColors.length; i++) {
+			int random = (int) (Math.random() * (availableColors.length - 0) + 0);
+			this.masterColors[i] = availableColors[random];
+			//System.out.print(this.masterColors[i]+ "[" + i + "]" + ", ");
+		}*/
+		
+		//System.out.println();
 		
 		return this.masterColors;
 	}
 
 	@Override
 	public boolean isSolved() {
-		if (rightColors == MASTERCOLORS) {
-			this.showSolution();
-			return true;
+		for (int i = 0; i < settedColors.length; i++) {
+			if (settedColors[i] == null || !settedColors[i].equals(masterColors[i])) {
+				return false;
+			}
 		}
-		return false;
+		return true;
 	}
 	
 	@Override
 	public void showSolution() {
 		for (int i = 0; i < MASTERCOLORS; i++) {
 			this.setCellValue(this.amountOfColumns - 1, i, masterColors[i]);
+		}
+	}
+	
+	@Override
+	public void solve() {
+		for (int i = 0; i < settedColors.length; i++) {
+			settedColors[i] = masterColors[i];
 		}
 	}
 	

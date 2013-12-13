@@ -81,5 +81,10 @@ public interface IGrid {
 	/**
 	 * Shows the solution of the mastermind game
 	 */
-	public void showSolution();
+	void showSolution();
+	
+	/**
+	 * Solves the mastermind game
+	 */
+	void solve();
 }
