@@ -8,13 +8,13 @@ public class Grid extends AbstractGrid implements IGrid {
 	private int actualRow;
 	private static final int MASTERCOLORS = 4;
 	private static final String [] availableColors = {"rd", "bl", "gr", "yl", "or", "pu", "pk"};
-	private String [] masterColors = {"or", "gr", "rd", "yl"};
+	private String [] masterColors;
 	private String [] settedColors;
 	//private boolean [] checkedColors;
 	
 	public Grid(int rows, int columns) {
 		this.create(rows, columns);
-		this.setBlockSize(2);
+		//this.setBlockSize(2);
 		this.actualRow = 0;
 		this.masterColors = this.randomMastermindColors();
 		this.settedColors = new String [MASTERCOLORS];
@@ -182,14 +182,11 @@ public class Grid extends AbstractGrid implements IGrid {
 	}
 	
 	private String [] randomMastermindColors() {
-		//this.masterColors = new String[MASTERCOLORS];
-		/*for (int i = 0; i < this.masterColors.length; i++) {
+		this.masterColors = new String[MASTERCOLORS];
+		for (int i = 0; i < this.masterColors.length; i++) {
 			int random = (int) (Math.random() * (availableColors.length - 0) + 0);
 			this.masterColors[i] = availableColors[random];
-			//System.out.print(this.masterColors[i]+ "[" + i + "]" + ", ");
-		}*/
-		
-		//System.out.println();
+		}
 		
 		return this.masterColors;
 	}

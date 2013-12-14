@@ -170,29 +170,21 @@ public class GridTest {
 	/* Tests for Abstract Grid*/
 	
 	@Test
-	public void setBlockSize() {
-		grid.setBlockSize(0);
-		assertEquals(0, grid.getBlockSize());
-		grid.setBlockSize(2);
-		assertEquals(2, grid.getBlockSize());
+	public void testMasterBox() {
+		assertEquals("              +-------------+" + newLine + 
+					 "              | xx xx xx xx |" + newLine, grid.masterBox());
 	}
 	
 	@Test
-	public void testBlockSeparator() {
-		grid.setBlockSize(0);
-		assertEquals("+", grid.blockSeparator(grid.getBlockSize()));
-		grid.setBlockSize(1);
-		assertEquals("+------+", grid.blockSeparator(grid.getBlockSize()));
-		grid.setBlockSize(2);
-		assertEquals("+------------+------------+", grid.blockSeparator(grid.getBlockSize()));
+	public void testGameField() {
+		assertEquals("+-------------+-------------+" + newLine + 
+					 "|             |             |" + newLine +
+					 "|             |             |" + newLine +
+					 "|             |             |" + newLine +
+					 "|             |             |" + newLine +
+					 "|             |             |" + newLine +
+					 "|             |             |" + newLine +
+					 "|             |             |" + newLine +
+					 "+-------------+-------------+" + newLine, grid.gameField());
 	}
-	
-	/*@Test
-	public void testToString() {
-		grid.setBlockSize(1);
-		assertEquals("+-----+"+ newLine + "|   |" +newLine+ "+------+" + newLine, grid.toString());
-		grid.setCellValue(0, 0, "yl");
-		//assertEquals("+---+"+newLine+"| yl |"+newLine+"+---+"+newLine, grid.toString());
-	}*/
-	
 }

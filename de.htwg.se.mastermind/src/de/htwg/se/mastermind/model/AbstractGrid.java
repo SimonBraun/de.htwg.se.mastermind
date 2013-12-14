@@ -5,41 +5,60 @@ public abstract class AbstractGrid implements IGrid {
 	
 	protected int amountOfRows;
 	protected int amountOfColumns;
-	private int blockSize;
-	
-	public void setBlockSize(int blockSize) {
-		this.blockSize = blockSize;
-	}
-	
-	public int getBlockSize() {
-		return this.blockSize;
-	}
-	
-	public String blockSeparator(int blockSize) {
-		StringBuilder sb = new StringBuilder("+");
-		
-		for (int i = 0; i < blockSize; i++) {
-			for (int j = 0; j < blockSize*6; j++) {
-				sb.append("-");
-			}
-			sb.append("+");
-		}
-		return sb.toString();
-	}
 	
 	@Override
 	public String toString() {
-		return toString(" ");
+		StringBuilder sb = new StringBuilder();
+		String masterBox = masterBox();
+		String gameField = gameField();
+		
+		sb.append(masterBox).append(gameField);
+		return sb.toString();
 	}
 	
-	public String toString(String zero) {
+	public String masterBox() {
 		String newLine = System.getProperty("line.separator");
-		String result = blockSeparator(blockSize) + newLine;
+		StringBuilder sb = new StringBuilder();
 		
-		StringBuilder sb = new StringBuilder(result);
+		for (int i = 0; i < 14; i++) {
+			sb.append(" ");
+		}
+		sb.append("+");
 		
-		for (int j = amountOfRows - 1; j >= 0; j--) {
-				sb.append("|");
+		for (int i = 0; i < 13; i++) {
+			sb.append("-");
+		}
+		sb.append("+").append(newLine);
+		
+		for (int i = 0; i < 14; i++) {
+			sb.append(" ");
+		}
+		sb.append("| ");
+		
+		for (int i = amountOfColumns/2 - 1; i >=0 ; i--) {
+			sb.append(getCellValue(getRowsAmount()-1,i)).append(" ");
+		}
+		sb.append("|").append(newLine);
+		
+		return sb.toString();
+	}
+	
+	public String gameField() {
+		String newLine = System.getProperty("line.separator");
+		StringBuilder sb = new StringBuilder("+");
+		
+		for (int i = 0; i < 26; i++) {
+			sb.append("-");
+			
+			if (i == 12) {
+				sb.append("+");
+			}
+			
+		}
+		sb.append("+" + newLine);
+		
+		for (int j = amountOfRows - 2; j >= 0; j--) {
+			sb.append("|");
 			for (int k = amountOfColumns - 1; k >= 0; k--) {
 				sb.append(" ");
 				
@@ -50,15 +69,24 @@ public abstract class AbstractGrid implements IGrid {
 				}
 				
 				if(amountOfColumns/2 == k) {
-					sb.append("|");
+					sb.append(" |");
 				}
 			}
-			sb.append("|" + newLine);
+			sb.append(" |" + newLine);
 		}
 		
-		sb.append(blockSeparator(blockSize));
+		sb.append("+");
+		
+		for (int i = 0; i < 26; i++) {
+			sb.append("-");
+			
+			if (i == 12) {
+				sb.append("+");
+			}
+		}
+		sb.append("+" + newLine);
 		
 		return sb.toString();
+		
 	}
-	
 }

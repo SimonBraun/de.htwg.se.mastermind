@@ -73,6 +73,7 @@ public class TextUI implements IObserver {
 	public void print() {
 		logger.info(newLine + controller.getGridString());
 		logger.info(newLine + controller.getStatusLine());
+		logger.info(newLine + "Available Colors: yl, gr, rd, bl, or, pk, pu");
 		logger.info(newLine + "Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution");
 		System.out.println("Please enter command:");
 	}

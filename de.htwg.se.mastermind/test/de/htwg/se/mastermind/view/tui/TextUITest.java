@@ -7,7 +7,6 @@ import org.apache.log4j.Logger;
 import org.junit.Before;
 import org.junit.Test;
 
-import de.htwg.se.mastermind.Mastermind;
 import de.htwg.se.mastermind.controller.Controller;
 import de.htwg.se.mastermind.controller.IController;
 import de.htwg.se.mastermind.model.Grid;
