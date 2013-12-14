@@ -6,6 +6,8 @@ import org.junit.Before;
 import org.junit.Test;
 
 import de.htwg.se.mastermind.model.IGrid;
+import de.htwg.se.mastermind.controller.IController;
+import de.htwg.se.mastermind.controller.Controller;
 
 public class ControllerTest {
 	private IGrid grid;
@@ -21,9 +23,12 @@ public class ControllerTest {
 	@Test
 	public void testGetValue() {
 		controller.setValue(0, 0, "yl");
-		assertEquals("yl", grid.getCellValue(0, 0));
+		assertEquals("yl", controller.getValue(0, 0));
 		controller.setValue(0, 1, "bl");
-		assertEquals("bl", grid.getCellValue(0, 1));
+		assertEquals("bl", controller.getValue(0, 1));
+		controller.setValue(10, 0, "yl");
+		controller.setValue(0, 10, "yl");
+		controller.setValue(0, 0, "ut");
 	}
 	
 	@Test
@@ -31,5 +36,38 @@ public class ControllerTest {
 		controller.create(5,5);
 		grid = controller.getGrid();
 		assertFalse(grid.equals(null));
+	}
+	
+	@Test
+	public void testGetRowsAmount() {
+		assertEquals(8, controller.getRowsAmount());
+	}
+	
+	@Test
+	public void testGetColumnsAmount() {
+		assertEquals(8, controller.getColumnsAmount());
+	}
+	
+	@Test
+	public void testGetStatusLine() {
+		assertEquals("New game has been created!", controller.getStatusLine());
+	}
+	
+	@Test
+	public void testConfirmRow() {
+		controller.confirmRow();
+		controller.setValue(grid.getActualRow(), 0, "yl");
+		controller.setValue(grid.getActualRow(), 1, "yl");
+		controller.setValue(grid.getActualRow(), 2, "yl");
+		controller.setValue(grid.getActualRow(), 3, "yl");
+		controller.confirmRow();
+		String [] masterColors = {"yl", "yl", "yl", "yl"};
+		grid.setMastermindColors(masterColors);
+		grid.solve();
+		controller.setValue(grid.getActualRow(), 0, "yl");
+		controller.setValue(grid.getActualRow(), 1, "yl");
+		controller.setValue(grid.getActualRow(), 2, "yl");
+		controller.setValue(grid.getActualRow(), 3, "yl");
+		controller.confirmRow();
 	}
 }

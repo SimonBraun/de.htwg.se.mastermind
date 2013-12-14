@@ -36,9 +36,8 @@ public class Controller extends Observable implements IController {
 	public void setValue(int row, int column, String value) {
 		int actualRow = this.grid.getActualRow();
 		int maxColumns = this.grid.getColumnsAmount()/2;
-		int maxRows = this.grid.getRowsAmount() - 1;
 		if (this.grid.isColor(value)) {
-			if(row == actualRow && column < maxColumns && row < maxRows) {
+			if(row == actualRow && column < maxColumns) {
 				this.grid.setCellValue(row, column, value);
 				statusLine = "The cell at [" + row + "],[" + column + "] has been set!";
 			}
