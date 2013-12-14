@@ -87,4 +87,10 @@ public interface IGrid {
 	 * Solves the mastermind game
 	 */
 	void solve();
+	
+	/**
+	 * Sets the mastermind colors
+	 * @param masterColors
+	 */
+	void setMastermindColors(String [] masterColors);
 }

@@ -8,17 +8,17 @@ public class Grid extends AbstractGrid implements IGrid {
 	private int actualRow;
 	private static final int MASTERCOLORS = 4;
 	private static final String [] availableColors = {"rd", "bl", "gr", "yl", "or", "pu", "pk"};
-	private String [] masterColors = {"or", "or", "rd", "yl"};
+	private String [] masterColors = {"or", "gr", "rd", "yl"};
 	private String [] settedColors;
-	private boolean [] checkedColors;
+	//private boolean [] checkedColors;
 	
 	public Grid(int rows, int columns) {
 		this.create(rows, columns);
 		this.setBlockSize(2);
 		this.actualRow = 0;
-		this.masterColors = this.randomColors();
+		this.masterColors = this.randomMastermindColors();
 		this.settedColors = new String [MASTERCOLORS];
-		this.checkedColors = new boolean[MASTERCOLORS];
+		//this.checkedColors = new boolean[MASTERCOLORS];
 		this.setInvisibleMasterColors();
 	}
 	
@@ -113,11 +113,11 @@ public class Grid extends AbstractGrid implements IGrid {
 		
 		for (int i = 0; i < settedColors.length; i++) {
 			if (colorOnRightPlace(i)) {
-				checkedColors[i] = true;
+				//checkedColors[i] = true;
 				blackSticks++;
 				continue;
-			} else if (!checkedColors[i] && colorsEqual(mapSettedColors, i) && colorOnWrongPlace(i)) {
-				checkedColors[i] = true;
+			} else if (colorsEqual(mapSettedColors, i)) { // && !checkedColors[i] && colorOnWrongPlace(i)) {
+				//checkedColors[i] = true;
 				whiteSticks++;
 			}
 		}
@@ -135,7 +135,7 @@ public class Grid extends AbstractGrid implements IGrid {
 			indexSticks--;
 		}
 		
-		this.checkedColors = new boolean [MASTERCOLORS];
+		//this.checkedColors = new boolean [MASTERCOLORS];
 	}
 	
 	private boolean colorOnRightPlace(int index) {
@@ -146,14 +146,14 @@ public class Grid extends AbstractGrid implements IGrid {
 		return false;
 	}
 	
-	private boolean colorOnWrongPlace(int index) {
+	/*private boolean colorOnWrongPlace(int index) {
 		for (int i = 0; i < masterColors.length; i++) {
-			if (i!= index && settedColors[index].equals(masterColors[i])) {
+			if (settedColors[index].equals(masterColors[i])) {
 					return true;
 			}
 		}
 		return false;
-	}
+	}*/
 	
 	private boolean colorsEqual(Map<String, Integer> mapSettedColors, int index) {
 		Map<String, Integer> mapMasterColors = new TreeMap<>();
@@ -181,7 +181,7 @@ public class Grid extends AbstractGrid implements IGrid {
 		return true;
 	}
 	
-	private String [] randomColors() {
+	private String [] randomMastermindColors() {
 		//this.masterColors = new String[MASTERCOLORS];
 		/*for (int i = 0; i < this.masterColors.length; i++) {
 			int random = (int) (Math.random() * (availableColors.length - 0) + 0);
@@ -222,5 +222,10 @@ public class Grid extends AbstractGrid implements IGrid {
 		for (int i = 0; i < MASTERCOLORS; i++) {
 			this.setCellValue(this.amountOfColumns - 1, i, "xx");
 		}
+	}
+
+	@Override
+	public void setMastermindColors(String[] masterColors) {
+		this.masterColors = masterColors;
 	}
 }
