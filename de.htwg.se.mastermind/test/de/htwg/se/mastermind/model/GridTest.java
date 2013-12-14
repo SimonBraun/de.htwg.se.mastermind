@@ -144,7 +144,7 @@ public class GridTest {
 		grid.setSticks();
 		assertEquals("wh", grid.cells[grid.getActualRow()][grid.amountOfColumns-1].getValue());
 		assertEquals("wh", grid.cells[grid.getActualRow()][grid.amountOfColumns-2].getValue());
-		assertEquals(null, grid.cells[grid.getActualRow()][grid.amountOfColumns-3].getValue());
+		assertEquals("wh", grid.cells[grid.getActualRow()][grid.amountOfColumns-3].getValue());
 		assertEquals(null, grid.cells[grid.getActualRow()][grid.amountOfColumns-4].getValue());
 		
 		grid.incrementActualRow();
@@ -178,13 +178,14 @@ public class GridTest {
 	@Test
 	public void testGameField() {
 		assertEquals("+-------------+-------------+" + newLine + 
-					 "|             |             |" + newLine +
-					 "|             |             |" + newLine +
-					 "|             |             |" + newLine +
-					 "|             |             |" + newLine +
-					 "|             |             |" + newLine +
-					 "|             |             |" + newLine +
-					 "|             |             |" + newLine +
-					 "+-------------+-------------+" + newLine, grid.gameField());
+					 "|             |             |" + "[6]" + newLine +
+					 "|             |             |" + "[5]" + newLine +
+					 "|             |             |" + "[4]" + newLine +
+					 "|             |             |" + "[3]" +newLine +
+					 "|             |             |" + "[2]" +newLine +
+					 "|             |             |" + "[1]" + newLine +
+					 "|             |             |" + "[0]" +newLine +
+					 "+-------------+-------------+" + newLine + 
+					 "                [3][2][1][0]"   + newLine, grid.gameField());
 	}
 }

@@ -72,7 +72,7 @@ public abstract class AbstractGrid implements IGrid {
 					sb.append(" |");
 				}
 			}
-			sb.append(" |" + newLine);
+			sb.append(" |[" + j  + "]" + newLine);
 		}
 		
 		sb.append("+");
@@ -85,6 +85,16 @@ public abstract class AbstractGrid implements IGrid {
 			}
 		}
 		sb.append("+" + newLine);
+		
+		for (int i = 0; i < 16; i++) {
+			sb.append(" ");
+		}
+		
+		for (int i = amountOfColumns/2 - 1; i >= 0; i--) {
+			sb.append("[").append(i).append("]");
+		}
+		
+		sb.append(newLine);
 		
 		return sb.toString();
 		
