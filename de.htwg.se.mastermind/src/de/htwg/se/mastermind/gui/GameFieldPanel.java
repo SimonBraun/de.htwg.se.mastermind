@@ -19,7 +19,8 @@ public class GameFieldPanel extends JPanel {
 		
 		@Override
 		public void mouseClicked(MouseEvent m) {
-			setColor(m.getX(), m.getY());
+			if (!controller.isSolved() && controller.getActualRow() != controller.getRowsAmount() - 1)
+				setColor(m.getX(), m.getY());
 		}
 	}
 	
@@ -72,10 +73,14 @@ public class GameFieldPanel extends JPanel {
                 		}
                 	}
                 	
-                	yStartNeu -= 40;
-                	int newButtonY = buttonConfirmRow.getY();
-                	newButtonY -= 40;
-                	buttonConfirmRow.setBounds(20, newButtonY, 110, 30);
+                	if (!controller.isSolved() && controller.getActualRow() != controller.getRowsAmount() - 1) {
+		            	yStartNeu -= 40;
+		            	int newButtonY = buttonConfirmRow.getY();
+		            	newButtonY -= 40;
+		            	buttonConfirmRow.setBounds(20, newButtonY, 110, 30);
+                	} else {
+                		buttonConfirmRow.setEnabled(false);
+                	}
                 }
             }
         });
@@ -198,6 +203,7 @@ public class GameFieldPanel extends JPanel {
 	
 	public void setStandard() {
 		this.buttonConfirmRow.setBounds(20, 260, 110, 30);
+		this.buttonConfirmRow.setEnabled(true);
 		this.yStartNeu = 265;
 		this.initializeArrays();
 		

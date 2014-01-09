@@ -84,4 +84,10 @@ public interface IController extends IObservable {
 	 * @return actual row
 	 */
 	int getActualRow();
+	
+	/**
+	 * Returns if the game is solved or not
+	 * @return true/false
+	 */
+	boolean isSolved();
 }

@@ -25,6 +25,10 @@ public class Controller extends Observable implements IController {
 			if (this.grid.isSolved()) {
 				statusLine = "You have won!!";
 				this.grid.showSolution();
+			} else {
+				if (this.grid.getActualRow() == this.grid.getRowsAmount() - 2) {
+					statusLine = "You have lost!!";
+				}
 			}
 			
 			this.grid.incrementActualRow();
@@ -97,5 +101,10 @@ public class Controller extends Observable implements IController {
 	@Override
 	public String[] getAvailableColors() {
 		return this.grid.getAvailableColors();
+	}
+	
+	@Override
+	public boolean isSolved() {
+		return this.grid.isSolved();
 	}
 }
