@@ -93,4 +93,16 @@ public interface IGrid {
 	 * @param masterColors
 	 */
 	void setMastermindColors(String [] masterColors);
+	
+	/**
+	 * Returns an array with the mastermind colors
+	 * @return array with the mastermind colors
+	 */
+	String [] getMastermindColors();
+	
+	/**
+	 * Returns an array with the available colors
+	 * @return array with the available colors
+	 */
+	String [] getAvailableColors();
 }

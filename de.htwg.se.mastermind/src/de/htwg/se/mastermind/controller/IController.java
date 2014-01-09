@@ -30,7 +30,7 @@ public interface IController extends IObservable {
 	 * User confirms that actual row is set
 	 * @param row
 	 */
-	void confirmRow();
+	boolean confirmRow();
 	
 	/**
 	 * Returns a grid
@@ -66,4 +66,22 @@ public interface IController extends IObservable {
 	 * Shows the solution of the mastermind game
 	 */
 	void showSolution();
+	
+	/**
+	 * Returns an array with the mastermind colors
+	 * @return an array with the mastermind colors
+	 */
+	String [] getMastermindColors();
+	
+	/**
+	 * Returns an array with the available colors
+	 * @return an array with the available colors
+	 */
+	String [] getAvailableColors();
+	
+	/**
+	 * Returns the actual row of the grid
+	 * @return actual row
+	 */
+	int getActualRow();
 }

@@ -6,7 +6,7 @@ public class Grid extends AbstractGrid implements IGrid {
 	
 	private int actualRow;
 	private static final int MASTERCOLORS = 4;
-	private static final String [] availableColors = {"rd", "bl", "gr", "yl", "or", "pu", "pk"};
+	private final String [] availableColors = {"rd", "bl", "gr", "yl", "or", "pu", "pk"};
 	private String [] masterColors;
 	private String [] settedColors;
 	
@@ -70,7 +70,6 @@ public class Grid extends AbstractGrid implements IGrid {
 
 	@Override
 	public boolean rowIsSet() {
-		
 		for (int i = 0; i < settedColors.length; i++) {
 			settedColors[i] = this.cells[actualRow][i].getValue();
 			if (settedColors[i] == null) {
@@ -83,7 +82,7 @@ public class Grid extends AbstractGrid implements IGrid {
 	@Override
 	public boolean isColor(String value) {
 		for(String s : availableColors) {
-			if (s.equals(value)) {
+			if (s.equals(value) || value.equals("  ")) {
 				return true;
 			}
 		}
@@ -181,5 +180,15 @@ public class Grid extends AbstractGrid implements IGrid {
 	@Override
 	public void setMastermindColors(String[] masterColors) {
 		this.masterColors = masterColors;
+	}
+	
+	@Override
+	public String [] getMastermindColors() {
+		return this.masterColors;
+	}
+
+	@Override
+	public String[] getAvailableColors() {
+		return this.availableColors;
 	}
 }

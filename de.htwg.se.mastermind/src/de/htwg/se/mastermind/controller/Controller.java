@@ -17,9 +17,9 @@ public class Controller extends Observable implements IController {
 	}
 	
 	@Override
-	public void confirmRow() {
+	public boolean confirmRow() {
 		if (this.grid.rowIsSet()) {
-			statusLine = "Row confirmed!";
+			statusLine = "Row [" + this.grid.getActualRow() + "] confirmed!";
 			this.grid.setSticks();
 			
 			if (this.grid.isSolved()) {
@@ -28,8 +28,10 @@ public class Controller extends Observable implements IController {
 			}
 			
 			this.grid.incrementActualRow();
+			notifyObservers();
+			return true;
 		}
-		notifyObservers();
+		return false;
 	}
 	
 	@Override
@@ -80,5 +82,20 @@ public class Controller extends Observable implements IController {
 		statusLine = "The solution of the game:";
 		this.grid.showSolution();
 		notifyObservers();
+	}
+
+	@Override
+	public String[] getMastermindColors() {
+		return this.grid.getMastermindColors();
+	}
+
+	@Override
+	public int getActualRow() {
+		return this.grid.getActualRow();
+	}
+
+	@Override
+	public String[] getAvailableColors() {
+		return this.grid.getAvailableColors();
 	}
 }

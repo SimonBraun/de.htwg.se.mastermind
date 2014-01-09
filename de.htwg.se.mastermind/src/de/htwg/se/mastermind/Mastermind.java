@@ -4,6 +4,7 @@ package de.htwg.se.mastermind;
 
 import de.htwg.se.mastermind.controller.IController;
 import de.htwg.se.mastermind.controller.Controller;
+import de.htwg.se.mastermind.gui.MastermindFrame;
 import de.htwg.se.mastermind.view.tui.TextUI;
 
 import java.util.Scanner;
@@ -16,6 +17,7 @@ public class Mastermind {
 	private static Mastermind instance;
 	private static Scanner scanner;
 	private static TextUI tui;
+	private static MastermindFrame gui;
 	private static IController controller;
 	private static final int ROWS=8;
 	private static final int COLUMNS=8;
@@ -33,6 +35,7 @@ public class Mastermind {
 		controller = new Controller();
 		controller.create(ROWS, COLUMNS);
 		tui = new TextUI(controller);
+		gui = new MastermindFrame(controller);
 		tui.print();
 	}
 	
