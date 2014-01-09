@@ -2,6 +2,7 @@ package de.htwg.se.mastermind.controller;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
+
 import org.junit.Before;
 import org.junit.Test;
 
@@ -69,5 +70,41 @@ public class ControllerTest {
 		controller.setValue(grid.getActualRow(), 2, "yl");
 		controller.setValue(grid.getActualRow(), 3, "yl");
 		controller.confirmRow();
+	}
+	
+	@Test 
+	public void testConfirmRow2() {
+		String [] masterColors = {"yl", "yl", "yl", "yl"};
+		grid.setMastermindColors(masterColors);	
+		int lastRow = this.grid.getRowsAmount() - 1;
+		for (int i = 0; i < lastRow; i++) {
+			controller.setValue(grid.getActualRow(), 0, "rd");
+			controller.setValue(grid.getActualRow(), 1, "yl");
+			controller.setValue(grid.getActualRow(), 2, "yl");
+			controller.setValue(grid.getActualRow(), 3, "yl");
+			controller.confirmRow();
+		}
+	}
+	
+	@Test
+	public void testGetMastermindColors() {
+		String [] masterColors = {"yl", "yl", "yl", "yl"};
+		grid.setMastermindColors(masterColors);
+		masterColors = controller.getMastermindColors();
+		for (int i = 0; i < masterColors.length; i++) {
+			assertEquals("yl", masterColors[i]);
+		}
+	}
+	
+	@Test
+	public void testGetAvailableColors() {
+		String [] availableColors = this.controller.getAvailableColors();
+		assertEquals("rd", availableColors[0]);
+		assertEquals("bl", availableColors[1]);
+		assertEquals("gr", availableColors[2]);
+		assertEquals("yl", availableColors[3]);
+		assertEquals("or", availableColors[4]);
+		assertEquals("pu", availableColors[5]);
+		assertEquals("pk", availableColors[6]);
 	}
 }

@@ -11,6 +11,7 @@ public class HeadPanel extends JPanel{
 	
 	private static final long serialVersionUID = 1L;
 	private StatusPanel statusPanel;
+	private MastercolorsPanel mastercolorsPanel;
 
 	public HeadPanel(IController controller) {
 		this.setLayout(new GridLayout(0,2));
@@ -18,12 +19,16 @@ public class HeadPanel extends JPanel{
 		this.setPreferredSize(new Dimension(450, 60));
 		this.setMaximumSize(new Dimension(450, 60));
 		statusPanel = new StatusPanel(controller);
-		MastercolorsPanel mastercolorsPanel = new MastercolorsPanel(controller);
+		mastercolorsPanel = new MastercolorsPanel(controller);
 		this.add(statusPanel);
 		this.add(mastercolorsPanel);
 	}
 	
 	public void setStatus() {
 		statusPanel.setStatus();
+	}
+	
+	public void setStandard() {
+		mastercolorsPanel.setStandard();
 	}
 }

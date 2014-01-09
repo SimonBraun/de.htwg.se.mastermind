@@ -42,12 +42,13 @@ public class TextUITest {
 	
 	@Test
 	public void testProcessInputLine3() {
+		int actualRow = controller.getActualRow();
 		controller.setValue(0, 0, "yl");
 		controller.setValue(0, 1, "yl");
 		controller.setValue(0, 2, "yl");
 		controller.setValue(0, 3, "yl");
 		tui.processInputLine("c");
-		assertEquals("Row confirmed!", controller.getStatusLine());
+		assertEquals("Row [" + actualRow + "] confirmed!", controller.getStatusLine());
 	}
 	
 	@Test

@@ -53,6 +53,7 @@ public class MastermindFrame extends JFrame implements IObserver {
 			public void actionPerformed(ActionEvent event) {
 				controller.create(ROWS, COLUMNS);
 				gameFieldPanel.setStandard();
+				headPanel.setStandard();
 			}
 		});
 		

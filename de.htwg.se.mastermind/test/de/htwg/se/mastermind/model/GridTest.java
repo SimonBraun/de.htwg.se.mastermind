@@ -196,5 +196,17 @@ public class GridTest {
 					 "                [3][2][1][0]"   + newLine, grid.gameField());
 	}
 	
+	@Test
+	public void testGetAvailableColors() {
+		String [] availableColors = this.grid.getAvailableColors();
+		assertEquals("rd", availableColors[0]);
+		assertEquals("bl", availableColors[1]);
+		assertEquals("gr", availableColors[2]);
+		assertEquals("yl", availableColors[3]);
+		assertEquals("or", availableColors[4]);
+		assertEquals("pu", availableColors[5]);
+		assertEquals("pk", availableColors[6]);
+	}
+	
 	 
 }

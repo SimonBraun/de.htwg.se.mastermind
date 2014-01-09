@@ -82,7 +82,7 @@ public class Grid extends AbstractGrid implements IGrid {
 	@Override
 	public boolean isColor(String value) {
 		for(String s : availableColors) {
-			if (s.equals(value) || value.equals("  ")) {
+			if (s.equals(value)) {
 				return true;
 			}
 		}
@@ -102,11 +102,11 @@ public class Grid extends AbstractGrid implements IGrid {
 			}
 		}
 		
-		ArrayList<String> alreadyProcessed = new ArrayList<String>();
+		ArrayList<Integer> alreadyProcessed = new ArrayList<Integer>();
 	    for (String color : masterColors) {
 	    	for (int j = 0; j < settedColors.length; j++) {
-	    		if (color.equals(settedColors[j]) && !alreadyProcessed.contains(settedColors[j])) {
-	    			alreadyProcessed.add(settedColors[j]);
+	    		if (color.equals(settedColors[j]) && !alreadyProcessed.contains(j)) {
+	    			alreadyProcessed.add(j);
 	    			whiteSticks++;
 	    			break;
 	    		}

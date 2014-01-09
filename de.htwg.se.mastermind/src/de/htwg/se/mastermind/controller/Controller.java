@@ -27,6 +27,7 @@ public class Controller extends Observable implements IController {
 				this.grid.showSolution();
 			} else {
 				if (this.grid.getActualRow() == this.grid.getRowsAmount() - 2) {
+					this.grid.showSolution();
 					statusLine = "You have lost!!";
 				}
 			}
