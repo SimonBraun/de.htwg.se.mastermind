@@ -11,6 +11,7 @@ import de.htwg.se.mastermind.controller.Controller;
 import de.htwg.se.mastermind.controller.IController;
 import de.htwg.se.mastermind.model.Grid;
 import de.htwg.se.mastermind.model.IGrid;
+//import org.apache.log4j.PropertyConfigurator;
 
 public class TextUITest {
 	IGrid grid;
@@ -24,6 +25,7 @@ public class TextUITest {
 		controller = new Controller();
 		tui = new TextUI(controller);
 		controller.create(8, 8);
+		//PropertyConfigurator.configure("log4j.properties");
 	}
 	
 	@Test
