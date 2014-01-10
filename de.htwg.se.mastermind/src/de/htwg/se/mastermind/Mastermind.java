@@ -9,7 +9,7 @@ import de.htwg.se.mastermind.view.tui.TextUI;
 
 import java.util.Scanner;
 
-import org.apache.log4j.PropertyConfigurator;
+//import org.apache.log4j.PropertyConfigurator;
 
 
 public class Mastermind {
@@ -31,11 +31,12 @@ public class Mastermind {
 	}
 
 	private Mastermind() {
-		PropertyConfigurator.configure("log4j.properties");
+		//PropertyConfigurator.configure("log4j.properties");
 		controller = new Controller();
 		controller.create(ROWS, COLUMNS);
 		tui = new TextUI(controller);
 		gui = new MastermindFrame(controller);
+		gui.repaint();
 		tui.print();
 	}
 	
