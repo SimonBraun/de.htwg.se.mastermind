@@ -3,7 +3,6 @@ package de.htwg.se.mastermind.view.tui;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
 
-//import org.apache.log4j.Logger;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -16,8 +15,6 @@ public class TextUITest {
 	IGrid grid;
 	private IController controller;
 	private TextUI tui;
-	//static Logger logger = Logger.getLogger(TextUITest.class);
-	//private StringBuilder sb;
 	
 	@Before
 	public void setUp() throws Exception {
@@ -25,7 +22,6 @@ public class TextUITest {
 		controller = new Controller();
 		tui = new TextUI(controller);
 		controller.create(8, 8);
-		//sb = new StringBuilder();
 	}
 	
 	@Test

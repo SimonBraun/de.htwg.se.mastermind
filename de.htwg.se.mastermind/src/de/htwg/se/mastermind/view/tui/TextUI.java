@@ -4,8 +4,6 @@ import de.htwg.se.mastermind.controller.IController;
 import de.htwg.se.mastermind.observer.Event;
 import de.htwg.se.mastermind.observer.IObserver;
 
-//import org.apache.log4j.Logger;
-
 public class TextUI implements IObserver {
 
 	private static final int ROWS=8;
@@ -14,7 +12,6 @@ public class TextUI implements IObserver {
 	
 	private IController controller;
 	
-	//private Logger logger = Logger.getLogger("de.htwg.sudoku.aview.tui");
 	private StringBuilder sb;
 	
 	public TextUI(IController controller) {
@@ -73,11 +70,11 @@ public class TextUI implements IObserver {
 	}
 	
 	public void print() {
-		sb.append(newLine + controller.getGridString()); //logger.info(newLine + controller.getGridString());
-		sb.append(newLine + controller.getStatusLine());//logger.info(newLine + controller.getStatusLine());
-		sb.append(newLine + "Available Colors: yl, gr, rd, bl, or, pk, pu");//logger.info(newLine + "Available Colors: yl, gr, rd, bl, or, pk, pu");
-		sb.append(newLine + "Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution");//logger.info(newLine + "Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution");
-		sb.append(newLine + "Please enter command: "); //System.out.println("Please enter command:");
+		sb.append(newLine + controller.getGridString());
+		sb.append(newLine + controller.getStatusLine());
+		sb.append(newLine + "Available Colors: yl, gr, rd, bl, or, pk, pu");
+		sb.append(newLine + "Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution");
+		sb.append(newLine + "Please enter command: ");
 		System.out.println(sb.toString());
 	}
 
