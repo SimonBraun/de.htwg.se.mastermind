@@ -179,8 +179,8 @@ public class Grid extends AbstractGrid implements IGrid {
 
 	@Override
 	public void setMastermindColors(String[] masterColors) {
-		//this.masterColors = masterColors;
-		System.arraycopy(masterColors, 0, this.masterColors, 0, masterColors.length);
+		this.masterColors = masterColors;
+		//System.arraycopy(masterColors, 0, this.masterColors, 0, masterColors.length);
 	}
 	
 	@Override
