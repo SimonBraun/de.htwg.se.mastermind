@@ -6,6 +6,7 @@ import static org.junit.Assert.assertFalse;
 import org.junit.Before;
 import org.junit.Test;
 
+import org.apache.log4j.Logger;
 import de.htwg.se.mastermind.controller.Controller;
 import de.htwg.se.mastermind.controller.IController;
 import de.htwg.se.mastermind.model.Grid;
@@ -15,6 +16,7 @@ public class TextUITest {
 	IGrid grid;
 	private IController controller;
 	private TextUI tui;
+	static Logger logger = Logger.getLogger(TextUI.class);
 	
 	@Before
 	public void setUp() throws Exception {
