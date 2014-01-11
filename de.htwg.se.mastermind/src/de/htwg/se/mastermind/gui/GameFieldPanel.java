@@ -138,24 +138,23 @@ public class GameFieldPanel extends JPanel {
 	}
 	
 	public void setColor(int x, int y) {
-		int actualRow = this.controller.getActualRow();
+		int column = 0;
 		if (x >= XSTART && x <= XSTART + BALLSIZE && y >= yStartNeu && y <= yStartNeu + BALLSIZE) {
-			this.actualColor = getNextColor();
-			this.colors[actualRow][columns-1] = actualColor;
-			this.controller.setValue(actualRow, columns-1, this.actualStringColor);
+			this.setColor(column + 1);
 		} else if (x >= XSTART + 30 && x <= XSTART + 50 && y >= yStartNeu && y <= yStartNeu + BALLSIZE) {
-			this.actualColor = getNextColor();
-			this.colors[actualRow][columns-2] = actualColor;
-			this.controller.setValue(actualRow, columns-2, this.actualStringColor);
+			this.setColor(column + 2);
 		} else if (x >= XSTART + 60 && x <= XSTART + 80 && y >= yStartNeu && y <= yStartNeu + BALLSIZE) {
-			this.actualColor = getNextColor();
-			this.colors[actualRow][columns-3] = actualColor;
-			this.controller.setValue(actualRow, columns-3, this.actualStringColor);
+			this.setColor(column + 3);
 		} else if (x >= XSTART + 90 && x <= XSTART + 110 && y >= yStartNeu && y <= yStartNeu + BALLSIZE) {
-			this.actualColor = getNextColor();
-			this.colors[actualRow][columns-4] = actualColor;
-			this.controller.setValue(actualRow, columns-4, this.actualStringColor);
+			this.setColor(column + 4);
 		}
+	}
+	
+	private void setColor(int column) {
+		int actualRow = this.controller.getActualRow();
+		this.actualColor = getNextColor();
+		this.colors[actualRow][columns-column] = actualColor;
+		this.controller.setValue(actualRow, columns-column, this.actualStringColor);
 	}
 	
 	public Color getNextColor() {
