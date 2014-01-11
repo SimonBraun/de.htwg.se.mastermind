@@ -18,7 +18,7 @@ public class MastercolorsPanel extends JPanel {
 	private static final int HEIGHT = 50;
 	private static final int XBALLS = 45;
 	private static final int YBALLS = 25;
-	private static final int WIDTHHEIGHTBALLS = 25;
+	private static final int WIDTHHEIGHTBALLS = 20;
 	private static final int XINCREASE = 30;
 	
 	public MastercolorsPanel(IController controller) {
