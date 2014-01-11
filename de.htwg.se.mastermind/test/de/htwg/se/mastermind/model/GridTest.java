@@ -171,7 +171,14 @@ public class GridTest {
 	public void testGetMastermindColors() {
 		String [] masterColors = {"yl", "rd", "gr", "bl"};
 		grid.setMastermindColors(masterColors);
-		assertTrue(masterColors.equals(grid.getMastermindColors()));
+		assertEquals("yl", grid.getMastermindColors()[0]);
+		assertEquals("rd", grid.getMastermindColors()[1]);
+		assertEquals("gr", grid.getMastermindColors()[2]);
+		assertEquals("bl", grid.getMastermindColors()[3]);
+		
+		masterColors = null;
+		grid.setMastermindColors(masterColors);
+		assertEquals(0, grid.getMastermindColors().length);
 	}
 	
 	/* Tests for Abstract Grid*/
