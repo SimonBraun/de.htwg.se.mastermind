@@ -14,13 +14,15 @@ public class StatusPanel extends JPanel {
 	private static final long serialVersionUID = 1L;
 	private IController controller;
 	private JLabel labelStatus;
+	private final static int WIDTH = 150;
+	private final static int HEIGHT = 150;
 	
 	public StatusPanel(IController controller) {
 		this.controller = controller;
 		labelStatus = new JLabel("Welcome to Mastermind!");
-		this.setMinimumSize(new Dimension(150, 50));
-		this.setPreferredSize(new Dimension(150, 50));
-		this.setMaximumSize(new Dimension(150, 50));
+		this.setMinimumSize(new Dimension(WIDTH, HEIGHT));
+		this.setPreferredSize(new Dimension(WIDTH, HEIGHT));
+		this.setMaximumSize(new Dimension(WIDTH, HEIGHT));
 		Border border = BorderFactory.createTitledBorder("Status");
 		this.setBorder(border);
 		this.add(labelStatus);

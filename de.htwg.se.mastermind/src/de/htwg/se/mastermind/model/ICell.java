@@ -12,10 +12,6 @@ public interface ICell {
 	 * @return
 	 */
 	String getValue();
-	
-	//void setRow(int row);
-	
-	//void setColumn(int column);
 
 	int getRow();
 	

@@ -12,12 +12,14 @@ public class HeadPanel extends JPanel{
 	private static final long serialVersionUID = 1L;
 	private StatusPanel statusPanel;
 	private MastercolorsPanel mastercolorsPanel;
+	private final static int WIDTH = 450;
+	private final static int HEIGHT = 60;
 
 	public HeadPanel(IController controller) {
 		this.setLayout(new GridLayout(0,2));
-		this.setMinimumSize(new Dimension(450, 60));
-		this.setPreferredSize(new Dimension(450, 60));
-		this.setMaximumSize(new Dimension(450, 60));
+		this.setMinimumSize(new Dimension(WIDTH, HEIGHT));
+		this.setPreferredSize(new Dimension(WIDTH, HEIGHT));
+		this.setMaximumSize(new Dimension(WIDTH, HEIGHT));
 		statusPanel = new StatusPanel(controller);
 		mastercolorsPanel = new MastercolorsPanel(controller);
 		this.add(statusPanel);

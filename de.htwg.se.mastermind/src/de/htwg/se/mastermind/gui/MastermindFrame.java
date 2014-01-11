@@ -21,14 +21,14 @@ public class MastermindFrame extends JFrame implements IObserver {
 	private static final int ROWS = 8;
 	private static final int COLUMNS = 8;
 	
-	private IController controller;
 	private JPanel mainPanel;
 	private HeadPanel headPanel;
 	private GameFieldPanel gameFieldPanel;
+	IController controller;
 	
-	public MastermindFrame(final IController controller) {
-		this.controller = controller;
-		controller.addObserver(this);
+	public MastermindFrame(final IController myController) {
+		this.controller = myController;
+		this.controller.addObserver(this);
 
 		JMenuBar menuBar;
 		

@@ -14,12 +14,18 @@ public class MastercolorsPanel extends JPanel {
 	private static final long serialVersionUID = 1L;
 	private IController controller;
 	private String [] masterColors;
+	private static final int WIDTH = 150;
+	private static final int HEIGHT = 50;
+	private static final int XBALLS = 45;
+	private static final int YBALLS = 25;
+	private static final int WIDTHHEIGHTBALLS = 25;
+	private static final int XINCREASE = 30;
 	
 	public MastercolorsPanel(IController controller) {
 		this.controller = controller;
-		this.setMinimumSize(new Dimension(150, 50));
-		this.setPreferredSize(new Dimension(150, 50));
-		this.setMaximumSize(new Dimension(150, 50));
+		this.setMinimumSize(new Dimension(WIDTH, HEIGHT));
+		this.setPreferredSize(new Dimension(WIDTH, HEIGHT));
+		this.setMaximumSize(new Dimension(WIDTH, HEIGHT));
 		this.masterColors = new String[controller.getColumnsAmount()/2];
 		this.initializeArray();
 		this.setBorder(BorderFactory.createTitledBorder("Mastercolors"));
@@ -32,7 +38,7 @@ public class MastercolorsPanel extends JPanel {
 			masterColors = controller.getMastermindColors();
 		}
 		
-		int x = 45, y = 25, width = 20, height = 20, xIncrease = 30;
+		int x = XBALLS, y = YBALLS, width = WIDTHHEIGHTBALLS, height = WIDTHHEIGHTBALLS, xIncrease = XINCREASE;
 		for (int i = masterColors.length - 1; i >= 0; i--) {
 			g.setColor(getColorFromString(masterColors[i]));
 			g.fillOval(x, y, width, height);

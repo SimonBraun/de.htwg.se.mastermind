@@ -12,7 +12,7 @@ import java.util.Scanner;
 import org.apache.log4j.PropertyConfigurator;
 
 
-public class Mastermind {
+public final class Mastermind {
 	
 	private static Mastermind instance;
 	private static Scanner scanner;

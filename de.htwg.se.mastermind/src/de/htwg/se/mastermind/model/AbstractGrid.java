@@ -1,10 +1,14 @@
 package de.htwg.se.mastermind.model;
 
 public abstract class AbstractGrid implements IGrid {
-	Cell [][] cells;
+	public Cell [][] cells;
 	
 	protected int amountOfRows;
 	protected int amountOfColumns;
+	
+	private final static int SPACESAMOUNT = 14;
+	private final static int MINUSAMOUNT = 26;
+	private final static int PLUSINDEX = 12;
 	
 	@Override
 	public String toString() {
@@ -20,17 +24,17 @@ public abstract class AbstractGrid implements IGrid {
 		String newLine = System.getProperty("line.separator");
 		StringBuilder sb = new StringBuilder();
 		
-		for (int i = 0; i < 14; i++) {
+		for (int i = 0; i < SPACESAMOUNT; i++) {
 			sb.append(" ");
 		}
 		sb.append("+");
 		
-		for (int i = 0; i < 13; i++) {
+		for (int i = 0; i < SPACESAMOUNT-1; i++) {
 			sb.append("-");
 		}
 		sb.append("+").append(newLine);
 		
-		for (int i = 0; i < 14; i++) {
+		for (int i = 0; i < SPACESAMOUNT; i++) {
 			sb.append(" ");
 		}
 		sb.append("| ");
@@ -47,10 +51,10 @@ public abstract class AbstractGrid implements IGrid {
 		String newLine = System.getProperty("line.separator");
 		StringBuilder sb = new StringBuilder("+");
 		
-		for (int i = 0; i < 26; i++) {
+		for (int i = 0; i < MINUSAMOUNT; i++) {
 			sb.append("-");
 			
-			if (i == 12) {
+			if (i == PLUSINDEX) {
 				sb.append("+");
 			}
 			
@@ -77,16 +81,16 @@ public abstract class AbstractGrid implements IGrid {
 		
 		sb.append("+");
 		
-		for (int i = 0; i < 26; i++) {
+		for (int i = 0; i < MINUSAMOUNT; i++) {
 			sb.append("-");
 			
-			if (i == 12) {
+			if (i == PLUSINDEX) {
 				sb.append("+");
 			}
 		}
 		sb.append("+" + newLine);
 		
-		for (int i = 0; i < 16; i++) {
+		for (int i = 0; i < SPACESAMOUNT + 2; i++) {
 			sb.append(" ");
 		}
 		
@@ -97,6 +101,5 @@ public abstract class AbstractGrid implements IGrid {
 		sb.append(newLine);
 		
 		return sb.toString();
-		
 	}
 }
