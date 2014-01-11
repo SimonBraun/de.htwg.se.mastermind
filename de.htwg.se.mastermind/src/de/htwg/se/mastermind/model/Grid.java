@@ -22,14 +22,14 @@ public class Grid extends AbstractGrid implements IGrid {
 	@Override
 	public void create(int rows, int columns) {
 		cells = new Cell[rows][columns];
-		amountOfColumns = 0;
+		amountOfColumns = columns;
 		amountOfRows = 0;
 		for (int i = 0; i < rows; i++) {
 			for (int j = 0; j < columns; j++) {
 				cells[i][j] = new Cell(i,j);
 			}
 			amountOfRows++;
-			amountOfColumns++;
+			//amountOfColumns++;
 		}
 	}
 	
@@ -161,7 +161,7 @@ public class Grid extends AbstractGrid implements IGrid {
 	@Override
 	public void showSolution() {
 		for (int i = 0; i < MASTERCOLORS; i++) {
-			this.setCellValue(this.amountOfColumns - 1, i, masterColors[i]);
+			this.setCellValue(this.amountOfRows - 1, i, masterColors[i]);
 		}
 	}
 	
@@ -174,7 +174,7 @@ public class Grid extends AbstractGrid implements IGrid {
 	
 	private void setInvisibleMasterColors() {
 		for (int i = 0; i < MASTERCOLORS; i++) {
-			this.setCellValue(this.amountOfColumns - 1, i, "xx");
+			this.setCellValue(this.amountOfRows - 1, i, "xx");
 		}
 	}
 

@@ -19,8 +19,9 @@ public class GameFieldPanel extends JPanel {
 		
 		@Override
 		public void mouseClicked(MouseEvent m) {
-			if (!controller.isSolved() && controller.getActualRow() != controller.getRowsAmount() - 1)
+			if (!controller.isSolved() && controller.getActualRow() != controller.getRowsAmount() - 1) {
 				setColor(m.getX(), m.getY());
+			}
 		}
 	}
 	
@@ -90,10 +91,11 @@ public class GameFieldPanel extends JPanel {
 	}
 	
 	@Override
-	protected void paintComponent(Graphics g) {
+	public void paintComponent(Graphics g) {
 		super.paintComponent(g);
 		
-		int x = 180, y = 280;
+		int x = 180;
+		int y = getPaintY() + 15;
 		
 		for (int i = 0; i < rows; i++) {
 			for (int j = 0; j < columns; j++) {
@@ -112,7 +114,7 @@ public class GameFieldPanel extends JPanel {
 		}
 		
 		x = xStart;
-		y = yStart;
+		y = getPaintY();
 		
 		for (int i = 0; i < rows ; i++) {
 			for (int j = columns - 1; j >= 0; j--) {
@@ -221,5 +223,26 @@ public class GameFieldPanel extends JPanel {
 				this.sticks[i][j] = Color.gray;
 			}
 		}
+	}
+	
+	public int getPaintY() {
+		
+		switch (this.rows) {
+			case 7:
+				return 265;
+			case 3:
+				return 105;
+			default:
+				return -1;
+		}
+	}
+	
+	public void setRowsAmount(int rows) {
+		this.rows = rows;
+	}
+	
+	public void setYStart() {
+		this.yStartNeu = this.getPaintY();
+		this.buttonConfirmRow.setBounds(20, yStartNeu - 5, 110, 30);
 	}
 }

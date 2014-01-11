@@ -32,11 +32,11 @@ public class MastercolorsPanel extends JPanel {
 			masterColors = controller.getMastermindColors();
 		}
 		
-		int x = 45, y = 25;
+		int x = 45, y = 25, width = 20, height = 20, xIncrease = 30;
 		for (int i = masterColors.length - 1; i >= 0; i--) {
 			g.setColor(getColorFromString(masterColors[i]));
-			g.fillOval(x, y, 20, 20);
-			x += 30;
+			g.fillOval(x, y, width, height);
+			x += xIncrease;
 		}
 	}
 	

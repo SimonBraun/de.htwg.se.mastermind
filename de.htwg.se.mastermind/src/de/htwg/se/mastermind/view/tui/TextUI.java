@@ -14,14 +14,13 @@ public class TextUI implements IObserver {
 	
 	private IController controller;
 	
-	//private StringBuilder sb;
 	private Logger logger = Logger.getLogger("de.htwg.se.mastermind.view.tui");
 	
 	public TextUI(IController controller) {
 		this.controller = controller;
 		this.controller.addObserver(this);
-		//sb = new StringBuilder();
 	}
+	
 	@Override
 	public void update(Event e) {
 		print();
@@ -58,6 +57,11 @@ public class TextUI implements IObserver {
 			controller.setValue(Integer.parseInt(args[0]), Integer.parseInt(args[1]), args[2] + args[3]);
 		}
 		
+		if(input.matches("[z][2-8]")) {
+			String [] args = readToArray(input);
+			controller.create(Integer.parseInt(args[1]), COLUMNS);
+		}
+		
 		return true;
 	}
 	
@@ -78,7 +82,6 @@ public class TextUI implements IObserver {
 		logger.info(newLine + "Available Colors: yl, gr, rd, bl, or, pk, pu");
 		logger.info(newLine + "Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution");
 		logger.info(newLine + "Please enter command: ");
-		//System.out.println(sb.toString());
 	}
 
 }
