@@ -25,7 +25,6 @@ public class TextUITest {
 		controller = new Controller();
 		tui = new TextUI(controller);
 		controller.create(8, 8);
-		//PropertyConfigurator.configure("log4j.properties");
 	}
 	
 	@Test
@@ -39,7 +38,6 @@ public class TextUITest {
 	public void testProcessInputLine2() {
 		tui.processInputLine("n");
 		assertEquals("New game has been created!", controller.getStatusLine());
-		
 	}
 	
 	@Test
@@ -57,5 +55,11 @@ public class TextUITest {
 	public void testProcessInputLine4() {
 		tui.processInputLine("s");
 		assertEquals("The solution of the game:", controller.getStatusLine());
+	}
+	
+	@Test
+	public void testProcessInputLine5() {
+		tui.processInputLine("z4");
+		assertEquals(4, controller.getRowsAmount());
 	}
 }

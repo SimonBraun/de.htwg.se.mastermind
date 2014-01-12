@@ -145,7 +145,7 @@ public class GridTest {
 		assertEquals("wh", grid.getCell(grid.getActualRow(), grid.getColumnsAmount()-1).getValue());
 		assertEquals("wh", grid.getCell(grid.getActualRow(), grid.getColumnsAmount()-2).getValue());
 		assertEquals("wh", grid.getCell(grid.getActualRow(), grid.getColumnsAmount()-3).getValue());
-		assertEquals("wh", grid.getCell(grid.getActualRow(), grid.getColumnsAmount()-4).getValue());
+		assertEquals(null , grid.getCell(grid.getActualRow(), grid.getColumnsAmount()-4).getValue());
 		
 		grid.incrementActualRow();
 		String [] masterColors2 = {"bl", "bl", "bl", "or"};
