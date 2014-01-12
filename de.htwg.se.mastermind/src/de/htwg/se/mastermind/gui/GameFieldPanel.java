@@ -34,7 +34,6 @@ public class GameFieldPanel extends JPanel {
 	private Color actualColor;
 	private String actualStringColor;
 	private JButton buttonConfirmRow;
-	private MouseClick mouseClick;
 	private static final int WIDTH = 200;
 	private static final int HEIGHT = 400;
 	private static final int XSTART = 230;
@@ -46,6 +45,9 @@ public class GameFieldPanel extends JPanel {
 	private static final int HEIGHTBUTTON = 30;
 	private static final int STICKSIZE = 10;
 	private static final int BALLSIZE = 20;
+	private static final int THIRTY = 30;
+	private static final int THREE = 3;
+	private static final int FOUR = 4;
 	private static final int ROWS7 = 7;
 	private static final int ROWS3 = 3;
 	private static final int YROWS3 = 105;
@@ -60,7 +62,7 @@ public class GameFieldPanel extends JPanel {
 		this.setSize(WIDTH, HEIGHT);
 		this.setLayout(null);
 		this.setBorder(BorderFactory.createTitledBorder("GameField"));
-		this.mouseClick = new MouseClick();
+		MouseClick mouseClick = new MouseClick();
 		this.addMouseListener(mouseClick);
 		this.addMouseMotionListener(mouseClick);
 		this.actualColor = Color.gray;
@@ -81,8 +83,9 @@ public class GameFieldPanel extends JPanel {
 		            			sticks[actualRow][index] = getStickColor(stickValues[index]);
 		            			index++;
                 			}	
-                		} else
+                		} else {
                 			break;
+                		}
                 	}
                 	
                 	if (!controller.isSolved() && controller.getActualRow() != controller.getRowsAmount() - 1) {
@@ -90,8 +93,9 @@ public class GameFieldPanel extends JPanel {
 		            	int newButtonY = buttonConfirmRow.getY();
 		            	newButtonY -= HEIGHTBUTTON + STICKSIZE;
 		            	buttonConfirmRow.setBounds(XBUTTON, newButtonY, WIDTHBUTTON, HEIGHTBUTTON);
-                	} else 
+                	} else {
                 		buttonConfirmRow.setEnabled(false);
+                	}
                 }
             }
         });
@@ -141,12 +145,12 @@ public class GameFieldPanel extends JPanel {
 		int column = 0;
 		if (x >= XSTART && x <= XSTART + BALLSIZE && y >= yStartNeu && y <= yStartNeu + BALLSIZE) {
 			this.setColor(column + 1);
-		} else if (x >= XSTART + 30 && x <= XSTART + 50 && y >= yStartNeu && y <= yStartNeu + BALLSIZE) {
+		} else if (x >= XSTART + THIRTY && x <= XSTART + BALLSIZE + THIRTY && y >= yStartNeu && y <= yStartNeu + BALLSIZE) {
 			this.setColor(column + 2);
-		} else if (x >= XSTART + 60 && x <= XSTART + 80 && y >= yStartNeu && y <= yStartNeu + BALLSIZE) {
-			this.setColor(column + 3);
-		} else if (x >= XSTART + 90 && x <= XSTART + 110 && y >= yStartNeu && y <= yStartNeu + BALLSIZE) {
-			this.setColor(column + 4);
+		} else if (x >= XSTART + THIRTY*2 && x <= XSTART + BALLSIZE + THIRTY*2 && y >= yStartNeu && y <= yStartNeu + BALLSIZE) {
+			this.setColor(column + THREE);
+		} else if (x >= XSTART + THIRTY * THREE && x <= XSTART + BALLSIZE + THIRTY*3 && y >= yStartNeu && y <= yStartNeu + BALLSIZE) {
+			this.setColor(column + FOUR);
 		}
 	}
 	

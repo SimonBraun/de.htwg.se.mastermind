@@ -54,7 +54,7 @@ public class TextUI implements IObserver {
 		
 		if(input.matches("[0-9][0-9][a-z][a-z]")) {
 			String [] args = readToArray(input);
-			controller.setValue(Integer.parseInt(args[0]), Integer.parseInt(args[1]), args[2] + args[3]);
+			controller.setValue(Integer.parseInt(args[0]), Integer.parseInt(args[1]), args[2] + args[2+1]);
 		}
 		
 		if(input.matches("[z][2-8]")) {

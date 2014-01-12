@@ -5,9 +5,9 @@ public abstract class AbstractGrid implements IGrid {
 	private int amountOfRows;
 	private int amountOfColumns;
 	
-	private final static int SPACESAMOUNT = 14;
-	private final static int MINUSAMOUNT = 26;
-	private final static int PLUSINDEX = 12;
+	private static final int SPACESAMOUNT = 14;
+	private static final int MINUSAMOUNT = 26;
+	private static final int PLUSINDEX = 12;
 	
 	@Override
 	public String toString() {

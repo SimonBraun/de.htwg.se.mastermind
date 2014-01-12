@@ -8,8 +8,8 @@ import javax.swing.border.Border;
 public class MainPanel extends JPanel {
 
 	private static final long serialVersionUID = 1L;
-	private final static int DEFAULT_X = 500;
-	private final static int DEFAULT_Y = 600;
+	private static final int DEFAULT_X = 500;
+	private static final int DEFAULT_Y = 600;
 	
 	public MainPanel() {
 		this.setLayout(new BoxLayout(this, BoxLayout.PAGE_AXIS));
