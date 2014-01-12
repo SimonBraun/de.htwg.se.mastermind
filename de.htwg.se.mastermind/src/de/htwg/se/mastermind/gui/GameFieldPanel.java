@@ -149,7 +149,7 @@ public class GameFieldPanel extends JPanel {
 			this.setColor(column + 2);
 		} else if (x >= XSTART + THIRTY*2 && x <= XSTART + BALLSIZE + THIRTY*2 && y >= yStartNeu && y <= yStartNeu + BALLSIZE) {
 			this.setColor(column + THREE);
-		} else if (x >= XSTART + THIRTY * THREE && x <= XSTART + BALLSIZE + THIRTY*3 && y >= yStartNeu && y <= yStartNeu + BALLSIZE) {
+		} else if (x >= XSTART + THIRTY * THREE && x <= XSTART + BALLSIZE + THIRTY*THREE && y >= yStartNeu && y <= yStartNeu + BALLSIZE) {
 			this.setColor(column + FOUR);
 		}
 	}
