@@ -3,11 +3,13 @@ package de.htwg.se.mastermind.controller;
 import de.htwg.se.mastermind.observer.Observable;
 import de.htwg.se.mastermind.model.IGrid;
 import de.htwg.se.mastermind.model.Grid;
+import de.htwg.se.mastermind.observer.Event;
 
 public class Controller extends Observable implements IController {
 	
 	private IGrid grid;
 	private String statusLine = "Welcome to Mastermind!!!";
+	private static final int COLUMNS = 8;
 
 	@Override
 	public void create(int rows, int columns) {
@@ -107,5 +109,12 @@ public class Controller extends Observable implements IController {
 	@Override
 	public boolean isSolved() {
 		return this.grid.isSolved();
+	}
+
+	@Override
+	public void resetSize(int rows) {
+		this.grid = new Grid(rows, COLUMNS);
+		Event event = new SizeChangedEvent();
+		notifyObservers(event);
 	}
 }

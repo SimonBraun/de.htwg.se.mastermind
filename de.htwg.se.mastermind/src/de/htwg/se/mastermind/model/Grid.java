@@ -10,6 +10,9 @@ public class Grid extends AbstractGrid implements IGrid {
 	private final String [] availableColors = {"rd", "bl", "gr", "yl", "or", "pu", "pk"};
 	private String [] masterColors;
 	private String [] settedColors;
+	private int amountOfRows;
+	private int amountOfColumns;
+	private Cell [][] cells;
 	
 	public Grid(int rows, int columns) {
 		this.create(rows, columns);

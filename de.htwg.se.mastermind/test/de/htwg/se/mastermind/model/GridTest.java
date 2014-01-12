@@ -21,34 +21,34 @@ public class GridTest {
 	@Test
 	public void testCreate() {
 		grid.create(8, 8);
-		assertFalse(grid.cells[0][0].equals(null));
+		assertFalse(grid.getCell(0, 0).equals(null));
 	}
 	
 	@Test
 	public void testGetRow() {
-		assertEquals(0, grid.cells[0][0].getRow());
-		assertEquals(1, grid.cells[1][0].getRow());
-		assertEquals(1, grid.cells[1][1].getRow());
+		assertEquals(0, grid.getCell(0, 0).getRow());
+		assertEquals(1, grid.getCell(1, 0).getRow());
+		assertEquals(1, grid.getCell(1, 1).getRow());
 	}
 	
-	@Test
+	/*@Test
 	public void testSetRow() {
-		grid.cells[0][0].setRow(4);
-		assertEquals(4, grid.cells[0][0].getRow());
-	}
+		grid.getCell(0, 0).setRow(4);
+		assertEquals(4, grid.getCell(0, 0).getRow());
+	}*/
 	
 	@Test
 	public void testGetColumn() {
-		assertEquals(0, grid.cells[0][0].getColumn());
-		assertEquals(1, grid.cells[0][1].getColumn());
-		assertEquals(1, grid.cells[1][1].getColumn());
+		assertEquals(0, grid.getCell(0, 0).getColumn());
+		assertEquals(1, grid.getCell(0, 1).getColumn());
+		assertEquals(1, grid.getCell(1, 1).getColumn());
 	}
 	
-	@Test
+	/*@Test
 	public void testSetColumn() {
-		grid.cells[0][0].setColumn(8);
+		grid.getCell(0, 0).setColumn(8);
 		assertEquals(8, grid.cells[0][0].getColumn());
-	}
+	}*/
 	
 	@Test
 	public void testGetRowValue() {
@@ -70,7 +70,7 @@ public class GridTest {
 	
 	@Test
 	public void testGetICell() {
-		assertEquals(grid.cells[0][0], grid.getCell(0, 0));
+		assertEquals(grid.getCell(0, 0), grid.getCell(0, 0));
 	}
 	
 	@Test
@@ -83,13 +83,13 @@ public class GridTest {
 	@Test
 	public void rowIsSet() {
 		assertEquals(false, grid.rowIsSet());
-		grid.cells[0][0].setValue("yl");
+		grid.getCell(0, 0).setValue("yl");
 		assertEquals(false, grid.rowIsSet());
-		grid.cells[0][1].setValue("yl");
+		grid.getCell(0, 1).setValue("yl");
 		assertEquals(false, grid.rowIsSet());
-		grid.cells[0][2].setValue("yl");
+		grid.getCell(0, 2).setValue("yl");
 		assertEquals(false, grid.rowIsSet());
-		grid.cells[0][3].setValue("yl");
+		grid.getCell(0, 3).setValue("yl");
 		assertEquals(true, grid.rowIsSet());
 	}
 	
@@ -112,10 +112,10 @@ public class GridTest {
 		
 		String [] masterColors = {"yl", "yl", "yl", "or"};
 		grid.setMastermindColors(masterColors);
-		grid.cells[grid.getActualRow()][0].setValue("yl");
-		grid.cells[grid.getActualRow()][1].setValue("yl");
-		grid.cells[grid.getActualRow()][2].setValue("yl");
-		grid.cells[grid.getActualRow()][3].setValue("yl");
+		grid.getCell(grid.getActualRow(), 0).setValue("yl");
+		grid.getCell(grid.getActualRow(), 1).setValue("yl");
+		grid.getCell(grid.getActualRow(), 2).setValue("yl");
+		grid.getCell(grid.getActualRow(), 3).setValue("yl");
 		assertTrue(grid.rowIsSet());
 		assertEquals(false, grid.isSolved());
 		
@@ -133,37 +133,37 @@ public class GridTest {
 	@Test
 	public void testSetSticks() {
 		assertFalse(grid.rowIsSet());
-		grid.cells[grid.getActualRow()][0].setValue("yl");
-		grid.cells[grid.getActualRow()][1].setValue("bl");
-		grid.cells[grid.getActualRow()][2].setValue("rd");
-		grid.cells[grid.getActualRow()][3].setValue("gr");
+		grid.getCell(grid.getActualRow(), 0).setValue("yl");
+		grid.getCell(grid.getActualRow(), 1).setValue("bl");
+		grid.getCell(grid.getActualRow(), 2).setValue("rd");
+		grid.getCell(grid.getActualRow(), 3).setValue("gr");
 		assertTrue(grid.rowIsSet());
 
 		String [] masterColors = {"bl", "rd", "gr", "rd"};
 		grid.setMastermindColors(masterColors);
 		grid.setSticks();
-		assertEquals("wh", grid.cells[grid.getActualRow()][grid.amountOfColumns-1].getValue());
-		assertEquals("wh", grid.cells[grid.getActualRow()][grid.amountOfColumns-2].getValue());
-		assertEquals("wh", grid.cells[grid.getActualRow()][grid.amountOfColumns-3].getValue());
-		assertEquals(null, grid.cells[grid.getActualRow()][grid.amountOfColumns-4].getValue());
+		assertEquals("wh", grid.getCell(grid.getActualRow(), grid.getColumnsAmount()-1).getValue());
+		assertEquals("wh", grid.getCell(grid.getActualRow(), grid.getColumnsAmount()-2).getValue());
+		assertEquals("wh", grid.getCell(grid.getActualRow(), grid.getColumnsAmount()-3).getValue());
+		assertEquals("wh", grid.getCell(grid.getActualRow(), grid.getColumnsAmount()-4).getValue());
 		
 		grid.incrementActualRow();
 		String [] masterColors2 = {"bl", "bl", "bl", "or"};
 		grid.setMastermindColors(masterColors2);
 		grid.setSticks();
-		assertEquals("bk", grid.cells[grid.getActualRow()][grid.amountOfColumns-1].getValue());
-		assertEquals(null, grid.cells[grid.getActualRow()][grid.amountOfColumns-2].getValue());
-		assertEquals(null, grid.cells[grid.getActualRow()][grid.amountOfColumns-3].getValue());
-		assertEquals(null, grid.cells[grid.getActualRow()][grid.amountOfColumns-4].getValue());
+		assertEquals("bk", grid.getCell(grid.getActualRow(), grid.getColumnsAmount()-1).getValue());
+		assertEquals(null, grid.getCell(grid.getActualRow(), grid.getColumnsAmount()-2).getValue());
+		assertEquals(null, grid.getCell(grid.getActualRow(), grid.getColumnsAmount()-3).getValue());
+		assertEquals(null, grid.getCell(grid.getActualRow(), grid.getColumnsAmount()-4).getValue());
 		
 		grid = new Grid(8,8);
 		grid.solve();
 		grid.setSticks();
-		assertEquals("bk", grid.cells[grid.getActualRow()][grid.amountOfColumns-1].getValue());
-		assertEquals("bk", grid.cells[grid.getActualRow()][grid.amountOfColumns-2].getValue());
-		assertEquals("bk", grid.cells[grid.getActualRow()][grid.amountOfColumns-3].getValue());
-		assertEquals("bk", grid.cells[grid.getActualRow()][grid.amountOfColumns-4].getValue());
-		assertFalse(grid.cells[grid.getActualRow()][grid.amountOfColumns-1].getValue().equals("wh"));
+		assertEquals("bk", grid.getCell(grid.getActualRow(), grid.getColumnsAmount()-1).getValue());
+		assertEquals("bk", grid.getCell(grid.getActualRow(), grid.getColumnsAmount()-2).getValue());
+		assertEquals("bk", grid.getCell(grid.getActualRow(), grid.getColumnsAmount()-3).getValue());
+		assertEquals("bk", grid.getCell(grid.getActualRow(), grid.getColumnsAmount()-4).getValue());
+		assertFalse(grid.getCell(grid.getActualRow(), grid.getColumnsAmount()-1).getValue().equals("wh"));
 		
 	}
 	
@@ -213,7 +213,5 @@ public class GridTest {
 		assertEquals("or", availableColors[4]);
 		assertEquals("pu", availableColors[5]);
 		assertEquals("pk", availableColors[6]);
-	}
-	
-	 
+	} 
 }

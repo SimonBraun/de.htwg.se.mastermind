@@ -1,10 +1,9 @@
 package de.htwg.se.mastermind.model;
 
 public abstract class AbstractGrid implements IGrid {
-	public Cell [][] cells;
 	
-	protected int amountOfRows;
-	protected int amountOfColumns;
+	private int amountOfRows;
+	private int amountOfColumns;
 	
 	private final static int SPACESAMOUNT = 14;
 	private final static int MINUSAMOUNT = 26;
@@ -12,6 +11,8 @@ public abstract class AbstractGrid implements IGrid {
 	
 	@Override
 	public String toString() {
+		amountOfRows = getRowsAmount();
+		amountOfColumns = getColumnsAmount();
 		StringBuilder sb = new StringBuilder();
 		String masterBox = masterBox();
 		String gameField = gameField();
@@ -21,6 +22,8 @@ public abstract class AbstractGrid implements IGrid {
 	}
 	
 	public String masterBox() {
+		amountOfRows = getRowsAmount();
+		amountOfColumns = getColumnsAmount();
 		String newLine = System.getProperty("line.separator");
 		StringBuilder sb = new StringBuilder();
 		
@@ -48,6 +51,8 @@ public abstract class AbstractGrid implements IGrid {
 	}
 	
 	public String gameField() {
+		amountOfRows = getRowsAmount();
+		amountOfColumns = getColumnsAmount();
 		String newLine = System.getProperty("line.separator");
 		StringBuilder sb = new StringBuilder("+");
 		

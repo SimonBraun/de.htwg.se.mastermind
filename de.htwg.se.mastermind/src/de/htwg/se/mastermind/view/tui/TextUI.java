@@ -59,7 +59,7 @@ public class TextUI implements IObserver {
 		
 		if(input.matches("[z][2-8]")) {
 			String [] args = readToArray(input);
-			controller.create(Integer.parseInt(args[1]), COLUMNS);
+			controller.resetSize(Integer.parseInt(args[1]));
 		}
 		
 		return true;

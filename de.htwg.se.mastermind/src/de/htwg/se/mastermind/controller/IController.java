@@ -90,4 +90,10 @@ public interface IController extends IObservable {
 	 * @return true/false
 	 */
 	boolean isSolved();
+	
+	/**
+	 * Sets the size of the game
+	 * @param rows
+	 */
+	void resetSize(int rows);
 }
