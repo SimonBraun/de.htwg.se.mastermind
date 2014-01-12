@@ -31,24 +31,12 @@ public class GridTest {
 		assertEquals(1, grid.getCell(1, 1).getRow());
 	}
 	
-	/*@Test
-	public void testSetRow() {
-		grid.getCell(0, 0).setRow(4);
-		assertEquals(4, grid.getCell(0, 0).getRow());
-	}*/
-	
 	@Test
 	public void testGetColumn() {
 		assertEquals(0, grid.getCell(0, 0).getColumn());
 		assertEquals(1, grid.getCell(0, 1).getColumn());
 		assertEquals(1, grid.getCell(1, 1).getColumn());
 	}
-	
-	/*@Test
-	public void testSetColumn() {
-		grid.getCell(0, 0).setColumn(8);
-		assertEquals(8, grid.cells[0][0].getColumn());
-	}*/
 	
 	@Test
 	public void testGetRowValue() {
@@ -175,10 +163,6 @@ public class GridTest {
 		assertEquals("rd", grid.getMastermindColors()[1]);
 		assertEquals("gr", grid.getMastermindColors()[2]);
 		assertEquals("bl", grid.getMastermindColors()[3]);
-		
-		masterColors = null;
-		grid.setMastermindColors(masterColors);
-		assertEquals(0, grid.getMastermindColors().length);
 	}
 	
 	/* Tests for Abstract Grid*/

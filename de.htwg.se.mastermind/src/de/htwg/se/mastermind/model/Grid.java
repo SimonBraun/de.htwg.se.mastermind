@@ -180,11 +180,7 @@ public class Grid extends AbstractGrid implements IGrid {
 
 	@Override
 	public void setMastermindColors(String[] masterColors) {
-		if(masterColors == null) { 
-			this.masterColors = new String[0]; 
-		} else {
-			this.masterColors = Arrays.copyOf(masterColors, masterColors.length); 
-		}
+		System.arraycopy(masterColors, 0, this.masterColors, 0, masterColors.length);
 	}
 	
 	@Override
