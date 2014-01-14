@@ -1,4 +1,4 @@
-package de.htwg.se.mastermind.gui;
+package de.htwg.se.mastermind.view.gui;
 
 import static org.junit.Assert.assertEquals;
 
@@ -7,6 +7,7 @@ import org.junit.Test;
 
 import de.htwg.se.mastermind.controller.Controller;
 import de.htwg.se.mastermind.controller.IController;
+import de.htwg.se.mastermind.view.gui.StatusPanel;
 
 public class StatusPanelTest {
 	

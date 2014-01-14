@@ -1,4 +1,4 @@
-package de.htwg.se.mastermind.gui;
+package de.htwg.se.mastermind.view.gui;
 
 import javax.swing.BorderFactory;
 import javax.swing.BoxLayout;
