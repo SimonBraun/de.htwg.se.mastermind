@@ -91,7 +91,7 @@ public class Controller extends Observable implements IController {
 
 	@Override
 	public void showSolution() {
-		statusLine = "Solution Showed";
+		statusLine = "Solution is shown";
 		this.grid.showSolution();
 		notifyObservers();
 	}

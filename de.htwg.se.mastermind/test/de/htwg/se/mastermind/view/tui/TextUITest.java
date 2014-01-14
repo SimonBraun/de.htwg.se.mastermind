@@ -54,7 +54,7 @@ public class TextUITest {
 	@Test
 	public void testProcessInputLine4() {
 		tui.processInputLine("s");
-		assertEquals("The solution of the game:", controller.getStatusLine());
+		assertEquals("Solution is shown", controller.getStatusLine());
 	}
 	
 	@Test
