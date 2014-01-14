@@ -218,7 +218,7 @@ public class GameFieldPanel extends JPanel {
 	
 	public void setStandard() {
 		this.yStartNeu = getPaintY();
-		this.buttonConfirmRow.setBounds(XBUTTON, yStartNeu - YBUTTONDIFF, WIDTHBUTTON, HEIGHTBUTTON);
+		//this.setYStart();
 		this.buttonConfirmRow.setEnabled(true);
 		this.initializeArrays();
 	}

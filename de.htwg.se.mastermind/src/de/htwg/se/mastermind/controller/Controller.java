@@ -39,6 +39,10 @@ public class Controller extends Observable implements IController {
 			notifyObservers();
 			return true;
 		}
+		
+		this.setRowConfirmed(false);
+		statusLine = "Row [" + this.grid.getActualRow() + "] not confirmed!";
+		notifyObservers();
 		return false;
 	}
 	
@@ -87,7 +91,7 @@ public class Controller extends Observable implements IController {
 
 	@Override
 	public void showSolution() {
-		statusLine = "The solution of the game:";
+		statusLine = "Solution Showed";
 		this.grid.showSolution();
 		notifyObservers();
 	}

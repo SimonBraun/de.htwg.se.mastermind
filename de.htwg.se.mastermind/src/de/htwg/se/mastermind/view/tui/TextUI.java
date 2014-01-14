@@ -8,8 +8,6 @@ import org.apache.log4j.Logger;
 
 public class TextUI implements IObserver {
 
-	private static final int ROWS=8;
-	private static final int COLUMNS=8;
 	private String newLine = System.getProperty("line.separator");
 	
 	private IController controller;
@@ -37,7 +35,8 @@ public class TextUI implements IObserver {
 		for (int i = 0; i < inputChar.length; i++) {
 			switch(inputChar[i]) {
 				case 'n':
-					controller.create(ROWS, COLUMNS);
+					int rowsAmount = controller.getRowsAmount();
+					controller.resetSize(rowsAmount);
 					break;
 					
 				case 'q':
@@ -89,5 +88,4 @@ public class TextUI implements IObserver {
 		logger.info(newLine + "Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution, zn-sets the size");
 		logger.info(newLine + "Please enter command: ");
 	}
-
 }

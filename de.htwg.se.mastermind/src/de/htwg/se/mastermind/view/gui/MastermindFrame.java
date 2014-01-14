@@ -56,7 +56,12 @@ public class MastermindFrame extends JFrame implements IObserver {
 		newMenuItem = new JMenuItem("New");
 		newMenuItem.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent event) {
-				controller.create(controller.getRowsAmount(), COLUMNS);
+				int rowsAmount = controller.getRowsAmount();
+				controller.create(rowsAmount, COLUMNS);
+				gameFieldPanel.setStandard();
+				gameFieldPanel.setRowsAmount(rowsAmount - 1);
+				gameFieldPanel.setYStart();
+				headPanel.setStandard();
 			}
 		});
 		
@@ -175,8 +180,8 @@ public class MastermindFrame extends JFrame implements IObserver {
 		this.headPanel.setStatus();
 		
 		if(controller.getIsNewGame()) {
-			gameFieldPanel.setStandard();
 			headPanel.setStandard();
+			gameFieldPanel.setStandard();
 			controller.setIsNewGame(false);
 		}
 		
