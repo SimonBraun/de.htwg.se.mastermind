@@ -21,6 +21,9 @@ public class MastermindFrame extends JFrame implements IObserver {
 	private static final int DEFAULT_X = 380;
 	private static final int ROWS = 8;
 	private static final int COLUMNS = 8;
+	private static final int ROWS12 = 12;
+	private static final int ROWS4 = 4;
+	private static final int HEIGHT12 = 600;
 	private static final int HEIGHT4 = 270;
 	
 	private JPanel mainPanel;
@@ -32,11 +35,10 @@ public class MastermindFrame extends JFrame implements IObserver {
 		this.controller = myController;
 		this.controller.addObserver(this);
 		
-
 		JMenuBar menuBar;
 		
 		JMenu fileMenu, optionsMenu;
-		JMenuItem newMenuItem, exitMenuItem, setSize8MenuItem, setSize4MenuItem;
+		JMenuItem newMenuItem, exitMenuItem, showSolutionMenuItem, setSize12MenuItem, setSize8MenuItem, setSize4MenuItem;
 		
 		this.setTitle("Mastermind");
 		this.setDefaultCloseOperation(EXIT_ON_CLOSE);
@@ -55,8 +57,6 @@ public class MastermindFrame extends JFrame implements IObserver {
 		newMenuItem.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent event) {
 				controller.create(controller.getRowsAmount(), COLUMNS);
-				gameFieldPanel.setStandard();
-				headPanel.setStandard();
 			}
 		});
 		
@@ -75,6 +75,29 @@ public class MastermindFrame extends JFrame implements IObserver {
 		 */
 		optionsMenu = new JMenu("Options");
 		
+		showSolutionMenuItem = new JMenuItem("Show Solution");
+		showSolutionMenuItem.addActionListener(new ActionListener() {
+			
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				controller.showSolution();
+			}
+		});
+		
+		setSize12MenuItem = new JMenuItem("Set size 12*8");
+		setSize12MenuItem.addActionListener(new ActionListener() {
+			
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				controller.resetSize(ROWS12);
+				gameFieldPanel.setStandard();
+				gameFieldPanel.setRowsAmount(ROWS12 - 1);
+				gameFieldPanel.setYStart();
+				headPanel.setStandard();
+				setHeight(ROWS12);
+			}
+		});
+		
 		setSize8MenuItem = new JMenuItem("Set size 8*8");
 		setSize8MenuItem.addActionListener(new ActionListener() {
 			
@@ -85,7 +108,7 @@ public class MastermindFrame extends JFrame implements IObserver {
 				gameFieldPanel.setRowsAmount(ROWS - 1);
 				gameFieldPanel.setYStart();
 				headPanel.setStandard();
-				setHeight(DEFAULT_Y);
+				setHeight(ROWS);
 			}
 		});
 		
@@ -94,15 +117,18 @@ public class MastermindFrame extends JFrame implements IObserver {
 			
 			@Override
 			public void actionPerformed(ActionEvent e) {
-				controller.resetSize(ROWS/2);
+				controller.resetSize(ROWS4);
 				gameFieldPanel.setStandard();
-				gameFieldPanel.setRowsAmount(ROWS/2 - 1);
+				gameFieldPanel.setRowsAmount(ROWS4 - 1);
 				gameFieldPanel.setYStart();
 				headPanel.setStandard();
-				setHeight(HEIGHT4);
+				setHeight(ROWS4);
 			}
 		});
 		
+		optionsMenu.add(showSolutionMenuItem);
+		optionsMenu.addSeparator();
+		optionsMenu.add(setSize12MenuItem);
 		optionsMenu.add(setSize8MenuItem);
 		optionsMenu.add(setSize4MenuItem);
 		
@@ -119,7 +145,6 @@ public class MastermindFrame extends JFrame implements IObserver {
 		this.setJMenuBar(menuBar);
 		this.setLocationRelativeTo(null);
 		this.setVisible(true);
-		
 	}
 	
 	public final void constructMastermindPanel(IController controller) {
@@ -135,10 +160,11 @@ public class MastermindFrame extends JFrame implements IObserver {
 		}
 		gameFieldPanel = new GameFieldPanel(controller);
 		gameFieldPanel.setStandard();
-		gameFieldPanel.setRowsAmount(ROWS/2 - 1);
+		int rowsAmount = controller.getRowsAmount();
+		gameFieldPanel.setRowsAmount(rowsAmount - 1);
 		gameFieldPanel.setYStart();
 		headPanel.setStandard();
-		this.setHeight(HEIGHT4);
+		this.setHeight(rowsAmount);
 		mainPanel.add(gameFieldPanel);
 		setVisible(true);
 		repaint();
@@ -147,13 +173,30 @@ public class MastermindFrame extends JFrame implements IObserver {
 	@Override
 	public void update(Event e) {
 		this.headPanel.setStatus();
+		
+		if(controller.getIsNewGame()) {
+			gameFieldPanel.setStandard();
+			headPanel.setStandard();
+			controller.setIsNewGame(false);
+		}
+		
 		if (e instanceof SizeChangedEvent) {
 			constructMastermindPanel(controller);
 		}
 		this.repaint();
 	}
 	
-	public void setHeight(int size) {
-		this.setSize(DEFAULT_X, size);
+	public void setHeight(int rowsAmount) {
+		switch (rowsAmount) {
+			case ROWS12:
+				this.setSize(DEFAULT_X, HEIGHT12);
+				break;
+			case ROWS:
+				this.setSize(DEFAULT_X, DEFAULT_Y);
+				break;
+			case ROWS4:
+				this.setSize(DEFAULT_X, HEIGHT4);
+				break;
+		}
 	}
 }

@@ -107,4 +107,18 @@ public class ControllerTest {
 		assertEquals("pu", availableColors[5]);
 		assertEquals("pk", availableColors[6]);
 	}
+	
+	@Test
+	public void testSetShowSolution() {
+		assertEquals(false, controller.getShowSolution());
+		controller.setShowSolution(true);
+		assertEquals(true, controller.getShowSolution());
+	}
+	
+	@Test
+	public void testGetIsNewGame() {
+		assertEquals(true, controller.getIsNewGame());
+		controller.setIsNewGame(false);
+		assertEquals(false, controller.getIsNewGame());
+	}
 }

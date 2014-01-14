@@ -21,6 +21,7 @@ public class Controller extends Observable implements IController {
 	@Override
 	public boolean confirmRow() {
 		if (this.grid.rowIsSet()) {
+			this.setRowConfirmed(true);
 			statusLine = "Row [" + this.grid.getActualRow() + "] confirmed!";
 			this.grid.setSticks();
 			
@@ -116,5 +117,35 @@ public class Controller extends Observable implements IController {
 		this.grid = new Grid(rows, COLUMNS);
 		Event event = new SizeChangedEvent();
 		notifyObservers(event);
+	}
+	
+	@Override
+	public boolean getShowSolution() {
+		return this.grid.getShowSolution();
+	}
+
+	@Override
+	public void setShowSolution(boolean value) {
+		this.grid.setShowSolution(value);
+	}
+
+	@Override
+	public boolean getRowConfirmed() {
+		return this.grid.getRowConfirmed();
+	}
+
+	@Override
+	public void setRowConfirmed(boolean value) {
+		this.grid.setRowConfirmed(value);
+	}
+
+	@Override
+	public boolean getIsNewGame() {
+		return this.grid.getIsNewGame();
+	}
+
+	@Override
+	public void setIsNewGame(boolean value) {
+		this.grid.setIsNewGame(value);
 	}
 }

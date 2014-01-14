@@ -48,8 +48,10 @@ public class GameFieldPanel extends JPanel {
 	private static final int THIRTY = 30;
 	private static final int THREE = 3;
 	private static final int FOUR = 4;
+	private static final int ROWS11 = 11;
 	private static final int ROWS7 = 7;
 	private static final int ROWS3 = 3;
+	private static final int YROWS11 = 425;
 	private static final int YROWS3 = 105;
 	private int yStartNeu = YSTART;
 	
@@ -67,6 +69,7 @@ public class GameFieldPanel extends JPanel {
 		this.addMouseMotionListener(mouseClick);
 		this.actualColor = Color.gray;
 		this.actualStringColor = null;
+		this.initializeArrays();
 		this.buttonConfirmRow = new JButton("Confirm Row");
 		this.buttonConfirmRow.setBounds(XBUTTON, yStartNeu - YBUTTONDIFF, WIDTHBUTTON, HEIGHTBUTTON);
 		this.buttonConfirmRow.addActionListener(new ActionListener() {
@@ -86,27 +89,21 @@ public class GameFieldPanel extends JPanel {
                 		} else {
                 			break;
                 		}
-                	}
-                	
-                	if (!controller.isSolved() && controller.getActualRow() != controller.getRowsAmount() - 1) {
-		            	yStartNeu -= HEIGHTBUTTON + STICKSIZE;
-		            	int newButtonY = buttonConfirmRow.getY();
-		            	newButtonY -= HEIGHTBUTTON + STICKSIZE;
-		            	buttonConfirmRow.setBounds(XBUTTON, newButtonY, WIDTHBUTTON, HEIGHTBUTTON);
-                	} else {
-                		buttonConfirmRow.setEnabled(false);
-                	}
+                	}              	
+                	controller.setRowConfirmed(true);
                 }
             }
         });
 		
-		this.initializeArrays();
 		this.add(buttonConfirmRow);
 	}
 	
 	@Override
 	public void paintComponent(Graphics g) {
 		super.paintComponent(g);
+		
+		this.setColorsAndSticks();
+		this.setNewButtonLocation();
 		
 		int x = XSTARTSTICK;
 		int y = getPaintY() + STICKSIZE + YBUTTONDIFF;
@@ -207,6 +204,11 @@ public class GameFieldPanel extends JPanel {
 	}
 	
 	public Color getStickColor(String stickColor) {
+
+		if (stickColor == null) {
+			return Color.gray;
+		}
+		
 		if (stickColor.equals("bk")) {
 			return Color.black;
 		} else {
@@ -219,7 +221,6 @@ public class GameFieldPanel extends JPanel {
 		this.buttonConfirmRow.setBounds(XBUTTON, yStartNeu - YBUTTONDIFF, WIDTHBUTTON, HEIGHTBUTTON);
 		this.buttonConfirmRow.setEnabled(true);
 		this.initializeArrays();
-		
 	}
 	
 	private void initializeArrays() {
@@ -239,6 +240,8 @@ public class GameFieldPanel extends JPanel {
 	public int getPaintY() {
 		
 		switch (this.rows) {
+			case ROWS11:
+				return YROWS11;
 			case ROWS7:
 				return YSTART;
 			case ROWS3:
@@ -255,5 +258,73 @@ public class GameFieldPanel extends JPanel {
 	public void setYStart() {
 		this.yStartNeu = this.getPaintY();
 		this.buttonConfirmRow.setBounds(XBUTTON, yStartNeu - YBUTTONDIFF, WIDTHBUTTON, HEIGHTBUTTON);
+	}
+	
+	private void setColorsAndSticks() {
+		for (int i = 0; i < rows; i++) {
+			for (int j = 0; j < columns; j++) {
+				this.colors[i][j] = getColorFromString(controller.getValue(i, j));
+			}
+		}
+	
+		for (int i = 0; i < rows; i++) {
+			int columnsAmount = controller.getColumnsAmount();
+			for (int j = 0; j < columns; j++) {
+				this.sticks[i][j] = getStickColor(controller.getValue(i, columnsAmount - 1));
+				columnsAmount--;
+			}
+		}
+	}
+	
+	public Color getColorFromString(String color) {
+		
+		if (color == null) {
+			return Color.gray;
+		}
+		
+		if (color.equals("yl")) {
+			return Color.yellow;
+		}
+		
+		if (color.equals("bl")) {
+			return Color.blue;
+		}
+		
+		if (color.equals("rd")) {
+			return Color.red;
+		}
+		
+		if (color.equals("gr")) {
+			return Color.green;
+		}
+		
+		if (color.equals("or")) {
+			return Color.orange;
+		}
+		
+		if (color.equals("pk")) {
+			return Color.pink;
+		}
+		
+		if (color.equals("pu")) {
+			return Color.magenta;
+		}
+		
+		return null;
+	}
+	
+	private void setNewButtonLocation() {
+		boolean rowConfirmed = controller.getRowConfirmed();
+		if (rowConfirmed) {
+			if (!controller.isSolved() && controller.getActualRow() != controller.getRowsAmount() - 1) {
+		    	yStartNeu -= HEIGHTBUTTON + STICKSIZE;
+		    	int newButtonY = buttonConfirmRow.getY();
+		    	newButtonY -= HEIGHTBUTTON + STICKSIZE;
+		    	buttonConfirmRow.setBounds(XBUTTON, newButtonY, WIDTHBUTTON, HEIGHTBUTTON);
+			} else {
+				buttonConfirmRow.setEnabled(false);
+			}
+			controller.setRowConfirmed(false);
+		}
 	}
 }

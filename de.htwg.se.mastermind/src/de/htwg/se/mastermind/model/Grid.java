@@ -13,6 +13,9 @@ public class Grid extends AbstractGrid implements IGrid {
 	private int amountOfRows;
 	private int amountOfColumns;
 	private Cell [][] cells;
+	private boolean showSolution;
+	private boolean rowConfirmed;
+	private boolean isNewGame;
 	
 	public Grid(int rows, int columns) {
 		this.create(rows, columns);
@@ -20,10 +23,13 @@ public class Grid extends AbstractGrid implements IGrid {
 		this.masterColors = this.randomMastermindColors();
 		this.settedColors = new String [MASTERCOLORS];
 		this.setInvisibleMasterColors();
+		this.showSolution = false;
+		this.rowConfirmed = false;
 	}
 	
 	@Override
 	public void create(int rows, int columns) {
+		isNewGame = true;
 		cells = new Cell[rows][columns];
 		amountOfColumns = columns;
 		amountOfRows = 0;
@@ -162,6 +168,7 @@ public class Grid extends AbstractGrid implements IGrid {
 	
 	@Override
 	public void showSolution() {
+		this.setShowSolution(true);
 		for (int i = 0; i < MASTERCOLORS; i++) {
 			this.setCellValue(this.amountOfRows - 1, i, masterColors[i]);
 		}
@@ -191,5 +198,35 @@ public class Grid extends AbstractGrid implements IGrid {
 	@Override
 	public String[] getAvailableColors() {
 		return this.availableColors;
+	}
+
+	@Override
+	public boolean getShowSolution() {
+		return this.showSolution;
+	}
+
+	@Override
+	public void setShowSolution(boolean value) {
+		this.showSolution = value;
+	}
+	
+	@Override
+	public boolean getRowConfirmed() {
+		return this.rowConfirmed;
+	}
+
+	@Override
+	public void setRowConfirmed(boolean value) {
+		this.rowConfirmed = value;
+	}
+
+	@Override
+	public boolean getIsNewGame() {
+		return this.isNewGame;
+	}
+
+	@Override
+	public void setIsNewGame(boolean value) {
+		this.isNewGame = value;
 	}
 }

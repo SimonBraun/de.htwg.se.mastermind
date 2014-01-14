@@ -105,4 +105,39 @@ public interface IGrid {
 	 * @return array with the available colors
 	 */
 	String [] getAvailableColors();
+	
+	/**
+	 * Verifies if show solution has been choosen
+	 * @return
+	 */
+	boolean getShowSolution();
+	
+	/**
+	 * Sets show solution
+	 * @return true/false
+	 */
+	void setShowSolution(boolean value);
+	
+	/**
+	 * Verifies if a row is confirmed
+	 * @return true/false
+	 */
+	boolean getRowConfirmed();
+	
+	/**
+	 * Sets a row confirmed
+	 */
+	void setRowConfirmed(boolean value);
+	
+	/**
+	 * Verifies if new game was started
+	 * @return
+	 */
+	boolean getIsNewGame();
+	
+	/**
+	 * Set if new game was started
+	 * @param value
+	 */
+	void setIsNewGame(boolean value);
 }

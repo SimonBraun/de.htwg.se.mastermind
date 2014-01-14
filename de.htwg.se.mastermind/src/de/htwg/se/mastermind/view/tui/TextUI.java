@@ -57,9 +57,15 @@ public class TextUI implements IObserver {
 			controller.setValue(Integer.parseInt(args[0]), Integer.parseInt(args[1]), args[2] + args[2+1]);
 		}
 		
-		if(input.matches("[z][2-8]")) {
+		if(input.matches("[z][4]") || input.matches("[z][8]")) {
 			String [] args = readToArray(input);
 			controller.resetSize(Integer.parseInt(args[1]));
+		}
+		
+		if(input.matches("[z][1][2]")) {
+			String [] args = readToArray(input);
+			StringBuilder sb = new StringBuilder(args[1] + args[2]);
+			controller.resetSize(Integer.parseInt(sb.toString()));
 		}
 		
 		return true;
@@ -80,7 +86,7 @@ public class TextUI implements IObserver {
 		logger.info(newLine + controller.getGridString());
 		logger.info(newLine + controller.getStatusLine());
 		logger.info(newLine + "Available Colors: yl, gr, rd, bl, or, pk, pu");
-		logger.info(newLine + "Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution");
+		logger.info(newLine + "Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution, zn-sets the size");
 		logger.info(newLine + "Please enter command: ");
 	}
 

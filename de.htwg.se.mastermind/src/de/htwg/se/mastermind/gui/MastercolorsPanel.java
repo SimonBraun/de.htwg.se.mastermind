@@ -34,7 +34,11 @@ public class MastercolorsPanel extends JPanel {
 	@Override
 	protected void paintComponent(Graphics g) {
 		super.paintComponent(g);
-		if (this.controller.isSolved() || this.controller.getActualRow() == this.controller.getRowsAmount() - 1) {
+		int actualRow = this.controller.getActualRow();
+		int rowsAmount = this.controller.getRowsAmount();
+		boolean isSolved = this.controller.isSolved();
+		boolean showSolution = this.controller.getShowSolution();
+		if (isSolved || showSolution || actualRow == rowsAmount - 1) {
 			masterColors = controller.getMastermindColors();
 		}
 		

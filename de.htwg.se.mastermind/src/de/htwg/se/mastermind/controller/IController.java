@@ -96,4 +96,39 @@ public interface IController extends IObservable {
 	 * @param rows
 	 */
 	void resetSize(int rows);
+	
+	/**
+	 * Verifies if show solution has been choosen
+	 * @return
+	 */
+	boolean getShowSolution();
+	
+	/**
+	 * Sets show solution
+	 * @return true/false
+	 */
+	void setShowSolution(boolean value);
+	
+	/**
+	 * Verifies if a row is confirmed
+	 * @return true/false
+	 */
+	boolean getRowConfirmed();
+	
+	/**
+	 * Sets a row confirmed
+	 */
+	void setRowConfirmed(boolean value);
+	
+	/**
+	 * Verifies if new game was started
+	 * @return true/false
+	 */
+	boolean getIsNewGame();
+	
+	/**
+	 * Sets if new game was started
+	 * @param value
+	 */
+	void setIsNewGame(boolean value);
 }

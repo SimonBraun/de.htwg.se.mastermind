@@ -61,5 +61,9 @@ public class TextUITest {
 	public void testProcessInputLine5() {
 		tui.processInputLine("z4");
 		assertEquals(4, controller.getRowsAmount());
+		tui.processInputLine("z8");
+		assertEquals(8, controller.getRowsAmount());
+		tui.processInputLine("z12");
+		assertEquals(12, controller.getRowsAmount());
 	}
 }
