@@ -4,6 +4,8 @@ import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 
+import java.awt.Color;
+
 import org.junit.Before;
 import org.junit.Test;
 
@@ -165,6 +167,32 @@ public class GridTest {
 		assertEquals("bl", grid.getMastermindColors()[3]);
 	}
 	
+	@Test
+	public void testGetAvailableColors() {
+		String [] availableColors = this.grid.getAvailableColors();
+		assertEquals("rd", availableColors[0]);
+		assertEquals("bl", availableColors[1]);
+		assertEquals("gr", availableColors[2]);
+		assertEquals("yl", availableColors[3]);
+		assertEquals("or", availableColors[4]);
+		assertEquals("pu", availableColors[5]);
+		assertEquals("pk", availableColors[6]);
+	}
+	
+	@Test
+	public void testGetColorFromString() {
+		assertEquals(Color.gray, this.grid.getColorFromString(null));
+		assertEquals(Color.gray, this.grid.getColorFromString("gy"));
+		assertEquals(Color.yellow, this.grid.getColorFromString("yl"));
+		assertEquals(Color.red, this.grid.getColorFromString("rd"));
+		assertEquals(Color.blue, this.grid.getColorFromString("bl"));
+		assertEquals(Color.green, this.grid.getColorFromString("gr"));
+		assertEquals(Color.orange, this.grid.getColorFromString("or"));
+		assertEquals(Color.pink, this.grid.getColorFromString("pk"));
+		assertEquals(Color.magenta, this.grid.getColorFromString("pu"));
+		assertEquals(null, this.grid.getColorFromString("pr"));
+	}
+	
 	/* Tests for Abstract Grid*/
 	
 	@Test
@@ -187,15 +215,5 @@ public class GridTest {
 					 "                [3][2][1][0]"   + newLine, grid.gameField());
 	}
 	
-	@Test
-	public void testGetAvailableColors() {
-		String [] availableColors = this.grid.getAvailableColors();
-		assertEquals("rd", availableColors[0]);
-		assertEquals("bl", availableColors[1]);
-		assertEquals("gr", availableColors[2]);
-		assertEquals("yl", availableColors[3]);
-		assertEquals("or", availableColors[4]);
-		assertEquals("pu", availableColors[5]);
-		assertEquals("pk", availableColors[6]);
-	} 
+	 
 }
