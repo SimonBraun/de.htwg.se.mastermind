@@ -1,5 +1,7 @@
 package de.htwg.se.mastermind.model;
 
+import java.awt.Color;
+
 public interface IGrid {
 	
 	/**
@@ -140,4 +142,11 @@ public interface IGrid {
 	 * @param value
 	 */
 	void setIsNewGame(boolean value);
+	
+	/**
+	 * Converts a string color into a real color
+	 * @param color
+	 * @return color
+	 */
+	Color getColorFromString(String color);
 }

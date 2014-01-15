@@ -1,5 +1,7 @@
 package de.htwg.se.mastermind.controller;
 
+import java.awt.Color;
+
 import de.htwg.se.mastermind.model.IGrid;
 import de.htwg.se.mastermind.observer.IObservable;;
 
@@ -131,4 +133,11 @@ public interface IController extends IObservable {
 	 * @param value
 	 */
 	void setIsNewGame(boolean value);
+	
+	/**
+	 * Converts a string color into a real color
+	 * @param color
+	 * @return color
+	 */
+	Color getColorFromString(String color);
 }

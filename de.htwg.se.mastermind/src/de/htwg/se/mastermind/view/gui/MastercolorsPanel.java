@@ -1,6 +1,5 @@
 package de.htwg.se.mastermind.view.gui;
 
-import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.Graphics;
 
@@ -44,47 +43,10 @@ public class MastercolorsPanel extends JPanel {
 		
 		int x = XBALLS, y = YBALLS, width = WIDTHHEIGHTBALLS, height = WIDTHHEIGHTBALLS, xIncrease = XINCREASE;
 		for (int i = masterColors.length - 1; i >= 0; i--) {
-			g.setColor(getColorFromString(masterColors[i]));
+			g.setColor(controller.getColorFromString(masterColors[i]));
 			g.fillOval(x, y, width, height);
 			x += xIncrease;
 		}
-	}
-	
-	public Color getColorFromString(String color) {
-		
-		if (color.equals("yl")) {
-			return Color.yellow;
-		}
-		
-		if (color.equals("bl")) {
-			return Color.blue;
-		}
-		
-		if (color.equals("rd")) {
-			return Color.red;
-		}
-		
-		if (color.equals("gr")) {
-			return Color.green;
-		}
-		
-		if (color.equals("or")) {
-			return Color.orange;
-		}
-		
-		if (color.equals("pk")) {
-			return Color.pink;
-		}
-		
-		if (color.equals("pu")) {
-			return Color.magenta;
-		}
-		
-		if (color.equals("gy")) {
-			return Color.gray;
-		}
-		
-		return null;
 	}
 	
 	public void initializeArray() {

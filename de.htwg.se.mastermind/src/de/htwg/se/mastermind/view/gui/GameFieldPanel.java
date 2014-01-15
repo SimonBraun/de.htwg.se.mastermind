@@ -218,7 +218,6 @@ public class GameFieldPanel extends JPanel {
 	
 	public void setStandard() {
 		this.yStartNeu = getPaintY();
-		//this.setYStart();
 		this.buttonConfirmRow.setEnabled(true);
 		this.initializeArrays();
 	}
@@ -263,7 +262,7 @@ public class GameFieldPanel extends JPanel {
 	private void setColorsAndSticks() {
 		for (int i = 0; i < rows; i++) {
 			for (int j = 0; j < columns; j++) {
-				this.colors[i][j] = getColorFromString(controller.getValue(i, j));
+				this.colors[i][j] = controller.getColorFromString(controller.getValue(i, j));
 			}
 		}
 	
@@ -274,43 +273,6 @@ public class GameFieldPanel extends JPanel {
 				columnsAmount--;
 			}
 		}
-	}
-	
-	public Color getColorFromString(String color) {
-		
-		if (color == null) {
-			return Color.gray;
-		}
-		
-		if (color.equals("yl")) {
-			return Color.yellow;
-		}
-		
-		if (color.equals("bl")) {
-			return Color.blue;
-		}
-		
-		if (color.equals("rd")) {
-			return Color.red;
-		}
-		
-		if (color.equals("gr")) {
-			return Color.green;
-		}
-		
-		if (color.equals("or")) {
-			return Color.orange;
-		}
-		
-		if (color.equals("pk")) {
-			return Color.pink;
-		}
-		
-		if (color.equals("pu")) {
-			return Color.magenta;
-		}
-		
-		return null;
 	}
 	
 	private void setNewButtonLocation() {

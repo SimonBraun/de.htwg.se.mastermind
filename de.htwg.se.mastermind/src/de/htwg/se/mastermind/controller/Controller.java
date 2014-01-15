@@ -1,5 +1,7 @@
 package de.htwg.se.mastermind.controller;
 
+import java.awt.Color;
+
 import de.htwg.se.mastermind.observer.Observable;
 import de.htwg.se.mastermind.model.IGrid;
 import de.htwg.se.mastermind.model.Grid;
@@ -151,5 +153,10 @@ public class Controller extends Observable implements IController {
 	@Override
 	public void setIsNewGame(boolean value) {
 		this.grid.setIsNewGame(value);
+	}
+
+	@Override
+	public Color getColorFromString(String color) {
+		return this.grid.getColorFromString(color);
 	}
 }
