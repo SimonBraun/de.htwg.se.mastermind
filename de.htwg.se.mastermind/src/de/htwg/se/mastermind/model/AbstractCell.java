@@ -15,7 +15,7 @@ public abstract class AbstractCell implements ICell {
 
 	/**
 	 * Returns a value of a cell
-	 * @return
+	 * @return value
 	 */
 	public String getValue() {
 		return this.value;
@@ -37,6 +37,7 @@ public abstract class AbstractCell implements ICell {
 	
 	/**
 	 * Returns the row
+	 * @return row
 	 */
 	public int getRow() {
 		return this.row;
@@ -44,6 +45,7 @@ public abstract class AbstractCell implements ICell {
 	
 	/**
 	 * Returns the column
+	 * @return column
 	 */
 	public int getColumn() {
 		return this.column;
