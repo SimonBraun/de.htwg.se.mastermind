@@ -11,7 +11,11 @@ import java.util.Scanner;
 
 import org.apache.log4j.PropertyConfigurator;
 
-
+/**
+ * Mastermind
+ * @author sibraun
+ *
+ */
 public final class Mastermind {
 	
 	private static Mastermind instance;
@@ -22,6 +26,10 @@ public final class Mastermind {
 	private static final int ROWS=8;
 	private static final int COLUMNS=8;
 
+	/**
+	 * Get instance provides an new instance
+	 * @return instance
+	 */
 	public static Mastermind getInstance() {
 		if (instance == null) {
 			instance = new Mastermind();
@@ -40,6 +48,10 @@ public final class Mastermind {
 		tui.print();
 	}
 	
+	/**
+	 * Main
+	 * @param args
+	 */
 	public static void main (String[] args) {
 		
 		Mastermind.getInstance();

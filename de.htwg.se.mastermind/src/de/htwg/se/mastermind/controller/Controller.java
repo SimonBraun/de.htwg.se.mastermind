@@ -7,6 +7,11 @@ import de.htwg.se.mastermind.model.IGrid;
 import de.htwg.se.mastermind.model.Grid;
 import de.htwg.se.mastermind.observer.Event;
 
+/**
+ * Class controller steers the events.
+ * @author sibraun
+ *
+ */
 public class Controller extends Observable implements IController {
 	
 	private IGrid grid;

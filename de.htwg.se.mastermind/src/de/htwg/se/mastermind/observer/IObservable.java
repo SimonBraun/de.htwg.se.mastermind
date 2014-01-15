@@ -1,7 +1,7 @@
 package de.htwg.se.mastermind.observer;
 
 /**
- * Interface observable proviedes methods to
+ * Interface observable provides methods to
  * control the observer.
  * @author sibraun
  *

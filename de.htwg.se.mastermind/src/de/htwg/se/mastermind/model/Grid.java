@@ -4,6 +4,11 @@ import java.awt.Color;
 import java.util.ArrayList;
 import java.util.Arrays;
 
+/**
+ * class grid. Initializes a new grid an implements methods.
+ * @author sibraun
+ *
+ */
 public class Grid extends AbstractGrid implements IGrid {
 	
 	private int actualRow;
@@ -18,6 +23,11 @@ public class Grid extends AbstractGrid implements IGrid {
 	private boolean rowConfirmed;
 	private boolean isNewGame;
 	
+	/**
+	 * Initializes a new grid.
+	 * @param rows
+	 * @param columns
+	 */
 	public Grid(int rows, int columns) {
 		this.create(rows, columns);
 		this.actualRow = 0;
