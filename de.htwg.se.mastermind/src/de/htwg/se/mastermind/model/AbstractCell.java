@@ -1,5 +1,11 @@
 package de.htwg.se.mastermind.model;
 
+/**
+ * Abstract class Cell provides further methods which allows
+ * to control the Cell.
+ * @author sibraun
+ *
+ */
 public abstract class AbstractCell implements ICell {
 	
 	private String value = null;
@@ -8,6 +14,7 @@ public abstract class AbstractCell implements ICell {
 	
 	/**
 	 * Sets the value of a cell
+	 * @param value
 	 */
 	public void setValue(String value) {
 		this.value = value;
@@ -23,6 +30,7 @@ public abstract class AbstractCell implements ICell {
 	
 	/**
 	 * Sets a row.
+	 * @param row
 	 */
 	protected void setRow(int row) {
 		this.row = row;
@@ -30,6 +38,7 @@ public abstract class AbstractCell implements ICell {
 	
 	/**
 	 * Sets a column
+	 * @param column
 	 */
 	protected void setColumn(int column) {
 		this.column = column;

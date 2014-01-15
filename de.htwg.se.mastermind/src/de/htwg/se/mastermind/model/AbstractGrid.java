@@ -1,5 +1,11 @@
 package de.htwg.se.mastermind.model;
 
+/**
+ * Abstract class Grid provides further methods which allows
+ * to control the grid.
+ * @author sibraun
+ *
+ */
 public abstract class AbstractGrid implements IGrid {
 	
 	private int amountOfRows;
@@ -21,6 +27,10 @@ public abstract class AbstractGrid implements IGrid {
 		return sb.toString();
 	}
 	
+	/**
+	 * Builds a string of the master box.
+	 * @return string
+	 */
 	public String masterBox() {
 		amountOfRows = getRowsAmount();
 		amountOfColumns = getColumnsAmount();
@@ -50,6 +60,10 @@ public abstract class AbstractGrid implements IGrid {
 		return sb.toString();
 	}
 	
+	/**
+	 * Builds a string of the game field.
+	 * @return string
+	 */
 	public String gameField() {
 		amountOfRows = getRowsAmount();
 		amountOfColumns = getColumnsAmount();

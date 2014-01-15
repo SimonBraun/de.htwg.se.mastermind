@@ -5,6 +5,12 @@ import java.awt.Color;
 import de.htwg.se.mastermind.model.IGrid;
 import de.htwg.se.mastermind.observer.IObservable;;
 
+/**
+ * Interface Controller provides methods to communicate
+ * and controls with the models.
+ * @author sibraun
+ *
+ */
 public interface IController extends IObservable {
 	
 	/**
@@ -30,7 +36,6 @@ public interface IController extends IObservable {
 	
 	/**
 	 * User confirms that actual row is set
-	 * @param row
 	 */
 	boolean confirmRow();
 	
@@ -101,13 +106,12 @@ public interface IController extends IObservable {
 	
 	/**
 	 * Verifies if show solution has been choosen
-	 * @return
+	 * @return true/false
 	 */
 	boolean getShowSolution();
 	
 	/**
 	 * Sets show solution
-	 * @return true/false
 	 */
 	void setShowSolution(boolean value);
 	

@@ -2,6 +2,11 @@ package de.htwg.se.mastermind.model;
 
 import java.awt.Color;
 
+/**
+ * Interface grid provides methods to control the Grid.
+ * @author sibraun
+ *
+ */
 public interface IGrid {
 	
 	/**
