@@ -39,7 +39,7 @@ public class Grid extends AbstractGrid implements IGrid {
 	}
 	
 	@Override
-	public void create(int rows, int columns) {
+	public final void create(int rows, int columns) {
 		isNewGame = true;
 		cells = new Cell[rows][columns];
 		amountOfColumns = columns;
