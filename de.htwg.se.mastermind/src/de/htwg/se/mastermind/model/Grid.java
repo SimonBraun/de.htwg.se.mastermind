@@ -190,7 +190,7 @@ public class Grid extends AbstractGrid implements IGrid {
 		this.settedColors = Arrays.copyOf(masterColors, masterColors.length); 
 	}
 	
-	private final void setInvisibleMasterColors() {
+	private void setInvisibleMasterColors() {
 		for (int i = 0; i < MASTERCOLORS; i++) {
 			this.setCellValue(this.amountOfRows - 1, i, "xx");
 		}
