@@ -35,8 +35,7 @@ The game can be played in a TUI and a GUI as well. Both UI's are scalable.
 
 The TUI looks like that:
 
-´´´
-
+```
               +-------------+
               | xx xx xx xx |
 +-------------+-------------+
@@ -50,14 +49,16 @@ The TUI looks like that:
 +-------------+-------------+
                 [3][2][1][0]
                 
-´´´
+```
                 
 -The "xx xx xx xx are the colors the computer has chosen by chance. They are hided.
 -The white box below is the game field
 - Available colors in the game: yellow(yl), red(rd), blue(bl), green(gr), orange(or), pink(pk), purple(pu)
 - To set a color on a position please enter the row and column followed by a color e.g. 00yl
 
-'''           +-------------+
+```     
+
+	          +-------------+
               | xx xx xx xx |
 +-------------+-------------+
 |             |             |[6]
@@ -68,7 +69,9 @@ The TUI looks like that:
 |             |             |[1]
 |             |          yl |[0]
 +-------------+-------------+
-                [3][2][1][0]'''
+                [3][2][1][0]
+                
+```
 
 
 - The color yellow (yl) will be set to the row [0] and column [0]
@@ -77,7 +80,9 @@ The TUI looks like that:
 - Now the next row can be filled with values
 - If you type **"s"** the solution of the game will be appear
 
-'''           +-------------+
+```
+
+              +-------------+
               | rd yl pk pk |
 +-------------+-------------+
 |             |             |[6]
@@ -88,18 +93,24 @@ The TUI looks like that:
 |             |             |[1]
 |             |          yl |[0]
 +-------------+-------------+
-                [3][2][1][0]'''
+                [3][2][1][0]
+                
+```
 
 - To scale the game enter **"z"** followed by a 4,8 or 12 e.g. z4
 
-'''           +-------------+
+```
+
+              +-------------+
               | xx xx xx xx |
 +-------------+-------------+
 |             |             |[2]
 |             |             |[1]
 |             |             |[0]
 +-------------+-------------+
-                [3][2][1][0]'''
+                [3][2][1][0]
+                
+```
 
 - To start a new game enter **"n"**
 - To quit the game enter **"q"**              
