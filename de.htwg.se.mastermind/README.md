@@ -15,12 +15,16 @@ This project is an implementation of the Mastermind game for the lecture **Softw
 - The user has a determine amount of steps to guess the colors
 - After every round the user gets information about weather he has chosen a right color or not
 - There a three types of information:
+
 	a) The color he has chosen was also chosen by the computer and is on the right place
 	   INFORMATION: black stone
+	   
 	b) The color he has chosen was also chosen by the computer but is on the wrong place
 	   INFORMATION: white stone
+	   
 	c) The color he has chosen was not chosen by the computer
 	   INFORMATION: no stone
+	   
 - If the user guesses the right colors in the right order within the determine amount of steps he wins, if not, he loses!
 
 **3. TUI/GUI**
@@ -59,7 +63,7 @@ It shows
 The initial user interface is a console-based text UI. Its purpose is to be able to interact with the application as early as possible. 
 The Tui is built in a way so that it continues to run in parallel with a GUI or WUI.
 
-**2. Download project and import to IDE
+**2. Download project and import to IDE**
 
 - Please click the *Download ZIP*- button on the right side of this github repository and unpack the files
 - Please make sure that you have installed java version 1.7 on your computer
