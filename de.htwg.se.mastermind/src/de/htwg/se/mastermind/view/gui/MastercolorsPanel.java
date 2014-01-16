@@ -49,7 +49,7 @@ public class MastercolorsPanel extends JPanel {
 		}
 	}
 	
-	public void initializeArray() {
+	public final void initializeArray() {
 		for (int i = 0; i < this.masterColors.length; i++) {
 			this.masterColors[i] = "gy";
 		}

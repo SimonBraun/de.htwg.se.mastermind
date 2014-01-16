@@ -53,7 +53,7 @@ public class Grid extends AbstractGrid implements IGrid {
 	}
 	
 	@Override
-	public void setCellValue(int row, int column, String value) {
+	public final void setCellValue(int row, int column, String value) {
 		cells[row][column].setValue(value);
 		
 	}
@@ -190,7 +190,7 @@ public class Grid extends AbstractGrid implements IGrid {
 		this.settedColors = Arrays.copyOf(masterColors, masterColors.length); 
 	}
 	
-	private void setInvisibleMasterColors() {
+	private final void setInvisibleMasterColors() {
 		for (int i = 0; i < MASTERCOLORS; i++) {
 			this.setCellValue(this.amountOfRows - 1, i, "xx");
 		}
