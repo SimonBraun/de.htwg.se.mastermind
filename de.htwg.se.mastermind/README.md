@@ -46,7 +46,8 @@ The TUI looks like that:
 |             |             |[1]
 |             |             |[0]
 +-------------+-------------+
-                [3][2][1][0]´´´
+                [3][2][1][0]
+´´´
                 
 -The "xx xx xx xx are the colors the computer has chosen by chance. They are hided.
 -The white box below is the game field
