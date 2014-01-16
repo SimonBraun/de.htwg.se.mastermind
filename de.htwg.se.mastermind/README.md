@@ -35,7 +35,8 @@ The game can be played in a TUI and a GUI as well. Both UI's are scalable.
 
 The TUI looks like that:
 
-´´´           +-------------+
+´´´
+              +-------------+
               | xx xx xx xx |
 +-------------+-------------+
 |             |             |[6]
