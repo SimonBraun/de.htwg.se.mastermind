@@ -37,6 +37,14 @@ public final class Mastermind {
 		
 		return instance;
 	}
+	
+	public IController getController () {
+		return controller;
+	}
+	
+	public TextUI getTUI() {
+		return tui;
+	}
 
 	private Mastermind() {
 		PropertyConfigurator.configure("log4j.properties");
