@@ -14,8 +14,8 @@ public class StatusPanel extends JPanel {
 	private static final long serialVersionUID = 1L;
 	private IController controller;
 	private JLabel labelStatus;
-	private static final int WIDTH = 150;
-	private static final int HEIGHT = 150;
+	private static final int WIDTH = 200;
+	private static final int HEIGHT = 60;
 	
 	public StatusPanel(IController controller) {
 		this.controller = controller;

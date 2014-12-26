@@ -11,10 +11,6 @@ public abstract class AbstractGrid implements IGrid {
 	private int amountOfRows;
 	private int amountOfColumns;
 	
-	private static final int SPACESAMOUNT = 14;
-	private static final int MINUSAMOUNT = 26;
-	private static final int PLUSINDEX = 12;
-	
 	@Override
 	public String toString() {
 		amountOfRows = getRowsAmount();
@@ -34,20 +30,21 @@ public abstract class AbstractGrid implements IGrid {
 	public String masterBox() {
 		amountOfRows = getRowsAmount();
 		amountOfColumns = getColumnsAmount();
+		int spacesAmount = amountOfColumns * 2 - (amountOfColumns/2 - 2);
 		String newLine = System.getProperty("line.separator");
 		StringBuilder sb = new StringBuilder();
 		
-		for (int i = 0; i < SPACESAMOUNT; i++) {
+		for (int i = 0; i < spacesAmount; i++) {
 			sb.append(" ");
 		}
 		sb.append("+");
 		
-		for (int i = 0; i < SPACESAMOUNT-1; i++) {
+		for (int i = 0; i < spacesAmount-1; i++) {
 			sb.append("-");
 		}
 		sb.append("+").append(newLine);
 		
-		for (int i = 0; i < SPACESAMOUNT; i++) {
+		for (int i = 0; i < spacesAmount; i++) {
 			sb.append(" ");
 		}
 		sb.append("| ");
@@ -67,17 +64,21 @@ public abstract class AbstractGrid implements IGrid {
 	public String gameField() {
 		amountOfRows = getRowsAmount();
 		amountOfColumns = getColumnsAmount();
+		int minusAmount = amountOfColumns*2 - (amountOfColumns/2 - 1);
+		int spacesAmount = amountOfColumns * 2 - (amountOfColumns/2 - 2);
 		String newLine = System.getProperty("line.separator");
 		StringBuilder sb = new StringBuilder("+");
 		
-		for (int i = 0; i < MINUSAMOUNT; i++) {
+		for (int i = 0; i < minusAmount; i++) {
 			sb.append("-");
-			
-			if (i == PLUSINDEX) {
-				sb.append("+");
-			}
-			
 		}
+		
+		sb.append("+");
+		
+		for (int i = 0; i < minusAmount; i++) {
+			sb.append("-");
+		}
+		
 		sb.append("+" + newLine);
 		
 		for (int j = amountOfRows - 2; j >= 0; j--) {
@@ -100,16 +101,19 @@ public abstract class AbstractGrid implements IGrid {
 		
 		sb.append("+");
 		
-		for (int i = 0; i < MINUSAMOUNT; i++) {
+		for (int i = 0; i < minusAmount; i++) {
 			sb.append("-");
-			
-			if (i == PLUSINDEX) {
-				sb.append("+");
-			}
 		}
+		
+		sb.append("+");
+		
+		for (int i = 0; i < minusAmount; i++) {
+			sb.append("-");
+		}
+		
 		sb.append("+" + newLine);
 		
-		for (int i = 0; i < SPACESAMOUNT + 2; i++) {
+		for (int i = 0; i < spacesAmount + 2; i++) {
 			sb.append(" ");
 		}
 		

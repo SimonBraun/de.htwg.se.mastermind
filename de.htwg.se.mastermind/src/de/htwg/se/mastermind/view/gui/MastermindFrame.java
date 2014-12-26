@@ -18,13 +18,15 @@ public class MastermindFrame extends JFrame implements IObserver {
 
 	private static final long serialVersionUID = 1L;
 	private static final int DEFAULT_Y = 430;
-	private static final int DEFAULT_X = 380;
+	private static final int DEFAULT_X = 410;
 	private static final int ROWS = 8;
 	private static final int COLUMNS = 8;
 	private static final int ROWS12 = 12;
 	private static final int ROWS4 = 4;
 	private static final int HEIGHT12 = 600;
 	private static final int HEIGHT4 = 270;
+	private static final int WIDTH12 = 460;
+	private static final int WIDTH4 = 330;
 	
 	private JPanel mainPanel;
 	private HeadPanel headPanel;
@@ -57,7 +59,8 @@ public class MastermindFrame extends JFrame implements IObserver {
 		newMenuItem.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent event) {
 				int rowsAmount = controller.getRowsAmount();
-				controller.create(rowsAmount, COLUMNS);
+				int columnsAmount = controller.getColumnsAmount();
+				controller.create(rowsAmount, columnsAmount);
 				gameFieldPanel.setStandard();
 				gameFieldPanel.setRowsAmount(rowsAmount - 1);
 				gameFieldPanel.setYStart();
@@ -94,11 +97,11 @@ public class MastermindFrame extends JFrame implements IObserver {
 			
 			@Override
 			public void actionPerformed(ActionEvent e) {
-				controller.resetSize(ROWS12);
+				controller.resetSize(ROWS12, ROWS12);
 				gameFieldPanel.setStandard();
 				gameFieldPanel.setRowsAmount(ROWS12 - 1);
 				gameFieldPanel.setYStart();
-				headPanel.setStandard();
+				//headPanel.setStandard();
 				setHeight(ROWS12);
 			}
 		});
@@ -108,7 +111,7 @@ public class MastermindFrame extends JFrame implements IObserver {
 			
 			@Override
 			public void actionPerformed(ActionEvent e) {
-				controller.resetSize(ROWS);
+				controller.resetSize(ROWS, COLUMNS);
 				gameFieldPanel.setStandard();
 				gameFieldPanel.setRowsAmount(ROWS - 1);
 				gameFieldPanel.setYStart();
@@ -122,7 +125,7 @@ public class MastermindFrame extends JFrame implements IObserver {
 			
 			@Override
 			public void actionPerformed(ActionEvent e) {
-				controller.resetSize(ROWS4);
+				controller.resetSize(ROWS4, ROWS4);
 				gameFieldPanel.setStandard();
 				gameFieldPanel.setRowsAmount(ROWS4 - 1);
 				gameFieldPanel.setYStart();
@@ -158,7 +161,7 @@ public class MastermindFrame extends JFrame implements IObserver {
 			mainPanel.remove(headPanel);
 		}
 		headPanel = new HeadPanel(controller);
-		mainPanel.add(headPanel);
+		
 		
 		if (gameFieldPanel != null){
 			mainPanel.remove(gameFieldPanel);
@@ -168,8 +171,9 @@ public class MastermindFrame extends JFrame implements IObserver {
 		int rowsAmount = controller.getRowsAmount();
 		gameFieldPanel.setRowsAmount(rowsAmount - 1);
 		gameFieldPanel.setYStart();
-		headPanel.setStandard();
 		this.setHeight(rowsAmount);
+		headPanel.setStandard();
+		mainPanel.add(headPanel);
 		mainPanel.add(gameFieldPanel);
 		setVisible(true);
 		repaint();
@@ -194,13 +198,13 @@ public class MastermindFrame extends JFrame implements IObserver {
 	public void setHeight(int rowsAmount) {
 		switch (rowsAmount) {
 			case ROWS12:
-				this.setSize(DEFAULT_X, HEIGHT12);
+				this.setSize(WIDTH12, HEIGHT12);
 				break;
 			case ROWS:
 				this.setSize(DEFAULT_X, DEFAULT_Y);
 				break;
 			case ROWS4:
-				this.setSize(DEFAULT_X, HEIGHT4);
+				this.setSize(WIDTH4, HEIGHT4);
 				break;
 		}
 	}

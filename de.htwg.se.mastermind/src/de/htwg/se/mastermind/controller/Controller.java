@@ -124,8 +124,8 @@ public class Controller extends Observable implements IController {
 	}
 
 	@Override
-	public void resetSize(int rows) {
-		this.grid = new Grid(rows, COLUMNS);
+	public void resetSize(int rows, int columns) {
+		this.grid = new Grid(rows, columns);
 		Event event = new SizeChangedEvent();
 		notifyObservers(event);
 	}

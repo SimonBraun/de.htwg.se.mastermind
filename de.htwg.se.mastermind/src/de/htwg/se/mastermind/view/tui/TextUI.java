@@ -36,7 +36,8 @@ public class TextUI implements IObserver {
 			switch(inputChar[i]) {
 				case 'n':
 					int rowsAmount = controller.getRowsAmount();
-					controller.resetSize(rowsAmount);
+					int columnsAmount = controller.getColumnsAmount();
+					controller.resetSize(rowsAmount, columnsAmount);
 					break;
 					
 				case 'q':
@@ -58,13 +59,13 @@ public class TextUI implements IObserver {
 		
 		if(input.matches("[z][4]") || input.matches("[z][8]")) {
 			String [] args = readToArray(input);
-			controller.resetSize(Integer.parseInt(args[1]));
+			controller.resetSize(Integer.parseInt(args[1]), Integer.parseInt(args[1]));
 		}
 		
 		if(input.matches("[z][1][2]")) {
 			String [] args = readToArray(input);
 			StringBuilder sb = new StringBuilder(args[1] + args[2]);
-			controller.resetSize(Integer.parseInt(sb.toString()));
+			controller.resetSize(Integer.parseInt(sb.toString()), Integer.parseInt(sb.toString()));
 		}
 		
 		return true;

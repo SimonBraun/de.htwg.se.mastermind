@@ -12,7 +12,6 @@ import java.util.Arrays;
 public class Grid extends AbstractGrid implements IGrid {
 	
 	private int actualRow;
-	private static final int MASTERCOLORS = 4;
 	private final String [] availableColors = {"rd", "bl", "gr", "yl", "or", "pu", "pk"};
 	private String [] masterColors;
 	private String [] settedColors;
@@ -32,7 +31,7 @@ public class Grid extends AbstractGrid implements IGrid {
 		this.create(rows, columns);
 		this.actualRow = 0;
 		this.masterColors = this.randomMastermindColors();
-		this.settedColors = new String [MASTERCOLORS];
+		this.settedColors = new String [columns/2];
 		this.setInvisibleMasterColors();
 		this.showSolution = false;
 		this.rowConfirmed = false;
@@ -158,7 +157,7 @@ public class Grid extends AbstractGrid implements IGrid {
 	}
 	
 	private String [] randomMastermindColors() {
-		this.masterColors = new String[MASTERCOLORS];
+		this.masterColors = new String[this.amountOfColumns/2];
 		for (int i = 0; i < this.masterColors.length; i++) {
 			int random = (int) (Math.random() * (availableColors.length - 0) + 0);
 			this.masterColors[i] = availableColors[random];
@@ -180,7 +179,7 @@ public class Grid extends AbstractGrid implements IGrid {
 	@Override
 	public void showSolution() {
 		this.setShowSolution(true);
-		for (int i = 0; i < MASTERCOLORS; i++) {
+		for (int i = 0; i < this.amountOfColumns/2; i++) {
 			this.setCellValue(this.amountOfRows - 1, i, masterColors[i]);
 		}
 	}
@@ -191,7 +190,7 @@ public class Grid extends AbstractGrid implements IGrid {
 	}
 	
 	private void setInvisibleMasterColors() {
-		for (int i = 0; i < MASTERCOLORS; i++) {
+		for (int i = 0; i < this.amountOfColumns/2; i++) {
 			this.setCellValue(this.amountOfRows - 1, i, "xx");
 		}
 	}

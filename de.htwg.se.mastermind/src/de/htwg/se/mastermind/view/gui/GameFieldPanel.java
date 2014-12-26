@@ -36,9 +36,9 @@ public class GameFieldPanel extends JPanel {
 	private JButton buttonConfirmRow;
 	private static final int WIDTH = 200;
 	private static final int HEIGHT = 400;
-	private static final int XSTART = 230;
+	private static final int XSTART = 255;
 	private static final int YSTART = 265;
-	private static final int XSTARTSTICK = 180;
+	private static final int XSTARTSTICK = 205;
 	private static final int XBUTTON = 20;
 	private static final int YBUTTONDIFF = 5;
 	private static final int WIDTHBUTTON = 110;
@@ -48,6 +48,8 @@ public class GameFieldPanel extends JPanel {
 	private static final int THIRTY = 30;
 	private static final int THREE = 3;
 	private static final int FOUR = 4;
+	private static final int FIVE = 5;
+	private static final int SIX = 6;
 	private static final int ROWS11 = 11;
 	private static final int ROWS7 = 7;
 	private static final int ROWS3 = 3;
@@ -148,14 +150,20 @@ public class GameFieldPanel extends JPanel {
 			this.setColor(column + THREE);
 		} else if (x >= XSTART + THIRTY * THREE && x <= XSTART + BALLSIZE + THIRTY*THREE && y >= yStartNeu && y <= yStartNeu + BALLSIZE) {
 			this.setColor(column + FOUR);
+		} else if (x >= XSTART + THIRTY * FOUR && x <= XSTART + BALLSIZE + THIRTY*FOUR && y >= yStartNeu && y <= yStartNeu + BALLSIZE) {
+			this.setColor(column + FIVE);
+		} else if (x >= XSTART + THIRTY * FIVE && x <= XSTART + BALLSIZE + THIRTY*FIVE && y >= yStartNeu && y <= yStartNeu + BALLSIZE) {
+			this.setColor(column + SIX);
 		}
 	}
 	
 	private void setColor(int column) {
-		int actualRow = this.controller.getActualRow();
-		this.actualColor = getNextColor();
-		this.colors[actualRow][columns-column] = actualColor;
-		this.controller.setValue(actualRow, columns-column, this.actualStringColor);
+		if (column <= this.columns) {
+			int actualRow = this.controller.getActualRow();
+			this.actualColor = getNextColor();
+			this.colors[actualRow][columns-column] = actualColor;
+			this.controller.setValue(actualRow, columns-column, this.actualStringColor);
+		}
 	}
 	
 	public Color getNextColor() {

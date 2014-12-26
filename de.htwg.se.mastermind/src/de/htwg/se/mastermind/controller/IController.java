@@ -102,7 +102,7 @@ public interface IController extends IObservable {
 	 * Sets the size of the game
 	 * @param rows
 	 */
-	void resetSize(int rows);
+	void resetSize(int rows, int columns);
 	
 	/**
 	 * Verifies if show solution has been choosen

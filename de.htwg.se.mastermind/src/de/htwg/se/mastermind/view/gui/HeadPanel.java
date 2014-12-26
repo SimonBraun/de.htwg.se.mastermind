@@ -1,7 +1,7 @@
 package de.htwg.se.mastermind.view.gui;
 
 import java.awt.Dimension;
-import java.awt.GridLayout;
+import java.awt.FlowLayout;
 
 import javax.swing.JPanel;
 
@@ -13,10 +13,11 @@ public class HeadPanel extends JPanel{
 	private StatusPanel statusPanel;
 	private MastercolorsPanel mastercolorsPanel;
 	private static final int WIDTH = 450;
-	private static final int HEIGHT = 60;
+	private static final int HEIGHT = 70;
 
 	public HeadPanel(IController controller) {
-		this.setLayout(new GridLayout(0,2));
+		//this.setLayout(new GridLayout(0,2));
+		this.setLayout(new FlowLayout(FlowLayout.LEFT));
 		this.setMinimumSize(new Dimension(WIDTH, HEIGHT));
 		this.setPreferredSize(new Dimension(WIDTH, HEIGHT));
 		this.setMaximumSize(new Dimension(WIDTH, HEIGHT));
