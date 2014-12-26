@@ -16,7 +16,6 @@ public class Controller extends Observable implements IController {
 	
 	private IGrid grid;
 	private String statusLine = "Welcome to Mastermind!!!";
-	private static final int COLUMNS = 8;
 
 	@Override
 	public void create(int rows, int columns) {
