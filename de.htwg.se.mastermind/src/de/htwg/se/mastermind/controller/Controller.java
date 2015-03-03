@@ -124,6 +124,7 @@ public class Controller extends Observable implements IController {
 
 	@Override
 	public void resetSize(int rows, int columns) {
+		statusLine = "Welcome to Mastermind!!";
 		this.grid = new Grid(rows, columns);
 		Event event = new SizeChangedEvent();
 		notifyObservers(event);
