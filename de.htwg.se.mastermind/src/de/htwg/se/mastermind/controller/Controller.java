@@ -3,6 +3,7 @@ package de.htwg.se.mastermind.controller;
 import java.awt.Color;
 
 import com.google.inject.Inject;
+import com.google.inject.Singleton;
 import de.htwg.se.mastermind.observer.Observable;
 import de.htwg.se.mastermind.model.IGrid;
 import de.htwg.se.mastermind.model.Grid;
@@ -13,6 +14,7 @@ import de.htwg.se.mastermind.observer.Event;
  * @author sibraun
  *
  */
+@Singleton
 public class Controller extends Observable implements IController {
 	
 	private IGrid grid;
