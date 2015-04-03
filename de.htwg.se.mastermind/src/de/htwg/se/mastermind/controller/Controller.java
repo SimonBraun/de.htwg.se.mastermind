@@ -2,6 +2,7 @@ package de.htwg.se.mastermind.controller;
 
 import java.awt.Color;
 
+import com.google.inject.Inject;
 import de.htwg.se.mastermind.observer.Observable;
 import de.htwg.se.mastermind.model.IGrid;
 import de.htwg.se.mastermind.model.Grid;
@@ -16,6 +17,10 @@ public class Controller extends Observable implements IController {
 	
 	private IGrid grid;
 	private String statusLine = "Welcome to Mastermind!!!";
+
+	@Inject
+	public Controller() {
+	}
 
 	@Override
 	public void create(int rows, int columns) {
