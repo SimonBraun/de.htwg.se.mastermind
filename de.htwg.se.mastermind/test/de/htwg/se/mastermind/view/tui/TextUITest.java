@@ -37,7 +37,7 @@ public class TextUITest {
 	@Test
 	public void testProcessInputLine2() {
 		tui.processInputLine("n");
-		assertEquals("New game has been created!", controller.getStatusLine());
+		assertEquals("Welcome to Mastermind!!", controller.getStatusLine());
 	}
 	
 	@Test
