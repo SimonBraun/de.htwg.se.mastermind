@@ -7,6 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="273bd68d-b151-4690-adec-d0da6a88b831" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/de.htwg.se.mastermind/test/de/htwg/se/mastermind/persistence/db4o/GridDb4oDAO.java" />
+      <change type="DELETED" beforePath="C:\Users\denni_000\git\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\db4o-7.12.156.14667-all-java5.jar" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/de.htwg.se.mastermind/de.htwg.se.mastermind.iml" afterPath="$PROJECT_DIR$/de.htwg.se.mastermind/de.htwg.se.mastermind.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="de.htwg.se.mastermind.iws" />
@@ -32,12 +35,40 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="TextUI.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TextUI.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/view/tui/TextUI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4324853" vertical-offset="204" max-vertical-offset="1564">
+            <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="1564">
               <caret line="31" column="43" selection-start-line="31" selection-start-column="43" selection-end-line="31" selection-end-column="43" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GridDb4oDAO.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/de.htwg.se.mastermind/test/de/htwg/se/mastermind/persistence/db4o/GridDb4oDAO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.092491835" vertical-offset="0" max-vertical-offset="919">
+              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#231#232#0" expanded="true" />
+                <element signature="e#319#320#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Mastermind.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/Mastermind.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1377">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#910#911#0" expanded="true" />
+                <element signature="e#934#935#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -56,6 +87,8 @@
         <option value="$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/controller/Controller.java" />
         <option value="$PROJECT_DIR$/de.htwg.se.mastermind/test/de/htwg/se/mastermind/view/tui/TextUITest.java" />
         <option value="$PROJECT_DIR$/de.htwg.se.mastermind/pom.xml" />
+        <option value="$PROJECT_DIR$/de.htwg.se.mastermind/test/de/htwg/se/mastermind/persistence/GridDb4oDAO.java" />
+        <option value="$PROJECT_DIR$/de.htwg.se.mastermind/test/de/htwg/se/mastermind/persistence/db4o/GridDb4oDAO.java" />
       </list>
     </option>
   </component>
@@ -128,59 +161,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mastermind" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="view" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tui" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="de.htwg.se.mastermind" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="de.htwg.se.mastermind" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mastermind" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="view" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="de.htwg.se.mastermind" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="de.htwg.se.mastermind" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mastermind" />
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -195,6 +176,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mastermind" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -226,19 +211,20 @@
     <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="dynamic.classpath" value="false" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/db4o-8.0.184.15484-all-java5.jar!/" />
     <property name="FullScreen" value="false" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
-    <property name="options.lastSelected" value="reference.settings.project.maven.importing" />
+    <property name="options.lastSelected" value="preferences.pluginManager" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\denni_000\git\de.htwg.se.mastermind\de.htwg.se.mastermind\lib" />
       <recent name="C:\Users\denni_000\git\de.htwg.se.mastermind\de.htwg.se.mastermind" />
       <recent name="C:\Users\denni_000\git\de.htwg.se.mastermind\de.htwg.se.mastermind\src\de\htwg\se\mastermind" />
       <recent name="C:\Users\denni_000\git\de.htwg.se.mastermind\de.htwg.se.mastermind\src\de\htwg\se\mastermind\view" />
@@ -560,14 +546,12 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="SBT Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32946146" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32946146" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4308342" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -575,11 +559,13 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39915523" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39915523" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32946146" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4308342" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -612,13 +598,42 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/view/tui/TextUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="1564">
+          <caret line="31" column="43" selection-start-line="31" selection-start-column="43" selection-end-line="31" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/de.htwg.se.mastermind/test/de/htwg/se/mastermind/persistence/db4o/GridDb4oDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#231#232#0" expanded="true" />
+            <element signature="e#319#320#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/Mastermind.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1377">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#910#911#0" expanded="true" />
+            <element signature="e#934#935#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/controller/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="2295">
           <caret line="37" column="51" selection-start-line="37" selection-start-column="51" selection-end-line="37" selection-end-column="51" />
-          <folding>
-            <element signature="method#showSolution#0;class#Controller#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -654,9 +669,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="323">
           <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -664,7 +676,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="374">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -687,9 +698,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1291" max-vertical-offset="2210">
           <caret line="123" column="0" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
-          <folding>
-            <element signature="method#showSolution#0;class#Controller#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -709,7 +717,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="374">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -725,40 +732,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="3011" max-vertical-offset="4386">
           <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1469#1470#0" expanded="false" />
-            <element signature="e#1512#1513#0" expanded="false" />
-            <element signature="e#1554#1555#0" expanded="false" />
-            <element signature="e#1585#1586#0" expanded="false" />
-            <element signature="e#1630#1631#0" expanded="false" />
-            <element signature="e#1664#1665#0" expanded="false" />
-            <element signature="e#1722#1723#0" expanded="false" />
-            <element signature="e#1759#1760#0" expanded="false" />
-            <element signature="e#1800#1801#0" expanded="false" />
-            <element signature="e#1828#1829#0" expanded="false" />
-            <element signature="e#1877#1878#0" expanded="false" />
-            <element signature="e#1900#1901#0" expanded="false" />
-            <element signature="e#2560#2569#0" expanded="false" />
-            <element signature="e#4094#4095#0" expanded="false" />
-            <element signature="e#4170#4171#0" expanded="false" />
-            <element signature="e#4537#4538#0" expanded="false" />
-            <element signature="e#4568#4569#0" expanded="false" />
-            <element signature="e#4620#4621#0" expanded="false" />
-            <element signature="e#4654#4655#0" expanded="false" />
-            <element signature="e#4702#4703#0" expanded="false" />
-            <element signature="e#4733#4734#0" expanded="false" />
-            <element signature="e#4791#4792#0" expanded="false" />
-            <element signature="e#4823#4824#0" expanded="false" />
-            <element signature="e#4872#4873#0" expanded="false" />
-            <element signature="e#4903#4904#0" expanded="false" />
-            <element signature="e#4961#4962#0" expanded="false" />
-            <element signature="e#4993#4994#0" expanded="false" />
-            <element signature="e#5038#5039#0" expanded="false" />
-            <element signature="e#5066#5067#0" expanded="false" />
-            <element signature="e#5121#5122#0" expanded="false" />
-            <element signature="e#5150#5151#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -773,9 +746,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1291" max-vertical-offset="2210">
           <caret line="123" column="0" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
-          <folding>
-            <element signature="method#showSolution#0;class#Controller#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -795,40 +765,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="3011" max-vertical-offset="4386">
           <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1469#1470#0" expanded="false" />
-            <element signature="e#1512#1513#0" expanded="false" />
-            <element signature="e#1554#1555#0" expanded="false" />
-            <element signature="e#1585#1586#0" expanded="false" />
-            <element signature="e#1630#1631#0" expanded="false" />
-            <element signature="e#1664#1665#0" expanded="false" />
-            <element signature="e#1722#1723#0" expanded="false" />
-            <element signature="e#1759#1760#0" expanded="false" />
-            <element signature="e#1800#1801#0" expanded="false" />
-            <element signature="e#1828#1829#0" expanded="false" />
-            <element signature="e#1877#1878#0" expanded="false" />
-            <element signature="e#1900#1901#0" expanded="false" />
-            <element signature="e#2560#2569#0" expanded="false" />
-            <element signature="e#4094#4095#0" expanded="false" />
-            <element signature="e#4170#4171#0" expanded="false" />
-            <element signature="e#4537#4538#0" expanded="false" />
-            <element signature="e#4568#4569#0" expanded="false" />
-            <element signature="e#4620#4621#0" expanded="false" />
-            <element signature="e#4654#4655#0" expanded="false" />
-            <element signature="e#4702#4703#0" expanded="false" />
-            <element signature="e#4733#4734#0" expanded="false" />
-            <element signature="e#4791#4792#0" expanded="false" />
-            <element signature="e#4823#4824#0" expanded="false" />
-            <element signature="e#4872#4873#0" expanded="false" />
-            <element signature="e#4903#4904#0" expanded="false" />
-            <element signature="e#4961#4962#0" expanded="false" />
-            <element signature="e#4993#4994#0" expanded="false" />
-            <element signature="e#5038#5039#0" expanded="false" />
-            <element signature="e#5066#5067#0" expanded="false" />
-            <element signature="e#5121#5122#0" expanded="false" />
-            <element signature="e#5150#5151#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -843,9 +779,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1291" max-vertical-offset="2210">
           <caret line="123" column="0" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
-          <folding>
-            <element signature="method#showSolution#0;class#Controller#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -865,40 +798,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="3011" max-vertical-offset="4386">
           <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1469#1470#0" expanded="false" />
-            <element signature="e#1512#1513#0" expanded="false" />
-            <element signature="e#1554#1555#0" expanded="false" />
-            <element signature="e#1585#1586#0" expanded="false" />
-            <element signature="e#1630#1631#0" expanded="false" />
-            <element signature="e#1664#1665#0" expanded="false" />
-            <element signature="e#1722#1723#0" expanded="false" />
-            <element signature="e#1759#1760#0" expanded="false" />
-            <element signature="e#1800#1801#0" expanded="false" />
-            <element signature="e#1828#1829#0" expanded="false" />
-            <element signature="e#1877#1878#0" expanded="false" />
-            <element signature="e#1900#1901#0" expanded="false" />
-            <element signature="e#2560#2569#0" expanded="false" />
-            <element signature="e#4094#4095#0" expanded="false" />
-            <element signature="e#4170#4171#0" expanded="false" />
-            <element signature="e#4537#4538#0" expanded="false" />
-            <element signature="e#4568#4569#0" expanded="false" />
-            <element signature="e#4620#4621#0" expanded="false" />
-            <element signature="e#4654#4655#0" expanded="false" />
-            <element signature="e#4702#4703#0" expanded="false" />
-            <element signature="e#4733#4734#0" expanded="false" />
-            <element signature="e#4791#4792#0" expanded="false" />
-            <element signature="e#4823#4824#0" expanded="false" />
-            <element signature="e#4872#4873#0" expanded="false" />
-            <element signature="e#4903#4904#0" expanded="false" />
-            <element signature="e#4961#4962#0" expanded="false" />
-            <element signature="e#4993#4994#0" expanded="false" />
-            <element signature="e#5038#5039#0" expanded="false" />
-            <element signature="e#5066#5067#0" expanded="false" />
-            <element signature="e#5121#5122#0" expanded="false" />
-            <element signature="e#5150#5151#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -913,9 +812,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2210">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="method#showSolution#0;class#Controller#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -923,40 +819,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="3011" max-vertical-offset="4386">
           <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1469#1470#0" expanded="false" />
-            <element signature="e#1512#1513#0" expanded="false" />
-            <element signature="e#1554#1555#0" expanded="false" />
-            <element signature="e#1585#1586#0" expanded="false" />
-            <element signature="e#1630#1631#0" expanded="false" />
-            <element signature="e#1664#1665#0" expanded="false" />
-            <element signature="e#1722#1723#0" expanded="false" />
-            <element signature="e#1759#1760#0" expanded="false" />
-            <element signature="e#1800#1801#0" expanded="false" />
-            <element signature="e#1828#1829#0" expanded="false" />
-            <element signature="e#1877#1878#0" expanded="false" />
-            <element signature="e#1900#1901#0" expanded="false" />
-            <element signature="e#2560#2569#0" expanded="false" />
-            <element signature="e#4094#4095#0" expanded="false" />
-            <element signature="e#4170#4171#0" expanded="false" />
-            <element signature="e#4537#4538#0" expanded="false" />
-            <element signature="e#4568#4569#0" expanded="false" />
-            <element signature="e#4620#4621#0" expanded="false" />
-            <element signature="e#4654#4655#0" expanded="false" />
-            <element signature="e#4702#4703#0" expanded="false" />
-            <element signature="e#4733#4734#0" expanded="false" />
-            <element signature="e#4791#4792#0" expanded="false" />
-            <element signature="e#4823#4824#0" expanded="false" />
-            <element signature="e#4872#4873#0" expanded="false" />
-            <element signature="e#4903#4904#0" expanded="false" />
-            <element signature="e#4961#4962#0" expanded="false" />
-            <element signature="e#4993#4994#0" expanded="false" />
-            <element signature="e#5038#5039#0" expanded="false" />
-            <element signature="e#5066#5067#0" expanded="false" />
-            <element signature="e#5121#5122#0" expanded="false" />
-            <element signature="e#5150#5151#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -971,9 +833,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2210">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="method#showSolution#0;class#Controller#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -988,9 +847,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2312">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="method#showSolution#0;class#Controller#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1005,9 +861,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2278">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="method#showSolution#0;class#Controller#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1015,40 +868,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="3011" max-vertical-offset="4386">
           <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1469#1470#0" expanded="false" />
-            <element signature="e#1512#1513#0" expanded="false" />
-            <element signature="e#1554#1555#0" expanded="false" />
-            <element signature="e#1585#1586#0" expanded="false" />
-            <element signature="e#1630#1631#0" expanded="false" />
-            <element signature="e#1664#1665#0" expanded="false" />
-            <element signature="e#1722#1723#0" expanded="false" />
-            <element signature="e#1759#1760#0" expanded="false" />
-            <element signature="e#1800#1801#0" expanded="false" />
-            <element signature="e#1828#1829#0" expanded="false" />
-            <element signature="e#1877#1878#0" expanded="false" />
-            <element signature="e#1900#1901#0" expanded="false" />
-            <element signature="e#2560#2569#0" expanded="false" />
-            <element signature="e#4094#4095#0" expanded="false" />
-            <element signature="e#4170#4171#0" expanded="false" />
-            <element signature="e#4537#4538#0" expanded="false" />
-            <element signature="e#4568#4569#0" expanded="false" />
-            <element signature="e#4620#4621#0" expanded="false" />
-            <element signature="e#4654#4655#0" expanded="false" />
-            <element signature="e#4702#4703#0" expanded="false" />
-            <element signature="e#4733#4734#0" expanded="false" />
-            <element signature="e#4791#4792#0" expanded="false" />
-            <element signature="e#4823#4824#0" expanded="false" />
-            <element signature="e#4872#4873#0" expanded="false" />
-            <element signature="e#4903#4904#0" expanded="false" />
-            <element signature="e#4961#4962#0" expanded="false" />
-            <element signature="e#4993#4994#0" expanded="false" />
-            <element signature="e#5038#5039#0" expanded="false" />
-            <element signature="e#5066#5067#0" expanded="false" />
-            <element signature="e#5121#5122#0" expanded="false" />
-            <element signature="e#5150#5151#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1121,16 +940,35 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4624592" vertical-offset="85" max-vertical-offset="2295">
           <caret line="37" column="51" selection-start-line="37" selection-start-column="51" selection-end-line="37" selection-end-column="51" />
-          <folding>
-            <element signature="method#showSolution#0;class#Controller#0" expanded="false" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/MastermindModule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.092491835" vertical-offset="0" max-vertical-offset="919">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/de.htwg.se.mastermind/src/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.12948857" vertical-offset="0" max-vertical-offset="919">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/view/tui/TextUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="1564">
+          <caret line="31" column="43" selection-start-line="31" selection-start-column="43" selection-end-line="31" selection-end-column="43" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/Mastermind.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3155604" vertical-offset="441" max-vertical-offset="1377">
-          <caret line="43" column="5" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1377">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#910#911#0" expanded="true" />
@@ -1139,29 +977,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/MastermindModule.java">
+    <entry file="file://$PROJECT_DIR$/de.htwg.se.mastermind/test/de/htwg/se/mastermind/persistence/db4o/GridDb4oDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.092491835" vertical-offset="0" max-vertical-offset="919">
           <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#231#232#0" expanded="true" />
+            <element signature="e#319#320#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/de.htwg.se.mastermind/src/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.12948857" vertical-offset="0" max-vertical-offset="919">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/view/tui/TextUI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4324853" vertical-offset="204" max-vertical-offset="1564">
-          <caret line="31" column="43" selection-start-line="31" selection-start-column="43" selection-end-line="31" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1224,7 +1048,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
