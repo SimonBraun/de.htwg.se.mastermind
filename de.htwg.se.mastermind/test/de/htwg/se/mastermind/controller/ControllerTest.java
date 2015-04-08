@@ -3,22 +3,29 @@ package de.htwg.se.mastermind.controller;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
 
+import de.htwg.se.mastermind.persistence.db4o.GridDb4oDAO;
+import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
 import de.htwg.se.mastermind.model.IGrid;
-import de.htwg.se.mastermind.controller.IController;
-import de.htwg.se.mastermind.controller.Controller;
 
 public class ControllerTest {
 	private IGrid grid;
 	private IController controller;
+	private GridDb4oDAO db;
 	
 	@Before
 	public void setUp() throws Exception {
 		controller = new Controller();
 		controller.create(8, 8);
 		grid = controller.getGrid();
+		db = new GridDb4oDAO();
+	}
+
+	@After
+	public void after() {
+		db.closeDb();
 	}
 	
 	@Test
