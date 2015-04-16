@@ -32,8 +32,8 @@ public class TextUI implements IObserver {
 			inputChar[i] = input.charAt(i);
 		}
 		
-		for (int i = 0; i < inputChar.length; i++) {
-			switch(inputChar[i]) {
+		for (char c : inputChar) {
+			switch(c) {
 				case 'n':
 					int rowsAmount = controller.getRowsAmount();
 					int columnsAmount = controller.getColumnsAmount();

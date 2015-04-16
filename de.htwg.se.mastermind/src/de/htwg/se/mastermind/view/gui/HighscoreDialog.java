@@ -1,11 +1,9 @@
 package de.htwg.se.mastermind.view.gui;
 
-import com.sun.deploy.panel.JavaPanel;
 import de.htwg.se.mastermind.controller.IController;
-import de.htwg.se.mastermind.persistence.IGridDAO;
 
 import javax.swing.*;
-import java.util.Objects;
+import java.awt.*;
 
 /**
  * Created by denni_000 on 16.04.2015.
@@ -34,6 +32,7 @@ public class HighscoreDialog extends JDialog {
         mainPanel = new JPanel();
         mainPanel.setLayout(new BoxLayout(mainPanel, BoxLayout.PAGE_AXIS));
         mainPanel.setBorder(BorderFactory.createEmptyBorder(10, 10, 10, 10));
+        mainPanel.setPreferredSize(new Dimension(500, 220));
 
         JLabel label = new JLabel("Top ten highsores");
 
