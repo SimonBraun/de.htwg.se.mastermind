@@ -1,6 +1,7 @@
 package de.htwg.se.mastermind.controller;
 
 import java.awt.Color;
+import java.util.List;
 
 import com.google.inject.Inject;
 import com.google.inject.Singleton;
@@ -8,6 +9,7 @@ import de.htwg.se.mastermind.observer.Observable;
 import de.htwg.se.mastermind.model.IGrid;
 import de.htwg.se.mastermind.model.Grid;
 import de.htwg.se.mastermind.observer.Event;
+import de.htwg.se.mastermind.persistence.IGridDAO;
 
 /**
  * Class controller steers the events.
@@ -19,9 +21,11 @@ public class Controller extends Observable implements IController {
 	
 	private IGrid grid;
 	private String statusLine = "Welcome to Mastermind!!!";
+	private IGridDAO gridDAO;
 
 	@Inject
-	public Controller() {
+	public Controller(IGridDAO gridDAO) {
+		this.gridDAO = gridDAO;
 	}
 
 	@Override
@@ -41,10 +45,12 @@ public class Controller extends Observable implements IController {
 			if (this.grid.isSolved()) {
 				statusLine = "You have won!!";
 				this.grid.showSolution();
+				this.saveToDB();
 			} else {
 				if (this.grid.getActualRow() == this.grid.getRowsAmount() - 2) {
 					this.grid.showSolution();
 					statusLine = "You have lost!!";
+					this.saveToDB();
 				}
 			}
 			
@@ -170,5 +176,24 @@ public class Controller extends Observable implements IController {
 	@Override
 	public Color getColorFromString(String color) {
 		return this.grid.getColorFromString(color);
+	}
+
+	/*DATABASE*/
+	@Override
+	public void saveToDB() {
+		this.gridDAO.saveGrid(this.grid);
+	}
+
+	@Override
+	public String[][] getAllGrids() {
+		List<IGrid> allGrids = this.gridDAO.getAllGrids();
+		String [][] data = new String [allGrids.size()][1];
+
+		for (int i = 0; i < allGrids.size(); i++) {
+			IGrid g = allGrids.get(i);
+			data[i][0] = String.valueOf(g.getActualRow());
+		}
+
+		return data;
 	}
 }

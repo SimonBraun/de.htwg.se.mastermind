@@ -144,4 +144,15 @@ public interface IController extends IObservable {
 	 * @return color
 	 */
 	Color getColorFromString(String color);
+
+	/**
+	 * Saves grid to DB.
+	 */
+	void saveToDB();
+
+	/**
+	 * Returns field with name and score
+	 * @return field with name and score
+	 */
+	String [][] getAllGrids();
 }
