@@ -9,4 +9,8 @@ public interface IGridDAO {
     void saveGrid(IGrid grid);
 
     List<IGrid> getAllGrids();
+
+    void removeAllGrids();
+
+    void removeGridById(String id);
 }

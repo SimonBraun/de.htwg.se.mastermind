@@ -22,6 +22,7 @@ public class Controller extends Observable implements IController {
 	private IGrid grid;
 	private String statusLine = "Welcome to Mastermind!!!";
 	private IGridDAO gridDAO;
+	private static final int TEN = 10;
 
 	@Inject
 	public Controller(IGridDAO gridDAO) {
@@ -45,12 +46,10 @@ public class Controller extends Observable implements IController {
 			if (this.grid.isSolved()) {
 				statusLine = "You have won!!";
 				this.grid.showSolution();
-				this.saveToDB();
 			} else {
 				if (this.grid.getActualRow() == this.grid.getRowsAmount() - 2) {
 					this.grid.showSolution();
 					statusLine = "You have lost!!";
-					this.saveToDB();
 				}
 			}
 			
@@ -106,6 +105,26 @@ public class Controller extends Observable implements IController {
 	@Override
 	public String getUsername() {
 		return this.grid.getUsername();
+	}
+
+	@Override
+	public String getDate() {
+		return this.grid.getDate();
+	}
+
+	@Override
+	public void setDate(String date) {
+		this.grid.setDate(date);
+	}
+
+	@Override
+	public String getId() {
+		return this.grid.getId();
+	}
+
+	@Override
+	public void setId(String id) {
+		this.grid.setId(id);
 	}
 
 	@Override
@@ -197,14 +216,52 @@ public class Controller extends Observable implements IController {
 	@Override
 	public String[][] getAllGrids() {
 		List<IGrid> allGrids = this.gridDAO.getAllGrids();
-		String [][] data = new String [allGrids.size()][2];
+		String [][] data = new String [allGrids.size()][4];
 
 		for (int i = 0; i < allGrids.size(); i++) {
 			IGrid g = allGrids.get(i);
-			data[i][0] = String.valueOf(g.getActualRow());
-			data[i][1] = g.getUsername();
+			data[i][0] = g.getUsername();
+			data[i][1] = String.valueOf(g.getActualRow());
+			data[i][2] = g.getDate();
+			data[i][3] = g.getId();
 		}
 
 		return data;
 	}
+
+	@Override
+	public String isInHighScore() {
+		String [][] data = this.getAllGrids();
+
+		if (data.length < TEN) {
+			return "";
+		}
+
+		int actualRow = this.grid.getActualRow();
+		int maxValue = actualRow;
+		String id = null;
+		for (int i = 0; i < data.length; i++) {
+			if (Integer.parseInt(data[i][1]) > maxValue) {
+				maxValue = Integer.parseInt(data[i][1]);
+				id = data[i][3];
+			}
+		}
+
+		if (actualRow < maxValue) {
+			return id;
+		}
+
+		return null;
+	}
+
+	@Override
+	public void removeAllGrids() {
+		this.gridDAO.removeAllGrids();
+	}
+
+	@Override
+	public void removeGridById(String id) {
+		this.gridDAO.removeGridById(id);
+	}
+
 }

@@ -22,6 +22,8 @@ public class Grid extends AbstractGrid implements IGrid {
 	private boolean rowConfirmed;
 	private boolean isNewGame;
 	private String username;
+	private String date;
+	private String id;
 	
 	/**
 	 * Initializes a new grid.
@@ -37,6 +39,7 @@ public class Grid extends AbstractGrid implements IGrid {
 		this.showSolution = false;
 		this.rowConfirmed = false;
 		this.username = "(No username)";
+		this.date = "(No date)";
 	}
 	
 	@Override
@@ -292,5 +295,25 @@ public class Grid extends AbstractGrid implements IGrid {
 	@Override
 	public String getUsername() {
 		return this.username;
+	}
+
+	@Override
+	public String getDate() {
+		return this.date;
+	}
+
+	@Override
+	public void setDate(String date) {
+		this.date = date;
+	}
+
+	@Override
+	public String getId() {
+		return this.id;
+	}
+
+	@Override
+	public void setId(String id) {
+		this.id = id;
 	}
 }

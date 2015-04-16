@@ -3,11 +3,7 @@ package de.htwg.se.mastermind.view.gui;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-import javax.swing.JFrame;
-import javax.swing.JMenu;
-import javax.swing.JMenuBar;
-import javax.swing.JMenuItem;
-import javax.swing.JPanel;
+import javax.swing.*;
 
 import de.htwg.se.mastermind.controller.IController;
 import de.htwg.se.mastermind.observer.Event;
@@ -32,16 +28,18 @@ public class MastermindFrame extends JFrame implements IObserver {
 	private HeadPanel headPanel;
 	private GameFieldPanel gameFieldPanel;
 	private IController controller;
+	private MastermindFrame frame;
 	
 	public MastermindFrame(final IController myController) {
 		this.controller = myController;
 		this.controller.addObserver(this);
+		this.frame = this;
 		
 		JMenuBar menuBar;
 		
 		JMenu fileMenu, optionsMenu;
 		JMenuItem newMenuItem, exitMenuItem, showSolutionMenuItem, setSize12MenuItem, setSize8MenuItem,
-				setSize4MenuItem, highscoreMenuItem;
+				setSize4MenuItem, highscoreMenuItem, removeHighscoreMenuItem;
 		
 		this.setTitle("Mastermind");
 		this.setDefaultCloseOperation(EXIT_ON_CLOSE);
@@ -135,17 +133,29 @@ public class MastermindFrame extends JFrame implements IObserver {
 			}
 		});
 
-		highscoreMenuItem = new JMenuItem("Highscore");
+		highscoreMenuItem = new JMenuItem("Highscores");
 		highscoreMenuItem.addActionListener(new ActionListener() {
 
 			@Override
 			public void actionPerformed(ActionEvent e) {
-				/*controller.resetSize(ROWS4, ROWS4);
-				gameFieldPanel.setStandard();
-				gameFieldPanel.setRowsAmount(ROWS4 - 1);
-				gameFieldPanel.setYStart();
-				headPanel.setStandard();
-				setHeight(ROWS4);*/
+				new HighscoreDialog(controller, frame);
+			}
+		});
+
+
+		removeHighscoreMenuItem = new JMenuItem("Clear highscores");
+		removeHighscoreMenuItem.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				int input = JOptionPane.showConfirmDialog(null,
+						"Are you sure to remove all highscore entries?",
+						"Remove all highscores",
+						JOptionPane.YES_NO_OPTION);
+
+				if (input == 0) {
+					controller.removeAllGrids();
+				}
 			}
 		});
 		
@@ -156,6 +166,7 @@ public class MastermindFrame extends JFrame implements IObserver {
 		optionsMenu.add(setSize4MenuItem);
 		optionsMenu.addSeparator();
 		optionsMenu.add(highscoreMenuItem);
+		optionsMenu.add(removeHighscoreMenuItem);
 		
 		menuBar.add(fileMenu);
 		menuBar.add(optionsMenu);

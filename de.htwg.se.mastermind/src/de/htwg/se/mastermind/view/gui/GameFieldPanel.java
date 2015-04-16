@@ -6,6 +6,10 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.UUID;
 
 import javax.swing.*;
 
@@ -92,13 +96,19 @@ public class GameFieldPanel extends JPanel {
 					}
 					controller.setRowConfirmed(true);
 
-					if (controller.isSolved()) {
+					String idToDelete = null;
+					if (controller.isSolved() && ((idToDelete = controller.isInHighScore())) != null) {
 						String nameInput = JOptionPane.showInputDialog(null,"You are in the highscore list. Please enter your name:",
 								"New highscore!",
 								JOptionPane.PLAIN_MESSAGE);
 
 						if (nameInput != null) {
+							controller.removeGridById(idToDelete);
+							DateFormat dateFormat = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss");
+							Date date = new Date();
 							controller.setUsername(nameInput);
+							controller.setDate(dateFormat.format(date));
+							controller.setId(UUID.randomUUID().toString());
 							controller.saveToDB();
 						}
 					}
