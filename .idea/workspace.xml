@@ -7,17 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="273bd68d-b151-4690-adec-d0da6a88b831" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/controller/Controller.java" afterPath="$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/controller/Controller.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/de.htwg.se.mastermind/test/de/htwg/se/mastermind/controller/ControllerTest.java" afterPath="$PROJECT_DIR$/de.htwg.se.mastermind/test/de/htwg/se/mastermind/controller/ControllerTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/persistence/db4o/GridDb4oDAO.java" afterPath="$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/persistence/db4o/GridDb4oDAO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/controller/IController.java" afterPath="$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/controller/IController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/persistence/IGridDAO.java" afterPath="$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/persistence/IGridDAO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/MastermindModule.java" afterPath="$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/MastermindModule.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/de.htwg.se.mastermind/test/de/htwg/se/mastermind/view/gui/StatusPanelTest.java" afterPath="$PROJECT_DIR$/de.htwg.se.mastermind/test/de/htwg/se/mastermind/view/gui/StatusPanelTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/de.htwg.se.mastermind/test/de/htwg/se/mastermind/view/tui/TextUITest.java" afterPath="$PROJECT_DIR$/de.htwg.se.mastermind/test/de/htwg/se/mastermind/view/tui/TextUITest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/de.htwg.se.mastermind/de.htwg.se.mastermind.iml" afterPath="$PROJECT_DIR$/de.htwg.se.mastermind/de.htwg.se.mastermind.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mastermind.log" afterPath="$PROJECT_DIR$/mastermind.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/model/Grid.java" afterPath="$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/model/Grid.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/model/IGrid.java" afterPath="$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/model/IGrid.java" />
     </list>
     <ignored path="de.htwg.se.mastermind.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -90,11 +81,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GridDb4oDAO.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GridDb4oDAO.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/persistence/db4o/GridDb4oDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.35146898" vertical-offset="0" max-vertical-offset="919">
-              <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
+              <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#532#533#0" expanded="true" />
@@ -104,13 +95,27 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Grid.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="IGrid.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/model/IGrid.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="2056" max-vertical-offset="2975">
+              <caret line="165" column="31" selection-start-line="165" selection-start-column="31" selection-end-line="165" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Grid.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/model/Grid.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1334" max-vertical-offset="3723">
-              <caret line="243" column="0" selection-start-line="243" selection-start-column="0" selection-end-line="243" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.9630033" vertical-offset="2889" max-vertical-offset="3927">
+              <caret line="293" column="28" selection-start-line="293" selection-start-column="28" selection-end-line="293" selection-end-column="28" />
               <folding>
                 <element signature="method#getColorFromString#0;class#Grid#0" expanded="false" />
+                <element signature="e#5860#5861#0" expanded="true" />
+                <element signature="e#5891#5892#0" expanded="true" />
+                <element signature="e#5930#5931#0" expanded="true" />
+                <element signature="e#5957#5958#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -154,16 +159,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MastermindModule.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/MastermindModule.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="306">
-              <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
@@ -188,6 +183,8 @@
         <option value="$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/controller/Controller.java" />
         <option value="$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/persistence/IGridDAO.java" />
         <option value="$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/persistence/db4o/GridDb4oDAO.java" />
+        <option value="$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/model/IGrid.java" />
+        <option value="$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/model/Grid.java" />
       </list>
     </option>
   </component>
@@ -264,28 +261,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="mastermind" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="de.htwg.se.mastermind" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="de.htwg.se.mastermind" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mastermind" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controller" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -809,7 +784,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -823,7 +798,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -894,22 +869,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/controller/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="2295">
-          <caret line="37" column="51" selection-start-line="37" selection-start-column="51" selection-end-line="37" selection-end-column="51" />
-          <folding>
-            <element signature="e#691#692#0" expanded="true" />
-            <element signature="e#720#721#0" expanded="true" />
-            <element signature="method#create#0;class#Controller#0" expanded="false" />
-            <element signature="method#setValue#0;class#Controller#0" expanded="false" />
-            <element signature="method#showSolution#0;class#Controller#0" expanded="false" />
-            <element signature="method#resetSize#0;class#Controller#0" expanded="false" />
-            <element signature="method#getAllGrids#0;class#Controller#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/de.htwg.se.mastermind/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="867">
@@ -954,6 +913,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="1564">
           <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#601#602#0" expanded="false" />
+            <element signature="e#615#616#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1001,6 +965,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="1632">
           <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#601#602#0" expanded="false" />
+            <element signature="e#615#616#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1258,6 +1227,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="1564">
           <caret line="31" column="43" selection-start-line="31" selection-start-column="43" selection-end-line="31" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#601#602#0" expanded="false" />
+            <element signature="e#615#616#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1265,6 +1239,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="2158" max-vertical-offset="3077">
           <caret line="181" column="13" selection-start-line="181" selection-start-column="13" selection-end-line="181" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1282,16 +1257,6 @@
           <caret line="25" column="42" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/model/Grid.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1334" max-vertical-offset="3723">
-          <caret line="243" column="0" selection-start-line="243" selection-start-column="0" selection-end-line="243" selection-end-column="0" />
-          <folding>
-            <element signature="method#getColorFromString#0;class#Grid#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1358,14 +1323,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/model/IGrid.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2056" max-vertical-offset="2975">
+          <caret line="165" column="31" selection-start-line="165" selection-start-column="31" selection-end-line="165" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/persistence/db4o/GridDb4oDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35146898" vertical-offset="0" max-vertical-offset="919">
-          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
+          <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#532#533#0" expanded="true" />
             <element signature="e#562#563#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/model/Grid.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9630033" vertical-offset="2889" max-vertical-offset="3927">
+          <caret line="293" column="28" selection-start-line="293" selection-start-column="28" selection-end-line="293" selection-end-column="28" />
+          <folding>
+            <element signature="method#getColorFromString#0;class#Grid#0" expanded="false" />
+            <element signature="e#5860#5861#0" expanded="true" />
+            <element signature="e#5891#5892#0" expanded="true" />
+            <element signature="e#5930#5931#0" expanded="true" />
+            <element signature="e#5957#5958#0" expanded="true" />
           </folding>
         </state>
       </provider>

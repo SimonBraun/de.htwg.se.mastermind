@@ -154,4 +154,16 @@ public interface IGrid {
 	 * @return color
 	 */
 	Color getColorFromString(String color);
+
+	/**
+	 * Sets the username
+	 * @param username Name of the user
+	 */
+	void setName(String username);
+
+	/**
+	 * Returns the username
+	 * @return Name of the user
+	 */
+	String getName();
 }

@@ -21,6 +21,7 @@ public class Grid extends AbstractGrid implements IGrid {
 	private boolean showSolution;
 	private boolean rowConfirmed;
 	private boolean isNewGame;
+	private String username;
 	
 	/**
 	 * Initializes a new grid.
@@ -35,6 +36,7 @@ public class Grid extends AbstractGrid implements IGrid {
 		this.setInvisibleMasterColors();
 		this.showSolution = false;
 		this.rowConfirmed = false;
+		this.username = "(No username)";
 	}
 	
 	@Override
@@ -280,5 +282,15 @@ public class Grid extends AbstractGrid implements IGrid {
 		}
 		
 		return null;
+	}
+
+	@Override
+	public void setName(String username) {
+		this.username = username;
+	}
+
+	@Override
+	public String getName() {
+		return this.username;
 	}
 }
