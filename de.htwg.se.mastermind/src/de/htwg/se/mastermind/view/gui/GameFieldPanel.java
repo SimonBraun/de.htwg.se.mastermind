@@ -96,7 +96,7 @@ public class GameFieldPanel extends JPanel {
 					}
 					controller.setRowConfirmed(true);
 
-					String idToDelete = null;
+					String idToDelete;
 					if (controller.isSolved() && ((idToDelete = controller.isInHighScore())) != null) {
 						String nameInput = JOptionPane.showInputDialog(null,"You are in the highscore list. Please enter your name:",
 								"New highscore!",

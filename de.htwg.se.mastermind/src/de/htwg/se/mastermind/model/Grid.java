@@ -27,8 +27,8 @@ public class Grid extends AbstractGrid implements IGrid {
 	
 	/**
 	 * Initializes a new grid.
-	 * @param rows
-	 * @param columns
+	 * @param rows Amount of the grid rows
+	 * @param columns Amount of the grid columns
 	 */
 	public Grid(int rows, int columns) {
 		this.create(rows, columns);
@@ -122,7 +122,6 @@ public class Grid extends AbstractGrid implements IGrid {
 		for (int i = 0; i < settedColors.length; i++) {
 			if (colorOnRightPlace(i)) {
 				blackSticks++;
-				continue;
 			}
 		}
 		
@@ -154,17 +153,14 @@ public class Grid extends AbstractGrid implements IGrid {
 	}
 	
 	private boolean colorOnRightPlace(int index) {
-		if (settedColors[index].equals(masterColors[index])) {
-			return true;
-		}
-		
-		return false;
+		return settedColors[index].equals(masterColors[index]);
+
 	}
 	
 	private String [] randomMastermindColors() {
 		this.masterColors = new String[this.amountOfColumns/2];
 		for (int i = 0; i < this.masterColors.length; i++) {
-			int random = (int) (Math.random() * (availableColors.length - 0) + 0);
+			int random = (int) (Math.random() * (availableColors.length) + 0);
 			this.masterColors[i] = availableColors[random];
 		}
 		

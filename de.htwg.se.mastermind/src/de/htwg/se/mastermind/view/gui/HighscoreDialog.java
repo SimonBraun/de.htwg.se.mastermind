@@ -5,12 +5,9 @@ import de.htwg.se.mastermind.controller.IController;
 import javax.swing.*;
 import java.awt.*;
 
-/**
- * Created by denni_000 on 16.04.2015.
- */
 public class HighscoreDialog extends JDialog {
     private JPanel mainPanel;
-    private  MastermindFrame mastermindFrame;
+    private MastermindFrame mastermindFrame;
     private IController controller;
     private String [][] dataRow;
     private String [] columnNames = {"Position", "Name", "Tries", "Date"};
