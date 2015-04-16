@@ -24,12 +24,7 @@ public class GridDb4oDAO implements IGridDAO {
     }
 
     @Override
-    public IGrid getGrid() {
-        return null;
-    }
-
-    @Override
     public List<IGrid> getAllGrids() {
-        return null;
+        return db.query(IGrid.class);
     }
 }

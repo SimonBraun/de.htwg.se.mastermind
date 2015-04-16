@@ -3,6 +3,7 @@ package de.htwg.se.mastermind.view.tui;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
 
+import de.htwg.se.mastermind.persistence.db4o.GridDb4oDAO;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -17,12 +18,14 @@ public class TextUITest {
 	IGrid grid;
 	private IController controller;
 	private TextUI tui;
+	private GridDb4oDAO gridDAO;
 	static Logger logger = Logger.getLogger(TextUI.class);
 	
 	@Before
 	public void setUp() throws Exception {
 		grid = new Grid(8,8);
-		controller = new Controller();
+		gridDAO = new GridDb4oDAO();
+		controller = new Controller(gridDAO);
 		tui = new TextUI(controller);
 		controller.create(8, 8);
 	}

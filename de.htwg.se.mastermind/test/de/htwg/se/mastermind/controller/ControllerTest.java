@@ -13,19 +13,19 @@ import de.htwg.se.mastermind.model.IGrid;
 public class ControllerTest {
 	private IGrid grid;
 	private IController controller;
-	private GridDb4oDAO db;
+	private GridDb4oDAO db4oDAO;
 	
 	@Before
 	public void setUp() throws Exception {
-		controller = new Controller();
+		db4oDAO = new GridDb4oDAO();
+		controller = new Controller(db4oDAO);
 		controller.create(8, 8);
 		grid = controller.getGrid();
-		db = new GridDb4oDAO();
 	}
 
 	@After
 	public void after() {
-		db.closeDb();
+		db4oDAO.closeDb();
 	}
 	
 	@Test

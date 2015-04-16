@@ -2,6 +2,9 @@ package de.htwg.se.mastermind.view.gui;
 
 import static org.junit.Assert.assertEquals;
 
+import de.htwg.se.mastermind.persistence.IGridDAO;
+import de.htwg.se.mastermind.persistence.db4o.GridDb4oDAO;
+import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -13,10 +16,12 @@ public class StatusPanelTest {
 	
 	private StatusPanel statusPanel;
 	private IController controller;
+	private GridDb4oDAO gridDAO;
 	
 	@Before
 	public void setUp () throws Exception {
-		controller = new Controller();
+		gridDAO = new GridDb4oDAO();
+		controller = new Controller(gridDAO);
 		statusPanel = new StatusPanel(controller);
 	}
 	
@@ -24,5 +29,10 @@ public class StatusPanelTest {
 	public void testSetStatus() {
 		statusPanel.setStatus();
 		assertEquals("Welcome to Mastermind!!!", controller.getStatusLine());
+	}
+
+	@After
+	public void after() {
+		gridDAO.closeDb();
 	}
 }

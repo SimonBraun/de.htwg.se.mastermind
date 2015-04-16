@@ -8,7 +8,5 @@ public interface IGridDAO {
 
     void saveGrid(IGrid grid);
 
-    IGrid getGrid();
-
     List<IGrid> getAllGrids();
 }
