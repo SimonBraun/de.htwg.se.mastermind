@@ -40,7 +40,8 @@ public class MastermindFrame extends JFrame implements IObserver {
 		JMenuBar menuBar;
 		
 		JMenu fileMenu, optionsMenu;
-		JMenuItem newMenuItem, exitMenuItem, showSolutionMenuItem, setSize12MenuItem, setSize8MenuItem, setSize4MenuItem;
+		JMenuItem newMenuItem, exitMenuItem, showSolutionMenuItem, setSize12MenuItem, setSize8MenuItem,
+				setSize4MenuItem, highscoreMenuItem;
 		
 		this.setTitle("Mastermind");
 		this.setDefaultCloseOperation(EXIT_ON_CLOSE);
@@ -133,12 +134,28 @@ public class MastermindFrame extends JFrame implements IObserver {
 				setHeight(ROWS4);
 			}
 		});
+
+		highscoreMenuItem = new JMenuItem("Highscore");
+		highscoreMenuItem.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				/*controller.resetSize(ROWS4, ROWS4);
+				gameFieldPanel.setStandard();
+				gameFieldPanel.setRowsAmount(ROWS4 - 1);
+				gameFieldPanel.setYStart();
+				headPanel.setStandard();
+				setHeight(ROWS4);*/
+			}
+		});
 		
 		optionsMenu.add(showSolutionMenuItem);
 		optionsMenu.addSeparator();
 		optionsMenu.add(setSize12MenuItem);
 		optionsMenu.add(setSize8MenuItem);
 		optionsMenu.add(setSize4MenuItem);
+		optionsMenu.addSeparator();
+		optionsMenu.add(highscoreMenuItem);
 		
 		menuBar.add(fileMenu);
 		menuBar.add(optionsMenu);

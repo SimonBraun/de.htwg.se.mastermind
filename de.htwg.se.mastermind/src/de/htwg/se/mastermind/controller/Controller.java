@@ -197,11 +197,12 @@ public class Controller extends Observable implements IController {
 	@Override
 	public String[][] getAllGrids() {
 		List<IGrid> allGrids = this.gridDAO.getAllGrids();
-		String [][] data = new String [allGrids.size()][1];
+		String [][] data = new String [allGrids.size()][2];
 
 		for (int i = 0; i < allGrids.size(); i++) {
 			IGrid g = allGrids.get(i);
 			data[i][0] = String.valueOf(g.getActualRow());
+			data[i][1] = g.getUsername();
 		}
 
 		return data;

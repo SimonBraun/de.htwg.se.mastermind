@@ -7,9 +7,7 @@ import java.awt.event.ActionListener;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 
-import javax.swing.BorderFactory;
-import javax.swing.JButton;
-import javax.swing.JPanel;
+import javax.swing.*;
 
 import de.htwg.se.mastermind.controller.IController;
 
@@ -75,28 +73,38 @@ public class GameFieldPanel extends JPanel {
 		this.buttonConfirmRow = new JButton("Confirm Row");
 		this.buttonConfirmRow.setBounds(XBUTTON, yStartNeu - YBUTTONDIFF, WIDTHBUTTON, HEIGHTBUTTON);
 		this.buttonConfirmRow.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-            	int actualRow = controller.getActualRow();
-            	String [] stickValues = new String[columns];
-            	int index = 0;
-                if (controller.confirmRow()) {
-                	for (int i = columns*2 - 1; i >= columns; i--) {
-                		stickValues[index] = controller.getValue(actualRow, i);
-                		if (stickValues[index] != null) {
-                			if (sticks[actualRow][index].equals(Color.gray)) {
-		            			sticks[actualRow][index] = getStickColor(stickValues[index]);
-		            			index++;
-                			}	
-                		} else {
-                			break;
-                		}
-                	}              	
-                	controller.setRowConfirmed(true);
-                }
-            }
-        });
-		
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				int actualRow = controller.getActualRow();
+				String[] stickValues = new String[columns];
+				int index = 0;
+				if (controller.confirmRow()) {
+					for (int i = columns * 2 - 1; i >= columns; i--) {
+						stickValues[index] = controller.getValue(actualRow, i);
+						if (stickValues[index] != null) {
+							if (sticks[actualRow][index].equals(Color.gray)) {
+								sticks[actualRow][index] = getStickColor(stickValues[index]);
+								index++;
+							}
+						} else {
+							break;
+						}
+					}
+					controller.setRowConfirmed(true);
+
+					if (controller.isSolved()) {
+						String nameInput = JOptionPane.showInputDialog(null,"You are in the highscore list. Please enter your name:",
+								"New highscore!",
+								JOptionPane.PLAIN_MESSAGE);
+
+						if (nameInput != null) {
+							controller.setUsername(nameInput);
+							controller.saveToDB();
+						}
+					}
+				}
+			}
+		});
 		this.add(buttonConfirmRow);
 	}
 	
