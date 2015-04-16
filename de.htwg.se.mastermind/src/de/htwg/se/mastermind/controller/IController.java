@@ -56,6 +56,18 @@ public interface IController extends IObservable {
 	 * @return columns
 	 */
 	int getColumnsAmount();
+
+	/**
+	 * Sets the name of the user
+	 * @param username The name of the user
+	 */
+	void setUsername (String username);
+
+	/**
+	 * Returns the name of the user
+	 * @return the name of the user
+	 */
+	String getUsername();
 	
 	/**
 	 * Returns a string grid

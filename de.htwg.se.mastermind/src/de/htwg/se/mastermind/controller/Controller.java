@@ -99,6 +99,16 @@ public class Controller extends Observable implements IController {
 	}
 
 	@Override
+	public void setUsername(String username) {
+		this.grid.setUsername(username);
+	}
+
+	@Override
+	public String getUsername() {
+		return this.grid.getUsername();
+	}
+
+	@Override
 	public String getGridString() {
 		return grid.toString();
 	}

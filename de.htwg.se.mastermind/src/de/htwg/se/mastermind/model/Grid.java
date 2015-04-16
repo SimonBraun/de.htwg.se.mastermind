@@ -285,12 +285,12 @@ public class Grid extends AbstractGrid implements IGrid {
 	}
 
 	@Override
-	public void setName(String username) {
+	public void setUsername(String username) {
 		this.username = username;
 	}
 
 	@Override
-	public String getName() {
+	public String getUsername() {
 		return this.username;
 	}
 }

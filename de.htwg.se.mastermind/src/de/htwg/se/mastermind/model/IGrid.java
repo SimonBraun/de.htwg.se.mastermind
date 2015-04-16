@@ -159,11 +159,11 @@ public interface IGrid {
 	 * Sets the username
 	 * @param username Name of the user
 	 */
-	void setName(String username);
+	void setUsername(String username);
 
 	/**
 	 * Returns the username
 	 * @return Name of the user
 	 */
-	String getName();
+	String getUsername();
 }
