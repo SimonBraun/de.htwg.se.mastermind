@@ -190,4 +190,11 @@ public interface IGrid {
 	 * @param id the id of the grid
 	 */
 	void setId(String id);
+
+	/**
+	 * Returns highscore table as String
+	 * @param data the data from db
+	 * @return highscore table as String
+	 */
+	//String getHighscroreTableString(String [][] data);
 }

@@ -9,6 +9,7 @@ import org.apache.log4j.Logger;
 public class TextUI implements IObserver {
 
 	private String newLine = System.getProperty("line.separator");
+	//private String highscoreTable;
 	
 	private IController controller;
 	
@@ -49,6 +50,11 @@ public class TextUI implements IObserver {
 					
 				case 's':
 					controller.showSolution();
+					break;
+
+				/*case 'h':
+					highscoreTable = controller.getHighscoreString();
+					break;*/
 			}
 		}
 		
@@ -86,7 +92,7 @@ public class TextUI implements IObserver {
 		logger.info(newLine + controller.getGridString());
 		logger.info(newLine + controller.getStatusLine());
 		logger.info(newLine + "Available Colors: yl, gr, rd, bl, or, pk, pu");
-		logger.info(newLine + "Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution, zn-sets the size");
+		logger.info(newLine + "Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution, zn-sets the size, h-show highscores");
 		logger.info(newLine + "Please enter command: ");
 	}
 }

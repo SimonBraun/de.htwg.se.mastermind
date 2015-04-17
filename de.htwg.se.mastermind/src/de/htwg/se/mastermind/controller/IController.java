@@ -98,6 +98,12 @@ public interface IController extends IObservable {
 	 * @return grid
 	 */
 	String getGridString();
+
+	/**
+	 * Returns highscore table as String
+	 * @return Highscore table as string
+	 */
+	//String getHighscoreString();
 	
 	/**
 	 * Returns the status line

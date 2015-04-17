@@ -21,7 +21,7 @@ public class HighscoreDialog extends JDialog {
 
         for (int i = 0; i < dataRow.length; i++) {
             data[i][0] = i + 1;
-            data[i][1] = this.dataRow[i][0] != null? this.dataRow[i][0] : "(No username)";
+            data[i][1] = this.dataRow[i][0] != null && this.dataRow[i][0] != ""? this.dataRow[i][0] : "(No username)";
             data[i][2] = this.dataRow[i][1];
             data[i][3] = this.dataRow[i][2] != null? this.dataRow[i][2] : "(No date)";
         }

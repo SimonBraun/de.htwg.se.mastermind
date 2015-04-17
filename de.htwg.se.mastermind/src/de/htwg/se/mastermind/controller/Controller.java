@@ -131,7 +131,13 @@ public class Controller extends Observable implements IController {
 	public String getGridString() {
 		return grid.toString();
 	}
-	
+
+	/*@Override
+	public String getHighscoreString() {
+		String [][] data = this.getAllGrids();
+		return this.grid.getHighscroreTableString(data);
+	}*/
+
 	@Override
 	public String getStatusLine() {
 		return this.statusLine;

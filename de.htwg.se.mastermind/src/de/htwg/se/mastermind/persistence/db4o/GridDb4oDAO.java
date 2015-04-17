@@ -2,7 +2,10 @@ package de.htwg.se.mastermind.persistence.db4o;
 
 import com.db4o.ObjectContainer;
 import com.db4o.Db4oEmbedded;
+import com.db4o.ObjectSet;
 import com.db4o.query.Predicate;
+import com.db4o.query.Query;
+import de.htwg.se.mastermind.model.Grid;
 import de.htwg.se.mastermind.model.IGrid;
 import de.htwg.se.mastermind.persistence.IGridDAO;
 
@@ -26,7 +29,13 @@ public class GridDb4oDAO implements IGridDAO {
 
     @Override
     public List<IGrid> getAllGrids() {
-        return db.query(IGrid.class);
+        Query query = db.query();
+        query.constrain(Grid.class);
+        query.descend("actualRow").orderAscending();
+        query.descend("date").orderAscending();
+
+        List<IGrid> grids = query.execute();
+        return grids;
     }
 
     @Override

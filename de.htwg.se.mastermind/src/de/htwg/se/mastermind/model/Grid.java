@@ -312,4 +312,28 @@ public class Grid extends AbstractGrid implements IGrid {
 	public void setId(String id) {
 		this.id = id;
 	}
+
+	/*@Override
+	public String getHighscroreTableString(String [][] data) {
+		int maxUsernameLength = this.maxUsernameLength(data);
+		StringBuilder sb = new StringBuilder();
+		sb.append("+--------+");
+		for (int i = 0; i < maxUsernameLength; i++) {
+			sb.append("-");
+		}
+
+		sb.append("+--------+-----------------+");
+
+		return sb.toString();
+	}*/
+
+	private int maxUsernameLength(String [][] data) {
+		int maxLength = 0;
+		for (int i = 0; i < data.length; i++) {
+			if (maxLength < data[i][0].length()) {
+				maxLength = data[i][0].length();
+			}
+		}
+		return maxLength;
+	}
 }
