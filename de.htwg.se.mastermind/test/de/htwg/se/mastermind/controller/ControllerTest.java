@@ -23,10 +23,10 @@ public class ControllerTest {
 		grid = controller.getGrid();
 	}
 
-	/*@After
+	@After
 	public void after() {
 		db4oDAO.closeDb();
-	}*/
+	}
 	
 	@Test
 	public void testGetValue() {
