@@ -1,8 +1,6 @@
 package de.htwg.se.mastermind.persistence.db4o;
-
 import com.db4o.ObjectContainer;
 import com.db4o.Db4oEmbedded;
-import com.db4o.ObjectSet;
 import com.db4o.query.Predicate;
 import com.db4o.query.Query;
 import de.htwg.se.mastermind.model.Grid;
