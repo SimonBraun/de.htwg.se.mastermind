@@ -1,7 +1,7 @@
 package de.htwg.se.mastermind.model;
 
 public class Colors {
-	
+	//.
 	private final String BASIC = "basic";
 	private final String COUNTRY = "country";
 	

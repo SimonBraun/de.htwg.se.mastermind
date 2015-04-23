@@ -5,12 +5,13 @@ import static org.junit.Assert.assertFalse;
 
 import org.junit.Before;
 import org.junit.Test;
-
 import org.apache.log4j.Logger;
+
 import de.htwg.se.mastermind.controller.Controller;
 import de.htwg.se.mastermind.controller.IController;
 import de.htwg.se.mastermind.model.Grid;
 import de.htwg.se.mastermind.model.IGrid;
+import de.htwg.se.mastermind.view.TextUI;
 //import org.apache.log4j.PropertyConfigurator;
 
 public class TextUITest {

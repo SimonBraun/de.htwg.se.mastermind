@@ -5,7 +5,7 @@ package de.htwg.se.mastermind;
 import de.htwg.se.mastermind.controller.IController;
 import de.htwg.se.mastermind.controller.Controller;
 import de.htwg.se.mastermind.view.gui.MastermindFrame;
-import de.htwg.se.mastermind.view.tui.TextUI;
+import de.htwg.se.mastermind.view.TextUI;
 
 import java.util.Scanner;
 
