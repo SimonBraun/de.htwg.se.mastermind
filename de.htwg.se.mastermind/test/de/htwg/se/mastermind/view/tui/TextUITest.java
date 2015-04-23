@@ -4,6 +4,7 @@ import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
 
 import de.htwg.se.mastermind.persistence.db4o.GridDb4oDAO;
+import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -12,7 +13,6 @@ import de.htwg.se.mastermind.controller.Controller;
 import de.htwg.se.mastermind.controller.IController;
 import de.htwg.se.mastermind.model.Grid;
 import de.htwg.se.mastermind.model.IGrid;
-//import org.apache.log4j.PropertyConfigurator;
 
 public class TextUITest {
 	IGrid grid;
@@ -68,5 +68,10 @@ public class TextUITest {
 		assertEquals(8, controller.getRowsAmount());
 		tui.processInputLine("z12");
 		assertEquals(12, controller.getRowsAmount());
+	}
+
+	@After
+	public void after() {
+		gridDAO.closeDb();
 	}
 }
