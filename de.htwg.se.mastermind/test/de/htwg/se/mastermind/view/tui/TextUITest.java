@@ -9,7 +9,6 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
-//import org.apache.log4j.Logger;
 import de.htwg.se.mastermind.controller.Controller;
 import de.htwg.se.mastermind.controller.IController;
 
@@ -17,7 +16,6 @@ public class TextUITest {
 	private IController controller;
 	private TextUI tui;
 	private GridDb4oDAO db4oDAO;
-	//static Logger logger = Logger.getLogger(TextUI.class);
 	
 	@Before
 	public void setUp() throws Exception {

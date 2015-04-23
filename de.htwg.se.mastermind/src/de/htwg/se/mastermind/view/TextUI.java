@@ -9,7 +9,6 @@ import org.apache.log4j.Logger;
 public class TextUI implements IObserver {
 
 	private String newLine = System.getProperty("line.separator");
-	//private String highscoreTable;
 	
 	private IController controller;
 	
@@ -51,10 +50,6 @@ public class TextUI implements IObserver {
 				case 's':
 					controller.showSolution();
 					break;
-
-				/*case 'h':
-					highscoreTable = controller.getHighscoreString();
-					break;*/
 			}
 		}
 		

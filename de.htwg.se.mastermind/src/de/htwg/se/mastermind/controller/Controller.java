@@ -132,12 +132,6 @@ public class Controller extends Observable implements IController {
 		return grid.toString();
 	}
 
-	/*@Override
-	public String getHighscoreString() {
-		String [][] data = this.getAllGrids();
-		return this.grid.getHighscroreTableString(data);
-	}*/
-
 	@Override
 	public String getStatusLine() {
 		return this.statusLine;
@@ -269,5 +263,4 @@ public class Controller extends Observable implements IController {
 	public void removeGridById(String id) {
 		this.gridDAO.removeGridById(id);
 	}
-
 }
