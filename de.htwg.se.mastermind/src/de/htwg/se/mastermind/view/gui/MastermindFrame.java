@@ -3,7 +3,11 @@ package de.htwg.se.mastermind.view.gui;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-import javax.swing.*;
+import javax.swing.JFrame;
+import javax.swing.JMenu;
+import javax.swing.JMenuBar;
+import javax.swing.JMenuItem;
+import javax.swing.JPanel;
 
 import de.htwg.se.mastermind.controller.IController;
 import de.htwg.se.mastermind.observer.Event;
@@ -28,18 +32,15 @@ public class MastermindFrame extends JFrame implements IObserver {
 	private HeadPanel headPanel;
 	private GameFieldPanel gameFieldPanel;
 	private IController controller;
-	private MastermindFrame frame;
 	
 	public MastermindFrame(final IController myController) {
 		this.controller = myController;
 		this.controller.addObserver(this);
-		this.frame = this;
 		
 		JMenuBar menuBar;
 		
 		JMenu fileMenu, optionsMenu;
-		JMenuItem newMenuItem, exitMenuItem, showSolutionMenuItem, setSize12MenuItem, setSize8MenuItem,
-				setSize4MenuItem, highscoreMenuItem, removeHighscoreMenuItem;
+		JMenuItem newMenuItem, exitMenuItem, showSolutionMenuItem, setSize12MenuItem, setSize8MenuItem, setSize4MenuItem, setBasicColorsMenuItem, setCountryColorsMenuItem;
 		
 		this.setTitle("Mastermind");
 		this.setDefaultCloseOperation(EXIT_ON_CLOSE);
@@ -57,15 +58,11 @@ public class MastermindFrame extends JFrame implements IObserver {
 		newMenuItem = new JMenuItem("New");
 		newMenuItem.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent event) {
-				int rowsAmount = controller.getRowsAmount();
-				int columnsAmount = controller.getColumnsAmount();
-				controller.create(rowsAmount, columnsAmount);
-				gameFieldPanel.setStandard();
-				gameFieldPanel.setRowsAmount(rowsAmount - 1);
-				gameFieldPanel.setYStart();
-				headPanel.setStandard();
+			newGame();
 			}
 		});
+		
+
 		
 		exitMenuItem = new JMenuItem("Exit");
 		exitMenuItem.addActionListener(new ActionListener() {
@@ -100,7 +97,6 @@ public class MastermindFrame extends JFrame implements IObserver {
 				gameFieldPanel.setStandard();
 				gameFieldPanel.setRowsAmount(ROWS12 - 1);
 				gameFieldPanel.setYStart();
-				//headPanel.setStandard();
 				setHeight(ROWS12);
 			}
 		});
@@ -132,32 +128,29 @@ public class MastermindFrame extends JFrame implements IObserver {
 				setHeight(ROWS4);
 			}
 		});
-
-		highscoreMenuItem = new JMenuItem("Highscores");
-		highscoreMenuItem.addActionListener(new ActionListener() {
-
+		
+		setBasicColorsMenuItem = new JMenuItem("Set colors to basic");
+		setBasicColorsMenuItem.addActionListener(new ActionListener() {
+			
 			@Override
 			public void actionPerformed(ActionEvent e) {
-				new HighscoreDialog(controller, frame);
+				newGame();
+				controller.setChosenColor(controller.getColor("basic"));
+				controller.newMasterColors();
 			}
 		});
-
-
-		removeHighscoreMenuItem = new JMenuItem("Clear highscores");
-		removeHighscoreMenuItem.addActionListener(new ActionListener() {
-
+		
+		setCountryColorsMenuItem = new JMenuItem("Set colors to country");
+		setCountryColorsMenuItem.addActionListener(new ActionListener() {
+			
 			@Override
 			public void actionPerformed(ActionEvent e) {
-				int input = JOptionPane.showConfirmDialog(null,
-						"Are you sure to remove all highscore entries?",
-						"Remove all highscores",
-						JOptionPane.YES_NO_OPTION);
-
-				if (input == 0) {
-					controller.removeAllGrids();
-				}
+				newGame();
+				controller.setChosenColor(controller.getColor("country"));
+				controller.newMasterColors();
 			}
 		});
+		
 		
 		optionsMenu.add(showSolutionMenuItem);
 		optionsMenu.addSeparator();
@@ -165,8 +158,8 @@ public class MastermindFrame extends JFrame implements IObserver {
 		optionsMenu.add(setSize8MenuItem);
 		optionsMenu.add(setSize4MenuItem);
 		optionsMenu.addSeparator();
-		optionsMenu.add(highscoreMenuItem);
-		optionsMenu.add(removeHighscoreMenuItem);
+		optionsMenu.add(setBasicColorsMenuItem);
+		optionsMenu.add(setCountryColorsMenuItem);
 		
 		menuBar.add(fileMenu);
 		menuBar.add(optionsMenu);
@@ -205,6 +198,18 @@ public class MastermindFrame extends JFrame implements IObserver {
 		mainPanel.add(gameFieldPanel);
 		setVisible(true);
 		repaint();
+	}
+	
+	
+	private void newGame(){	
+		controller.resetSize(controller.getRowsAmount(), controller.getRowsAmount());
+		int rowsAmount = controller.getRowsAmount();
+		int columnsAmount = controller.getColumnsAmount();
+		controller.create(rowsAmount, columnsAmount);
+		gameFieldPanel.setStandard();
+		gameFieldPanel.setRowsAmount(rowsAmount - 1);
+		gameFieldPanel.setYStart();
+		headPanel.setStandard();
 	}
 	
 	@Override

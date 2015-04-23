@@ -56,54 +56,12 @@ public interface IController extends IObservable {
 	 * @return columns
 	 */
 	int getColumnsAmount();
-
-	/**
-	 * Sets the name of the user
-	 * @param username The name of the user
-	 */
-	void setUsername (String username);
-
-	/**
-	 * Returns the name of the user
-	 * @return the name of the user
-	 */
-	String getUsername();
-
-	/**
-	 * Returns the actual date
-	 * @return
-	 */
-	String getDate();
-
-	/**
-	 * Sets the date
-	 * @param date The actual date
-	 */
-	void setDate(String date);
-
-	/**
-	 * Returns the id of the grid
-	 * @return the id of the grid
-	 */
-	String getId();
-
-	/**
-	 * Sets the id of the grid
-	 * @param id the id of the grid
-	 */
-	void setId(String id);
-
+	
 	/**
 	 * Returns a string grid
 	 * @return grid
 	 */
 	String getGridString();
-
-	/**
-	 * Returns highscore table as String
-	 * @return Highscore table as string
-	 */
-	//String getHighscoreString();
 	
 	/**
 	 * Returns the status line
@@ -186,32 +144,25 @@ public interface IController extends IObservable {
 	 * @return color
 	 */
 	Color getColorFromString(String color);
+	
+	/**
+	 * Sets the color chosen by the user
+	 * @param ChosenColor
+	 * @return void
+	 */
+	void setChosenColor(String [] chosenColor);
 
 	/**
-	 * Saves grid to DB.
+	 * Returns the color from the model
+	 * @param color
+	 * @return String array
 	 */
-	void saveToDB();
+	String[] getColor(String color);
 
 	/**
-	 * Returns field with name and score
-	 * @return field with name and score
+	 * Calls the newMasterColors from Grid
+	 * @param void
+	 * @return void
 	 */
-	String [][] getAllGrids();
-
-	/**
-	 * Removes all grid from db
-	 */
-	void removeAllGrids();
-
-	/**
-	 * Removes the entry from db with passed id
-	 * @param id the id of the db entry
-	 */
-	void removeGridById(String id);
-
-	/**
-	 * Checks if user has made a new highscore. If yes, old value will be deleted
-	 * @return the the id to delete
-	 */
-	String isInHighScore();
+	void newMasterColors();
 }

@@ -2,7 +2,8 @@ package de.htwg.se.mastermind.view.gui;
 
 import java.awt.Dimension;
 import java.awt.Graphics;
-
+import java.awt.Image;
+import java.awt.Toolkit;
 import javax.swing.BorderFactory;
 import javax.swing.JPanel;
 
@@ -17,8 +18,22 @@ public class MastercolorsPanel extends JPanel {
 	private static final int HEIGHT = 60;
 	private static final int XBALLS = 45;
 	private static final int YBALLS = 25;
-	private static final int WIDTHHEIGHTBALLS = 20;
 	private static final int XINCREASE = 30;
+	
+	private static final String PATH = "src/resource/";
+	private static final String FILEEX = ".png";	
+	private Image defaultImage = Toolkit.getDefaultToolkit().getImage(createImagePath("gy"));	
+	private Image image;
+	
+    public void setImage(Image image) {
+	      this.image = image;
+	      repaint();
+	   }
+		 
+   private String createImagePath(String color){
+	   return PATH + color + FILEEX;
+   }
+		
 	
 	public MastercolorsPanel(IController controller) {
 		this.controller = controller;
@@ -26,7 +41,9 @@ public class MastercolorsPanel extends JPanel {
 		this.masterColors = new String[controller.getColumnsAmount()/2];
 		this.initializeArray();
 		this.setBorder(BorderFactory.createTitledBorder("Mastercolors"));
+		image = defaultImage;
 	}
+
 	
 	@Override
 	protected void paintComponent(Graphics g) {
@@ -38,14 +55,16 @@ public class MastercolorsPanel extends JPanel {
 		if (isSolved || showSolution || actualRow == rowsAmount - 1) {
 			masterColors = controller.getMastermindColors();
 		}
-		
-		int x = XBALLS, y = YBALLS, width = WIDTHHEIGHTBALLS, height = WIDTHHEIGHTBALLS, xIncrease = XINCREASE;
+				
+		int x = XBALLS, y = YBALLS, xIncrease = XINCREASE;
 		for (int i = masterColors.length - 1; i >= 0; i--) {
-			g.setColor(controller.getColorFromString(masterColors[i]));
-			g.fillOval(x, y, width, height);
+			image = Toolkit.getDefaultToolkit().getImage(createImagePath(masterColors[i]));
+			g.drawImage(image,  x, y, this);
+			
 			x += xIncrease;
 		}
 	}
+	
 	
 	public final void initializeArray() {
 		for (int i = 0; i < this.masterColors.length; i++) {

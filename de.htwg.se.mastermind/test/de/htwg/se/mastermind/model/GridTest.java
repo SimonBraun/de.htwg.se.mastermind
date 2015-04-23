@@ -1,6 +1,8 @@
 package de.htwg.se.mastermind.model;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotEquals;
+import static org.junit.Assert.assertArrayEquals;
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 
@@ -191,6 +193,26 @@ public class GridTest {
 		assertEquals(Color.pink, this.grid.getColorFromString("pk"));
 		assertEquals(Color.magenta, this.grid.getColorFromString("pu"));
 		assertEquals(null, this.grid.getColorFromString("pr"));
+	}
+	
+	@Test
+	public void testGetRowConfirmed() {
+		this.grid.setRowConfirmed(true);
+		assertEquals(true, this.grid.getRowConfirmed());
+	}
+	
+	@Test
+	public void testnewMasterColors() {
+		String [] masterColors = this.grid.getMastermindColors();
+		this.grid.newMasterColors();
+		assertNotEquals(masterColors, this.grid.getMastermindColors());
+	}
+	
+	@Test
+	public void testSetAvailableColors() {
+		String [] basicColors = {"rd", "bl", "gr", "yl", "or", "pu", "pk"};
+		this.grid.setAvailableColors(basicColors);
+		assertArrayEquals(basicColors, this.grid.getAvailableColors());
 	}
 	
 	/* Tests for Abstract Grid*/

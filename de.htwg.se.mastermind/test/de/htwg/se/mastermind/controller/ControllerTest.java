@@ -1,31 +1,29 @@
 package de.htwg.se.mastermind.controller;
 
+import static org.junit.Assert.assertArrayEquals;
+
+import java.awt.Color;
+
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertNotEquals;
 
-import de.htwg.se.mastermind.persistence.db4o.GridDb4oDAO;
-import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
 import de.htwg.se.mastermind.model.IGrid;
+import de.htwg.se.mastermind.controller.IController;
+import de.htwg.se.mastermind.controller.Controller;
 
 public class ControllerTest {
 	private IGrid grid;
 	private IController controller;
-	private GridDb4oDAO db4oDAO;
 	
 	@Before
 	public void setUp() throws Exception {
-		db4oDAO = new GridDb4oDAO();
-		controller = new Controller(db4oDAO);
+		controller = new Controller();
 		controller.create(8, 8);
 		grid = controller.getGrid();
-	}
-
-	@After
-	public void after() {
-		db4oDAO.closeDb();
 	}
 	
 	@Test
@@ -127,5 +125,41 @@ public class ControllerTest {
 		assertEquals(true, controller.getIsNewGame());
 		controller.setIsNewGame(false);
 		assertEquals(false, controller.getIsNewGame());
+	}
+	
+	@Test
+	public void testnewMasterColors() {
+		String [] masterColors = this.grid.getMastermindColors();
+		controller.newMasterColors();
+		assertNotEquals(masterColors, this.grid.getMastermindColors());
+	}
+	
+	@Test
+	public void testisSolved() {
+		assertNotEquals(true, controller.isSolved());
+	}
+	
+	@Test
+	public void testGetRowConfirmed() {
+		this.grid.setRowConfirmed(true);
+		assertEquals(true, controller.getRowConfirmed());
+	}
+	
+	@Test
+	public void testsetChosenColor() {
+		String [] basicColors = {"rd", "bl", "gr", "yl", "or", "pu", "pk"};
+		controller.setChosenColor(basicColors);
+		assertArrayEquals(basicColors, controller.getAvailableColors());
+	}
+	
+	@Test
+	public void testGetColor() {
+		String [] basicColors = {"rd", "bl", "gr", "yl", "or", "pu", "pk"};	
+		assertArrayEquals(basicColors, controller.getColor("basic"));
+	}
+	
+	@Test
+	public void testGetColorFromString() {
+		assertEquals(Color.red, controller.getColorFromString("rd"));
 	}
 }

@@ -114,6 +114,12 @@ public interface IGrid {
 	String [] getAvailableColors();
 	
 	/**
+	 * Sets the available colors chosen by the user
+	 * @return void
+	 */
+	void setAvailableColors(String [] chosenColor);
+	
+	/**
 	 * Verifies if show solution has been choosen
 	 * @return
 	 */
@@ -156,45 +162,9 @@ public interface IGrid {
 	Color getColorFromString(String color);
 
 	/**
-	 * Sets the username
-	 * @param username Name of the user
+	 * Creates nee random master colors
+	 * @param void
+	 * @return void
 	 */
-	void setUsername(String username);
-
-	/**
-	 * Returns the username
-	 * @return Name of the user
-	 */
-	String getUsername();
-
-	/**
-	 * Returns the actual date
-	 * @return
-	 */
-	String getDate();
-
-	/**
-	 * Sets the date
-	 * @param date The actual date
-	 */
-	void setDate(String date);
-
-	/**
-	 * Returns the id of the grid
-	 * @return the id of the grid
-	 */
-	String getId();
-
-	/**
-	 * Sets the id of the grid
-	 * @param id the id of the grid
-	 */
-	void setId(String id);
-
-	/**
-	 * Returns highscore table as String
-	 * @param data the data from db
-	 * @return highscore table as String
-	 */
-	//String getHighscroreTableString(String [][] data);
+	void newMasterColors();
 }

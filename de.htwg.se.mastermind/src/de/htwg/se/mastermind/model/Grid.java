@@ -12,7 +12,9 @@ import java.util.Arrays;
 public class Grid extends AbstractGrid implements IGrid {
 	
 	private int actualRow;
-	private final String [] availableColors = {"rd", "bl", "gr", "yl", "or", "pu", "pk"};
+	private Colors colors;
+	private String [] defaultColors;
+	private String [] availableColors;
 	private String [] masterColors;
 	private String [] settedColors;
 	private int amountOfRows;
@@ -21,25 +23,25 @@ public class Grid extends AbstractGrid implements IGrid {
 	private boolean showSolution;
 	private boolean rowConfirmed;
 	private boolean isNewGame;
-	private String username;
-	private String date;
-	private String id;
 	
 	/**
 	 * Initializes a new grid.
-	 * @param rows Amount of the grid rows
-	 * @param columns Amount of the grid columns
+	 * @param rows
+	 * @param columns
 	 */
 	public Grid(int rows, int columns) {
 		this.create(rows, columns);
 		this.actualRow = 0;
+		this.colors = new Colors();
+		this.defaultColors = colors.getColor("basic");
+		if(this.availableColors== null){
+			this.availableColors = defaultColors;
+		}
 		this.masterColors = this.randomMastermindColors();
 		this.settedColors = new String [columns/2];
 		this.setInvisibleMasterColors();
 		this.showSolution = false;
 		this.rowConfirmed = false;
-		this.username = "(No username)";
-		this.date = "(No date)";
 	}
 	
 	@Override
@@ -122,13 +124,15 @@ public class Grid extends AbstractGrid implements IGrid {
 		for (int i = 0; i < settedColors.length; i++) {
 			if (colorOnRightPlace(i)) {
 				blackSticks++;
+				continue;
 			}
 		}
 		
 		ArrayList<Integer> alreadyProcessed = new ArrayList<Integer>();
 	    for (String color : masterColors) {
 	    	for (int j = 0; j < settedColors.length; j++) {
-	    		if (color.equals(settedColors[j]) && !alreadyProcessed.contains(j)) {
+//	    		if (color.equals(settedColors[j]) && !alreadyProcessed.contains(j)) {
+		    	if (color.equals(settedColors[j])) {
 	    			alreadyProcessed.add(j);
 	    			whiteSticks++;
 	    			break;
@@ -153,14 +157,17 @@ public class Grid extends AbstractGrid implements IGrid {
 	}
 	
 	private boolean colorOnRightPlace(int index) {
-		return settedColors[index].equals(masterColors[index]);
-
+		if (settedColors[index].equals(masterColors[index])) {
+			return true;
+		}
+		
+		return false;
 	}
 	
 	private String [] randomMastermindColors() {
 		this.masterColors = new String[this.amountOfColumns/2];
 		for (int i = 0; i < this.masterColors.length; i++) {
-			int random = (int) (Math.random() * (availableColors.length) + 0);
+			int random = (int) (Math.random() * (availableColors.length - 0) + 0);
 			this.masterColors[i] = availableColors[random];
 		}
 		
@@ -209,6 +216,16 @@ public class Grid extends AbstractGrid implements IGrid {
 	@Override
 	public String[] getAvailableColors() {
 		return this.availableColors;
+	}
+	
+	@Override
+	public void setAvailableColors(String [] chosenColor) {
+		this.availableColors = chosenColor;
+	}
+	
+	@Override
+	public void newMasterColors(){
+		this.masterColors = this.randomMastermindColors();
 	}
 
 	@Override
@@ -281,59 +298,5 @@ public class Grid extends AbstractGrid implements IGrid {
 		}
 		
 		return null;
-	}
-
-	@Override
-	public void setUsername(String username) {
-		this.username = username;
-	}
-
-	@Override
-	public String getUsername() {
-		return this.username;
-	}
-
-	@Override
-	public String getDate() {
-		return this.date;
-	}
-
-	@Override
-	public void setDate(String date) {
-		this.date = date;
-	}
-
-	@Override
-	public String getId() {
-		return this.id;
-	}
-
-	@Override
-	public void setId(String id) {
-		this.id = id;
-	}
-
-	/*@Override
-	public String getHighscroreTableString(String [][] data) {
-		int maxUsernameLength = this.maxUsernameLength(data);
-		StringBuilder sb = new StringBuilder();
-		sb.append("+--------+");
-		for (int i = 0; i < maxUsernameLength; i++) {
-			sb.append("-");
-		}
-
-		sb.append("+--------+-----------------+");
-
-		return sb.toString();
-	}*/
-
-	private int maxUsernameLength(String [][] data) {
-		int maxLength = 0;
-		for (int i = 0; i < data.length; i++) {
-			if (maxLength < data[i][0].length()) {
-				maxLength = data[i][0].length();
-			}
-		}
-		return maxLength;
 	}
 }

@@ -2,16 +2,16 @@ package de.htwg.se.mastermind.view.gui;
 
 import java.awt.Color;
 import java.awt.Graphics;
+import java.awt.Image;
+import java.awt.Toolkit;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
-import java.text.DateFormat;
-import java.text.SimpleDateFormat;
-import java.util.Date;
-import java.util.UUID;
 
-import javax.swing.*;
+import javax.swing.BorderFactory;
+import javax.swing.JButton;
+import javax.swing.JPanel;
 
 import de.htwg.se.mastermind.controller.IController;
 
@@ -32,6 +32,7 @@ public class GameFieldPanel extends JPanel {
 	private int rows;
 	private int columns;
 	private Color [][] colors;
+	private String [][] colorsString;
 	private Color [][] sticks;
 	private Color actualColor;
 	private String actualStringColor;
@@ -59,11 +60,18 @@ public class GameFieldPanel extends JPanel {
 	private static final int YROWS3 = 105;
 	private int yStartNeu = YSTART;
 	
+	private static final String PATH = "src/resource/";
+	private static final String FILEEX = ".png";	
+	private Image defaultImage = Toolkit.getDefaultToolkit().getImage(createImagePath("gy"));	
+	private Image image;
+	
+	
 	public GameFieldPanel(final IController controller) {
 		this.controller = controller;
 		this.rows = this.controller.getRowsAmount() - 1;
 		this.columns = this.controller.getColumnsAmount()/2;
 		this.colors = new Color[rows][columns];
+		this.colorsString = new String[rows][columns];
 		this.sticks = new Color[rows][columns];
 		this.setSize(WIDTH, HEIGHT);
 		this.setLayout(null);
@@ -72,51 +80,43 @@ public class GameFieldPanel extends JPanel {
 		this.addMouseListener(mouseClick);
 		this.addMouseMotionListener(mouseClick);
 		this.actualColor = Color.gray;
-		this.actualStringColor = null;
 		this.initializeArrays();
 		this.buttonConfirmRow = new JButton("Confirm Row");
 		this.buttonConfirmRow.setBounds(XBUTTON, yStartNeu - YBUTTONDIFF, WIDTHBUTTON, HEIGHTBUTTON);
 		this.buttonConfirmRow.addActionListener(new ActionListener() {
-			@Override
-			public void actionPerformed(ActionEvent e) {
-				int actualRow = controller.getActualRow();
-				String[] stickValues = new String[columns];
-				int index = 0;
-				if (controller.confirmRow()) {
-					for (int i = columns * 2 - 1; i >= columns; i--) {
-						stickValues[index] = controller.getValue(actualRow, i);
-						if (stickValues[index] != null) {
-							if (sticks[actualRow][index].equals(Color.gray)) {
-								sticks[actualRow][index] = getStickColor(stickValues[index]);
-								index++;
-							}
-						} else {
-							break;
-						}
-					}
-					controller.setRowConfirmed(true);
-
-					String idToDelete;
-					if (controller.isSolved() && ((idToDelete = controller.isInHighScore())) != null) {
-						String nameInput = JOptionPane.showInputDialog(null,"You are in the highscore list. Please enter your name:",
-								"New highscore!",
-								JOptionPane.PLAIN_MESSAGE);
-
-						if (nameInput != null) {
-							controller.removeGridById(idToDelete);
-							DateFormat dateFormat = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss");
-							Date date = new Date();
-							controller.setUsername(nameInput);
-							controller.setDate(dateFormat.format(date));
-							controller.setId(UUID.randomUUID().toString());
-							controller.saveToDB();
-						}
-					}
-				}
-			}
-		});
+            @Override
+            public void actionPerformed(ActionEvent e) {
+            	int actualRow = controller.getActualRow();
+            	String [] stickValues = new String[columns];
+            	int index = 0;
+                if (controller.confirmRow()) {
+                	for (int i = columns*2 - 1; i >= columns; i--) {
+                		stickValues[index] = controller.getValue(actualRow, i);
+                		if (stickValues[index] != null) {
+                			if (sticks[actualRow][index].equals(Color.gray)) {
+		            			sticks[actualRow][index] = getStickColor(stickValues[index]);
+		            			index++;
+                			}	
+                		} else {
+                			break;
+                		}
+                	}              	
+                	controller.setRowConfirmed(true);
+                }
+            }
+        });
+		
 		this.add(buttonConfirmRow);
 	}
+	
+    public void setImage(Image image) {
+	      this.image = image;
+	      repaint();
+	   }
+		 
+	 private String createImagePath(String color){
+		   return PATH + color + FILEEX;
+	 }
 	
 	@Override
 	public void paintComponent(Graphics g) {
@@ -149,12 +149,18 @@ public class GameFieldPanel extends JPanel {
 		
 		for (int i = 0; i < rows ; i++) {
 			for (int j = columns - 1; j >= 0; j--) {
-				g.setColor(this.colors[i][j]);
-				g.fillOval(x, y, BALLSIZE, BALLSIZE);
+				if(this.colorsString[i][j] == null || this.colorsString[i][j] == "gy"){
+					image = defaultImage;
+				}
+				else{
+					image = Toolkit.getDefaultToolkit().getImage(createImagePath(this.colorsString[i][j]));
+				}
+				g.drawImage(image,  x, y, this);
 				x += BALLSIZE + STICKSIZE;
 			}
 			x = XSTART;
 			y -= BALLSIZE * 2;
+
 		}
 	}
 	
@@ -181,10 +187,60 @@ public class GameFieldPanel extends JPanel {
 			this.actualColor = getNextColor();
 			this.colors[actualRow][columns-column] = actualColor;
 			this.controller.setValue(actualRow, columns-column, this.actualStringColor);
+			this.colorsString[actualRow][columns-column] = this.actualStringColor;
 		}
 	}
 	
+	
 	public Color getNextColor() {
+		
+		if (this.actualStringColor == null) {
+			this.actualStringColor = this.controller.getAvailableColors()[0];
+			return Color.red;
+		}
+		
+		if (this.actualStringColor == this.controller.getAvailableColors()[0]) {
+			this.actualStringColor = this.controller.getAvailableColors()[1];
+			return Color.blue;
+		}
+		
+		if (this.actualStringColor == this.controller.getAvailableColors()[1]) {
+			this.actualStringColor = this.controller.getAvailableColors()[2];
+			return Color.green;
+		}
+		
+		if (this.actualStringColor == this.controller.getAvailableColors()[2]) {
+			this.actualStringColor = this.controller.getAvailableColors()[3];
+			return Color.yellow;
+		}
+		
+		if (this.actualStringColor == this.controller.getAvailableColors()[3]) {
+			this.actualStringColor = this.controller.getAvailableColors()[4];
+			return Color.orange;
+		}
+		
+		if (this.actualStringColor == this.controller.getAvailableColors()[4]) {
+			this.actualStringColor = this.controller.getAvailableColors()[5];
+			return Color.magenta;
+		}
+		
+		if (this.actualStringColor == this.controller.getAvailableColors()[5]) {
+			this.actualStringColor = this.controller.getAvailableColors()[6];
+			return Color.pink;
+		}
+		
+		if (this.actualStringColor == this.controller.getAvailableColors()[6]) {
+			this.actualStringColor = this.controller.getAvailableColors()[0];
+			return Color.red;
+		}
+		else{
+			this.actualStringColor = this.controller.getAvailableColors()[0];
+		}
+		
+		return null;
+	}
+	
+/*	public Color getNextColor() {
 		
 		if (this.actualColor == Color.gray) {
 			this.actualStringColor = "yl";
@@ -227,7 +283,7 @@ public class GameFieldPanel extends JPanel {
 		}
 		
 		return null;
-	}
+	}*/
 	
 	public Color getStickColor(String stickColor) {
 

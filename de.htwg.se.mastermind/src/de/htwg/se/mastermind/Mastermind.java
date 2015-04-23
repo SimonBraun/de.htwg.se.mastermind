@@ -2,15 +2,14 @@
 
 package de.htwg.se.mastermind;
 
-import com.google.inject.Guice;
-import com.google.inject.Injector;
 import de.htwg.se.mastermind.controller.IController;
+import de.htwg.se.mastermind.controller.Controller;
 import de.htwg.se.mastermind.view.gui.MastermindFrame;
-import de.htwg.se.mastermind.view.TextUI;
+import de.htwg.se.mastermind.view.tui.TextUI;
 
 import java.util.Scanner;
 
-//import org.apache.log4j.PropertyConfigurator;
+import org.apache.log4j.PropertyConfigurator;
 
 /**
  * Mastermind
@@ -48,10 +47,8 @@ public final class Mastermind {
 	}
 
 	private Mastermind() {
-		//PropertyConfigurator.configure("log4j.properties");
-		//Use dependency injection
-		Injector injector = Guice.createInjector(new MastermindModule());
-		controller = injector.getInstance(IController.class);
+		PropertyConfigurator.configure("log4j.properties");
+		controller = new Controller();
 		controller.create(ROWS, COLUMNS);
 		tui = new TextUI(controller);
 		gui = new MastermindFrame(controller);
