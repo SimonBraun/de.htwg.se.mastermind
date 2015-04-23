@@ -70,8 +70,8 @@ public class TextUITest {
 		assertEquals(12, controller.getRowsAmount());
 	}
 
-	@After
+	/*@After
 	public void after() {
 		gridDAO.closeDb();
-	}
+	}*/
 }

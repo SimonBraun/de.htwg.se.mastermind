@@ -1,4 +1,4 @@
-/*package de.htwg.se.mastermind.view.gui;
+package de.htwg.se.mastermind.view.gui;
 
 import static org.junit.Assert.assertEquals;
 
@@ -29,8 +29,8 @@ public class StatusPanelTest {
 		assertEquals("Welcome to Mastermind!!!", controller.getStatusLine());
 	}
 
-	@After
+	/*@After
 	public void after() {
 		gridDAO.closeDb();
-	}
-}*/
+	}*/
+}
