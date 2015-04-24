@@ -7,8 +7,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="273bd68d-b151-4690-adec-d0da6a88b831" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/Mastermind.java" afterPath="$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/Mastermind.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/MastermindModule.java" afterPath="$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/MastermindModule.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grid.data" afterPath="$PROJECT_DIR$/grid.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/view/gui/GameFieldPanel.java" afterPath="$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/view/gui/GameFieldPanel.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/persistence/couchdb/GridCouchdbDAO.java" afterPath="$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/persistence/couchdb/GridCouchdbDAO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/view/gui/MastercolorsPanel.java" afterPath="$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/view/gui/MastercolorsPanel.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mastermind.log.1" afterPath="$PROJECT_DIR$/mastermind.log.1" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mastermind.log" afterPath="$PROJECT_DIR$/mastermind.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/de.htwg.se.mastermind/mastermind.log" afterPath="$PROJECT_DIR$/de.htwg.se.mastermind/mastermind.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="de.htwg.se.mastermind.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,9 +43,44 @@
         <entry file="file://$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/MastermindModule.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
-              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GridCouchdbDAO.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/persistence/couchdb/GridCouchdbDAO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="7" max-vertical-offset="782">
+              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MastermindFrame.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/view/gui/MastermindFrame.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-33.172413" vertical-offset="1282" max-vertical-offset="3825">
+              <caret line="189" column="43" selection-start-line="189" selection-start-column="43" selection-end-line="189" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Controller.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/controller/Controller.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-16.103449" vertical-offset="2321" max-vertical-offset="3791">
+              <caret line="224" column="5" selection-start-line="224" selection-start-column="5" selection-end-line="224" selection-end-column="5" />
+              <folding>
+                <element signature="e#4151#4152#0" expanded="true" />
+                <element signature="e#4199#4200#0" expanded="true" />
+                <element signature="e#4635#4636#0" expanded="true" />
+                <element signature="e#4661#4662#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -48,8 +89,8 @@
       <file leaf-file-name="Grid.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/model/Grid.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1521" max-vertical-offset="3791">
-              <caret line="134" column="8" selection-start-line="134" selection-start-column="8" selection-end-line="134" selection-end-column="8" />
+            <state vertical-scroll-proportion="-5.5172415" vertical-offset="2560" max-vertical-offset="3587">
+              <caret line="226" column="20" selection-start-line="226" selection-start-column="16" selection-end-line="226" selection-end-column="20" />
               <folding>
                 <element signature="method#rowIsSet#0;class#Grid#0" expanded="false" />
                 <element signature="method#isColor#0;class#Grid#0" expanded="false" />
@@ -59,18 +100,6 @@
                 <element signature="method#showSolution#0;class#Grid#0" expanded="false" />
                 <element signature="method#setInvisibleMasterColors#0;class#Grid#0" expanded="false" />
                 <element signature="method#getColorFromString#0;class#Grid#0" expanded="false" />
-                <element signature="e#6357#6358#0" expanded="true" />
-                <element signature="e#6388#6389#0" expanded="true" />
-                <element signature="e#6431#6432#0" expanded="true" />
-                <element signature="e#6458#6459#0" expanded="true" />
-                <element signature="e#6497#6498#0" expanded="true" />
-                <element signature="e#6520#6521#0" expanded="true" />
-                <element signature="e#6568#6569#0" expanded="true" />
-                <element signature="e#6591#6592#0" expanded="true" />
-                <element signature="e#6628#6629#0" expanded="true" />
-                <element signature="e#6649#6650#0" expanded="true" />
-                <element signature="e#6693#6694#0" expanded="true" />
-                <element signature="e#6712#6713#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -79,90 +108,38 @@
       <file leaf-file-name="Mastermind.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/Mastermind.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="605" max-vertical-offset="1394">
+            <state vertical-scroll-proportion="0.0" vertical-offset="589" max-vertical-offset="1173">
               <caret line="51" column="10" selection-start-line="51" selection-start-column="10" selection-end-line="51" selection-end-column="10" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#952#953#0" expanded="true" />
-                <element signature="e#976#977#0" expanded="true" />
-                <element signature="e#1003#1004#0" expanded="true" />
-                <element signature="e#1020#1021#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TextUI.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/view/TextUI.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="37" max-vertical-offset="1581">
-              <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GameFieldPanel.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="GameFieldPanel.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/view/gui/GameFieldPanel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1198" max-vertical-offset="6120">
-              <caret line="63" column="52" selection-start-line="63" selection-start-column="52" selection-end-line="63" selection-end-column="52" />
+            <state vertical-scroll-proportion="0.6439394" vertical-offset="493" max-vertical-offset="6392">
+              <caret line="67" column="61" selection-start-line="67" selection-start-column="61" selection-end-line="67" selection-end-column="61" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GridTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/de.htwg.se.mastermind/test/de/htwg/se/mastermind/model/GridTest.java">
+      <file leaf-file-name="MastercolorsPanel.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/view/gui/MastercolorsPanel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="2013" max-vertical-offset="4097">
-              <caret line="135" column="0" selection-start-line="135" selection-start-column="0" selection-end-line="135" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1598">
+              <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TextUITest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/de.htwg.se.mastermind/test/de/htwg/se/mastermind/view/tui/TextUITest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="305" max-vertical-offset="1394">
-              <caret line="46" column="44" selection-start-line="46" selection-start-column="44" selection-end-line="46" selection-end-column="44" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#855#856#0" expanded="true" />
-                <element signature="e#879#880#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/de.htwg.se.mastermind/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.6726907" vertical-offset="0" max-vertical-offset="1275">
-              <caret line="49" column="16" selection-start-line="49" selection-start-column="16" selection-end-line="49" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ObservableTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/de.htwg.se.mastermind/test/de/htwg/se/mastermind/observer/ObservableTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1020">
-              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CellTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/de.htwg.se.mastermind/test/de/htwg/se/mastermind/model/CellTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="833">
-              <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="1275">
+              <caret line="8" column="42" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -184,7 +161,6 @@
         <option value="$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/view/gui/SetNameDialog.java" />
         <option value="$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/persistence/IGridDAO.java" />
         <option value="$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/view/gui/MastermindFrame.java" />
-        <option value="$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/view/gui/GameFieldPanel.java" />
         <option value="$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/model/AbstractGrid.java" />
         <option value="$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/view/tui/TextUI.java" />
         <option value="$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/view/gui/HighscoreDialog.java" />
@@ -192,7 +168,6 @@
         <option value="$PROJECT_DIR$/de.htwg.se.mastermind/test/de/htwg/se/mastermind/main/MastermindTest.java" />
         <option value="$PROJECT_DIR$/de.htwg.se.mastermind/test/de/htwg/se/mastermind/view/tui/gui/StatusPanelTest.java" />
         <option value="$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/view/TextUI.java" />
-        <option value="$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/persistence/couchdb/GridCouchdbDAO.java" />
         <option value="$PROJECT_DIR$/de.htwg.se.mastermind/pom.xml" />
         <option value="$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/controller/IController.java" />
         <option value="$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/controller/Controller.java" />
@@ -201,8 +176,11 @@
         <option value="$PROJECT_DIR$/de.htwg.se.mastermind/test/de/htwg/se/mastermind/view/gui/StatusPanelTest.java" />
         <option value="$PROJECT_DIR$/de.htwg.se.mastermind/test/de/htwg/se/mastermind/view/tui/TextUITest.java" />
         <option value="$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/model/Grid.java" />
-        <option value="$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/MastermindModule.java" />
         <option value="$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/Mastermind.java" />
+        <option value="$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/view/gui/GameFieldPanel.java" />
+        <option value="$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/view/gui/MastercolorsPanel.java" />
+        <option value="$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/persistence/couchdb/GridCouchdbDAO.java" />
+        <option value="$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/MastermindModule.java" />
       </list>
     </option>
   </component>
@@ -236,6 +214,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -376,81 +355,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="view" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="de.htwg.se.mastermind" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="de.htwg.se.mastermind" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mastermind" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="view" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gui" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="de.htwg.se.mastermind" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="de.htwg.se.mastermind" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mastermind" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="persistence" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="de.htwg.se.mastermind" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="de.htwg.se.mastermind" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mastermind" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="persistence" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="db4o" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -496,7 +401,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -512,7 +416,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/org.ektorp-1.2.2.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FullScreen" value="false" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
@@ -980,7 +884,7 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4308342" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4308342" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -988,7 +892,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39915523" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39915523" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -1051,7 +955,7 @@
           <option name="timeStamp" value="52" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="53" />
+      <option name="time" value="58" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1060,20 +964,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/Mastermind.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1173">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#952#953#0" expanded="true" />
-            <element signature="e#976#977#0" expanded="true" />
-            <element signature="e#1003#1004#0" expanded="true" />
-            <element signature="e#1020#1021#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/model/Grid.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="3011" max-vertical-offset="4386">
@@ -1092,81 +982,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2210">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#808#809#0" expanded="true" />
-            <element signature="e#837#838#0" expanded="true" />
-            <element signature="method#create#0;class#Controller#0" expanded="false" />
-            <element signature="method#confirmRow#0;class#Controller#0" expanded="false" />
-            <element signature="method#setValue#0;class#Controller#0" expanded="false" />
-            <element signature="method#showSolution#0;class#Controller#0" expanded="false" />
-            <element signature="method#resetSize#0;class#Controller#0" expanded="false" />
-            <element signature="e#4253#4254#0" expanded="true" />
-            <element signature="e#4291#4292#0" expanded="true" />
-            <element signature="e#4334#4335#0" expanded="true" />
-            <element signature="e#4371#4372#0" expanded="true" />
-            <element signature="e#4410#4411#0" expanded="true" />
-            <element signature="e#4443#4444#0" expanded="true" />
-            <element signature="e#4491#4492#0" expanded="true" />
-            <element signature="e#4521#4522#0" expanded="true" />
-            <element signature="e#4558#4559#0" expanded="true" />
-            <element signature="e#4589#4590#0" expanded="true" />
-            <element signature="e#4633#4634#0" expanded="true" />
-            <element signature="e#4659#4660#0" expanded="true" />
-            <element signature="e#4711#4712#0" expanded="true" />
-            <element signature="e#4750#4751#0" expanded="true" />
-            <element signature="e#5647#5648#0" expanded="true" />
-            <element signature="e#5683#5684#0" expanded="true" />
-            <element signature="e#5736#5737#0" expanded="true" />
-            <element signature="e#5774#5775#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/model/Grid.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="3011" max-vertical-offset="4386">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/de.htwg.se.mastermind/test/de/htwg/se/mastermind/model/CellTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="833">
-          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/controller/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2210">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#808#809#0" expanded="true" />
-            <element signature="e#837#838#0" expanded="true" />
-            <element signature="method#create#0;class#Controller#0" expanded="false" />
-            <element signature="method#confirmRow#0;class#Controller#0" expanded="false" />
-            <element signature="method#setValue#0;class#Controller#0" expanded="false" />
-            <element signature="method#showSolution#0;class#Controller#0" expanded="false" />
-            <element signature="method#resetSize#0;class#Controller#0" expanded="false" />
-            <element signature="e#4253#4254#0" expanded="true" />
-            <element signature="e#4291#4292#0" expanded="true" />
-            <element signature="e#4334#4335#0" expanded="true" />
-            <element signature="e#4371#4372#0" expanded="true" />
-            <element signature="e#4410#4411#0" expanded="true" />
-            <element signature="e#4443#4444#0" expanded="true" />
-            <element signature="e#4491#4492#0" expanded="true" />
-            <element signature="e#4521#4522#0" expanded="true" />
-            <element signature="e#4558#4559#0" expanded="true" />
-            <element signature="e#4589#4590#0" expanded="true" />
-            <element signature="e#4633#4634#0" expanded="true" />
-            <element signature="e#4659#4660#0" expanded="true" />
-            <element signature="e#4711#4712#0" expanded="true" />
-            <element signature="e#4750#4751#0" expanded="true" />
-            <element signature="e#5647#5648#0" expanded="true" />
-            <element signature="e#5683#5684#0" expanded="true" />
-            <element signature="e#5736#5737#0" expanded="true" />
-            <element signature="e#5774#5775#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1181,33 +996,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2312">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#808#809#0" expanded="true" />
-            <element signature="e#837#838#0" expanded="true" />
-            <element signature="method#create#0;class#Controller#0" expanded="false" />
-            <element signature="method#confirmRow#0;class#Controller#0" expanded="false" />
-            <element signature="method#setValue#0;class#Controller#0" expanded="false" />
-            <element signature="method#showSolution#0;class#Controller#0" expanded="false" />
-            <element signature="method#resetSize#0;class#Controller#0" expanded="false" />
-            <element signature="e#4253#4254#0" expanded="true" />
-            <element signature="e#4291#4292#0" expanded="true" />
-            <element signature="e#4334#4335#0" expanded="true" />
-            <element signature="e#4371#4372#0" expanded="true" />
-            <element signature="e#4410#4411#0" expanded="true" />
-            <element signature="e#4443#4444#0" expanded="true" />
-            <element signature="e#4491#4492#0" expanded="true" />
-            <element signature="e#4521#4522#0" expanded="true" />
-            <element signature="e#4558#4559#0" expanded="true" />
-            <element signature="e#4589#4590#0" expanded="true" />
-            <element signature="e#4633#4634#0" expanded="true" />
-            <element signature="e#4659#4660#0" expanded="true" />
-            <element signature="e#4711#4712#0" expanded="true" />
-            <element signature="e#4750#4751#0" expanded="true" />
-            <element signature="e#5647#5648#0" expanded="true" />
-            <element signature="e#5683#5684#0" expanded="true" />
-            <element signature="e#5736#5737#0" expanded="true" />
-            <element signature="e#5774#5775#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1222,33 +1010,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2278">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#808#809#0" expanded="true" />
-            <element signature="e#837#838#0" expanded="true" />
-            <element signature="method#create#0;class#Controller#0" expanded="false" />
-            <element signature="method#confirmRow#0;class#Controller#0" expanded="false" />
-            <element signature="method#setValue#0;class#Controller#0" expanded="false" />
-            <element signature="method#showSolution#0;class#Controller#0" expanded="false" />
-            <element signature="method#resetSize#0;class#Controller#0" expanded="false" />
-            <element signature="e#4253#4254#0" expanded="true" />
-            <element signature="e#4291#4292#0" expanded="true" />
-            <element signature="e#4334#4335#0" expanded="true" />
-            <element signature="e#4371#4372#0" expanded="true" />
-            <element signature="e#4410#4411#0" expanded="true" />
-            <element signature="e#4443#4444#0" expanded="true" />
-            <element signature="e#4491#4492#0" expanded="true" />
-            <element signature="e#4521#4522#0" expanded="true" />
-            <element signature="e#4558#4559#0" expanded="true" />
-            <element signature="e#4589#4590#0" expanded="true" />
-            <element signature="e#4633#4634#0" expanded="true" />
-            <element signature="e#4659#4660#0" expanded="true" />
-            <element signature="e#4711#4712#0" expanded="true" />
-            <element signature="e#4750#4751#0" expanded="true" />
-            <element signature="e#5647#5648#0" expanded="true" />
-            <element signature="e#5683#5684#0" expanded="true" />
-            <element signature="e#5736#5737#0" expanded="true" />
-            <element signature="e#5774#5775#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1312,9 +1073,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
           <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1343,7 +1101,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1767" max-vertical-offset="2278">
           <caret line="126" column="5" selection-start-line="126" selection-start-column="5" selection-end-line="126" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1351,7 +1108,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.10176125" vertical-offset="16" max-vertical-offset="527">
           <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1404,32 +1160,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/view/gui/MastermindFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1870" max-vertical-offset="3468">
-          <caret line="156" column="43" selection-start-line="156" selection-start-column="43" selection-end-line="156" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/view/gui/HighscoreDialog.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="969">
           <caret line="37" column="50" selection-start-line="37" selection-start-column="50" selection-end-line="37" selection-end-column="50" />
           <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/persistence/couchdb/GridCouchdbDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="441" max-vertical-offset="952">
-          <caret line="27" column="63" selection-start-line="27" selection-start-column="63" selection-end-line="27" selection-end-column="63" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1031#1032#0" expanded="true" />
-            <element signature="e#1058#1059#0" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1438,11 +1174,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="986">
           <caret line="43" column="28" selection-start-line="43" selection-start-column="28" selection-end-line="43" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#634#635#0" expanded="true" />
-            <element signature="e#664#665#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1454,45 +1185,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/controller/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1428" max-vertical-offset="3247">
-          <caret line="224" column="5" selection-start-line="224" selection-start-column="5" selection-end-line="224" selection-end-column="5" />
-          <folding>
-            <element signature="e#808#809#0" expanded="true" />
-            <element signature="e#837#838#0" expanded="true" />
-            <element signature="method#create#0;class#Controller#0" expanded="false" />
-            <element signature="method#confirmRow#0;class#Controller#0" expanded="false" />
-            <element signature="method#setValue#0;class#Controller#0" expanded="false" />
-            <element signature="method#showSolution#0;class#Controller#0" expanded="false" />
-            <element signature="method#resetSize#0;class#Controller#0" expanded="false" />
-            <element signature="e#4253#4254#0" expanded="true" />
-            <element signature="e#4291#4292#0" expanded="true" />
-            <element signature="e#4334#4335#0" expanded="true" />
-            <element signature="e#4371#4372#0" expanded="true" />
-            <element signature="e#4410#4411#0" expanded="true" />
-            <element signature="e#4443#4444#0" expanded="true" />
-            <element signature="e#4491#4492#0" expanded="true" />
-            <element signature="e#4521#4522#0" expanded="true" />
-            <element signature="e#4558#4559#0" expanded="true" />
-            <element signature="e#4589#4590#0" expanded="true" />
-            <element signature="e#4633#4634#0" expanded="true" />
-            <element signature="e#4659#4660#0" expanded="true" />
-            <element signature="e#4711#4712#0" expanded="true" />
-            <element signature="e#4750#4751#0" expanded="true" />
-            <element signature="e#5647#5648#0" expanded="true" />
-            <element signature="e#5683#5684#0" expanded="true" />
-            <element signature="e#5736#5737#0" expanded="true" />
-            <element signature="e#5774#5775#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/model/IGrid.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="2583" max-vertical-offset="3604">
           <caret line="189" column="20" selection-start-line="189" selection-start-column="20" selection-end-line="189" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1500,11 +1196,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="67" max-vertical-offset="2873">
           <caret line="33" column="26" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#759#760#0" expanded="true" />
-            <element signature="e#783#784#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1512,11 +1203,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4624592" vertical-offset="0" max-vertical-offset="919">
           <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#795#796#0" expanded="false" />
-            <element signature="e#819#820#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1532,7 +1218,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="833">
           <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#642#643#0" expanded="false" />
+            <element signature="e#679#680#0" expanded="false" />
+            <element signature="e#888#889#0" expanded="false" />
+            <element signature="e#928#929#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1541,9 +1233,9 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="305" max-vertical-offset="1394">
           <caret line="46" column="44" selection-start-line="46" selection-start-column="44" selection-end-line="46" selection-end-column="44" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#855#856#0" expanded="true" />
-            <element signature="e#879#880#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#855#856#0" expanded="false" />
+            <element signature="e#879#880#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1552,16 +1244,57 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="2013" max-vertical-offset="4097">
           <caret line="135" column="0" selection-start-line="135" selection-start-column="0" selection-end-line="135" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/view/TextUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
+          <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#597#598#0" expanded="false" />
+            <element signature="e#611#612#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/Mastermind.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="589" max-vertical-offset="1173">
+          <caret line="51" column="10" selection-start-line="51" selection-start-column="10" selection-end-line="51" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/controller/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.103449" vertical-offset="2321" max-vertical-offset="3791">
+          <caret line="224" column="5" selection-start-line="224" selection-start-column="5" selection-end-line="224" selection-end-column="5" />
+          <folding>
+            <element signature="e#4151#4152#0" expanded="true" />
+            <element signature="e#4199#4200#0" expanded="true" />
+            <element signature="e#4635#4636#0" expanded="true" />
+            <element signature="e#4661#4662#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/de.htwg.se.mastermind/src/resource/de.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/de.htwg.se.mastermind/src/resource/gb.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/model/Grid.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1521" max-vertical-offset="3791">
-          <caret line="134" column="8" selection-start-line="134" selection-start-column="8" selection-end-line="134" selection-end-column="8" />
+        <state vertical-scroll-proportion="-5.5172415" vertical-offset="2560" max-vertical-offset="3587">
+          <caret line="226" column="20" selection-start-line="226" selection-start-column="16" selection-end-line="226" selection-end-column="20" />
           <folding>
             <element signature="method#rowIsSet#0;class#Grid#0" expanded="false" />
             <element signature="method#isColor#0;class#Grid#0" expanded="false" />
@@ -1571,66 +1304,64 @@
             <element signature="method#showSolution#0;class#Grid#0" expanded="false" />
             <element signature="method#setInvisibleMasterColors#0;class#Grid#0" expanded="false" />
             <element signature="method#getColorFromString#0;class#Grid#0" expanded="false" />
-            <element signature="e#6357#6358#0" expanded="true" />
-            <element signature="e#6388#6389#0" expanded="true" />
-            <element signature="e#6431#6432#0" expanded="true" />
-            <element signature="e#6458#6459#0" expanded="true" />
-            <element signature="e#6497#6498#0" expanded="true" />
-            <element signature="e#6520#6521#0" expanded="true" />
-            <element signature="e#6568#6569#0" expanded="true" />
-            <element signature="e#6591#6592#0" expanded="true" />
-            <element signature="e#6628#6629#0" expanded="true" />
-            <element signature="e#6649#6650#0" expanded="true" />
-            <element signature="e#6693#6694#0" expanded="true" />
-            <element signature="e#6712#6713#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/Mastermind.java">
+    <entry file="jar://$PROJECT_DIR$/de.htwg.se.mastermind/lib/guice-3.0.jar!/com/google/inject/internal/ConstructorInjector.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="605" max-vertical-offset="1394">
-          <caret line="51" column="10" selection-start-line="51" selection-start-column="10" selection-end-line="51" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#952#953#0" expanded="true" />
-            <element signature="e#976#977#0" expanded="true" />
-            <element signature="e#1003#1004#0" expanded="true" />
-            <element signature="e#1020#1021#0" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.3488372" vertical-offset="381" max-vertical-offset="1360">
+          <caret line="40" column="11" selection-start-line="40" selection-start-column="11" selection-end-line="40" selection-end-column="11" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/MastermindModule.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/view/TextUI.java">
+    <entry file="file://$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/persistence/couchdb/GridCouchdbDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
-          <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="7" max-vertical-offset="782">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/view/gui/GameFieldPanel.java">
+    <entry file="file://$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/view/gui/MastermindFrame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1198" max-vertical-offset="6120">
-          <caret line="63" column="52" selection-start-line="63" selection-start-column="52" selection-end-line="63" selection-end-column="52" />
+        <state vertical-scroll-proportion="-33.172413" vertical-offset="1282" max-vertical-offset="3825">
+          <caret line="189" column="43" selection-start-line="189" selection-start-column="43" selection-end-line="189" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/view/gui/MastercolorsPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1598">
+          <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/de.htwg.se.mastermind/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.6726907" vertical-offset="0" max-vertical-offset="1275">
-          <caret line="49" column="16" selection-start-line="49" selection-start-column="16" selection-end-line="49" selection-end-column="16" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="1275">
+          <caret line="8" column="42" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/view/gui/GameFieldPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6439394" vertical-offset="493" max-vertical-offset="6392">
+          <caret line="67" column="61" selection-start-line="67" selection-start-column="61" selection-end-line="67" selection-end-column="61" />
           <folding />
         </state>
       </provider>

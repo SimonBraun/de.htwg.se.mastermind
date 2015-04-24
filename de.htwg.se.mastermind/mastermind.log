@@ -1150,3 +1150,487 @@ INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui -
 Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution, zn-sets the size, h-show highscores
 INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
 Please enter command: 
+INFO main de.htwg.se.mastermind.view.tui - 
+              +-------------+
+              | xx xx xx xx |
++-------------+-------------+
+|             |             |[6]
+|             |             |[5]
+|             |             |[4]
+|             |             |[3]
+|             |             |[2]
+|             |             |[1]
+|             |          yl |[0]
++-------------+-------------+
+                [3][2][1][0]
+
+INFO main de.htwg.se.mastermind.view.tui - 
+The cell at [0],[0] has been set!
+INFO main de.htwg.se.mastermind.view.tui - 
+Available Colors: yl, gr, rd, bl, or, pk, pu
+INFO main de.htwg.se.mastermind.view.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution, zn-sets the size, h-show highscores
+INFO main de.htwg.se.mastermind.view.tui - 
+Please enter command: 
+INFO main de.htwg.se.mastermind.view.tui - 
+              +-------------+
+              | xx xx xx xx |
++-------------+-------------+
+|             |             |[6]
+|             |             |[5]
+|             |             |[4]
+|             |             |[3]
+|             |             |[2]
+|             |             |[1]
+|             |             |[0]
++-------------+-------------+
+                [3][2][1][0]
+
+INFO main de.htwg.se.mastermind.view.tui - 
+Welcome to Mastermind!!
+INFO main de.htwg.se.mastermind.view.tui - 
+Available Colors: yl, gr, rd, bl, or, pk, pu
+INFO main de.htwg.se.mastermind.view.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution, zn-sets the size, h-show highscores
+INFO main de.htwg.se.mastermind.view.tui - 
+Please enter command: 
+INFO main de.htwg.se.mastermind.view.tui - 
+              +-------------+
+              | xx xx xx xx |
++-------------+-------------+
+|             |             |[6]
+|             |             |[5]
+|             |             |[4]
+|             |             |[3]
+|             |             |[2]
+|             |             |[1]
+|             |          yl |[0]
++-------------+-------------+
+                [3][2][1][0]
+
+INFO main de.htwg.se.mastermind.view.tui - 
+The cell at [0],[0] has been set!
+INFO main de.htwg.se.mastermind.view.tui - 
+Available Colors: yl, gr, rd, bl, or, pk, pu
+INFO main de.htwg.se.mastermind.view.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution, zn-sets the size, h-show highscores
+INFO main de.htwg.se.mastermind.view.tui - 
+Please enter command: 
+INFO main de.htwg.se.mastermind.view.tui - 
+              +-------------+
+              | xx xx xx xx |
++-------------+-------------+
+|             |             |[6]
+|             |             |[5]
+|             |             |[4]
+|             |             |[3]
+|             |             |[2]
+|             |             |[1]
+|             |       yl yl |[0]
++-------------+-------------+
+                [3][2][1][0]
+
+INFO main de.htwg.se.mastermind.view.tui - 
+The cell at [0],[1] has been set!
+INFO main de.htwg.se.mastermind.view.tui - 
+Available Colors: yl, gr, rd, bl, or, pk, pu
+INFO main de.htwg.se.mastermind.view.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution, zn-sets the size, h-show highscores
+INFO main de.htwg.se.mastermind.view.tui - 
+Please enter command: 
+INFO main de.htwg.se.mastermind.view.tui - 
+              +-------------+
+              | xx xx xx xx |
++-------------+-------------+
+|             |             |[6]
+|             |             |[5]
+|             |             |[4]
+|             |             |[3]
+|             |             |[2]
+|             |             |[1]
+|             |    yl yl yl |[0]
++-------------+-------------+
+                [3][2][1][0]
+
+INFO main de.htwg.se.mastermind.view.tui - 
+The cell at [0],[2] has been set!
+INFO main de.htwg.se.mastermind.view.tui - 
+Available Colors: yl, gr, rd, bl, or, pk, pu
+INFO main de.htwg.se.mastermind.view.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution, zn-sets the size, h-show highscores
+INFO main de.htwg.se.mastermind.view.tui - 
+Please enter command: 
+INFO main de.htwg.se.mastermind.view.tui - 
+              +-------------+
+              | xx xx xx xx |
++-------------+-------------+
+|             |             |[6]
+|             |             |[5]
+|             |             |[4]
+|             |             |[3]
+|             |             |[2]
+|             |             |[1]
+|             | yl yl yl yl |[0]
++-------------+-------------+
+                [3][2][1][0]
+
+INFO main de.htwg.se.mastermind.view.tui - 
+The cell at [0],[3] has been set!
+INFO main de.htwg.se.mastermind.view.tui - 
+Available Colors: yl, gr, rd, bl, or, pk, pu
+INFO main de.htwg.se.mastermind.view.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution, zn-sets the size, h-show highscores
+INFO main de.htwg.se.mastermind.view.tui - 
+Please enter command: 
+INFO main de.htwg.se.mastermind.view.tui - 
+              +-------------+
+              | xx xx xx xx |
++-------------+-------------+
+|             |             |[6]
+|             |             |[5]
+|             |             |[4]
+|             |             |[3]
+|             |             |[2]
+|             |             |[1]
+|             | yl yl yl yl |[0]
++-------------+-------------+
+                [3][2][1][0]
+
+INFO main de.htwg.se.mastermind.view.tui - 
+Row [0] confirmed!
+INFO main de.htwg.se.mastermind.view.tui - 
+Available Colors: yl, gr, rd, bl, or, pk, pu
+INFO main de.htwg.se.mastermind.view.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution, zn-sets the size, h-show highscores
+INFO main de.htwg.se.mastermind.view.tui - 
+Please enter command: 
+INFO main de.htwg.se.mastermind.view.tui - 
+              +-------------+
+              | bl bl yl gr |
++-------------+-------------+
+|             |             |[6]
+|             |             |[5]
+|             |             |[4]
+|             |             |[3]
+|             |             |[2]
+|             |             |[1]
+|             |             |[0]
++-------------+-------------+
+                [3][2][1][0]
+
+INFO main de.htwg.se.mastermind.view.tui - 
+Solution is shown
+INFO main de.htwg.se.mastermind.view.tui - 
+Available Colors: yl, gr, rd, bl, or, pk, pu
+INFO main de.htwg.se.mastermind.view.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution, zn-sets the size, h-show highscores
+INFO main de.htwg.se.mastermind.view.tui - 
+Please enter command: 
+INFO main de.htwg.se.mastermind.view.tui - 
+        +-------+
+        | xx xx |
++-------+-------+
+|       |       |[2]
+|       |       |[1]
+|       |       |[0]
++-------+-------+
+          [1][0]
+
+INFO main de.htwg.se.mastermind.view.tui - 
+Welcome to Mastermind!!
+INFO main de.htwg.se.mastermind.view.tui - 
+Available Colors: yl, gr, rd, bl, or, pk, pu
+INFO main de.htwg.se.mastermind.view.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution, zn-sets the size, h-show highscores
+INFO main de.htwg.se.mastermind.view.tui - 
+Please enter command: 
+INFO main de.htwg.se.mastermind.view.tui - 
+              +-------------+
+              | xx xx xx xx |
++-------------+-------------+
+|             |             |[6]
+|             |             |[5]
+|             |             |[4]
+|             |             |[3]
+|             |             |[2]
+|             |             |[1]
+|             |             |[0]
++-------------+-------------+
+                [3][2][1][0]
+
+INFO main de.htwg.se.mastermind.view.tui - 
+Welcome to Mastermind!!
+INFO main de.htwg.se.mastermind.view.tui - 
+Available Colors: yl, gr, rd, bl, or, pk, pu
+INFO main de.htwg.se.mastermind.view.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution, zn-sets the size, h-show highscores
+INFO main de.htwg.se.mastermind.view.tui - 
+Please enter command: 
+INFO main de.htwg.se.mastermind.view.tui - 
+                    +-------------------+
+                    | xx xx xx xx xx xx |
++-------------------+-------------------+
+|                   |                   |[10]
+|                   |                   |[9]
+|                   |                   |[8]
+|                   |                   |[7]
+|                   |                   |[6]
+|                   |                   |[5]
+|                   |                   |[4]
+|                   |                   |[3]
+|                   |                   |[2]
+|                   |                   |[1]
+|                   |                   |[0]
++-------------------+-------------------+
+                      [5][4][3][2][1][0]
+
+INFO main de.htwg.se.mastermind.view.tui - 
+Welcome to Mastermind!!
+INFO main de.htwg.se.mastermind.view.tui - 
+Available Colors: yl, gr, rd, bl, or, pk, pu
+INFO main de.htwg.se.mastermind.view.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution, zn-sets the size, h-show highscores
+INFO main de.htwg.se.mastermind.view.tui - 
+Please enter command: 
+INFO main de.htwg.se.mastermind.view.tui - 
+              +-------------+
+              | xx xx xx xx |
++-------------+-------------+
+|             |             |[6]
+|             |             |[5]
+|             |             |[4]
+|             |             |[3]
+|             |             |[2]
+|             |             |[1]
+|             |          yl |[0]
++-------------+-------------+
+                [3][2][1][0]
+
+INFO main de.htwg.se.mastermind.view.tui - 
+The cell at [0],[0] has been set!
+INFO main de.htwg.se.mastermind.view.tui - 
+Available Colors: yl, gr, rd, bl, or, pk, pu
+INFO main de.htwg.se.mastermind.view.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution, zn-sets the size, h-show highscores
+INFO main de.htwg.se.mastermind.view.tui - 
+Please enter command: 
+INFO main de.htwg.se.mastermind.view.tui - 
+              +-------------+
+              | xx xx xx xx |
++-------------+-------------+
+|             |             |[6]
+|             |             |[5]
+|             |             |[4]
+|             |             |[3]
+|             |             |[2]
+|             |             |[1]
+|             |             |[0]
++-------------+-------------+
+                [3][2][1][0]
+
+INFO main de.htwg.se.mastermind.view.tui - 
+Welcome to Mastermind!!
+INFO main de.htwg.se.mastermind.view.tui - 
+Available Colors: yl, gr, rd, bl, or, pk, pu
+INFO main de.htwg.se.mastermind.view.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution, zn-sets the size, h-show highscores
+INFO main de.htwg.se.mastermind.view.tui - 
+Please enter command: 
+INFO main de.htwg.se.mastermind.view.tui - 
+              +-------------+
+              | xx xx xx xx |
++-------------+-------------+
+|             |             |[6]
+|             |             |[5]
+|             |             |[4]
+|             |             |[3]
+|             |             |[2]
+|             |             |[1]
+|             |          yl |[0]
++-------------+-------------+
+                [3][2][1][0]
+
+INFO main de.htwg.se.mastermind.view.tui - 
+The cell at [0],[0] has been set!
+INFO main de.htwg.se.mastermind.view.tui - 
+Available Colors: yl, gr, rd, bl, or, pk, pu
+INFO main de.htwg.se.mastermind.view.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution, zn-sets the size, h-show highscores
+INFO main de.htwg.se.mastermind.view.tui - 
+Please enter command: 
+INFO main de.htwg.se.mastermind.view.tui - 
+              +-------------+
+              | xx xx xx xx |
++-------------+-------------+
+|             |             |[6]
+|             |             |[5]
+|             |             |[4]
+|             |             |[3]
+|             |             |[2]
+|             |             |[1]
+|             |       yl yl |[0]
++-------------+-------------+
+                [3][2][1][0]
+
+INFO main de.htwg.se.mastermind.view.tui - 
+The cell at [0],[1] has been set!
+INFO main de.htwg.se.mastermind.view.tui - 
+Available Colors: yl, gr, rd, bl, or, pk, pu
+INFO main de.htwg.se.mastermind.view.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution, zn-sets the size, h-show highscores
+INFO main de.htwg.se.mastermind.view.tui - 
+Please enter command: 
+INFO main de.htwg.se.mastermind.view.tui - 
+              +-------------+
+              | xx xx xx xx |
++-------------+-------------+
+|             |             |[6]
+|             |             |[5]
+|             |             |[4]
+|             |             |[3]
+|             |             |[2]
+|             |             |[1]
+|             |    yl yl yl |[0]
++-------------+-------------+
+                [3][2][1][0]
+
+INFO main de.htwg.se.mastermind.view.tui - 
+The cell at [0],[2] has been set!
+INFO main de.htwg.se.mastermind.view.tui - 
+Available Colors: yl, gr, rd, bl, or, pk, pu
+INFO main de.htwg.se.mastermind.view.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution, zn-sets the size, h-show highscores
+INFO main de.htwg.se.mastermind.view.tui - 
+Please enter command: 
+INFO main de.htwg.se.mastermind.view.tui - 
+              +-------------+
+              | xx xx xx xx |
++-------------+-------------+
+|             |             |[6]
+|             |             |[5]
+|             |             |[4]
+|             |             |[3]
+|             |             |[2]
+|             |             |[1]
+|             | yl yl yl yl |[0]
++-------------+-------------+
+                [3][2][1][0]
+
+INFO main de.htwg.se.mastermind.view.tui - 
+The cell at [0],[3] has been set!
+INFO main de.htwg.se.mastermind.view.tui - 
+Available Colors: yl, gr, rd, bl, or, pk, pu
+INFO main de.htwg.se.mastermind.view.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution, zn-sets the size, h-show highscores
+INFO main de.htwg.se.mastermind.view.tui - 
+Please enter command: 
+INFO main de.htwg.se.mastermind.view.tui - 
+              +-------------+
+              | xx xx xx xx |
++-------------+-------------+
+|             |             |[6]
+|             |             |[5]
+|             |             |[4]
+|             |             |[3]
+|             |             |[2]
+|             |             |[1]
+|             | yl yl yl yl |[0]
++-------------+-------------+
+                [3][2][1][0]
+
+INFO main de.htwg.se.mastermind.view.tui - 
+Row [0] confirmed!
+INFO main de.htwg.se.mastermind.view.tui - 
+Available Colors: yl, gr, rd, bl, or, pk, pu
+INFO main de.htwg.se.mastermind.view.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution, zn-sets the size, h-show highscores
+INFO main de.htwg.se.mastermind.view.tui - 
+Please enter command: 
+INFO main de.htwg.se.mastermind.view.tui - 
+              +-------------+
+              | pu gr yl pk |
++-------------+-------------+
+|             |             |[6]
+|             |             |[5]
+|             |             |[4]
+|             |             |[3]
+|             |             |[2]
+|             |             |[1]
+|             |             |[0]
++-------------+-------------+
+                [3][2][1][0]
+
+INFO main de.htwg.se.mastermind.view.tui - 
+Solution is shown
+INFO main de.htwg.se.mastermind.view.tui - 
+Available Colors: yl, gr, rd, bl, or, pk, pu
+INFO main de.htwg.se.mastermind.view.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution, zn-sets the size, h-show highscores
+INFO main de.htwg.se.mastermind.view.tui - 
+Please enter command: 
+INFO main de.htwg.se.mastermind.view.tui - 
+        +-------+
+        | xx xx |
++-------+-------+
+|       |       |[2]
+|       |       |[1]
+|       |       |[0]
++-------+-------+
+          [1][0]
+
+INFO main de.htwg.se.mastermind.view.tui - 
+Welcome to Mastermind!!
+INFO main de.htwg.se.mastermind.view.tui - 
+Available Colors: yl, gr, rd, bl, or, pk, pu
+INFO main de.htwg.se.mastermind.view.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution, zn-sets the size, h-show highscores
+INFO main de.htwg.se.mastermind.view.tui - 
+Please enter command: 
+INFO main de.htwg.se.mastermind.view.tui - 
+              +-------------+
+              | xx xx xx xx |
++-------------+-------------+
+|             |             |[6]
+|             |             |[5]
+|             |             |[4]
+|             |             |[3]
+|             |             |[2]
+|             |             |[1]
+|             |             |[0]
++-------------+-------------+
+                [3][2][1][0]
+
+INFO main de.htwg.se.mastermind.view.tui - 
+Welcome to Mastermind!!
+INFO main de.htwg.se.mastermind.view.tui - 
+Available Colors: yl, gr, rd, bl, or, pk, pu
+INFO main de.htwg.se.mastermind.view.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution, zn-sets the size, h-show highscores
+INFO main de.htwg.se.mastermind.view.tui - 
+Please enter command: 
+INFO main de.htwg.se.mastermind.view.tui - 
+                    +-------------------+
+                    | xx xx xx xx xx xx |
++-------------------+-------------------+
+|                   |                   |[10]
+|                   |                   |[9]
+|                   |                   |[8]
+|                   |                   |[7]
+|                   |                   |[6]
+|                   |                   |[5]
+|                   |                   |[4]
+|                   |                   |[3]
+|                   |                   |[2]
+|                   |                   |[1]
+|                   |                   |[0]
++-------------------+-------------------+
+                      [5][4][3][2][1][0]
+
+INFO main de.htwg.se.mastermind.view.tui - 
+Welcome to Mastermind!!
+INFO main de.htwg.se.mastermind.view.tui - 
+Available Colors: yl, gr, rd, bl, or, pk, pu
+INFO main de.htwg.se.mastermind.view.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution, zn-sets the size, h-show highscores
+INFO main de.htwg.se.mastermind.view.tui - 
+Please enter command: 

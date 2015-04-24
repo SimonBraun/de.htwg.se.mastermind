@@ -1,276 +1,4 @@
 INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-The cell at [5],[1] has been set!
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Available Colors: yl, gr, rd, bl, or, pk, pu
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution, zn-sets the size, h-show highscores
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Please enter command: 
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-              +-------------+
-              | gr pu yl rd |
-+-------------+-------------+
-|             |             |[6]
-|             | pu yl pu gr |[5]
-| bk wh       | gr or rd pk |[4]
-| bk bk       | pk pu yl bl |[3]
-| wh wh       | bl gr rd or |[2]
-| wh wh       | or pk pu yl |[1]
-| wh wh wh    | rd bl gr yl |[0]
-+-------------+-------------+
-                [3][2][1][0]
-
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-The cell at [5],[1] has been set!
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Available Colors: yl, gr, rd, bl, or, pk, pu
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution, zn-sets the size, h-show highscores
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Please enter command: 
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-              +-------------+
-              | gr pu yl rd |
-+-------------+-------------+
-|             |             |[6]
-|             | pu yl yl gr |[5]
-| bk wh       | gr or rd pk |[4]
-| bk bk       | pk pu yl bl |[3]
-| wh wh       | bl gr rd or |[2]
-| wh wh       | or pk pu yl |[1]
-| wh wh wh    | rd bl gr yl |[0]
-+-------------+-------------+
-                [3][2][1][0]
-
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-The cell at [5],[1] has been set!
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Available Colors: yl, gr, rd, bl, or, pk, pu
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution, zn-sets the size, h-show highscores
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Please enter command: 
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-              +-------------+
-              | gr pu yl rd |
-+-------------+-------------+
-|             |             |[6]
-|             | pu yl yl bl |[5]
-| bk wh       | gr or rd pk |[4]
-| bk bk       | pk pu yl bl |[3]
-| wh wh       | bl gr rd or |[2]
-| wh wh       | or pk pu yl |[1]
-| wh wh wh    | rd bl gr yl |[0]
-+-------------+-------------+
-                [3][2][1][0]
-
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-The cell at [5],[0] has been set!
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Available Colors: yl, gr, rd, bl, or, pk, pu
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution, zn-sets the size, h-show highscores
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Please enter command: 
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-              +-------------+
-              | gr pu yl rd |
-+-------------+-------------+
-|             |             |[6]
-|             | pu yl yl gr |[5]
-| bk wh       | gr or rd pk |[4]
-| bk bk       | pk pu yl bl |[3]
-| wh wh       | bl gr rd or |[2]
-| wh wh       | or pk pu yl |[1]
-| wh wh wh    | rd bl gr yl |[0]
-+-------------+-------------+
-                [3][2][1][0]
-
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-The cell at [5],[0] has been set!
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Available Colors: yl, gr, rd, bl, or, pk, pu
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution, zn-sets the size, h-show highscores
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Please enter command: 
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-              +-------------+
-              | gr pu yl rd |
-+-------------+-------------+
-|             |             |[6]
-|             | pu yl yl rd |[5]
-| bk wh       | gr or rd pk |[4]
-| bk bk       | pk pu yl bl |[3]
-| wh wh       | bl gr rd or |[2]
-| wh wh       | or pk pu yl |[1]
-| wh wh wh    | rd bl gr yl |[0]
-+-------------+-------------+
-                [3][2][1][0]
-
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-The cell at [5],[0] has been set!
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Available Colors: yl, gr, rd, bl, or, pk, pu
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution, zn-sets the size, h-show highscores
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Please enter command: 
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-              +-------------+
-              | gr pu yl rd |
-+-------------+-------------+
-|             |             |[6]
-|             | pu or yl rd |[5]
-| bk wh       | gr or rd pk |[4]
-| bk bk       | pk pu yl bl |[3]
-| wh wh       | bl gr rd or |[2]
-| wh wh       | or pk pu yl |[1]
-| wh wh wh    | rd bl gr yl |[0]
-+-------------+-------------+
-                [3][2][1][0]
-
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-The cell at [5],[2] has been set!
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Available Colors: yl, gr, rd, bl, or, pk, pu
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution, zn-sets the size, h-show highscores
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Please enter command: 
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-              +-------------+
-              | gr pu yl rd |
-+-------------+-------------+
-|             |             |[6]
-|             | pu pk yl rd |[5]
-| bk wh       | gr or rd pk |[4]
-| bk bk       | pk pu yl bl |[3]
-| wh wh       | bl gr rd or |[2]
-| wh wh       | or pk pu yl |[1]
-| wh wh wh    | rd bl gr yl |[0]
-+-------------+-------------+
-                [3][2][1][0]
-
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-The cell at [5],[2] has been set!
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Available Colors: yl, gr, rd, bl, or, pk, pu
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution, zn-sets the size, h-show highscores
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Please enter command: 
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-              +-------------+
-              | gr pu yl rd |
-+-------------+-------------+
-|             |             |[6]
-|             | pu pu yl rd |[5]
-| bk wh       | gr or rd pk |[4]
-| bk bk       | pk pu yl bl |[3]
-| wh wh       | bl gr rd or |[2]
-| wh wh       | or pk pu yl |[1]
-| wh wh wh    | rd bl gr yl |[0]
-+-------------+-------------+
-                [3][2][1][0]
-
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-The cell at [5],[2] has been set!
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Available Colors: yl, gr, rd, bl, or, pk, pu
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution, zn-sets the size, h-show highscores
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Please enter command: 
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-              +-------------+
-              | gr pu yl rd |
-+-------------+-------------+
-|             |             |[6]
-|             | yl pu yl rd |[5]
-| bk wh       | gr or rd pk |[4]
-| bk bk       | pk pu yl bl |[3]
-| wh wh       | bl gr rd or |[2]
-| wh wh       | or pk pu yl |[1]
-| wh wh wh    | rd bl gr yl |[0]
-+-------------+-------------+
-                [3][2][1][0]
-
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-The cell at [5],[3] has been set!
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Available Colors: yl, gr, rd, bl, or, pk, pu
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution, zn-sets the size, h-show highscores
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Please enter command: 
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-              +-------------+
-              | gr pu yl rd |
-+-------------+-------------+
-|             |             |[6]
-|             | bl pu yl rd |[5]
-| bk wh       | gr or rd pk |[4]
-| bk bk       | pk pu yl bl |[3]
-| wh wh       | bl gr rd or |[2]
-| wh wh       | or pk pu yl |[1]
-| wh wh wh    | rd bl gr yl |[0]
-+-------------+-------------+
-                [3][2][1][0]
-
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-The cell at [5],[3] has been set!
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Available Colors: yl, gr, rd, bl, or, pk, pu
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution, zn-sets the size, h-show highscores
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Please enter command: 
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-              +-------------+
-              | gr pu yl rd |
-+-------------+-------------+
-|             |             |[6]
-|             | gr pu yl rd |[5]
-| bk wh       | gr or rd pk |[4]
-| bk bk       | pk pu yl bl |[3]
-| wh wh       | bl gr rd or |[2]
-| wh wh       | or pk pu yl |[1]
-| wh wh wh    | rd bl gr yl |[0]
-+-------------+-------------+
-                [3][2][1][0]
-
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-The cell at [5],[3] has been set!
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Available Colors: yl, gr, rd, bl, or, pk, pu
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution, zn-sets the size, h-show highscores
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Please enter command: 
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-              +-------------+
-              | gr pu yl rd |
-+-------------+-------------+
-|             |             |[6]
-| bk bk bk bk | gr pu yl rd |[5]
-| bk wh       | gr or rd pk |[4]
-| bk bk       | pk pu yl bl |[3]
-| wh wh       | bl gr rd or |[2]
-| wh wh       | or pk pu yl |[1]
-| wh wh wh    | rd bl gr yl |[0]
-+-------------+-------------+
-                [3][2][1][0]
-
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-You have won!!
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Available Colors: yl, gr, rd, bl, or, pk, pu
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution, zn-sets the size, h-show highscores
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Please enter command: 
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
               +-------------+
               | xx xx xx xx |
 +-------------+-------------+
@@ -294,7 +22,7 @@ INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui -
 Please enter command: 
 INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
               +-------------+
-              | pu rd pu yl |
+              | xx xx xx xx |
 +-------------+-------------+
 |             |             |[6]
 |             |             |[5]
@@ -302,359 +30,7 @@ INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui -
 |             |             |[3]
 |             |             |[2]
 |             |             |[1]
-|             |             |[0]
-+-------------+-------------+
-                [3][2][1][0]
-
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Solution is shown
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Available Colors: yl, gr, rd, bl, or, pk, pu
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution, zn-sets the size, h-show highscores
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Please enter command: 
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-              +-------------+
-              | pu rd pu yl |
-+-------------+-------------+
-|             |             |[6]
-|             |             |[5]
-|             |             |[4]
-|             |             |[3]
-|             |             |[2]
-|             |             |[1]
-|             |          rd |[0]
-+-------------+-------------+
-                [3][2][1][0]
-
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-The cell at [0],[0] has been set!
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Available Colors: yl, gr, rd, bl, or, pk, pu
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution, zn-sets the size, h-show highscores
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Please enter command: 
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-              +-------------+
-              | pu rd pu yl |
-+-------------+-------------+
-|             |             |[6]
-|             |             |[5]
-|             |             |[4]
-|             |             |[3]
-|             |             |[2]
-|             |             |[1]
-|             |          or |[0]
-+-------------+-------------+
-                [3][2][1][0]
-
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-The cell at [0],[0] has been set!
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Available Colors: yl, gr, rd, bl, or, pk, pu
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution, zn-sets the size, h-show highscores
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Please enter command: 
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-              +-------------+
-              | pu rd pu yl |
-+-------------+-------------+
-|             |             |[6]
-|             |             |[5]
-|             |             |[4]
-|             |             |[3]
-|             |             |[2]
-|             |             |[1]
-|             |          pk |[0]
-+-------------+-------------+
-                [3][2][1][0]
-
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-The cell at [0],[0] has been set!
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Available Colors: yl, gr, rd, bl, or, pk, pu
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution, zn-sets the size, h-show highscores
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Please enter command: 
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-              +-------------+
-              | pu rd pu yl |
-+-------------+-------------+
-|             |             |[6]
-|             |             |[5]
-|             |             |[4]
-|             |             |[3]
-|             |             |[2]
-|             |             |[1]
-|             |          pu |[0]
-+-------------+-------------+
-                [3][2][1][0]
-
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-The cell at [0],[0] has been set!
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Available Colors: yl, gr, rd, bl, or, pk, pu
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution, zn-sets the size, h-show highscores
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Please enter command: 
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-              +-------------+
-              | pu rd pu yl |
-+-------------+-------------+
-|             |             |[6]
-|             |             |[5]
-|             |             |[4]
-|             |             |[3]
-|             |             |[2]
-|             |             |[1]
-|             |          yl |[0]
-+-------------+-------------+
-                [3][2][1][0]
-
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-The cell at [0],[0] has been set!
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Available Colors: yl, gr, rd, bl, or, pk, pu
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution, zn-sets the size, h-show highscores
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Please enter command: 
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-              +-------------+
-              | pu rd pu yl |
-+-------------+-------------+
-|             |             |[6]
-|             |             |[5]
-|             |             |[4]
-|             |             |[3]
-|             |             |[2]
-|             |             |[1]
-|             |       bl yl |[0]
-+-------------+-------------+
-                [3][2][1][0]
-
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-The cell at [0],[1] has been set!
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Available Colors: yl, gr, rd, bl, or, pk, pu
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution, zn-sets the size, h-show highscores
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Please enter command: 
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-              +-------------+
-              | pu rd pu yl |
-+-------------+-------------+
-|             |             |[6]
-|             |             |[5]
-|             |             |[4]
-|             |             |[3]
-|             |             |[2]
-|             |             |[1]
-|             |       gr yl |[0]
-+-------------+-------------+
-                [3][2][1][0]
-
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-The cell at [0],[1] has been set!
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Available Colors: yl, gr, rd, bl, or, pk, pu
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution, zn-sets the size, h-show highscores
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Please enter command: 
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-              +-------------+
-              | pu rd pu yl |
-+-------------+-------------+
-|             |             |[6]
-|             |             |[5]
-|             |             |[4]
-|             |             |[3]
-|             |             |[2]
-|             |             |[1]
-|             |       rd yl |[0]
-+-------------+-------------+
-                [3][2][1][0]
-
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-The cell at [0],[1] has been set!
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Available Colors: yl, gr, rd, bl, or, pk, pu
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution, zn-sets the size, h-show highscores
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Please enter command: 
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-              +-------------+
-              | pu rd pu yl |
-+-------------+-------------+
-|             |             |[6]
-|             |             |[5]
-|             |             |[4]
-|             |             |[3]
-|             |             |[2]
-|             |             |[1]
-|             |       or yl |[0]
-+-------------+-------------+
-                [3][2][1][0]
-
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-The cell at [0],[1] has been set!
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Available Colors: yl, gr, rd, bl, or, pk, pu
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution, zn-sets the size, h-show highscores
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Please enter command: 
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-              +-------------+
-              | pu rd pu yl |
-+-------------+-------------+
-|             |             |[6]
-|             |             |[5]
-|             |             |[4]
-|             |             |[3]
-|             |             |[2]
-|             |             |[1]
-|             |       pk yl |[0]
-+-------------+-------------+
-                [3][2][1][0]
-
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-The cell at [0],[1] has been set!
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Available Colors: yl, gr, rd, bl, or, pk, pu
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution, zn-sets the size, h-show highscores
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Please enter command: 
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-              +-------------+
-              | pu rd pu yl |
-+-------------+-------------+
-|             |             |[6]
-|             |             |[5]
-|             |             |[4]
-|             |             |[3]
-|             |             |[2]
-|             |             |[1]
-|             |       pu yl |[0]
-+-------------+-------------+
-                [3][2][1][0]
-
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-The cell at [0],[1] has been set!
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Available Colors: yl, gr, rd, bl, or, pk, pu
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution, zn-sets the size, h-show highscores
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Please enter command: 
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-              +-------------+
-              | pu rd pu yl |
-+-------------+-------------+
-|             |             |[6]
-|             |             |[5]
-|             |             |[4]
-|             |             |[3]
-|             |             |[2]
-|             |             |[1]
-|             |    yl pu yl |[0]
-+-------------+-------------+
-                [3][2][1][0]
-
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-The cell at [0],[2] has been set!
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Available Colors: yl, gr, rd, bl, or, pk, pu
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution, zn-sets the size, h-show highscores
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Please enter command: 
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-              +-------------+
-              | pu rd pu yl |
-+-------------+-------------+
-|             |             |[6]
-|             |             |[5]
-|             |             |[4]
-|             |             |[3]
-|             |             |[2]
-|             |             |[1]
-|             |    bl pu yl |[0]
-+-------------+-------------+
-                [3][2][1][0]
-
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-The cell at [0],[2] has been set!
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Available Colors: yl, gr, rd, bl, or, pk, pu
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution, zn-sets the size, h-show highscores
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Please enter command: 
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-              +-------------+
-              | pu rd pu yl |
-+-------------+-------------+
-|             |             |[6]
-|             |             |[5]
-|             |             |[4]
-|             |             |[3]
-|             |             |[2]
-|             |             |[1]
-|             |    gr pu yl |[0]
-+-------------+-------------+
-                [3][2][1][0]
-
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-The cell at [0],[2] has been set!
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Available Colors: yl, gr, rd, bl, or, pk, pu
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution, zn-sets the size, h-show highscores
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Please enter command: 
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-              +-------------+
-              | pu rd pu yl |
-+-------------+-------------+
-|             |             |[6]
-|             |             |[5]
-|             |             |[4]
-|             |             |[3]
-|             |             |[2]
-|             |             |[1]
-|             |    rd pu yl |[0]
-+-------------+-------------+
-                [3][2][1][0]
-
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-The cell at [0],[2] has been set!
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Available Colors: yl, gr, rd, bl, or, pk, pu
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution, zn-sets the size, h-show highscores
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Please enter command: 
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-              +-------------+
-              | pu rd pu yl |
-+-------------+-------------+
-|             |             |[6]
-|             |             |[5]
-|             |             |[4]
-|             |             |[3]
-|             |             |[2]
-|             |             |[1]
-|             | or rd pu yl |[0]
+|             | us          |[0]
 +-------------+-------------+
                 [3][2][1][0]
 
@@ -668,7 +44,7 @@ INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui -
 Please enter command: 
 INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
               +-------------+
-              | pu rd pu yl |
+              | xx xx xx xx |
 +-------------+-------------+
 |             |             |[6]
 |             |             |[5]
@@ -676,12 +52,12 @@ INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui -
 |             |             |[3]
 |             |             |[2]
 |             |             |[1]
-|             | pk rd pu yl |[0]
+|             | us de       |[0]
 +-------------+-------------+
                 [3][2][1][0]
 
 INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-The cell at [0],[3] has been set!
+The cell at [0],[2] has been set!
 INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
 Available Colors: yl, gr, rd, bl, or, pk, pu
 INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
@@ -689,50 +65,6 @@ Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-sho
 INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
 Please enter command: 
 INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-              +-------------+
-              | pu rd pu yl |
-+-------------+-------------+
-|             |             |[6]
-|             |             |[5]
-|             |             |[4]
-|             |             |[3]
-|             |             |[2]
-|             |             |[1]
-|             | pu rd pu yl |[0]
-+-------------+-------------+
-                [3][2][1][0]
-
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-The cell at [0],[3] has been set!
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Available Colors: yl, gr, rd, bl, or, pk, pu
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution, zn-sets the size, h-show highscores
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Please enter command: 
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-              +-------------+
-              | pu rd pu yl |
-+-------------+-------------+
-|             |             |[6]
-|             |             |[5]
-|             |             |[4]
-|             |             |[3]
-|             |             |[2]
-|             |             |[1]
-| bk bk bk bk | pu rd pu yl |[0]
-+-------------+-------------+
-                [3][2][1][0]
-
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-You have won!!
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Available Colors: yl, gr, rd, bl, or, pk, pu
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution, zn-sets the size, h-show highscores
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Please enter command: 
-INFO main de.htwg.se.mastermind.view.tui - 
               +-------------+
               | xx xx xx xx |
 +-------------+-------------+
@@ -742,19 +74,19 @@ INFO main de.htwg.se.mastermind.view.tui -
 |             |             |[3]
 |             |             |[2]
 |             |             |[1]
-|             |             |[0]
+|             | us de ch    |[0]
 +-------------+-------------+
                 [3][2][1][0]
 
-INFO main de.htwg.se.mastermind.view.tui - 
-New game has been created!
-INFO main de.htwg.se.mastermind.view.tui - 
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+The cell at [0],[1] has been set!
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
 Available Colors: yl, gr, rd, bl, or, pk, pu
-INFO main de.htwg.se.mastermind.view.tui - 
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
 Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution, zn-sets the size, h-show highscores
-INFO main de.htwg.se.mastermind.view.tui - 
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
 Please enter command: 
-INFO main de.htwg.se.mastermind.view.tui - 
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
               +-------------+
               | xx xx xx xx |
 +-------------+-------------+
@@ -764,19 +96,19 @@ INFO main de.htwg.se.mastermind.view.tui -
 |             |             |[3]
 |             |             |[2]
 |             |             |[1]
-|             |             |[0]
+|             | us de ch ru |[0]
 +-------------+-------------+
                 [3][2][1][0]
 
-INFO main de.htwg.se.mastermind.view.tui - 
-New game has been created!
-INFO main de.htwg.se.mastermind.view.tui - 
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+The cell at [0],[0] has been set!
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
 Available Colors: yl, gr, rd, bl, or, pk, pu
-INFO main de.htwg.se.mastermind.view.tui - 
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
 Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution, zn-sets the size, h-show highscores
-INFO main de.htwg.se.mastermind.view.tui - 
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
 Please enter command: 
-INFO main de.htwg.se.mastermind.view.tui - 
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
               +-------------+
               | xx xx xx xx |
 +-------------+-------------+
@@ -786,17 +118,83 @@ INFO main de.htwg.se.mastermind.view.tui -
 |             |             |[3]
 |             |             |[2]
 |             |             |[1]
-|             |             |[0]
+|             | us de ch es |[0]
 +-------------+-------------+
                 [3][2][1][0]
 
-INFO main de.htwg.se.mastermind.view.tui - 
-New game has been created!
-INFO main de.htwg.se.mastermind.view.tui - 
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+The cell at [0],[0] has been set!
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
 Available Colors: yl, gr, rd, bl, or, pk, pu
-INFO main de.htwg.se.mastermind.view.tui - 
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
 Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution, zn-sets the size, h-show highscores
-INFO main de.htwg.se.mastermind.view.tui - 
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Please enter command: 
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+              +-------------+
+              | xx xx xx xx |
++-------------+-------------+
+|             |             |[6]
+|             |             |[5]
+|             |             |[4]
+|             |             |[3]
+|             |             |[2]
+|             |             |[1]
+|             | us de ch fr |[0]
++-------------+-------------+
+                [3][2][1][0]
+
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+The cell at [0],[0] has been set!
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Available Colors: yl, gr, rd, bl, or, pk, pu
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution, zn-sets the size, h-show highscores
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Please enter command: 
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+              +-------------+
+              | xx xx xx xx |
++-------------+-------------+
+|             |             |[6]
+|             |             |[5]
+|             |             |[4]
+|             |             |[3]
+|             |             |[2]
+|             |             |[1]
+|             | us de ch gb |[0]
++-------------+-------------+
+                [3][2][1][0]
+
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+The cell at [0],[0] has been set!
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Available Colors: yl, gr, rd, bl, or, pk, pu
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution, zn-sets the size, h-show highscores
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Please enter command: 
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+              +-------------+
+              | xx xx xx xx |
++-------------+-------------+
+|             |             |[6]
+|             |             |[5]
+|             |             |[4]
+|             |             |[3]
+|             |             |[2]
+|             |             |[1]
+|             | us de ch us |[0]
++-------------+-------------+
+                [3][2][1][0]
+
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+The cell at [0],[0] has been set!
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Available Colors: yl, gr, rd, bl, or, pk, pu
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution, zn-sets the size, h-show highscores
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
 Please enter command: 
 INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
               +-------------+
@@ -842,7 +240,205 @@ INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui -
 Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution, zn-sets the size, h-show highscores
 INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
 Please enter command: 
-INFO main de.htwg.se.mastermind.view.tui - 
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+              +-------------+
+              | xx xx xx xx |
++-------------+-------------+
+|             |             |[6]
+|             |             |[5]
+|             |             |[4]
+|             |             |[3]
+|             |             |[2]
+|             |             |[1]
+|             |          rd |[0]
++-------------+-------------+
+                [3][2][1][0]
+
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+The cell at [0],[0] has been set!
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Available Colors: yl, gr, rd, bl, or, pk, pu
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution, zn-sets the size, h-show highscores
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Please enter command: 
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+              +-------------+
+              | xx xx xx xx |
++-------------+-------------+
+|             |             |[6]
+|             |             |[5]
+|             |             |[4]
+|             |             |[3]
+|             |             |[2]
+|             |             |[1]
+|             |       bl rd |[0]
++-------------+-------------+
+                [3][2][1][0]
+
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+The cell at [0],[1] has been set!
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Available Colors: yl, gr, rd, bl, or, pk, pu
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution, zn-sets the size, h-show highscores
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Please enter command: 
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+              +-------------+
+              | xx xx xx xx |
++-------------+-------------+
+|             |             |[6]
+|             |             |[5]
+|             |             |[4]
+|             |             |[3]
+|             |             |[2]
+|             |             |[1]
+|             |       gr rd |[0]
++-------------+-------------+
+                [3][2][1][0]
+
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+The cell at [0],[1] has been set!
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Available Colors: yl, gr, rd, bl, or, pk, pu
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution, zn-sets the size, h-show highscores
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Please enter command: 
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+              +-------------+
+              | xx xx xx xx |
++-------------+-------------+
+|             |             |[6]
+|             |             |[5]
+|             |             |[4]
+|             |             |[3]
+|             |             |[2]
+|             |             |[1]
+|             |    yl gr rd |[0]
++-------------+-------------+
+                [3][2][1][0]
+
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+The cell at [0],[2] has been set!
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Available Colors: yl, gr, rd, bl, or, pk, pu
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution, zn-sets the size, h-show highscores
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Please enter command: 
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+              +-------------+
+              | xx xx xx xx |
++-------------+-------------+
+|             |             |[6]
+|             |             |[5]
+|             |             |[4]
+|             |             |[3]
+|             |             |[2]
+|             |             |[1]
+|             |    or gr rd |[0]
++-------------+-------------+
+                [3][2][1][0]
+
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+The cell at [0],[2] has been set!
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Available Colors: yl, gr, rd, bl, or, pk, pu
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution, zn-sets the size, h-show highscores
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Please enter command: 
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+              +-------------+
+              | xx xx xx xx |
++-------------+-------------+
+|             |             |[6]
+|             |             |[5]
+|             |             |[4]
+|             |             |[3]
+|             |             |[2]
+|             |             |[1]
+|             | pu or gr rd |[0]
++-------------+-------------+
+                [3][2][1][0]
+
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+The cell at [0],[3] has been set!
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Available Colors: yl, gr, rd, bl, or, pk, pu
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution, zn-sets the size, h-show highscores
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Please enter command: 
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+              +-------------+
+              | xx xx xx xx |
++-------------+-------------+
+|             |             |[6]
+|             |             |[5]
+|             |             |[4]
+|             |             |[3]
+|             |             |[2]
+|             |             |[1]
+|             | pk or gr rd |[0]
++-------------+-------------+
+                [3][2][1][0]
+
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+The cell at [0],[3] has been set!
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Available Colors: yl, gr, rd, bl, or, pk, pu
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution, zn-sets the size, h-show highscores
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Please enter command: 
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+              +-------------+
+              | xx xx xx xx |
++-------------+-------------+
+|             |             |[6]
+|             |             |[5]
+|             |             |[4]
+|             |             |[3]
+|             |             |[2]
+|             |             |[1]
+|             | rd or gr rd |[0]
++-------------+-------------+
+                [3][2][1][0]
+
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+The cell at [0],[3] has been set!
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Available Colors: yl, gr, rd, bl, or, pk, pu
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution, zn-sets the size, h-show highscores
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Please enter command: 
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+              +-------------+
+              | xx xx xx xx |
++-------------+-------------+
+|             |             |[6]
+|             |             |[5]
+|             |             |[4]
+|             |             |[3]
+|             |             |[2]
+|             |             |[1]
+| bk          | rd or gr rd |[0]
++-------------+-------------+
+                [3][2][1][0]
+
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Row [0] confirmed!
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Available Colors: yl, gr, rd, bl, or, pk, pu
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution, zn-sets the size, h-show highscores
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Please enter command: 
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
               +-------------+
               | xx xx xx xx |
 +-------------+-------------+
@@ -856,11 +452,473 @@ INFO main de.htwg.se.mastermind.view.tui -
 +-------------+-------------+
                 [3][2][1][0]
 
-INFO main de.htwg.se.mastermind.view.tui - 
-New game has been created!
-INFO main de.htwg.se.mastermind.view.tui - 
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Welcome to Mastermind!!
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
 Available Colors: yl, gr, rd, bl, or, pk, pu
-INFO main de.htwg.se.mastermind.view.tui - 
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
 Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution, zn-sets the size, h-show highscores
-INFO main de.htwg.se.mastermind.view.tui - 
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Please enter command: 
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+              +-------------+
+              | xx xx xx xx |
++-------------+-------------+
+|             |             |[6]
+|             |             |[5]
+|             |             |[4]
+|             |             |[3]
+|             |             |[2]
+|             |             |[1]
+|             |             |[0]
++-------------+-------------+
+                [3][2][1][0]
+
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+New game has been created!
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Available Colors: yl, gr, rd, bl, or, pk, pu
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution, zn-sets the size, h-show highscores
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Please enter command: 
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+              +-------------+
+              | xx xx xx xx |
++-------------+-------------+
+|             |             |[6]
+|             |             |[5]
+|             |             |[4]
+|             |             |[3]
+|             |             |[2]
+|             |             |[1]
+|             |          us |[0]
++-------------+-------------+
+                [3][2][1][0]
+
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+The cell at [0],[0] has been set!
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Available Colors: yl, gr, rd, bl, or, pk, pu
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution, zn-sets the size, h-show highscores
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Please enter command: 
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+              +-------------+
+              | xx xx xx xx |
++-------------+-------------+
+|             |             |[6]
+|             |             |[5]
+|             |             |[4]
+|             |             |[3]
+|             |             |[2]
+|             |             |[1]
+|             |       de us |[0]
++-------------+-------------+
+                [3][2][1][0]
+
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+The cell at [0],[1] has been set!
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Available Colors: yl, gr, rd, bl, or, pk, pu
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution, zn-sets the size, h-show highscores
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Please enter command: 
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+              +-------------+
+              | xx xx xx xx |
++-------------+-------------+
+|             |             |[6]
+|             |             |[5]
+|             |             |[4]
+|             |             |[3]
+|             |             |[2]
+|             |             |[1]
+|             |    ch de us |[0]
++-------------+-------------+
+                [3][2][1][0]
+
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+The cell at [0],[2] has been set!
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Available Colors: yl, gr, rd, bl, or, pk, pu
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution, zn-sets the size, h-show highscores
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Please enter command: 
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+              +-------------+
+              | xx xx xx xx |
++-------------+-------------+
+|             |             |[6]
+|             |             |[5]
+|             |             |[4]
+|             |             |[3]
+|             |             |[2]
+|             |             |[1]
+|             | ru ch de us |[0]
++-------------+-------------+
+                [3][2][1][0]
+
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+The cell at [0],[3] has been set!
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Available Colors: yl, gr, rd, bl, or, pk, pu
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution, zn-sets the size, h-show highscores
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Please enter command: 
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+              +-------------+
+              | xx xx xx xx |
++-------------+-------------+
+|             |             |[6]
+|             |             |[5]
+|             |             |[4]
+|             |             |[3]
+|             |             |[2]
+|             |             |[1]
+|             | es ch de us |[0]
++-------------+-------------+
+                [3][2][1][0]
+
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+The cell at [0],[3] has been set!
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Available Colors: yl, gr, rd, bl, or, pk, pu
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution, zn-sets the size, h-show highscores
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Please enter command: 
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+              +-------------+
+              | xx xx xx xx |
++-------------+-------------+
+|             |             |[6]
+|             |             |[5]
+|             |             |[4]
+|             |             |[3]
+|             |             |[2]
+|             |             |[1]
+|             | fr ch de us |[0]
++-------------+-------------+
+                [3][2][1][0]
+
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+The cell at [0],[3] has been set!
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Available Colors: yl, gr, rd, bl, or, pk, pu
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution, zn-sets the size, h-show highscores
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Please enter command: 
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+              +-------------+
+              | xx xx xx xx |
++-------------+-------------+
+|             |             |[6]
+|             |             |[5]
+|             |             |[4]
+|             |             |[3]
+|             |             |[2]
+|             |             |[1]
+|             | gb ch de us |[0]
++-------------+-------------+
+                [3][2][1][0]
+
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+The cell at [0],[3] has been set!
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Available Colors: yl, gr, rd, bl, or, pk, pu
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution, zn-sets the size, h-show highscores
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Please enter command: 
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+              +-------------+
+              | xx xx xx xx |
++-------------+-------------+
+|             |             |[6]
+|             |             |[5]
+|             |             |[4]
+|             |             |[3]
+|             |             |[2]
+|             |             |[1]
+|             | us ch de us |[0]
++-------------+-------------+
+                [3][2][1][0]
+
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+The cell at [0],[3] has been set!
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Available Colors: yl, gr, rd, bl, or, pk, pu
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution, zn-sets the size, h-show highscores
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Please enter command: 
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+              +-------------+
+              | xx xx xx xx |
++-------------+-------------+
+|             |             |[6]
+|             |             |[5]
+|             |             |[4]
+|             |             |[3]
+|             |             |[2]
+|             |             |[1]
+|             | de ch de us |[0]
++-------------+-------------+
+                [3][2][1][0]
+
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+The cell at [0],[3] has been set!
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Available Colors: yl, gr, rd, bl, or, pk, pu
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution, zn-sets the size, h-show highscores
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Please enter command: 
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+              +-------------+
+              | xx xx xx xx |
++-------------+-------------+
+|             |             |[6]
+|             |             |[5]
+|             |             |[4]
+|             |             |[3]
+|             |             |[2]
+|             |             |[1]
+|             | ch ch de us |[0]
++-------------+-------------+
+                [3][2][1][0]
+
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+The cell at [0],[3] has been set!
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Available Colors: yl, gr, rd, bl, or, pk, pu
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution, zn-sets the size, h-show highscores
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Please enter command: 
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+              +-------------+
+              | xx xx xx xx |
++-------------+-------------+
+|             |             |[6]
+|             |             |[5]
+|             |             |[4]
+|             |             |[3]
+|             |             |[2]
+|             |             |[1]
+|             | ru ch de us |[0]
++-------------+-------------+
+                [3][2][1][0]
+
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+The cell at [0],[3] has been set!
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Available Colors: yl, gr, rd, bl, or, pk, pu
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution, zn-sets the size, h-show highscores
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Please enter command: 
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+              +-------------+
+              | xx xx xx xx |
++-------------+-------------+
+|             |             |[6]
+|             |             |[5]
+|             |             |[4]
+|             |             |[3]
+|             |             |[2]
+|             |             |[1]
+|             | ru es de us |[0]
++-------------+-------------+
+                [3][2][1][0]
+
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+The cell at [0],[2] has been set!
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Available Colors: yl, gr, rd, bl, or, pk, pu
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution, zn-sets the size, h-show highscores
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Please enter command: 
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+              +-------------+
+              | xx xx xx xx |
++-------------+-------------+
+|             |             |[6]
+|             |             |[5]
+|             |             |[4]
+|             |             |[3]
+|             |             |[2]
+|             |             |[1]
+|             | ru fr de us |[0]
++-------------+-------------+
+                [3][2][1][0]
+
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+The cell at [0],[2] has been set!
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Available Colors: yl, gr, rd, bl, or, pk, pu
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution, zn-sets the size, h-show highscores
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Please enter command: 
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+              +-------------+
+              | xx xx xx xx |
++-------------+-------------+
+|             |             |[6]
+|             |             |[5]
+|             |             |[4]
+|             |             |[3]
+|             |             |[2]
+|             |             |[1]
+|             | ru gb de us |[0]
++-------------+-------------+
+                [3][2][1][0]
+
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+The cell at [0],[2] has been set!
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Available Colors: yl, gr, rd, bl, or, pk, pu
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution, zn-sets the size, h-show highscores
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Please enter command: 
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+              +-------------+
+              | xx xx xx xx |
++-------------+-------------+
+|             |             |[6]
+|             |             |[5]
+|             |             |[4]
+|             |             |[3]
+|             |             |[2]
+|             |             |[1]
+|             | ru us de us |[0]
++-------------+-------------+
+                [3][2][1][0]
+
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+The cell at [0],[2] has been set!
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Available Colors: yl, gr, rd, bl, or, pk, pu
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution, zn-sets the size, h-show highscores
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Please enter command: 
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+              +-------------+
+              | xx xx xx xx |
++-------------+-------------+
+|             |             |[6]
+|             |             |[5]
+|             |             |[4]
+|             |             |[3]
+|             |             |[2]
+|             |             |[1]
+|             | ru de de us |[0]
++-------------+-------------+
+                [3][2][1][0]
+
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+The cell at [0],[2] has been set!
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Available Colors: yl, gr, rd, bl, or, pk, pu
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution, zn-sets the size, h-show highscores
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Please enter command: 
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+              +-------------+
+              | xx xx xx xx |
++-------------+-------------+
+|             |             |[6]
+|             |             |[5]
+|             |             |[4]
+|             |             |[3]
+|             |             |[2]
+|             |             |[1]
+|             | ru ch de us |[0]
++-------------+-------------+
+                [3][2][1][0]
+
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+The cell at [0],[2] has been set!
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Available Colors: yl, gr, rd, bl, or, pk, pu
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution, zn-sets the size, h-show highscores
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Please enter command: 
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+              +-------------+
+              | xx xx xx xx |
++-------------+-------------+
+|             |             |[6]
+|             |             |[5]
+|             |             |[4]
+|             |             |[3]
+|             |             |[2]
+|             |             |[1]
+|             | ru ru de us |[0]
++-------------+-------------+
+                [3][2][1][0]
+
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+The cell at [0],[2] has been set!
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Available Colors: yl, gr, rd, bl, or, pk, pu
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution, zn-sets the size, h-show highscores
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Please enter command: 
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+              +-------------+
+              | xx xx xx xx |
++-------------+-------------+
+|             |             |[6]
+|             |             |[5]
+|             |             |[4]
+|             |             |[3]
+|             |             |[2]
+|             |             |[1]
+| bk wh       | ru ru de us |[0]
++-------------+-------------+
+                [3][2][1][0]
+
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Row [0] confirmed!
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Available Colors: yl, gr, rd, bl, or, pk, pu
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution, zn-sets the size, h-show highscores
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Please enter command: 
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+              +-------------+
+              | es de de ru |
++-------------+-------------+
+|             |             |[6]
+|             |             |[5]
+|             |             |[4]
+|             |             |[3]
+|             |             |[2]
+|             |             |[1]
+| bk wh       | ru ru de us |[0]
++-------------+-------------+
+                [3][2][1][0]
+
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Solution is shown
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Available Colors: yl, gr, rd, bl, or, pk, pu
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution, zn-sets the size, h-show highscores
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
 Please enter command: 

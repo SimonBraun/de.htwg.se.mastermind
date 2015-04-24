@@ -20,7 +20,7 @@ public class MastercolorsPanel extends JPanel {
 	private static final int YBALLS = 25;
 	private static final int XINCREASE = 30;
 	
-	private static final String PATH = "src/resource/";
+	private static final String PATH = "de.htwg.se.mastermind/src/resource/";
 	private static final String FILEEX = ".png";	
 	private Image defaultImage = Toolkit.getDefaultToolkit().getImage(createImagePath("gy"));	
 	private Image image;

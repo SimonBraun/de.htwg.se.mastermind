@@ -65,7 +65,7 @@ public class GameFieldPanel extends JPanel {
 	private static final int YROWS3 = 105;
 	private int yStartNeu = YSTART;
 	
-	private static final String PATH = "src/resource/";
+	private static final String PATH = "de.htwg.se.mastermind/src/resource/";
 	private static final String FILEEX = ".png";	
 	private Image defaultImage = Toolkit.getDefaultToolkit().getImage(createImagePath("gy"));	
 	private Image image;
