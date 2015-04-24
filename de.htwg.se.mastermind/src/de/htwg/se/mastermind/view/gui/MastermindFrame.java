@@ -7,6 +7,7 @@ import javax.swing.JFrame;
 import javax.swing.JMenu;
 import javax.swing.JMenuBar;
 import javax.swing.JMenuItem;
+import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 
 import de.htwg.se.mastermind.controller.IController;
@@ -32,15 +33,17 @@ public class MastermindFrame extends JFrame implements IObserver {
 	private HeadPanel headPanel;
 	private GameFieldPanel gameFieldPanel;
 	private IController controller;
+	private MastermindFrame frame;
 	
 	public MastermindFrame(final IController myController) {
 		this.controller = myController;
 		this.controller.addObserver(this);
+		this.frame = this;
 		
 		JMenuBar menuBar;
 		
 		JMenu fileMenu, optionsMenu;
-		JMenuItem newMenuItem, exitMenuItem, showSolutionMenuItem, setSize12MenuItem, setSize8MenuItem, setSize4MenuItem, setBasicColorsMenuItem, setCountryColorsMenuItem;
+		JMenuItem newMenuItem, exitMenuItem, showSolutionMenuItem, setSize12MenuItem, setSize8MenuItem, setSize4MenuItem, highscoreMenuItem, removeHighscoreMenuItem, setBasicColorsMenuItem, setCountryColorsMenuItem;
 		
 		this.setTitle("Mastermind");
 		this.setDefaultCloseOperation(EXIT_ON_CLOSE);
@@ -129,6 +132,32 @@ public class MastermindFrame extends JFrame implements IObserver {
 			}
 		});
 		
+		highscoreMenuItem = new JMenuItem("Highscores");
+		highscoreMenuItem.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				new HighscoreDialog(controller, frame);
+			}
+		});
+
+
+		removeHighscoreMenuItem = new JMenuItem("Clear highscores");
+		removeHighscoreMenuItem.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				int input = JOptionPane.showConfirmDialog(null,
+						"Are you sure to remove all highscore entries?",
+						"Remove all highscores",
+						JOptionPane.YES_NO_OPTION);
+
+				if (input == 0) {
+					controller.removeAllGrids();
+				}
+			}
+		});
+		
 		setBasicColorsMenuItem = new JMenuItem("Set colors to basic");
 		setBasicColorsMenuItem.addActionListener(new ActionListener() {
 			
@@ -157,6 +186,9 @@ public class MastermindFrame extends JFrame implements IObserver {
 		optionsMenu.add(setSize12MenuItem);
 		optionsMenu.add(setSize8MenuItem);
 		optionsMenu.add(setSize4MenuItem);
+		optionsMenu.addSeparator();
+		optionsMenu.add(highscoreMenuItem);
+		optionsMenu.add(removeHighscoreMenuItem);
 		optionsMenu.addSeparator();
 		optionsMenu.add(setBasicColorsMenuItem);
 		optionsMenu.add(setCountryColorsMenuItem);

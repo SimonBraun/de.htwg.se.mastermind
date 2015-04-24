@@ -5,7 +5,6 @@ package de.htwg.se.mastermind;
 import com.google.inject.Guice;
 import com.google.inject.Injector;
 import de.htwg.se.mastermind.controller.IController;
-import de.htwg.se.mastermind.controller.Controller;
 import de.htwg.se.mastermind.view.gui.MastermindFrame;
 import de.htwg.se.mastermind.view.TextUI;
 
