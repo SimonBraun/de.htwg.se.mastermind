@@ -18,7 +18,7 @@ import org.apache.log4j.PropertyConfigurator;
  *
  */
 public final class Mastermind {
-
+ 
 	private static Mastermind instance;
 	private static Scanner scanner;
 	private static TextUI tui;

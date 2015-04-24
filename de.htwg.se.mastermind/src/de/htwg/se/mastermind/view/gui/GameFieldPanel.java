@@ -31,7 +31,7 @@ public class GameFieldPanel extends JPanel {
 			}
 		}
 	}
-	
+	 
 	private static final long serialVersionUID = 1L;
 	private IController controller;
 	private int rows;

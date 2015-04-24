@@ -28,7 +28,7 @@ public class MastermindFrame extends JFrame implements IObserver {
 	private static final int HEIGHT4 = 270;
 	private static final int WIDTH12 = 460;
 	private static final int WIDTH4 = 330;
-	
+	 
 	private JPanel mainPanel;
 	private HeadPanel headPanel;
 	private GameFieldPanel gameFieldPanel;
