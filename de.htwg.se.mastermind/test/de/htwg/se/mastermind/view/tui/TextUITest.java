@@ -3,29 +3,35 @@ package de.htwg.se.mastermind.view.tui;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
 
+import de.htwg.se.mastermind.persistence.db4o.GridDb4oDAO;
+import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
-import org.apache.log4j.Logger;
 
 import de.htwg.se.mastermind.controller.Controller;
 import de.htwg.se.mastermind.controller.IController;
 import de.htwg.se.mastermind.model.Grid;
 import de.htwg.se.mastermind.model.IGrid;
 import de.htwg.se.mastermind.view.TextUI;
-//import org.apache.log4j.PropertyConfigurator;
 
 public class TextUITest {
 	IGrid grid;
 	private IController controller;
 	private TextUI tui;
-	static Logger logger = Logger.getLogger(TextUI.class);
+	private GridDb4oDAO db4oDAO;
 	
 	@Before
 	public void setUp() throws Exception {
+		db4oDAO = new GridDb4oDAO();
 		grid = new Grid(8,8);
-		controller = new Controller();
-		tui = new TextUI(controller);
+		controller = new Controller(db4oDAO);
 		controller.create(8, 8);
+		tui = new TextUI(controller);
+	}
+
+	@After
+	public void after() {
+		db4oDAO.closeDb();
 	}
 	
 	@Test
@@ -38,7 +44,7 @@ public class TextUITest {
 	@Test
 	public void testProcessInputLine2() {
 		tui.processInputLine("n");
-		assertEquals("New game has been created!", controller.getStatusLine());
+		assertEquals("Welcome to Mastermind!!", controller.getStatusLine());
 	}
 	
 	@Test

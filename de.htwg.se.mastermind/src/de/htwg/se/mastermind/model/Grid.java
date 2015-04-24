@@ -23,6 +23,9 @@ public class Grid extends AbstractGrid implements IGrid {
 	private boolean showSolution;
 	private boolean rowConfirmed;
 	private boolean isNewGame;
+	private String username;
+	private String date;
+	private String id;
 	
 	/**
 	 * Initializes a new grid.
@@ -42,6 +45,8 @@ public class Grid extends AbstractGrid implements IGrid {
 		this.setInvisibleMasterColors();
 		this.showSolution = false;
 		this.rowConfirmed = false;
+		this.username = "(No username)";
+		this.date = "(No date)";
 	}
 	
 	@Override
@@ -131,8 +136,8 @@ public class Grid extends AbstractGrid implements IGrid {
 		ArrayList<Integer> alreadyProcessed = new ArrayList<Integer>();
 	    for (String color : masterColors) {
 	    	for (int j = 0; j < settedColors.length; j++) {
-//	    		if (color.equals(settedColors[j]) && !alreadyProcessed.contains(j)) {
-		    	if (color.equals(settedColors[j])) {
+//	    		if (color.equals(settedColors[j])) {
+		    	if (color.equals(settedColors[j]) && !alreadyProcessed.contains(j)) {
 	    			alreadyProcessed.add(j);
 	    			whiteSticks++;
 	    			break;
@@ -299,4 +304,35 @@ public class Grid extends AbstractGrid implements IGrid {
 		
 		return null;
 	}
+
+	@Override
+	public void setUsername(String username) {
+		this.username = username;
+	}
+
+	@Override
+	public String getUsername() {
+		return this.username;
+	}
+
+	@Override
+	public String getDate() {
+		return this.date;
+	}
+
+	@Override
+	public void setDate(String date) {
+		this.date = date;
+	}
+
+	@Override
+	public String getId() {
+		return this.id;
+	}
+
+	@Override
+	public void setId(String id) {
+		this.id = id;
+	}
+
 }

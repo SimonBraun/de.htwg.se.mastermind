@@ -167,4 +167,40 @@ public interface IGrid {
 	 * @return void
 	 */
 	void newMasterColors();
+
+	/**
+	 * Sets the username
+	 * @param username Name of the user
+	 */
+	void setUsername(String username);
+
+	/**
+	 * Returns the username
+	 * @return Name of the user
+	 */
+	String getUsername();
+
+	/**
+	 * Returns the actual date
+	 * @return
+	 */
+	String getDate();
+
+	/**
+	 * Sets the date
+	 * @param date The actual date
+	 */
+	void setDate(String date);
+
+	/**
+	 * Returns the id of the grid
+	 * @return the id of the grid
+	 */
+	String getId();
+
+	/**
+	 * Sets the id of the grid
+	 * @param id the id of the grid
+	 */
+	void setId(String id);
 }

@@ -165,4 +165,69 @@ public interface IController extends IObservable {
 	 * @return void
 	 */
 	void newMasterColors();
+
+	/**
+	 * Sets the name of the user
+	 * @param username The name of the user
+	 */
+	void setUsername (String username);
+
+	/**
+	 * Returns the name of the user
+	 * @return the name of the user
+	 */
+	String getUsername();
+
+	/**
+	 * Returns the actual date
+	 * @return
+	 */
+	String getDate();
+
+	/**
+	 * Sets the date
+	 * @param date The actual date
+	 */
+	void setDate(String date);
+
+	/**
+	 * Returns the id of the grid
+	 * @return the id of the grid
+	 */
+	String getId();
+
+	/**
+	 * Sets the id of the grid
+	 * @param id the id of the grid
+	 */
+	void setId(String id);
+
+
+	/**
+	 * Saves grid to DB.
+	 */
+	void saveToDB();
+
+	/**
+	 * Returns field with name and score
+	 * @return field with name and score
+	 */
+	String [][] getAllGrids();
+
+	/**
+	 * Removes all grid from db
+	 */
+	void removeAllGrids();
+
+	/**
+	 * Removes the entry from db with passed id
+	 * @param id the id of the db entry
+	 */
+	void removeGridById(String id);
+
+	/**
+	 * Checks if user has made a new highscore. If yes, old value will be deleted
+	 * @return the the id to delete
+	 */
+	String isInHighScore();
 }

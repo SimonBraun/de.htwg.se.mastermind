@@ -1,15 +1,12 @@
-// Gruppe 10
-
 package de.htwg.se.mastermind;
 
+import com.google.inject.Guice;
+import com.google.inject.Injector;
 import de.htwg.se.mastermind.controller.IController;
-import de.htwg.se.mastermind.controller.Controller;
 import de.htwg.se.mastermind.view.gui.MastermindFrame;
 import de.htwg.se.mastermind.view.TextUI;
 
 import java.util.Scanner;
-
-import org.apache.log4j.PropertyConfigurator;
 
 /**
  * Mastermind
@@ -17,7 +14,7 @@ import org.apache.log4j.PropertyConfigurator;
  *
  */
 public final class Mastermind {
-	
+
 	private static Mastermind instance;
 	private static Scanner scanner;
 	private static TextUI tui;
@@ -34,38 +31,40 @@ public final class Mastermind {
 		if (instance == null) {
 			instance = new Mastermind();
 		}
-		
+
 		return instance;
 	}
-	
+
 	public IController getController () {
 		return controller;
 	}
-	
+
 	public TextUI getTUI() {
 		return tui;
 	}
 
 	private Mastermind() {
-		PropertyConfigurator.configure("log4j.properties");
-		controller = new Controller();
+		//PropertyConfigurator.configure("log4j.properties");
+		//Use dependency injection
+		Injector injector = Guice.createInjector(new MastermindModule());
+		controller = injector.getInstance(IController.class);
 		controller.create(ROWS, COLUMNS);
 		tui = new TextUI(controller);
 		gui = new MastermindFrame(controller);
 		gui.repaint();
 		tui.print();
 	}
-	
+
 	/**
 	 * Main
 	 * @param args
 	 */
 	public static void main (String[] args) {
-		
+
 		Mastermind.getInstance();
-		
+
 		boolean gameContinue = true;
-		
+
 		scanner = new Scanner(System.in);
 		while(gameContinue) {
 			gameContinue = tui.processInputLine(scanner.next());
