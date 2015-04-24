@@ -1,12 +1,17 @@
+// Gruppe 10
+
 package de.htwg.se.mastermind;
 
 import com.google.inject.Guice;
 import com.google.inject.Injector;
 import de.htwg.se.mastermind.controller.IController;
+import de.htwg.se.mastermind.controller.Controller;
 import de.htwg.se.mastermind.view.gui.MastermindFrame;
 import de.htwg.se.mastermind.view.TextUI;
 
 import java.util.Scanner;
+
+import org.apache.log4j.PropertyConfigurator;
 
 /**
  * Mastermind
@@ -45,7 +50,6 @@ public final class Mastermind {
 
 	private Mastermind() {
 		//PropertyConfigurator.configure("log4j.properties");
-		//Use dependency injection
 		Injector injector = Guice.createInjector(new MastermindModule());
 		controller = injector.getInstance(IController.class);
 		controller.create(ROWS, COLUMNS);
