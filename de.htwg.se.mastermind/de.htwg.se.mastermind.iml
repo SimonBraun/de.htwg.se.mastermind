@@ -6,7 +6,7 @@
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/test" isTestSource="true" />
     </content>
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="1.6" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="lib" level="project" />
     <orderEntry type="module-library" scope="TEST">
@@ -38,5 +38,7 @@
         <SOURCES />
       </library>
     </orderEntry>
+    <orderEntry type="library" name="org.ektorp-1.2.2-sources" level="project" />
+    <orderEntry type="library" name="org.ektorp-1.2.2" level="project" />
   </component>
 </module>
