@@ -13,15 +13,12 @@ import java.util.List;
 
 public class GridCouchdbDAO implements IGridDAO {
 
-    private CouchDbConnector db = null;
+    private CouchDbConnector db;
 
     public GridCouchdbDAO() {
         HttpClient client = null;
         try {
-            client = new StdHttpClient.Builder()
-            .url("http://lenny2.in.htwg-konstanz.de:5984")
-            .build();
-
+            client = new StdHttpClient.Builder().url("http://lenny2.in.htwg-konstanz.de:5984").build();
         } catch (MalformedURLException e) {
             e.printStackTrace();
         }
