@@ -1,4 +1,4 @@
-package de.htwg.se.mastermind.view;
+package de.htwg.se.mastermind.view.tui;
 
 import de.htwg.se.mastermind.controller.IController;
 import de.htwg.se.mastermind.observer.Event;

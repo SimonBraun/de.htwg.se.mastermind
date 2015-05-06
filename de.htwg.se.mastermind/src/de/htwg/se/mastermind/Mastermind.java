@@ -6,11 +6,9 @@ import com.google.inject.Guice;
 import com.google.inject.Injector;
 import de.htwg.se.mastermind.controller.IController;
 import de.htwg.se.mastermind.view.gui.MastermindFrame;
-import de.htwg.se.mastermind.view.TextUI;
+import de.htwg.se.mastermind.view.tui.TextUI;
 
 import java.util.Scanner;
-
-import org.apache.log4j.PropertyConfigurator;
 
 /**
  * Mastermind

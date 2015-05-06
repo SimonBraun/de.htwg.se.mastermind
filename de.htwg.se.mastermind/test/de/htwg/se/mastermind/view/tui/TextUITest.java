@@ -12,7 +12,6 @@ import de.htwg.se.mastermind.controller.Controller;
 import de.htwg.se.mastermind.controller.IController;
 import de.htwg.se.mastermind.model.Grid;
 import de.htwg.se.mastermind.model.IGrid;
-import de.htwg.se.mastermind.view.TextUI;
 
 public class TextUITest {
 	IGrid grid;
