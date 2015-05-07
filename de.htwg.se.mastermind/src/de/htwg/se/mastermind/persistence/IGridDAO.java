@@ -8,6 +8,8 @@ public interface IGridDAO {
 
     void saveGrid(IGrid grid);
 
+    IGrid getGridById(String id);
+
     List<IGrid> getAllGrids();
 
     void removeAllGrids();

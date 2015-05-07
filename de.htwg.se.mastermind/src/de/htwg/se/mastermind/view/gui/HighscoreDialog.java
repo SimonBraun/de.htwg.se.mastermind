@@ -3,6 +3,7 @@ package de.htwg.se.mastermind.view.gui;
 import de.htwg.se.mastermind.controller.IController;
 
 import javax.swing.*;
+import javax.swing.table.TableRowSorter;
 import java.awt.*;
 
 public class HighscoreDialog extends JDialog {

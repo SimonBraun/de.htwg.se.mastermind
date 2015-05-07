@@ -9,7 +9,7 @@ import java.util.Arrays;
  * @author sibraun
  *
  */
-public class Grid extends AbstractGrid implements IGrid {
+public class Grid extends AbstractGrid implements IGrid, Comparable<IGrid> {
 	
 	private int actualRow;
 	private Colors colors;
@@ -92,6 +92,11 @@ public class Grid extends AbstractGrid implements IGrid {
 	@Override
 	public int getActualRow() {
 		return this.actualRow;
+	}
+
+	@Override
+	public void setActualRow(int actualRow) {
+		this.actualRow = actualRow;
 	}
 	
 	@Override
@@ -335,4 +340,21 @@ public class Grid extends AbstractGrid implements IGrid {
 		this.id = id;
 	}
 
+
+	/*Sort elements for CouchDB*/
+	@Override
+	public int compareTo(IGrid o) {
+		if (this.actualRow < o.getActualRow()) {
+			return -1;
+		} else if (this.actualRow == o.getActualRow()) {
+			if (this.getDate().compareTo(o.getDate()) < 0) {
+				return -1;
+			} else {
+				return 1;
+			}
+
+		} else {
+			return 1;
+		}
+	}
 }

@@ -26,6 +26,23 @@ public class GridDb4oDAO implements IGridDAO {
     }
 
     @Override
+    public IGrid getGridById(final String id) {
+        List<IGrid> grids = db.query(new Predicate<IGrid>() {
+
+            private static final long serialVersionUID = 1L;
+
+            public boolean match(IGrid grid) {
+                return (id.equals(grid.getId()));
+            }
+        });
+
+        if (grids.size() > 0) {
+            return grids.get(0);
+        }
+        return null;
+    }
+
+    @Override
     public List<IGrid> getAllGrids() {
         Query query = db.query();
         query.constrain(Grid.class);

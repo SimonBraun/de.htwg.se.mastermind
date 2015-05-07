@@ -7,7 +7,7 @@ import java.awt.Color;
  * @author sibraun
  *
  */
-public interface IGrid {
+public interface IGrid extends Comparable<IGrid> {
 	
 	/**
 	 * Sets the value of a cell
@@ -55,6 +55,12 @@ public interface IGrid {
 	 * @return row
 	 */
 	int getActualRow();
+
+	/**
+	 * Sets the actual row
+	 * @param actualRow The actual row to set
+	 */
+	void setActualRow(int actualRow);
 	
 	/**
 	 * Increments the actual row

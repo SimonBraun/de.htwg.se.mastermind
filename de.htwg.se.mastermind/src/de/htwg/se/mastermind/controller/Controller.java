@@ -278,6 +278,8 @@ public class Controller extends Observable implements IController {
 
 	@Override
 	public void removeGridById(String id) {
-		this.gridDAO.removeGridById(id);
+		if (id != null && !id.equals("")) {
+			this.gridDAO.removeGridById(id);
+		}
 	}
 }
