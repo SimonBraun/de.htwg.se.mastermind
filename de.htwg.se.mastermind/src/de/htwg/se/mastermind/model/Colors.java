@@ -9,10 +9,10 @@ public class Colors {
 	private static final String [] countryColors = {"us", "de", "ch", "ru", "es", "fr", "gb"};
 	
 	public String [] getColor(String color){
-		if(color == BASIC){
+		if(color.equals(BASIC)){
 			return basicColors;
 		}
-		else if(color == COUNTRY){
+		else if(color.equals(COUNTRY)){
 			return countryColors;
 		}
 		else return basicColors;
