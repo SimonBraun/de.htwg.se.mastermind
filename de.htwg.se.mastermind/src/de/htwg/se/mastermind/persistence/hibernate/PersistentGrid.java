@@ -12,46 +12,59 @@ public class PersistentGrid implements Serializable {
 
 	private static final long serialVersionUID = 1538704903825440126L;
 
-	@Id
-	@Column(name = "id")
-	private String gridId;
+	private String id;
 
 	private String name;
-	private int blocksPerEdge;
-	private int numberSetCells;	
-	
-	public PersistentGrid() {
-	}
+	private int actualRow;
+	private int rowsAmount;
+	private int columnsAmount;
+	private String date;
 
 	public String getId() {
-		return gridId;
+		return id;
 	}
 
 	public void setId(String id) {
-		this.gridId = id;
+		this.id = id;
 	}
-	
+
 	public String getName() {
 		return this.name;
 	}
 
 	public void setName(String name) {
-		if(name != null) { this.name = name;}
-	}
-	
-	public int getBlocksPerEdge() {
-		return blocksPerEdge;
+		this.name = name;
 	}
 
-	public void setBlocksPerEdge(int blocksPerEdge) {
-		this.blocksPerEdge = blocksPerEdge;
-	}
-	
-	public int getNumberSetCells() {
-		return numberSetCells;
+	public int getActualRow() {
+		return this.actualRow;
 	}
 
-	public void setNumberSetCells(int numberSetCells) {
-		this.numberSetCells = numberSetCells;
+	public void setActualRow(int actualRow) {
+		this.actualRow = actualRow;
+	}
+
+	public String getDate() {
+		return this.date;
+	}
+
+	public void setDate(String date) {
+		this.date = date;
+	}
+
+	public int getRowsAmount() {
+		return this.rowsAmount;
+	}
+
+	public void setRowsAmount(int rowsAmount) {
+		this.rowsAmount = rowsAmount;
+	}
+
+	public int getColumnsAmount() {
+		return this.columnsAmount;
+	}
+
+	public void setColumnsAmount (int columnsAmount) {
+		this.columnsAmount = columnsAmount;
 	}
 }

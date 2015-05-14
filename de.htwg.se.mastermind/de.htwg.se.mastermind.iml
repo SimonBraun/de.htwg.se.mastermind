@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="hibernate" name="Hibernate">
+      <configuration>
+        <datasource-map />
+        <naming-strategy-map />
+        <deploymentDescriptor name="hibernate.cfg.xml" url="file://$MODULE_DIR$/src/hibernate.cfg.xml" />
+      </configuration>
+    </facet>
+  </component>
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
     <content url="file://$MODULE_DIR$">
@@ -90,5 +99,25 @@
         <SOURCES />
       </library>
     </orderEntry>
+    <orderEntry type="library" name="antlr-2.7.6" level="project" />
+    <orderEntry type="library" name="apache-httpcomponents-httpclient-cache" level="project" />
+    <orderEntry type="library" name="cglib-2.2" level="project" />
+    <orderEntry type="library" name="commons-collections-3.1" level="project" />
+    <orderEntry type="library" name="commons-logging-1.2" level="project" />
+    <orderEntry type="library" name="dom4j-1.6.1" level="project" />
+    <orderEntry type="library" name="ejb3-persistence" level="project" />
+    <orderEntry type="library" name="hibernate3" level="project" />
+    <orderEntry type="library" name="hibernate-annotations" level="project" />
+    <orderEntry type="library" name="http-core-4.1" level="project" />
+    <orderEntry type="library" name="httpclient-4.1" level="project" />
+    <orderEntry type="library" name="jackson-all-1.9.0" level="project" />
+    <orderEntry type="library" name="javassist-3.9.0.GA" level="project" />
+    <orderEntry type="library" name="jta-1.1" level="project" />
+    <orderEntry type="library" name="log4j" level="project" />
+    <orderEntry type="library" name="persistence-api-1.0" level="project" />
+    <orderEntry type="library" name="slf4j-api-1.5.8" level="project" />
+    <orderEntry type="library" name="slf4j-api-1.7.12" level="project" />
+    <orderEntry type="library" name="slf4j-log4j12" level="project" />
+    <orderEntry type="library" name="slf4j-simple-1.7.12" level="project" />
   </component>
 </module>
