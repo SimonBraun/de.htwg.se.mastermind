@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="MySQL - games@lenny2.in.htwg-konstanz.de" uuid="9b9221b1-e12b-4870-9e4a-a3325308209c">
+    <database-info product="MySQL" version="5.6.17-log" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.35 ( Revision: 5fb9c5849535c13917c2cf9baaece6ef9693ef27 )">
+      <extra-name-characters>#@</extra-name-characters>
+      <identifier-quote-string>`</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower"/>
+    <schema name="" catalog="games"/>
+    <table name="board" schema="" catalog="games" type="TABLE">
+      <column name="id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="boardMatrix" sqlType="TINYBLOB" precision="255" scale="0" nullable="true" jdbcType="-2"/>
+      <column name="moveCounter" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <primary-key name="PRIMARY" columns="id"/>
+    </table>
+    <table name="breakout1_highscore" schema="" catalog="games" type="TABLE">
+      <column name="id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="date" sqlType="DATE" precision="10" scale="0" nullable="false" jdbcType="91"/>
+      <column name="points" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="username" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="id"/>
+    </table>
+    <table name="breakout1_user" schema="" catalog="games" type="TABLE">
+      <column name="id" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <column name="password" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="id"/>
+    </table>
+    <table name="breakout2_players" schema="" catalog="games" type="TABLE">
+      <column name="email" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <column name="name" sqlType="VARCHAR" precision="255" scale="0" nullable="true" jdbcType="12"/>
+      <column name="password" sqlType="VARCHAR" precision="255" scale="0" nullable="true" jdbcType="12"/>
+      <column name="revision" sqlType="VARCHAR" precision="255" scale="0" nullable="true" jdbcType="12"/>
+      <column name="highscore" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <primary-key name="PRIMARY" columns="email"/>
+    </table>
+    <table name="chess_field" schema="" catalog="games" type="TABLE">
+      <column name="id" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <column name="figure" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <column name="isSet" sqlType="BIT" precision="1" scale="0" nullable="true" jdbcType="-7"/>
+      <column name="team" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <column name="xPos" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <column name="yPos" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <column name="chessgame_id" sqlType="VARCHAR" precision="255" scale="0" nullable="true" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="id"/>
+      <foreign-key name="FK66C5AAFB8FEA76F9" columns="chessgame_id" ref-table="chess_game" ref-schema="" ref-catalog="games" ref-columns="id" update-rule="3" delete-rule="3" deferrability="2"/>
+      <index name="FK66C5AAFB8FEA76F9" unique="false" columns="chessgame_id"/>
+    </table>
+    <table name="chess_game" schema="" catalog="games" type="TABLE">
+      <column name="id" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <column name="name" sqlType="VARCHAR" precision="255" scale="0" nullable="true" jdbcType="12"/>
+      <column name="saveDate" sqlType="DATETIME" precision="19" scale="0" nullable="true" jdbcType="93"/>
+      <column name="turn" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="turnsBlack" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="turnsWhite" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <primary-key name="PRIMARY" columns="id"/>
+      <exported-key name="FK66C5AAFB8FEA76F9" table="chess_field" schema="" catalog="games" columns="chessgame_id"/>
+    </table>
+    <table name="game" schema="" catalog="games" type="TABLE">
+      <column name="id" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <column name="currentPlayer" sqlType="VARCHAR" precision="255" scale="0" nullable="true" jdbcType="12"/>
+      <column name="currentPlayerIndex" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <column name="diceFlag" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="drawnCardFlag" sqlType="BIT" precision="1" scale="0" nullable="false" jdbcType="-7"/>
+      <column name="message" sqlType="VARCHAR" precision="255" scale="0" nullable="true" jdbcType="12"/>
+      <column name="name" sqlType="VARCHAR" precision="255" scale="0" nullable="true" jdbcType="12"/>
+      <column name="numberOfFields" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="parkingMoney" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="phase" sqlType="VARCHAR" precision="255" scale="0" nullable="true" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="id"/>
+      <exported-key name="FKC53E9AE1D926CBBB" table="player" schema="" catalog="games" columns="gameid"/>
+    </table>
+    <table name="gameoflife_grid" schema="" catalog="games" type="TABLE">
+      <column name="gameName" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <column name="cells" sqlType="LONGBLOB" precision="2147483647" scale="0" nullable="true" jdbcType="-4"/>
+      <primary-key name="PRIMARY" columns="gameName"/>
+    </table>
+    <table name="gameoflife_grid2" schema="" catalog="games" type="TABLE">
+      <column name="gameName" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <column name="cells" sqlType="LONGBLOB" precision="2147483647" scale="0" nullable="true" jdbcType="-4"/>
+      <primary-key name="PRIMARY" columns="gameName"/>
+    </table>
+    <table name="minebox" schema="" catalog="games" type="TABLE">
+      <column name="id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="covered" sqlType="BIT" precision="1" scale="0" nullable="false" jdbcType="-7"/>
+      <column name="flagged" sqlType="BIT" precision="1" scale="0" nullable="false" jdbcType="-7"/>
+      <column name="mine" sqlType="BIT" precision="1" scale="0" nullable="false" jdbcType="-7"/>
+      <column name="minesAround" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="posX" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="posY" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="minefieldid" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <primary-key name="PRIMARY" columns="id"/>
+      <foreign-key name="FK3F719498541504A9" columns="minefieldid" ref-table="minefield" ref-schema="" ref-catalog="games" ref-columns="id" update-rule="3" delete-rule="3" deferrability="2"/>
+      <index name="FK3F719498541504A9" unique="false" columns="minefieldid"/>
+    </table>
+    <table name="minefield" schema="" catalog="games" type="TABLE">
+      <column name="id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="mineCount" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="name" sqlType="VARCHAR" precision="255" scale="0" nullable="true" jdbcType="12"/>
+      <column name="sizeX" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="sizeY" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <primary-key name="PRIMARY" columns="id"/>
+      <exported-key name="FK3F719498541504A9" table="minebox" schema="" catalog="games" columns="minefieldid"/>
+    </table>
+    <table name="minesweeper_minebox" schema="" catalog="games" type="TABLE">
+      <column name="id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="covered" sqlType="BIT" precision="1" scale="0" nullable="false" jdbcType="-7"/>
+      <column name="flagged" sqlType="BIT" precision="1" scale="0" nullable="false" jdbcType="-7"/>
+      <column name="mine" sqlType="BIT" precision="1" scale="0" nullable="false" jdbcType="-7"/>
+      <column name="minesAround" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="posX" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="posY" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="mineFieldId" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <primary-key name="PRIMARY" columns="id"/>
+      <foreign-key name="FKAEDE961F90CA21B0" columns="mineFieldId" ref-table="minesweeper_minefield" ref-schema="" ref-catalog="games" ref-columns="id" update-rule="3" delete-rule="3" deferrability="2"/>
+      <index name="FKAEDE961F90CA21B0" unique="false" columns="mineFieldId"/>
+    </table>
+    <table name="minesweeper_minefield" schema="" catalog="games" type="TABLE">
+      <column name="id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="mineCount" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="name" sqlType="VARCHAR" precision="255" scale="0" nullable="true" jdbcType="12"/>
+      <column name="sizeX" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="sizeY" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <primary-key name="PRIMARY" columns="id"/>
+      <exported-key name="FKAEDE961F90CA21B0" table="minesweeper_minebox" schema="" catalog="games" columns="mineFieldId"/>
+    </table>
+    <table name="player" schema="" catalog="games" type="TABLE">
+      <column name="id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="budget" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <column name="icon" sqlType="VARCHAR" precision="255" scale="0" nullable="true" jdbcType="12"/>
+      <column name="inPrison" sqlType="BIT" precision="1" scale="0" nullable="true" jdbcType="-7"/>
+      <column name="name" sqlType="VARCHAR" precision="255" scale="0" nullable="true" jdbcType="12"/>
+      <column name="ownershipPositions" sqlType="TINYBLOB" precision="255" scale="0" nullable="true" jdbcType="-2"/>
+      <column name="position" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <column name="prisonFreeCard" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <column name="prisonRound" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <column name="value" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <column name="gameid" sqlType="VARCHAR" precision="255" scale="0" nullable="true" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="id"/>
+      <foreign-key name="FKC53E9AE1D926CBBB" columns="gameid" ref-table="game" ref-schema="" ref-catalog="games" ref-columns="id" update-rule="3" delete-rule="3" deferrability="2"/>
+      <index name="FKC53E9AE1D926CBBB" unique="false" columns="gameid"/>
+    </table>
+    <table name="tdfield" schema="" catalog="games" type="TABLE">
+      <column name="id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="PlayingFieldID" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <column name="tower_id" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <column name="pFieldID" sqlType="BIGINT" precision="19" scale="0" nullable="false" jdbcType="-5"/>
+      <primary-key name="PRIMARY" columns="id"/>
+      <foreign-key name="FKD3A0AC6A4D0294A6" columns="PlayingFieldID" ref-table="tdplayingfield" ref-schema="" ref-catalog="games" ref-columns="id" update-rule="3" delete-rule="3" deferrability="2"/>
+      <exported-key name="FKD9A0665B1C1095B7" table="tdfield_tdmob" schema="" catalog="games" columns="TDField_id"/>
+      <exported-key name="FK4BFCE706B76109D" table="tdmob" schema="" catalog="games" columns="FildID"/>
+      <index name="FKD3A0AC6A4D0294A6" unique="false" columns="PlayingFieldID"/>
+    </table>
+    <table name="tdfield_tdmob" schema="" catalog="games" type="TABLE">
+      <column name="TDField_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="mobs_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <foreign-key name="FKD9A0665B1C1095B7" columns="TDField_id" ref-table="tdfield" ref-schema="" ref-catalog="games" ref-columns="id" update-rule="3" delete-rule="3" deferrability="2"/>
+      <foreign-key name="FKD9A0665BE08BF574" columns="mobs_id" ref-table="tdmob" ref-schema="" ref-catalog="games" ref-columns="id" update-rule="3" delete-rule="3" deferrability="2"/>
+      <index name="FKD9A0665B1C1095B7" unique="false" columns="TDField_id"/>
+      <index name="FKD9A0665BE08BF574" unique="false" columns="mobs_id"/>
+    </table>
+    <table name="tdgame" schema="" catalog="games" type="TABLE">
+      <column name="id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="PlayingField" sqlType="TINYBLOB" precision="255" scale="0" nullable="true" jdbcType="-2"/>
+      <column name="Player" sqlType="TINYBLOB" precision="255" scale="0" nullable="true" jdbcType="-2"/>
+      <column name="pField" sqlType="TINYBLOB" precision="255" scale="0" nullable="true" jdbcType="-2"/>
+      <column name="pField_id" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <column name="player_id" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <primary-key name="PRIMARY" columns="id"/>
+      <foreign-key name="FK93371282B91203EF" columns="pField_id" ref-table="tdplayingfield" ref-schema="" ref-catalog="games" ref-columns="id" update-rule="3" delete-rule="3" deferrability="2"/>
+      <foreign-key name="FK93371282D7E693ED" columns="player_id" ref-table="tdplayer" ref-schema="" ref-catalog="games" ref-columns="id" update-rule="3" delete-rule="3" deferrability="2"/>
+      <index name="FK93371282B91203EF" unique="false" columns="pField_id"/>
+      <index name="FK93371282D7E693ED" unique="false" columns="player_id"/>
+    </table>
+    <table name="tdmob" schema="" catalog="games" type="TABLE">
+      <column name="id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="Health" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <column name="Speed" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <column name="FildID" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <column name="pFieldID" sqlType="BIGINT" precision="19" scale="0" nullable="true" jdbcType="-5"/>
+      <primary-key name="PRIMARY" columns="id"/>
+      <foreign-key name="FK4BFCE706B76109D" columns="FildID" ref-table="tdfield" ref-schema="" ref-catalog="games" ref-columns="id" update-rule="3" delete-rule="3" deferrability="2"/>
+      <exported-key name="FKD9A0665BE08BF574" table="tdfield_tdmob" schema="" catalog="games" columns="mobs_id"/>
+      <index name="FK4BFCE706B76109D" unique="false" columns="FildID"/>
+    </table>
+    <table name="tdplayer" schema="" catalog="games" type="TABLE">
+      <column name="id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="Life" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <column name="Money" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <column name="Name" sqlType="VARCHAR" precision="255" scale="0" nullable="true" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="id"/>
+      <exported-key name="FK93371282D7E693ED" table="tdgame" schema="" catalog="games" columns="player_id"/>
+      <exported-key name="FKC45CF68CD7E693ED" table="towerdefencess201" schema="" catalog="games" columns="player_id"/>
+      <exported-key name="FKC741DB28D7E693ED" table="towerdefencess2014" schema="" catalog="games" columns="player_id"/>
+      <exported-key name="FK20F98A09D7E693ED" table="towerdefencess20141" schema="" catalog="games" columns="player_id"/>
+    </table>
+    <table name="tdplayingfield" schema="" catalog="games" type="TABLE">
+      <column name="id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="SizeX" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <column name="SizeY" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <column name="playingFieldID" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <primary-key name="PRIMARY" columns="id"/>
+      <exported-key name="FKD3A0AC6A4D0294A6" table="tdfield" schema="" catalog="games" columns="PlayingFieldID"/>
+      <exported-key name="FK93371282B91203EF" table="tdgame" schema="" catalog="games" columns="pField_id"/>
+      <exported-key name="FKC741DB28B91203EF" table="towerdefencess2014" schema="" catalog="games" columns="pField_id"/>
+    </table>
+    <table name="towerdefencess201" schema="" catalog="games" type="TABLE">
+      <column name="id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="player_id" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <primary-key name="PRIMARY" columns="id"/>
+      <foreign-key name="FKC45CF68CD7E693ED" columns="player_id" ref-table="tdplayer" ref-schema="" ref-catalog="games" ref-columns="id" update-rule="3" delete-rule="3" deferrability="2"/>
+      <index name="FKC45CF68CD7E693ED" unique="false" columns="player_id"/>
+    </table>
+    <table name="towerdefencess2014" schema="" catalog="games" type="TABLE">
+      <column name="id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="player_id" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <column name="pField_id" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <column name="pField_playingFieldID" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <primary-key name="PRIMARY" columns="id"/>
+      <foreign-key name="FKC741DB28B91203EF" columns="pField_id" ref-table="tdplayingfield" ref-schema="" ref-catalog="games" ref-columns="id" update-rule="3" delete-rule="3" deferrability="2"/>
+      <foreign-key name="FKC741DB28D7E693ED" columns="player_id" ref-table="tdplayer" ref-schema="" ref-catalog="games" ref-columns="id" update-rule="3" delete-rule="3" deferrability="2"/>
+      <index name="FKC741DB28B91203EF" unique="false" columns="pField_id"/>
+      <index name="FKC741DB28D7E693ED" unique="false" columns="player_id"/>
+    </table>
+    <table name="towerdefencess20141" schema="" catalog="games" type="TABLE">
+      <column name="id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="pField_PlayingFieldID" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <column name="player_id" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <primary-key name="PRIMARY" columns="id"/>
+      <foreign-key name="FK20F98A09D7E693ED" columns="player_id" ref-table="tdplayer" ref-schema="" ref-catalog="games" ref-columns="id" update-rule="3" delete-rule="3" deferrability="2"/>
+      <index name="FK20F98A09D7E693ED" unique="false" columns="player_id"/>
+    </table>
+  </data-source>
+</component>
