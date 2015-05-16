@@ -7,7 +7,7 @@ import javax.persistence.Table;
 import java.io.Serializable;
 
 @Entity
-@Table(name = "grid")
+@Table(name = "mastermind_grid")
 public class PersistentGrid implements Serializable {
 
 	private static final long serialVersionUID = 1538704903825440126L;
