@@ -17,7 +17,7 @@
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/test" isTestSource="true" />
     </content>
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="1.8" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="lib" level="project" />
     <orderEntry type="module-library" scope="TEST">
@@ -121,5 +121,7 @@
     <orderEntry type="library" name="slf4j-api-1.7.12" level="project" />
     <orderEntry type="library" name="slf4j-log4j12" level="project" />
     <orderEntry type="library" name="slf4j-simple-1.7.12" level="project" />
+    <orderEntry type="library" name="hibernate-commons-annotations-3.0.0.ga" level="project" />
+    <orderEntry type="library" name="com.mysql.jdbc_5.1.5" level="project" />
   </component>
 </module>

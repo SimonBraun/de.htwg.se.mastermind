@@ -12,6 +12,7 @@ public class PersistentGrid implements Serializable {
 
 	private static final long serialVersionUID = 1538704903825440126L;
 
+	@Id
 	private String id;
 
 	private String name;
