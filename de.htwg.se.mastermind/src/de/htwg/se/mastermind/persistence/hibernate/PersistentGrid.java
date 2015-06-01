@@ -15,10 +15,14 @@ public class PersistentGrid implements Serializable {
 	@Id
 	private String id;
 
+	@Column(name = "name")
 	private String name;
+
 	private int actualRow;
 	private int rowsAmount;
 	private int columnsAmount;
+
+	@Column(name = "date")
 	private String date;
 
 	public String getId() {

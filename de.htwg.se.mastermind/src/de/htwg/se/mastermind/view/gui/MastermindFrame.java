@@ -1,19 +1,13 @@
 package de.htwg.se.mastermind.view.gui;
 
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-
-import javax.swing.JFrame;
-import javax.swing.JMenu;
-import javax.swing.JMenuBar;
-import javax.swing.JMenuItem;
-import javax.swing.JOptionPane;
-import javax.swing.JPanel;
-
 import de.htwg.se.mastermind.controller.IController;
+import de.htwg.se.mastermind.controller.SizeChangedEvent;
 import de.htwg.se.mastermind.observer.Event;
 import de.htwg.se.mastermind.observer.IObserver;
-import de.htwg.se.mastermind.controller.SizeChangedEvent;
+
+import javax.swing.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 public class MastermindFrame extends JFrame implements IObserver {
 
@@ -145,22 +139,22 @@ public class MastermindFrame extends JFrame implements IObserver {
 		removeHighscoreMenuItem = new JMenuItem("Clear highscores");
 		removeHighscoreMenuItem.addActionListener(new ActionListener() {
 
-			@Override
-			public void actionPerformed(ActionEvent e) {
-				int input = JOptionPane.showConfirmDialog(null,
-						"Are you sure to remove all highscore entries?",
-						"Remove all highscores",
-						JOptionPane.YES_NO_OPTION);
+		@Override
+		public void actionPerformed(ActionEvent e) {
+			int input = JOptionPane.showConfirmDialog(null,
+					"Are you sure to remove all highscore entries?",
+					"Remove all highscores",
+					JOptionPane.YES_NO_OPTION);
 
-				if (input == 0) {
-					controller.removeAllGrids();
-				}
+			if (input == 0) {
+				controller.removeAllGrids();
 			}
-		});
-		
+		}
+	});
+
 		setBasicColorsMenuItem = new JMenuItem("Set colors to basic");
 		setBasicColorsMenuItem.addActionListener(new ActionListener() {
-			
+
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				newGame();
@@ -168,10 +162,10 @@ public class MastermindFrame extends JFrame implements IObserver {
 				controller.newMasterColors();
 			}
 		});
-		
+
 		setCountryColorsMenuItem = new JMenuItem("Set colors to country");
 		setCountryColorsMenuItem.addActionListener(new ActionListener() {
-			
+
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				newGame();
@@ -179,8 +173,11 @@ public class MastermindFrame extends JFrame implements IObserver {
 				controller.newMasterColors();
 			}
 		});
-		
-		
+
+
+
+
+
 		optionsMenu.add(showSolutionMenuItem);
 		optionsMenu.addSeparator();
 		optionsMenu.add(setSize12MenuItem);
@@ -192,7 +189,6 @@ public class MastermindFrame extends JFrame implements IObserver {
 		optionsMenu.addSeparator();
 		optionsMenu.add(setBasicColorsMenuItem);
 		optionsMenu.add(setCountryColorsMenuItem);
-		
 		menuBar.add(fileMenu);
 		menuBar.add(optionsMenu);
 		
