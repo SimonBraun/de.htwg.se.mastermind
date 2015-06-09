@@ -7,11 +7,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="273bd68d-b151-4690-adec-d0da6a88b831" name="Default" comment="Add status line to resetSize() function">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/util/ColorPlugin.java" afterPath="$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/util/ColorPlugin.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/view/gui/MastermindFrame.java" afterPath="$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/view/gui/MastermindFrame.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/MastermindModule.java" afterPath="$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/MastermindModule.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/persistence/hibernate/PersistentGrid.java" afterPath="$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/persistence/hibernate/PersistentGrid.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/util/Plugin.java" afterPath="$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/util/Plugin.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/de.htwg.se.mastermind/Presentation.pptx" afterPath="$PROJECT_DIR$/de.htwg.se.mastermind/Presentation.pptx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/persistence/hibernate/GridHibernateDAO.java" afterPath="$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/persistence/hibernate/GridHibernateDAO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/persistence/hibernate/HibernateUtil.java" afterPath="$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/persistence/hibernate/HibernateUtil.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mastermind.log.1" afterPath="$PROJECT_DIR$/mastermind.log.1" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mastermind.log" afterPath="$PROJECT_DIR$/mastermind.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -41,6 +42,32 @@
         <option name="myItemId" />
         <option name="myItemType" value="com.intellij.database.view.DbRootNodeDescriptor" />
       </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="MySQL - games@lenny2.in.htwg-konstanz.de" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="games" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DbRootNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="MySQL - games@lenny2.in.htwg-konstanz.de" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="games" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="mastermind_grid" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
     </PATH>
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
@@ -49,11 +76,33 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="GridHibernateDAO.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/persistence/hibernate/GridHibernateDAO.java">
+      <file leaf-file-name="GridDb4oDAO.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/persistence/db4o/GridDb4oDAO.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="61" column="0" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+              <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+              <folding>
+                <element signature="e#437#438#0" expanded="true" />
+                <element signature="e#525#526#0" expanded="true" />
+                <element signature="e#554#555#0" expanded="true" />
+                <element signature="e#580#581#0" expanded="true" />
+                <element signature="e#634#635#0" expanded="true" />
+                <element signature="e#664#665#0" expanded="true" />
+                <element signature="method#getGridById#0;class#GridDb4oDAO#0" expanded="false" />
+                <element signature="method#getAllGrids#0;class#GridDb4oDAO#0" expanded="false" />
+                <element signature="method#removeAllGrids#0;class#GridDb4oDAO#0" expanded="false" />
+                <element signature="method#removeGridById#0;class#GridDb4oDAO#0" expanded="false" />
+                <element signature="class#1678:1823" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MastermindModule.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/MastermindModule.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.17021276">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -109,13 +158,13 @@
         <option value="$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/view/gui/GameFieldPanel.java" />
         <option value="$PROJECT_DIR$/de.htwg.se.mastermind/pom.xml" />
         <option value="$PROJECT_DIR$/de.htwg.se.mastermind/src/hibernate.cfg.xml" />
-        <option value="$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/persistence/hibernate/HibernateUtil.java" />
-        <option value="$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/persistence/hibernate/GridHibernateDAO.java" />
         <option value="$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/util/Plugin.java" />
         <option value="$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/persistence/hibernate/PersistentGrid.java" />
         <option value="$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/util/ColorPlugin.java" />
         <option value="$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/MastermindModule.java" />
         <option value="$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/view/gui/MastermindFrame.java" />
+        <option value="$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/persistence/hibernate/HibernateUtil.java" />
+        <option value="$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/persistence/hibernate/GridHibernateDAO.java" />
       </list>
     </option>
   </component>
@@ -155,8 +204,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -204,7 +251,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="mastermind" />
+              <option name="myItemId" value="META-INF" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -223,10 +270,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="mastermind" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="util" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -274,12 +317,54 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="hibernate" />
+              <option name="myItemId" value="db4o" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="de.htwg.se.mastermind" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="de.htwg.se.mastermind" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mastermind" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="persistence" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="couchdb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="de.htwg.se.mastermind" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="de.htwg.se.mastermind" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -777,6 +862,8 @@
       <workItem from="1433183549199" duration="1169000" />
       <workItem from="1433187487970" duration="3322000" />
       <workItem from="1433192117761" duration="2027000" />
+      <workItem from="1433887198265" duration="1603000" />
+      <workItem from="1433890248155" duration="2190000" />
     </task>
     <task id="LOCAL-00001" summary="Add status line to resetSize() function">
       <created>1425391600288</created>
@@ -788,7 +875,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20968000" />
+    <option name="totallyTimeSpent" value="24761000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2064" height="1128" extended-state="6" />
@@ -803,11 +890,11 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.42941177" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18921569" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22509766" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26220703" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15625" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -887,8 +974,14 @@
           <properties />
           <option name="timeStamp" value="59" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/persistence/db4o/GridDb4oDAO.java</url>
+          <line>24</line>
+          <properties />
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="64" />
+      <option name="time" value="66" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1112,13 +1205,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/persistence/db4o/GridDb4oDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="45" column="38" selection-start-line="45" selection-start-column="38" selection-end-line="45" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/persistence/couchdb/PersistentGrid.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1138,29 +1224,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/de.htwg.se.mastermind/src/hibernate.cfg.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="48" selection-start-line="13" selection-start-column="48" selection-end-line="13" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/persistence/hibernate/HibernateUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="56" selection-start-line="8" selection-start-column="56" selection-end-line="8" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/persistence/couchdb/GridCouchdbDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="55" column="34" selection-start-line="55" selection-start-column="34" selection-end-line="55" selection-end-column="34" />
         </state>
       </provider>
     </entry>
@@ -1190,7 +1253,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1198,7 +1260,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-11.068966">
           <caret line="337" column="14" selection-start-line="337" selection-start-column="12" selection-end-line="337" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1206,7 +1267,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1214,7 +1274,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="42" column="28" selection-start-line="42" selection-start-column="28" selection-end-line="42" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1222,7 +1281,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1237,29 +1295,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.20272572">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding>
-            <element signature="e#141#142#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/MastermindModule.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/persistence/hibernate/PersistentGrid.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1267,24 +1302,89 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-10.24">
           <caret line="167" column="0" selection-start-line="167" selection-start-column="0" selection-end-line="167" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/persistence/hibernate/HibernateUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.35987905">
+          <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+          <folding>
+            <element signature="e#514#515#0" expanded="true" />
+            <element signature="e#552#553#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/persistence/hibernate/PersistentGrid.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1834#1835#0" expanded="true" />
-            <element signature="e#1853#1854#0" expanded="true" />
-            <element signature="e#2010#2011#0" expanded="true" />
-            <element signature="e#2035#2036#0" expanded="true" />
-            <element signature="e#2386#2387#0" expanded="true" />
-            <element signature="e#2422#2423#0" expanded="true" />
-            <element signature="e#3761#3762#0" expanded="true" />
-            <element signature="e#3810#3811#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/de.htwg.se.mastermind/src/hibernate.cfg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/persistence/hibernate/GridHibernateDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="61" column="0" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+          <caret line="105" column="0" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/persistence/couchdb/GridCouchdbDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+          <folding>
+            <element signature="method#copyGrid#0;class#GridCouchdbDAO#0" expanded="false" />
+            <element signature="method#copyGrid#1;class#GridCouchdbDAO#0" expanded="false" />
+            <element signature="e#2025#2026#0" expanded="true" />
+            <element signature="e#2080#2081#0" expanded="true" />
+            <element signature="method#getGridById#0;class#GridCouchdbDAO#0" expanded="false" />
+            <element signature="method#getAllGrids#0;class#GridCouchdbDAO#0" expanded="false" />
+            <element signature="method#removeAllGrids#0;class#GridCouchdbDAO#0" expanded="false" />
+            <element signature="method#removeGridById#0;class#GridCouchdbDAO#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/persistence/db4o/GridDb4oDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding>
+            <element signature="e#437#438#0" expanded="true" />
+            <element signature="e#525#526#0" expanded="true" />
+            <element signature="e#554#555#0" expanded="true" />
+            <element signature="e#580#581#0" expanded="true" />
+            <element signature="e#634#635#0" expanded="true" />
+            <element signature="e#664#665#0" expanded="true" />
+            <element signature="method#getGridById#0;class#GridDb4oDAO#0" expanded="false" />
+            <element signature="method#getAllGrids#0;class#GridDb4oDAO#0" expanded="false" />
+            <element signature="method#removeAllGrids#0;class#GridDb4oDAO#0" expanded="false" />
+            <element signature="method#removeGridById#0;class#GridDb4oDAO#0" expanded="false" />
+            <element signature="class#1678:1823" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/MastermindModule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17021276">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

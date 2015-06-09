@@ -3,8 +3,12 @@ package de.htwg.se.mastermind.persistence.hibernate;
 import de.htwg.se.mastermind.model.Grid;
 import de.htwg.se.mastermind.model.IGrid;
 import de.htwg.se.mastermind.persistence.IGridDAO;
-import org.hibernate.*;
+import org.hibernate.Criteria;
+import org.hibernate.HibernateException;
+import org.hibernate.Session;
+import org.hibernate.Transaction;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class GridHibernateDAO implements IGridDAO {
@@ -12,7 +16,7 @@ public class GridHibernateDAO implements IGridDAO {
     private Session session;
 
     public GridHibernateDAO() {
-        this.session = HibernateUtil.getSessionFactory().openSession();
+        this.session = HibernateUtil.getInstance().openSession();
     }
 
     private IGrid copyGrid(PersistentGrid pgrid) {
@@ -47,46 +51,77 @@ public class GridHibernateDAO implements IGridDAO {
 
     @Override
     public void saveGrid(IGrid grid) {
-//        db.create(grid.getId(), copyGrid(grid));
+        Transaction tx = null;
+        Session session = null;
+
+        try {
+            session = HibernateUtil.getInstance().getCurrentSession();
+            tx = session.beginTransaction();
+
+            PersistentGrid pgrid = copyGrid(grid);
+
+            session.saveOrUpdate(pgrid);
+
+            tx.commit();
+        } catch (HibernateException ex) {
+            if (tx != null) {
+                tx.rollback();
+            }
+        }
     }
 
     @Override
     public IGrid getGridById(String id) {
-//        PersistentGrid g = db.find(PersistentGrid.class, id);
-//        if (g == null) {
-//            return null;
-//        }
-//        return copyGrid(g);
-        return null;
+        Session session = HibernateUtil.getInstance().getCurrentSession();
+        session.beginTransaction();
+
+        return copyGrid((PersistentGrid) session.get(PersistentGrid.class, id));
     }
 
     @Override
     public List<IGrid> getAllGrids() {
-//        List<IGrid> lst = new ArrayList<IGrid>();
-//        ViewQuery query = new ViewQuery().allDocs();
-//        ViewResult vr = db.queryView(query);
-//        for (Row r : vr.getRows()) {
-//            lst.add(getGridById(r.getId()));
-//        }
-//
-//        Collections.sort(lst);
-//
-//        return lst;
-        return null;
+        Session session = HibernateUtil.getInstance().getCurrentSession();
+        session.beginTransaction();
+        Criteria criteria = session.createCriteria(PersistentGrid.class);
+
+        @SuppressWarnings("unchecked")
+        List<PersistentGrid> results = criteria.list();
+
+        List<IGrid> grids = new ArrayList<IGrid>();
+        for (PersistentGrid pgrid : results) {
+            IGrid grid = copyGrid(pgrid);
+            grids.add(grid);
+        }
+        return grids;
     }
 
     @Override
     public void removeAllGrids() {
-//        List<IGrid> lst = getAllGrids();
-//
-//        for (IGrid grid : lst) {
-//            removeGridById(grid.getId());
-//        }
+        List<IGrid> lst = getAllGrids();
+
+        for (IGrid grid : lst) {
+            removeGridById(grid.getId());
+        }
     }
 
     @Override
     public void removeGridById(String id) {
-//        PersistentGrid g = db.find(PersistentGrid.class, id);
-//        db.delete(g);
+        Transaction tx = null;
+        Session session = null;
+
+        try {
+            session = HibernateUtil.getInstance().getCurrentSession();
+            tx = session.beginTransaction();
+
+            PersistentGrid pgrid = (PersistentGrid) session.get(PersistentGrid.class, id);
+
+            session.delete(pgrid);
+
+            tx.commit();
+        } catch (HibernateException ex) {
+            if (tx != null) {
+                tx.rollback();
+            }
+        }
     }
 }

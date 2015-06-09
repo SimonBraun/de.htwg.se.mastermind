@@ -79,6 +79,15 @@
       <column name="cells" sqlType="LONGBLOB" precision="2147483647" scale="0" nullable="true" jdbcType="-4"/>
       <primary-key name="PRIMARY" columns="gameName"/>
     </table>
+    <table name="mastermind_grid" schema="" catalog="games" type="TABLE">
+      <column name="id" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <column name="actualRow" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="columnsAmount" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="date" sqlType="VARCHAR" precision="255" scale="0" nullable="true" jdbcType="12"/>
+      <column name="name" sqlType="VARCHAR" precision="255" scale="0" nullable="true" jdbcType="12"/>
+      <column name="rowsAmount" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <primary-key name="PRIMARY" columns="id"/>
+    </table>
     <table name="minebox" schema="" catalog="games" type="TABLE">
       <column name="id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
       <column name="covered" sqlType="BIT" precision="1" scale="0" nullable="false" jdbcType="-7"/>
@@ -138,6 +147,11 @@
       <primary-key name="PRIMARY" columns="id"/>
       <foreign-key name="FKC53E9AE1D926CBBB" columns="gameid" ref-table="game" ref-schema="" ref-catalog="games" ref-columns="id" update-rule="3" delete-rule="3" deferrability="2"/>
       <index name="FKC53E9AE1D926CBBB" unique="false" columns="gameid"/>
+    </table>
+    <table name="setgame" schema="" catalog="games" type="TABLE">
+      <column name="uid" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="foo" sqlType="VARCHAR" precision="255" scale="0" nullable="true" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="uid"/>
     </table>
     <table name="tdfield" schema="" catalog="games" type="TABLE">
       <column name="id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
