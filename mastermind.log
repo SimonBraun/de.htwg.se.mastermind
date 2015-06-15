@@ -1,21 +1,5 @@
 INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Please enter command: 
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-              +-------------+
-              | xx xx xx xx |
-+-------------+-------------+
-|             |             |[6]
-|             |             |[5]
-|             |             |[4]
-|             | fr gb       |[3]
-| bk          | de ch ru es |[2]
-| bk          | es fr gb us |[1]
-| wh          | us de ch ru |[0]
-+-------------+-------------+
-                [3][2][1][0]
-
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-The cell at [3],[2] has been set!
+New game has been created!
 INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
 Available Colors: yl, gr, rd, bl, or, pk, pu
 INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
@@ -29,15 +13,15 @@ INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui -
 |             |             |[6]
 |             |             |[5]
 |             |             |[4]
-|             | fr gb us    |[3]
-| bk          | de ch ru es |[2]
-| bk          | es fr gb us |[1]
-| wh          | us de ch ru |[0]
+|             |             |[3]
+|             |             |[2]
+|             |             |[1]
+|             | rd          |[0]
 +-------------+-------------+
                 [3][2][1][0]
 
 INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-The cell at [3],[1] has been set!
+The cell at [0],[3] has been set!
 INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
 Available Colors: yl, gr, rd, bl, or, pk, pu
 INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
@@ -51,389 +35,15 @@ INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui -
 |             |             |[6]
 |             |             |[5]
 |             |             |[4]
-|             | fr gb us de |[3]
-| bk          | de ch ru es |[2]
-| bk          | es fr gb us |[1]
-| wh          | us de ch ru |[0]
+|             |             |[3]
+|             |             |[2]
+|             |             |[1]
+|             | rd bl       |[0]
 +-------------+-------------+
                 [3][2][1][0]
 
 INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-The cell at [3],[0] has been set!
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Available Colors: yl, gr, rd, bl, or, pk, pu
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution, zn-sets the size, h-show highscores
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Please enter command: 
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-              +-------------+
-              | xx xx xx xx |
-+-------------+-------------+
-|             |             |[6]
-|             |             |[5]
-|             |             |[4]
-| wh          | fr gb us de |[3]
-| bk          | de ch ru es |[2]
-| bk          | es fr gb us |[1]
-| wh          | us de ch ru |[0]
-+-------------+-------------+
-                [3][2][1][0]
-
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Row [3] confirmed!
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Available Colors: yl, gr, rd, bl, or, pk, pu
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution, zn-sets the size, h-show highscores
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Please enter command: 
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-              +-------------+
-              | xx xx xx xx |
-+-------------+-------------+
-|             |             |[6]
-|             |             |[5]
-|             | ch          |[4]
-| wh          | fr gb us de |[3]
-| bk          | de ch ru es |[2]
-| bk          | es fr gb us |[1]
-| wh          | us de ch ru |[0]
-+-------------+-------------+
-                [3][2][1][0]
-
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-The cell at [4],[3] has been set!
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Available Colors: yl, gr, rd, bl, or, pk, pu
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution, zn-sets the size, h-show highscores
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Please enter command: 
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-              +-------------+
-              | xx xx xx xx |
-+-------------+-------------+
-|             |             |[6]
-|             |             |[5]
-|             | ch ru       |[4]
-| wh          | fr gb us de |[3]
-| bk          | de ch ru es |[2]
-| bk          | es fr gb us |[1]
-| wh          | us de ch ru |[0]
-+-------------+-------------+
-                [3][2][1][0]
-
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-The cell at [4],[2] has been set!
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Available Colors: yl, gr, rd, bl, or, pk, pu
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution, zn-sets the size, h-show highscores
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Please enter command: 
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-              +-------------+
-              | xx xx xx xx |
-+-------------+-------------+
-|             |             |[6]
-|             |             |[5]
-|             | ch ru es    |[4]
-| wh          | fr gb us de |[3]
-| bk          | de ch ru es |[2]
-| bk          | es fr gb us |[1]
-| wh          | us de ch ru |[0]
-+-------------+-------------+
-                [3][2][1][0]
-
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-The cell at [4],[1] has been set!
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Available Colors: yl, gr, rd, bl, or, pk, pu
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution, zn-sets the size, h-show highscores
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Please enter command: 
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-              +-------------+
-              | xx xx xx xx |
-+-------------+-------------+
-|             |             |[6]
-|             |             |[5]
-|             | ch ru es fr |[4]
-| wh          | fr gb us de |[3]
-| bk          | de ch ru es |[2]
-| bk          | es fr gb us |[1]
-| wh          | us de ch ru |[0]
-+-------------+-------------+
-                [3][2][1][0]
-
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-The cell at [4],[0] has been set!
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Available Colors: yl, gr, rd, bl, or, pk, pu
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution, zn-sets the size, h-show highscores
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Please enter command: 
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-              +-------------+
-              | xx xx xx xx |
-+-------------+-------------+
-|             |             |[6]
-|             |             |[5]
-| wh          | ch ru es fr |[4]
-| wh          | fr gb us de |[3]
-| bk          | de ch ru es |[2]
-| bk          | es fr gb us |[1]
-| wh          | us de ch ru |[0]
-+-------------+-------------+
-                [3][2][1][0]
-
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Row [4] confirmed!
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Available Colors: yl, gr, rd, bl, or, pk, pu
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution, zn-sets the size, h-show highscores
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Please enter command: 
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-              +-------------+
-              | gb ch gb gb |
-+-------------+-------------+
-|             |             |[6]
-|             |             |[5]
-| wh          | ch ru es fr |[4]
-| wh          | fr gb us de |[3]
-| bk          | de ch ru es |[2]
-| bk          | es fr gb us |[1]
-| wh          | us de ch ru |[0]
-+-------------+-------------+
-                [3][2][1][0]
-
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Solution is shown
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Available Colors: yl, gr, rd, bl, or, pk, pu
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution, zn-sets the size, h-show highscores
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Please enter command: 
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-              +-------------+
-              | gb ch gb gb |
-+-------------+-------------+
-|             |             |[6]
-|             | gb          |[5]
-| wh          | ch ru es fr |[4]
-| wh          | fr gb us de |[3]
-| bk          | de ch ru es |[2]
-| bk          | es fr gb us |[1]
-| wh          | us de ch ru |[0]
-+-------------+-------------+
-                [3][2][1][0]
-
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-The cell at [5],[3] has been set!
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Available Colors: yl, gr, rd, bl, or, pk, pu
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution, zn-sets the size, h-show highscores
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Please enter command: 
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-              +-------------+
-              | gb ch gb gb |
-+-------------+-------------+
-|             |             |[6]
-|             | gb us       |[5]
-| wh          | ch ru es fr |[4]
-| wh          | fr gb us de |[3]
-| bk          | de ch ru es |[2]
-| bk          | es fr gb us |[1]
-| wh          | us de ch ru |[0]
-+-------------+-------------+
-                [3][2][1][0]
-
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-The cell at [5],[2] has been set!
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Available Colors: yl, gr, rd, bl, or, pk, pu
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution, zn-sets the size, h-show highscores
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Please enter command: 
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-              +-------------+
-              | gb ch gb gb |
-+-------------+-------------+
-|             |             |[6]
-|             | gb de       |[5]
-| wh          | ch ru es fr |[4]
-| wh          | fr gb us de |[3]
-| bk          | de ch ru es |[2]
-| bk          | es fr gb us |[1]
-| wh          | us de ch ru |[0]
-+-------------+-------------+
-                [3][2][1][0]
-
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-The cell at [5],[2] has been set!
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Available Colors: yl, gr, rd, bl, or, pk, pu
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution, zn-sets the size, h-show highscores
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Please enter command: 
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-              +-------------+
-              | gb ch gb gb |
-+-------------+-------------+
-|             |             |[6]
-|             | gb ch       |[5]
-| wh          | ch ru es fr |[4]
-| wh          | fr gb us de |[3]
-| bk          | de ch ru es |[2]
-| bk          | es fr gb us |[1]
-| wh          | us de ch ru |[0]
-+-------------+-------------+
-                [3][2][1][0]
-
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-The cell at [5],[2] has been set!
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Available Colors: yl, gr, rd, bl, or, pk, pu
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution, zn-sets the size, h-show highscores
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Please enter command: 
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-              +-------------+
-              | gb ch gb gb |
-+-------------+-------------+
-|             |             |[6]
-|             | gb ch ru    |[5]
-| wh          | ch ru es fr |[4]
-| wh          | fr gb us de |[3]
-| bk          | de ch ru es |[2]
-| bk          | es fr gb us |[1]
-| wh          | us de ch ru |[0]
-+-------------+-------------+
-                [3][2][1][0]
-
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-The cell at [5],[1] has been set!
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Available Colors: yl, gr, rd, bl, or, pk, pu
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution, zn-sets the size, h-show highscores
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Please enter command: 
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-              +-------------+
-              | gb ch gb gb |
-+-------------+-------------+
-|             |             |[6]
-|             | gb ch es    |[5]
-| wh          | ch ru es fr |[4]
-| wh          | fr gb us de |[3]
-| bk          | de ch ru es |[2]
-| bk          | es fr gb us |[1]
-| wh          | us de ch ru |[0]
-+-------------+-------------+
-                [3][2][1][0]
-
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-The cell at [5],[1] has been set!
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Available Colors: yl, gr, rd, bl, or, pk, pu
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution, zn-sets the size, h-show highscores
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Please enter command: 
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-              +-------------+
-              | gb ch gb gb |
-+-------------+-------------+
-|             |             |[6]
-|             | gb ch fr    |[5]
-| wh          | ch ru es fr |[4]
-| wh          | fr gb us de |[3]
-| bk          | de ch ru es |[2]
-| bk          | es fr gb us |[1]
-| wh          | us de ch ru |[0]
-+-------------+-------------+
-                [3][2][1][0]
-
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-The cell at [5],[1] has been set!
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Available Colors: yl, gr, rd, bl, or, pk, pu
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution, zn-sets the size, h-show highscores
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Please enter command: 
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-              +-------------+
-              | gb ch gb gb |
-+-------------+-------------+
-|             |             |[6]
-|             | gb ch gb    |[5]
-| wh          | ch ru es fr |[4]
-| wh          | fr gb us de |[3]
-| bk          | de ch ru es |[2]
-| bk          | es fr gb us |[1]
-| wh          | us de ch ru |[0]
-+-------------+-------------+
-                [3][2][1][0]
-
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-The cell at [5],[1] has been set!
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Available Colors: yl, gr, rd, bl, or, pk, pu
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution, zn-sets the size, h-show highscores
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Please enter command: 
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-              +-------------+
-              | gb ch gb gb |
-+-------------+-------------+
-|             |             |[6]
-|             | gb ch gb us |[5]
-| wh          | ch ru es fr |[4]
-| wh          | fr gb us de |[3]
-| bk          | de ch ru es |[2]
-| bk          | es fr gb us |[1]
-| wh          | us de ch ru |[0]
-+-------------+-------------+
-                [3][2][1][0]
-
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-The cell at [5],[0] has been set!
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Available Colors: yl, gr, rd, bl, or, pk, pu
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution, zn-sets the size, h-show highscores
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Please enter command: 
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-              +-------------+
-              | gb ch gb gb |
-+-------------+-------------+
-|             |             |[6]
-|             | gb ch gb de |[5]
-| wh          | ch ru es fr |[4]
-| wh          | fr gb us de |[3]
-| bk          | de ch ru es |[2]
-| bk          | es fr gb us |[1]
-| wh          | us de ch ru |[0]
-+-------------+-------------+
-                [3][2][1][0]
-
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-The cell at [5],[0] has been set!
+The cell at [0],[2] has been set!
 INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
 Available Colors: yl, gr, rd, bl, or, pk, pu
 INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
@@ -460,8 +70,8 @@ DEBUG main org.hibernate.cfg.Configuration - hibernate.hbm2ddl.auto=update
 DEBUG main org.hibernate.cfg.Configuration - show_sql=false
 DEBUG main org.hibernate.cfg.AnnotationConfiguration - null <- org.dom4j.tree.DefaultAttribute@587c290d [Attribute: name class value "de.htwg.se.mastermind.persistence.hibernate.PersistentGrid"]
 INFO main org.hibernate.cfg.Configuration - Configured SessionFactory: null
-DEBUG main org.hibernate.cfg.Configuration - properties: {java.vendor=Oracle Corporation, show_sql=false, sun.java.launcher=SUN_STANDARD, hibernate.connection.url=jdbc:mysql://lenny2.in.htwg-konstanz.de:3306/games?createDatabaseIfNotExist=true, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, os.name=Windows 7, sun.boot.class.path=C:\Program Files\Java\jdk1.8.0_40\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_40\jre\classes, hibernate.current_session_context_class=thread, sun.desktop=windows, java.vm.specification.vendor=Oracle Corporation, java.runtime.version=1.8.0_40-b26, user.name=andmaier, connection.driver_class=com.mysql.jdbc.Driver, current_session_context_class=thread, idea.launcher.bin.path=C:\Program Files (x86)\JetBrains\IntelliJ IDEA Community Edition 14.0.3\bin, user.language=de, sun.boot.library.path=C:\Program Files\Java\jdk1.8.0_40\jre\bin, dialect=org.hibernate.dialect.MySQL5Dialect, java.version=1.8.0_40, user.timezone=Europe/Berlin, sun.arch.data.model=64, java.endorsed.dirs=C:\Program Files\Java\jdk1.8.0_40\jre\lib\endorsed, sun.cpu.isalist=amd64, sun.jnu.encoding=Cp1252, file.encoding.pkg=sun.io, file.separator=\, java.specification.name=Java Platform API Specification, java.class.version=52.0, user.country=DE, connection.url=jdbc:mysql://lenny2.in.htwg-konstanz.de:3306/games?createDatabaseIfNotExist=true, java.home=C:\Program Files\Java\jdk1.8.0_40\jre, java.vm.info=mixed mode, os.version=6.1, path.separator=;, connection.password=htwg, java.vm.version=25.40-b25, hibernate.connection.password=htwg, user.variant=, java.awt.printerjob=sun.awt.windows.WPrinterJob, sun.io.unicode.encoding=UnicodeLittle, awt.toolkit=sun.awt.windows.WToolkit, hibernate.connection.username=htwg, user.script=, user.home=C:\Users\andmaier, java.specification.vendor=Oracle Corporation, hibernate.hbm2ddl.auto=update, java.library.path=C:\Program Files\Java\jdk1.8.0_40\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Java\jdk1.8.0_40\bin;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Heroku\bin;C:\Program Files (x86)\git\cmd;C:\Program Files\MATLAB\R2013b\bin;C:\Program Files (x86)\sbt\\bin;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\sonarqube-5.0.1\bin\windows-x86-64;C:\Program Files\MySQL\MySQL Server 5.6\bin;C:\Program Files (x86)\sonar-runner-2.4\bin;C:\Program Files\activator-1.3.2-minimal;C:\Program Files\gradle-2.2.1\bin;C:\Program Files (x86)\Structure101\java;., java.vendor.url=http://java.oracle.com/, hibernate.connection.driver_class=com.mysql.jdbc.Driver, connection.username=htwg, java.vm.vendor=Oracle Corporation, hibernate.dialect=org.hibernate.dialect.MySQL5Dialect, java.runtime.name=Java(TM) SE Runtime Environment, sun.java.command=com.intellij.rt.execution.application.AppMain de.htwg.se.mastermind.Mastermind, java.class.path=C:\Program Files\Java\jdk1.8.0_40\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\ext\zipfs.jar;C:\Users\andmaier\Documents\sar\de.htwg.se.mastermind\out\production\de.htwg.se.mastermind;C:\Users\andmaier\Documents\sar\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\log4j-1.2.17.jar;C:\Users\andmaier\Documents\sar\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\aopalliance.jar;C:\Users\andmaier\Documents\sar\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\javax.inject.jar;C:\Users\andmaier\Documents\sar\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\guice-3.0.jar;C:\Users\andmaier\Documents\sar\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\guice-assistedinject-3.0.jar;C:\Users\andmaier\Documents\sar\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\db4o-8.0.249.16098-all-java5.jar;C:\Users\andmaier\Documents\sar\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\org.ektorp-1.2.2.jar;C:\Users\andmaier\Documents\sar\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\antlr-2.7.6.jar;C:\Users\andmaier\Documents\sar\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\apache-httpcomponents-httpclient-cache.jar;C:\Users\andmaier\Documents\sar\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\cglib-2.2.jar;C:\Users\andmaier\Documents\sar\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\commons-collections-3.1.jar;C:\Users\andmaier\Documents\sar\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\commons-logging-1.2.jar;C:\Users\andmaier\Documents\sar\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\dom4j-1.6.1.jar;C:\Users\andmaier\Documents\sar\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\ejb3-persistence.jar;C:\Users\andmaier\Documents\sar\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\hibernate3.jar;C:\Users\andmaier\Documents\sar\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\hibernate-annotations.jar;C:\Users\andmaier\Documents\sar\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\http-core-4.1.jar;C:\Users\andmaier\Documents\sar\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\httpclient-4.1.jar;C:\Users\andmaier\Documents\sar\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\jackson-all-1.9.0.jar;C:\Users\andmaier\Documents\sar\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\javassist-3.9.0.GA.jar;C:\Users\andmaier\Documents\sar\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\jta-1.1.jar;C:\Users\andmaier\Documents\sar\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\log4j.jar;C:\Users\andmaier\Documents\sar\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\persistence-api-1.0.jar;C:\Users\andmaier\Documents\sar\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\slf4j-api-1.5.8.jar;C:\Users\andmaier\Documents\sar\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\slf4j-api-1.7.12.jar;C:\Users\andmaier\Documents\sar\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\slf4j-log4j12.jar;C:\Users\andmaier\Documents\sar\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\hibernate-commons-annotations-3.0.0.ga.jar;C:\Users\andmaier\Documents\sar\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\com.mysql.jdbc_5.1.5.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA Community Edition 14.0.3\lib\idea_rt.jar, hibernate.bytecode.use_reflection_optimizer=false, idea.launcher.port=7532, java.vm.specification.name=Java Virtual Machine Specification, java.vm.specification.version=1.8, sun.cpu.endian=little, sun.os.patch.level=Service Pack 1, java.io.tmpdir=C:\Users\andmaier\AppData\Local\Temp\, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, os.arch=amd64, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, java.ext.dirs=C:\Program Files\Java\jdk1.8.0_40\jre\lib\ext;C:\windows\Sun\Java\lib\ext, user.dir=C:\Users\andmaier\Documents\sar\de.htwg.se.mastermind, line.separator=
-, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, file.encoding=UTF-8, java.specification.version=1.8, hibernate.show_sql=false}
+DEBUG main org.hibernate.cfg.Configuration - properties: {java.vendor=Oracle Corporation, show_sql=false, sun.java.launcher=SUN_STANDARD, hibernate.connection.url=jdbc:mysql://lenny2.in.htwg-konstanz.de:3306/games?createDatabaseIfNotExist=true, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, os.name=Windows 7, sun.boot.class.path=C:\Program Files\Java\jdk1.8.0_40\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_40\jre\classes, hibernate.current_session_context_class=thread, sun.desktop=windows, java.vm.specification.vendor=Oracle Corporation, java.runtime.version=1.8.0_40-b26, user.name=andi, connection.driver_class=com.mysql.jdbc.Driver, current_session_context_class=thread, idea.launcher.bin.path=C:\Program Files (x86)\JetBrains\IntelliJ IDEA 14.1.2\bin, user.language=de, sun.boot.library.path=C:\Program Files\Java\jdk1.8.0_40\jre\bin, dialect=org.hibernate.dialect.MySQL5Dialect, java.version=1.8.0_40, user.timezone=Europe/Berlin, sun.arch.data.model=64, java.endorsed.dirs=C:\Program Files\Java\jdk1.8.0_40\jre\lib\endorsed, sun.cpu.isalist=amd64, sun.jnu.encoding=Cp1252, file.encoding.pkg=sun.io, file.separator=\, java.specification.name=Java Platform API Specification, java.class.version=52.0, user.country=DE, connection.url=jdbc:mysql://lenny2.in.htwg-konstanz.de:3306/games?createDatabaseIfNotExist=true, java.home=C:\Program Files\Java\jdk1.8.0_40\jre, java.vm.info=mixed mode, os.version=6.1, path.separator=;, connection.password=htwg, java.vm.version=25.40-b25, hibernate.connection.password=htwg, user.variant=, java.awt.printerjob=sun.awt.windows.WPrinterJob, sun.io.unicode.encoding=UnicodeLittle, awt.toolkit=sun.awt.windows.WToolkit, hibernate.connection.username=htwg, user.script=, user.home=C:\Users\andi, java.specification.vendor=Oracle Corporation, hibernate.hbm2ddl.auto=update, java.library.path=C:\Program Files\Java\jdk1.8.0_40\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Python34\;C:\Python34\Scripts;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\OpenCL SDK\3.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\3.0\bin\x64;C:\Program Files (x86)\Git\cmd;C:\Program Files\MATLAB\R2014a\runtime\win64;C:\Program Files\MATLAB\R2014a\bin;C:\Program Files (x86)\Microsoft SQL Server\90\Tools\binn\;C:\Program Files\Java\jdk1.8.0_40\\bin;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Apache Software Foundation\apache-maven-3.3.1\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;., java.vendor.url=http://java.oracle.com/, hibernate.connection.driver_class=com.mysql.jdbc.Driver, connection.username=htwg, java.vm.vendor=Oracle Corporation, hibernate.dialect=org.hibernate.dialect.MySQL5Dialect, java.runtime.name=Java(TM) SE Runtime Environment, sun.java.command=com.intellij.rt.execution.application.AppMain de.htwg.se.mastermind.Mastermind, java.class.path=C:\Program Files\Java\jdk1.8.0_40\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\ext\zipfs.jar;C:\Users\andi\Desktop\sa_temp\de.htwg.se.mastermind\out\production\de.htwg.se.mastermind;C:\Users\andi\Desktop\sa_temp\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\log4j-1.2.17.jar;C:\Users\andi\Desktop\sa_temp\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\aopalliance.jar;C:\Users\andi\Desktop\sa_temp\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\javax.inject.jar;C:\Users\andi\Desktop\sa_temp\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\guice-3.0.jar;C:\Users\andi\Desktop\sa_temp\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\guice-assistedinject-3.0.jar;C:\Users\andi\Desktop\sa_temp\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\db4o-8.0.249.16098-all-java5.jar;C:\Users\andi\Desktop\sa_temp\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\org.ektorp-1.2.2.jar;C:\Users\andi\Desktop\sa_temp\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\antlr-2.7.6.jar;C:\Users\andi\Desktop\sa_temp\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\apache-httpcomponents-httpclient-cache.jar;C:\Users\andi\Desktop\sa_temp\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\cglib-2.2.jar;C:\Users\andi\Desktop\sa_temp\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\commons-collections-3.1.jar;C:\Users\andi\Desktop\sa_temp\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\commons-logging-1.2.jar;C:\Users\andi\Desktop\sa_temp\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\dom4j-1.6.1.jar;C:\Users\andi\Desktop\sa_temp\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\ejb3-persistence.jar;C:\Users\andi\Desktop\sa_temp\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\hibernate3.jar;C:\Users\andi\Desktop\sa_temp\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\hibernate-annotations.jar;C:\Users\andi\Desktop\sa_temp\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\http-core-4.1.jar;C:\Users\andi\Desktop\sa_temp\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\httpclient-4.1.jar;C:\Users\andi\Desktop\sa_temp\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\jackson-all-1.9.0.jar;C:\Users\andi\Desktop\sa_temp\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\javassist-3.9.0.GA.jar;C:\Users\andi\Desktop\sa_temp\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\jta-1.1.jar;C:\Users\andi\Desktop\sa_temp\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\log4j.jar;C:\Users\andi\Desktop\sa_temp\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\persistence-api-1.0.jar;C:\Users\andi\Desktop\sa_temp\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\slf4j-api-1.5.8.jar;C:\Users\andi\Desktop\sa_temp\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\slf4j-api-1.7.12.jar;C:\Users\andi\Desktop\sa_temp\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\slf4j-log4j12.jar;C:\Users\andi\Desktop\sa_temp\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\hibernate-commons-annotations-3.0.0.ga.jar;C:\Users\andi\Desktop\sa_temp\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\com.mysql.jdbc_5.1.5.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA 14.1.2\lib\idea_rt.jar, hibernate.bytecode.use_reflection_optimizer=false, idea.launcher.port=7532, java.vm.specification.name=Java Virtual Machine Specification, java.vm.specification.version=1.8, sun.cpu.endian=little, sun.os.patch.level=Service Pack 1, java.io.tmpdir=C:\Users\andi\AppData\Local\Temp\, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, os.arch=amd64, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, java.ext.dirs=C:\Program Files\Java\jdk1.8.0_40\jre\lib\ext;C:\Windows\Sun\Java\lib\ext, user.dir=C:\Users\andi\Desktop\sa_temp\de.htwg.se.mastermind, line.separator=
+, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, file.encoding=windows-1252, java.specification.version=1.8, hibernate.show_sql=false}
 DEBUG main org.hibernate.cfg.AnnotationConfiguration - Validator not present in classpath, ignoring event listener registration
 DEBUG main org.hibernate.cfg.search.HibernateSearchEventListenerRegister - Search not present in classpath, ignoring event listener registration.
 INFO main org.hibernate.cfg.search.HibernateSearchEventListenerRegister - Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
@@ -553,8 +163,8 @@ INFO main org.hibernate.cfg.SettingsFactory - Default entity-mode: pojo
 INFO main org.hibernate.cfg.SettingsFactory - Named query checking : enabled
 INFO main org.hibernate.impl.SessionFactoryImpl - building session factory
 DEBUG main org.hibernate.impl.SessionFactoryImpl - Session factory constructed with filter configurations : {}
-DEBUG main org.hibernate.impl.SessionFactoryImpl - instantiating session factory with properties: {java.vendor=Oracle Corporation, show_sql=false, sun.java.launcher=SUN_STANDARD, hibernate.connection.url=jdbc:mysql://lenny2.in.htwg-konstanz.de:3306/games?createDatabaseIfNotExist=true, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, os.name=Windows 7, sun.boot.class.path=C:\Program Files\Java\jdk1.8.0_40\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_40\jre\classes, hibernate.current_session_context_class=thread, sun.desktop=windows, java.vm.specification.vendor=Oracle Corporation, java.runtime.version=1.8.0_40-b26, user.name=andmaier, connection.driver_class=com.mysql.jdbc.Driver, current_session_context_class=thread, idea.launcher.bin.path=C:\Program Files (x86)\JetBrains\IntelliJ IDEA Community Edition 14.0.3\bin, user.language=de, sun.boot.library.path=C:\Program Files\Java\jdk1.8.0_40\jre\bin, dialect=org.hibernate.dialect.MySQL5Dialect, java.version=1.8.0_40, user.timezone=Europe/Berlin, sun.arch.data.model=64, java.endorsed.dirs=C:\Program Files\Java\jdk1.8.0_40\jre\lib\endorsed, sun.cpu.isalist=amd64, sun.jnu.encoding=Cp1252, file.encoding.pkg=sun.io, file.separator=\, java.specification.name=Java Platform API Specification, java.class.version=52.0, user.country=DE, connection.url=jdbc:mysql://lenny2.in.htwg-konstanz.de:3306/games?createDatabaseIfNotExist=true, java.home=C:\Program Files\Java\jdk1.8.0_40\jre, java.vm.info=mixed mode, os.version=6.1, path.separator=;, connection.password=htwg, java.vm.version=25.40-b25, hibernate.connection.password=htwg, user.variant=, java.awt.printerjob=sun.awt.windows.WPrinterJob, sun.io.unicode.encoding=UnicodeLittle, awt.toolkit=sun.awt.windows.WToolkit, hibernate.connection.username=htwg, user.script=, user.home=C:\Users\andmaier, java.specification.vendor=Oracle Corporation, hibernate.hbm2ddl.auto=update, java.library.path=C:\Program Files\Java\jdk1.8.0_40\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Java\jdk1.8.0_40\bin;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Heroku\bin;C:\Program Files (x86)\git\cmd;C:\Program Files\MATLAB\R2013b\bin;C:\Program Files (x86)\sbt\\bin;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\sonarqube-5.0.1\bin\windows-x86-64;C:\Program Files\MySQL\MySQL Server 5.6\bin;C:\Program Files (x86)\sonar-runner-2.4\bin;C:\Program Files\activator-1.3.2-minimal;C:\Program Files\gradle-2.2.1\bin;C:\Program Files (x86)\Structure101\java;., java.vendor.url=http://java.oracle.com/, hibernate.connection.driver_class=com.mysql.jdbc.Driver, connection.username=htwg, java.vm.vendor=Oracle Corporation, hibernate.dialect=org.hibernate.dialect.MySQL5Dialect, java.runtime.name=Java(TM) SE Runtime Environment, sun.java.command=com.intellij.rt.execution.application.AppMain de.htwg.se.mastermind.Mastermind, java.class.path=C:\Program Files\Java\jdk1.8.0_40\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\ext\zipfs.jar;C:\Users\andmaier\Documents\sar\de.htwg.se.mastermind\out\production\de.htwg.se.mastermind;C:\Users\andmaier\Documents\sar\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\log4j-1.2.17.jar;C:\Users\andmaier\Documents\sar\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\aopalliance.jar;C:\Users\andmaier\Documents\sar\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\javax.inject.jar;C:\Users\andmaier\Documents\sar\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\guice-3.0.jar;C:\Users\andmaier\Documents\sar\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\guice-assistedinject-3.0.jar;C:\Users\andmaier\Documents\sar\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\db4o-8.0.249.16098-all-java5.jar;C:\Users\andmaier\Documents\sar\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\org.ektorp-1.2.2.jar;C:\Users\andmaier\Documents\sar\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\antlr-2.7.6.jar;C:\Users\andmaier\Documents\sar\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\apache-httpcomponents-httpclient-cache.jar;C:\Users\andmaier\Documents\sar\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\cglib-2.2.jar;C:\Users\andmaier\Documents\sar\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\commons-collections-3.1.jar;C:\Users\andmaier\Documents\sar\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\commons-logging-1.2.jar;C:\Users\andmaier\Documents\sar\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\dom4j-1.6.1.jar;C:\Users\andmaier\Documents\sar\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\ejb3-persistence.jar;C:\Users\andmaier\Documents\sar\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\hibernate3.jar;C:\Users\andmaier\Documents\sar\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\hibernate-annotations.jar;C:\Users\andmaier\Documents\sar\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\http-core-4.1.jar;C:\Users\andmaier\Documents\sar\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\httpclient-4.1.jar;C:\Users\andmaier\Documents\sar\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\jackson-all-1.9.0.jar;C:\Users\andmaier\Documents\sar\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\javassist-3.9.0.GA.jar;C:\Users\andmaier\Documents\sar\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\jta-1.1.jar;C:\Users\andmaier\Documents\sar\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\log4j.jar;C:\Users\andmaier\Documents\sar\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\persistence-api-1.0.jar;C:\Users\andmaier\Documents\sar\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\slf4j-api-1.5.8.jar;C:\Users\andmaier\Documents\sar\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\slf4j-api-1.7.12.jar;C:\Users\andmaier\Documents\sar\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\slf4j-log4j12.jar;C:\Users\andmaier\Documents\sar\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\hibernate-commons-annotations-3.0.0.ga.jar;C:\Users\andmaier\Documents\sar\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\com.mysql.jdbc_5.1.5.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA Community Edition 14.0.3\lib\idea_rt.jar, hibernate.bytecode.use_reflection_optimizer=false, idea.launcher.port=7532, java.vm.specification.name=Java Virtual Machine Specification, java.vm.specification.version=1.8, sun.cpu.endian=little, sun.os.patch.level=Service Pack 1, java.io.tmpdir=C:\Users\andmaier\AppData\Local\Temp\, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, os.arch=amd64, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, java.ext.dirs=C:\Program Files\Java\jdk1.8.0_40\jre\lib\ext;C:\windows\Sun\Java\lib\ext, user.dir=C:\Users\andmaier\Documents\sar\de.htwg.se.mastermind, line.separator=
-, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, file.encoding=UTF-8, java.specification.version=1.8, hibernate.show_sql=false}
+DEBUG main org.hibernate.impl.SessionFactoryImpl - instantiating session factory with properties: {java.vendor=Oracle Corporation, show_sql=false, sun.java.launcher=SUN_STANDARD, hibernate.connection.url=jdbc:mysql://lenny2.in.htwg-konstanz.de:3306/games?createDatabaseIfNotExist=true, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, os.name=Windows 7, sun.boot.class.path=C:\Program Files\Java\jdk1.8.0_40\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_40\jre\classes, hibernate.current_session_context_class=thread, sun.desktop=windows, java.vm.specification.vendor=Oracle Corporation, java.runtime.version=1.8.0_40-b26, user.name=andi, connection.driver_class=com.mysql.jdbc.Driver, current_session_context_class=thread, idea.launcher.bin.path=C:\Program Files (x86)\JetBrains\IntelliJ IDEA 14.1.2\bin, user.language=de, sun.boot.library.path=C:\Program Files\Java\jdk1.8.0_40\jre\bin, dialect=org.hibernate.dialect.MySQL5Dialect, java.version=1.8.0_40, user.timezone=Europe/Berlin, sun.arch.data.model=64, java.endorsed.dirs=C:\Program Files\Java\jdk1.8.0_40\jre\lib\endorsed, sun.cpu.isalist=amd64, sun.jnu.encoding=Cp1252, file.encoding.pkg=sun.io, file.separator=\, java.specification.name=Java Platform API Specification, java.class.version=52.0, user.country=DE, connection.url=jdbc:mysql://lenny2.in.htwg-konstanz.de:3306/games?createDatabaseIfNotExist=true, java.home=C:\Program Files\Java\jdk1.8.0_40\jre, java.vm.info=mixed mode, os.version=6.1, path.separator=;, connection.password=htwg, java.vm.version=25.40-b25, hibernate.connection.password=htwg, user.variant=, java.awt.printerjob=sun.awt.windows.WPrinterJob, sun.io.unicode.encoding=UnicodeLittle, awt.toolkit=sun.awt.windows.WToolkit, hibernate.connection.username=htwg, user.script=, user.home=C:\Users\andi, java.specification.vendor=Oracle Corporation, hibernate.hbm2ddl.auto=update, java.library.path=C:\Program Files\Java\jdk1.8.0_40\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Python34\;C:\Python34\Scripts;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\OpenCL SDK\3.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\3.0\bin\x64;C:\Program Files (x86)\Git\cmd;C:\Program Files\MATLAB\R2014a\runtime\win64;C:\Program Files\MATLAB\R2014a\bin;C:\Program Files (x86)\Microsoft SQL Server\90\Tools\binn\;C:\Program Files\Java\jdk1.8.0_40\\bin;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Apache Software Foundation\apache-maven-3.3.1\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;., java.vendor.url=http://java.oracle.com/, hibernate.connection.driver_class=com.mysql.jdbc.Driver, connection.username=htwg, java.vm.vendor=Oracle Corporation, hibernate.dialect=org.hibernate.dialect.MySQL5Dialect, java.runtime.name=Java(TM) SE Runtime Environment, sun.java.command=com.intellij.rt.execution.application.AppMain de.htwg.se.mastermind.Mastermind, java.class.path=C:\Program Files\Java\jdk1.8.0_40\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\ext\zipfs.jar;C:\Users\andi\Desktop\sa_temp\de.htwg.se.mastermind\out\production\de.htwg.se.mastermind;C:\Users\andi\Desktop\sa_temp\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\log4j-1.2.17.jar;C:\Users\andi\Desktop\sa_temp\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\aopalliance.jar;C:\Users\andi\Desktop\sa_temp\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\javax.inject.jar;C:\Users\andi\Desktop\sa_temp\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\guice-3.0.jar;C:\Users\andi\Desktop\sa_temp\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\guice-assistedinject-3.0.jar;C:\Users\andi\Desktop\sa_temp\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\db4o-8.0.249.16098-all-java5.jar;C:\Users\andi\Desktop\sa_temp\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\org.ektorp-1.2.2.jar;C:\Users\andi\Desktop\sa_temp\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\antlr-2.7.6.jar;C:\Users\andi\Desktop\sa_temp\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\apache-httpcomponents-httpclient-cache.jar;C:\Users\andi\Desktop\sa_temp\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\cglib-2.2.jar;C:\Users\andi\Desktop\sa_temp\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\commons-collections-3.1.jar;C:\Users\andi\Desktop\sa_temp\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\commons-logging-1.2.jar;C:\Users\andi\Desktop\sa_temp\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\dom4j-1.6.1.jar;C:\Users\andi\Desktop\sa_temp\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\ejb3-persistence.jar;C:\Users\andi\Desktop\sa_temp\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\hibernate3.jar;C:\Users\andi\Desktop\sa_temp\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\hibernate-annotations.jar;C:\Users\andi\Desktop\sa_temp\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\http-core-4.1.jar;C:\Users\andi\Desktop\sa_temp\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\httpclient-4.1.jar;C:\Users\andi\Desktop\sa_temp\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\jackson-all-1.9.0.jar;C:\Users\andi\Desktop\sa_temp\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\javassist-3.9.0.GA.jar;C:\Users\andi\Desktop\sa_temp\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\jta-1.1.jar;C:\Users\andi\Desktop\sa_temp\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\log4j.jar;C:\Users\andi\Desktop\sa_temp\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\persistence-api-1.0.jar;C:\Users\andi\Desktop\sa_temp\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\slf4j-api-1.5.8.jar;C:\Users\andi\Desktop\sa_temp\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\slf4j-api-1.7.12.jar;C:\Users\andi\Desktop\sa_temp\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\slf4j-log4j12.jar;C:\Users\andi\Desktop\sa_temp\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\hibernate-commons-annotations-3.0.0.ga.jar;C:\Users\andi\Desktop\sa_temp\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\com.mysql.jdbc_5.1.5.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA 14.1.2\lib\idea_rt.jar, hibernate.bytecode.use_reflection_optimizer=false, idea.launcher.port=7532, java.vm.specification.name=Java Virtual Machine Specification, java.vm.specification.version=1.8, sun.cpu.endian=little, sun.os.patch.level=Service Pack 1, java.io.tmpdir=C:\Users\andi\AppData\Local\Temp\, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, os.arch=amd64, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, java.ext.dirs=C:\Program Files\Java\jdk1.8.0_40\jre\lib\ext;C:\Windows\Sun\Java\lib\ext, user.dir=C:\Users\andi\Desktop\sa_temp\de.htwg.se.mastermind, line.separator=
+, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, file.encoding=windows-1252, java.specification.version=1.8, hibernate.show_sql=false}
 DEBUG main org.hibernate.persister.entity.AbstractEntityPersister - Static SQL for entity: de.htwg.se.mastermind.persistence.hibernate.PersistentGrid
 DEBUG main org.hibernate.persister.entity.AbstractEntityPersister -  Version select: select id from mastermind_grid where id =?
 DEBUG main org.hibernate.persister.entity.AbstractEntityPersister -  Snapshot select: select persistent_.id, persistent_.actualRow as actualRow0_, persistent_.columnsAmount as columnsA3_0_, persistent_.date as date0_, persistent_.name as name0_, persistent_.rowsAmount as rowsAmount0_ from mastermind_grid persistent_ where persistent_.id=?
@@ -569,7 +179,7 @@ DEBUG main org.hibernate.loader.entity.EntityLoader - Static select for entity d
 DEBUG main org.hibernate.loader.entity.EntityLoader - Static select for action ACTION_MERGE on entity de.htwg.se.mastermind.persistence.hibernate.PersistentGrid: select persistent0_.id as id0_0_, persistent0_.actualRow as actualRow0_0_, persistent0_.columnsAmount as columnsA3_0_0_, persistent0_.date as date0_0_, persistent0_.name as name0_0_, persistent0_.rowsAmount as rowsAmount0_0_ from mastermind_grid persistent0_ where persistent0_.id=?
 DEBUG main org.hibernate.loader.entity.EntityLoader - Static select for action ACTION_REFRESH on entity de.htwg.se.mastermind.persistence.hibernate.PersistentGrid: select persistent0_.id as id0_0_, persistent0_.actualRow as actualRow0_0_, persistent0_.columnsAmount as columnsA3_0_0_, persistent0_.date as date0_0_, persistent0_.name as name0_0_, persistent0_.rowsAmount as rowsAmount0_0_ from mastermind_grid persistent0_ where persistent0_.id=?
 DEBUG main org.hibernate.impl.SessionFactoryObjectFactory - initializing class SessionFactoryObjectFactory
-DEBUG main org.hibernate.impl.SessionFactoryObjectFactory - registered: 0da59fbb4ddd0164014ddd0164c90000 (unnamed)
+DEBUG main org.hibernate.impl.SessionFactoryObjectFactory - registered: 0da548b14df9437b014df9437c880000 (unnamed)
 INFO main org.hibernate.impl.SessionFactoryObjectFactory - Not binding factory to JNDI, no JNDI name configured
 DEBUG main org.hibernate.impl.SessionFactoryImpl - instantiated session factory
 INFO main org.hibernate.tool.hbm2ddl.SchemaUpdate - Running hbm2ddl schema update
@@ -591,7 +201,7 @@ INFO main org.hibernate.tool.hbm2ddl.TableMetadata - indexes: [primary]
 INFO main org.hibernate.tool.hbm2ddl.SchemaUpdate - schema update complete
 DEBUG main org.hibernate.impl.SessionFactoryImpl - Checking 0 named HQL queries
 DEBUG main org.hibernate.impl.SessionFactoryImpl - Checking 0 named SQL queries
-DEBUG main org.hibernate.impl.SessionImpl - opened session at timestamp: 14339319657
+DEBUG main org.hibernate.impl.SessionImpl - opened session at timestamp: 14344060595
 INFO main de.htwg.se.mastermind.view.tui - 
               +-------------+
               | xx xx xx xx |
@@ -614,22 +224,113 @@ INFO main de.htwg.se.mastermind.view.tui -
 Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution, zn-sets the size, h-show highscores
 INFO main de.htwg.se.mastermind.view.tui - 
 Please enter command: 
-DEBUG AWT-EventQueue-0 org.hibernate.impl.SessionImpl - opened session at timestamp: 14339319683
-DEBUG AWT-EventQueue-0 org.hibernate.transaction.JDBCTransaction - begin
-DEBUG AWT-EventQueue-0 org.hibernate.jdbc.ConnectionManager - opening JDBC connection
-DEBUG AWT-EventQueue-0 org.hibernate.transaction.JDBCTransaction - current autocommit status: false
-DEBUG AWT-EventQueue-0 org.hibernate.jdbc.AbstractBatcher - about to open PreparedStatement (open PreparedStatements: 0, globally: 0)
-DEBUG AWT-EventQueue-0 org.hibernate.SQL - select this_.id as id0_0_, this_.actualRow as actualRow0_0_, this_.columnsAmount as columnsA3_0_0_, this_.date as date0_0_, this_.name as name0_0_, this_.rowsAmount as rowsAmount0_0_ from mastermind_grid this_
-DEBUG AWT-EventQueue-0 org.hibernate.jdbc.AbstractBatcher - about to open ResultSet (open ResultSets: 0, globally: 0)
-DEBUG AWT-EventQueue-0 org.hibernate.loader.Loader - result row: EntityKey[de.htwg.se.mastermind.persistence.hibernate.PersistentGrid#33f4d9f3-019d-4537-a8d3-54203f22970e]
-DEBUG AWT-EventQueue-0 org.hibernate.loader.Loader - result row: EntityKey[de.htwg.se.mastermind.persistence.hibernate.PersistentGrid#9f14cbf1-1019-4a92-a671-c2e11d35611c]
-DEBUG AWT-EventQueue-0 org.hibernate.loader.Loader - result row: EntityKey[de.htwg.se.mastermind.persistence.hibernate.PersistentGrid#ba12c355-3e6d-47d9-a0b4-9b5a3fa9c939]
-DEBUG AWT-EventQueue-0 org.hibernate.jdbc.AbstractBatcher - about to close ResultSet (open ResultSets: 1, globally: 1)
-DEBUG AWT-EventQueue-0 org.hibernate.jdbc.AbstractBatcher - about to close PreparedStatement (open PreparedStatements: 1, globally: 1)
-DEBUG AWT-EventQueue-0 org.hibernate.engine.TwoPhaseLoad - resolving associations for [de.htwg.se.mastermind.persistence.hibernate.PersistentGrid#33f4d9f3-019d-4537-a8d3-54203f22970e]
-DEBUG AWT-EventQueue-0 org.hibernate.engine.TwoPhaseLoad - done materializing entity [de.htwg.se.mastermind.persistence.hibernate.PersistentGrid#33f4d9f3-019d-4537-a8d3-54203f22970e]
-DEBUG AWT-EventQueue-0 org.hibernate.engine.TwoPhaseLoad - resolving associations for [de.htwg.se.mastermind.persistence.hibernate.PersistentGrid#9f14cbf1-1019-4a92-a671-c2e11d35611c]
-DEBUG AWT-EventQueue-0 org.hibernate.engine.TwoPhaseLoad - done materializing entity [de.htwg.se.mastermind.persistence.hibernate.PersistentGrid#9f14cbf1-1019-4a92-a671-c2e11d35611c]
-DEBUG AWT-EventQueue-0 org.hibernate.engine.TwoPhaseLoad - resolving associations for [de.htwg.se.mastermind.persistence.hibernate.PersistentGrid#ba12c355-3e6d-47d9-a0b4-9b5a3fa9c939]
-DEBUG AWT-EventQueue-0 org.hibernate.engine.TwoPhaseLoad - done materializing entity [de.htwg.se.mastermind.persistence.hibernate.PersistentGrid#ba12c355-3e6d-47d9-a0b4-9b5a3fa9c939]
-DEBUG AWT-EventQueue-0 org.hibernate.engine.StatefulPersistenceContext - initializing non-lazy collections
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+              +-------------+
+              | xx xx xx xx |
++-------------+-------------+
+|             |             |[6]
+|             |             |[5]
+|             |             |[4]
+|             |             |[3]
+|             |             |[2]
+|             |             |[1]
+|             | rd          |[0]
++-------------+-------------+
+                [3][2][1][0]
+
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+The cell at [0],[3] has been set!
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Available Colors: yl, gr, rd, bl, or, pk, pu
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution, zn-sets the size, h-show highscores
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Please enter command: 
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+              +-------------+
+              | xx xx xx xx |
++-------------+-------------+
+|             |             |[6]
+|             |             |[5]
+|             |             |[4]
+|             |             |[3]
+|             |             |[2]
+|             |             |[1]
+|             | rd bl       |[0]
++-------------+-------------+
+                [3][2][1][0]
+
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+The cell at [0],[2] has been set!
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Available Colors: yl, gr, rd, bl, or, pk, pu
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution, zn-sets the size, h-show highscores
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Please enter command: 
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+              +-------------+
+              | xx xx xx xx |
++-------------+-------------+
+|             |             |[6]
+|             |             |[5]
+|             |             |[4]
+|             |             |[3]
+|             |             |[2]
+|             |             |[1]
+|             | rd bl gr    |[0]
++-------------+-------------+
+                [3][2][1][0]
+
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+The cell at [0],[1] has been set!
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Available Colors: yl, gr, rd, bl, or, pk, pu
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution, zn-sets the size, h-show highscores
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Please enter command: 
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+              +-------------+
+              | xx xx xx xx |
++-------------+-------------+
+|             |             |[6]
+|             |             |[5]
+|             |             |[4]
+|             |             |[3]
+|             |             |[2]
+|             |             |[1]
+|             | rd bl gr yl |[0]
++-------------+-------------+
+                [3][2][1][0]
+
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+The cell at [0],[0] has been set!
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Available Colors: yl, gr, rd, bl, or, pk, pu
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution, zn-sets the size, h-show highscores
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Please enter command: 
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+              +-------------+
+              | xx xx xx xx |
++-------------+-------------+
+|             |             |[6]
+|             |             |[5]
+|             |             |[4]
+|             |             |[3]
+|             |             |[2]
+|             |             |[1]
+| bk wh wh    | rd bl gr yl |[0]
++-------------+-------------+
+                [3][2][1][0]
+
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Row [0] confirmed!
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Available Colors: yl, gr, rd, bl, or, pk, pu
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution, zn-sets the size, h-show highscores
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Please enter command: 

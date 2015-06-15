@@ -2,14 +2,14 @@ package de.htwg.se.mastermind.util;
 
 public class ColorPlugin implements Plugin{
 
-	private boolean menuEnabled = false;
+	private String name;
 	public ColorPlugin(){
-		menuEnabled = true;
+		name = "country";
 	}
 
 	@Override
-	public boolean getMenuEntry() {
-		return menuEnabled;
+	public String getMenuEntry() {
+		return name;
 	}
 
 }
