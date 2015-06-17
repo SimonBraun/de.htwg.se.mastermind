@@ -1,214 +1,209 @@
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Please enter command: 
+DEBUG AWT-EventQueue-0 org.apache.http.headers - >> Connection: Keep-Alive
+DEBUG AWT-EventQueue-0 org.apache.http.wire - << "HTTP/1.1 200 OK[\r][\n]"
+DEBUG AWT-EventQueue-0 org.apache.http.wire - << "Server: CouchDB/1.3.0 (Erlang OTP/R15B03)[\r][\n]"
+DEBUG AWT-EventQueue-0 org.apache.http.wire - << "ETag: "2-1ee96bcaf221e17dc6167bb2b5de21e9"[\r][\n]"
+DEBUG AWT-EventQueue-0 org.apache.http.wire - << "Date: Wed, 17 Jun 2015 12:19:18 GMT[\r][\n]"
+DEBUG AWT-EventQueue-0 org.apache.http.wire - << "Content-Type: text/plain; charset=utf-8[\r][\n]"
+DEBUG AWT-EventQueue-0 org.apache.http.wire - << "Content-Length: 99[\r][\n]"
+DEBUG AWT-EventQueue-0 org.apache.http.wire - << "Cache-Control: must-revalidate[\r][\n]"
+DEBUG AWT-EventQueue-0 org.apache.http.wire - << "[\r][\n]"
+DEBUG AWT-EventQueue-0 org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+DEBUG AWT-EventQueue-0 org.apache.http.headers - << HTTP/1.1 200 OK
+DEBUG AWT-EventQueue-0 org.apache.http.headers - << Server: CouchDB/1.3.0 (Erlang OTP/R15B03)
+DEBUG AWT-EventQueue-0 org.apache.http.headers - << ETag: "2-1ee96bcaf221e17dc6167bb2b5de21e9"
+DEBUG AWT-EventQueue-0 org.apache.http.headers - << Date: Wed, 17 Jun 2015 12:19:18 GMT
+DEBUG AWT-EventQueue-0 org.apache.http.headers - << Content-Type: text/plain; charset=utf-8
+DEBUG AWT-EventQueue-0 org.apache.http.headers - << Content-Length: 99
+DEBUG AWT-EventQueue-0 org.apache.http.headers - << Cache-Control: must-revalidate
+DEBUG AWT-EventQueue-0 org.apache.http.impl.client.DefaultHttpClient - Connection can be kept alive indefinitely
+DEBUG AWT-EventQueue-0 org.apache.http.impl.client.cache.CachingHttpClient - Handling Backend response
+DEBUG AWT-EventQueue-0 org.apache.http.impl.client.cache.ResponseCachingPolicy - Response was not cacheable.
+DEBUG AWT-EventQueue-0 org.apache.http.wire - << "{"ok":true,"id":"5f573f49-3cb1-472a-9a19-11160bb25f62","rev":"2-1ee96bcaf221e17dc6167bb2b5de21e9"}[\n]"
+DEBUG AWT-EventQueue-0 org.apache.http.impl.conn.tsccm.ThreadSafeClientConnManager - Released connection is reusable.
+DEBUG AWT-EventQueue-0 org.apache.http.impl.conn.tsccm.ConnPoolByRoute - Releasing connection [HttpRoute[{}->http://lenny2.in.htwg-konstanz.de:5984]][null]
+DEBUG AWT-EventQueue-0 org.apache.http.impl.conn.tsccm.ConnPoolByRoute - Pooling connection [HttpRoute[{}->http://lenny2.in.htwg-konstanz.de:5984]][null]; keep alive indefinitely
+DEBUG AWT-EventQueue-0 org.apache.http.impl.conn.tsccm.ConnPoolByRoute - Notifying no-one, there are no waiting threads
+DEBUG AWT-EventQueue-0 org.apache.http.impl.client.cache.CacheableRequestPolicy - Request was serveable from cache
+DEBUG AWT-EventQueue-0 org.apache.http.impl.client.cache.CachingHttpClient - Cache hit [host: http://lenny2.in.htwg-konstanz.de:5984; uri: /mastermind_db/172e2dc2-c735-4b56-bf8f-7d79dee936af]
+DEBUG AWT-EventQueue-0 org.apache.http.impl.client.cache.CachedResponseSuitabilityChecker - Cache entry was not fresh enough
+DEBUG AWT-EventQueue-0 org.apache.http.impl.client.cache.CachingHttpClient - Revalidating the cache entry
+DEBUG AWT-EventQueue-0 org.apache.http.impl.conn.tsccm.ThreadSafeClientConnManager - Get connection: HttpRoute[{}->http://lenny2.in.htwg-konstanz.de:5984], timeout = 1000
+DEBUG AWT-EventQueue-0 org.apache.http.impl.conn.tsccm.ConnPoolByRoute - [HttpRoute[{}->http://lenny2.in.htwg-konstanz.de:5984]] total kept alive: 1, total issued: 0, total allocated: 1 out of 20
+DEBUG AWT-EventQueue-0 org.apache.http.impl.conn.tsccm.ConnPoolByRoute - Getting free connection [HttpRoute[{}->http://lenny2.in.htwg-konstanz.de:5984]][null]
+DEBUG AWT-EventQueue-0 org.apache.http.impl.client.DefaultHttpClient - Stale connection check
+DEBUG AWT-EventQueue-0 org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: best-match
+DEBUG AWT-EventQueue-0 org.apache.http.impl.client.DefaultHttpClient - Attempt 1 to execute request
+DEBUG AWT-EventQueue-0 org.apache.http.impl.conn.DefaultClientConnection - Sending request: GET /mastermind_db/172e2dc2-c735-4b56-bf8f-7d79dee936af HTTP/1.1
+DEBUG AWT-EventQueue-0 org.apache.http.wire - >> "GET /mastermind_db/172e2dc2-c735-4b56-bf8f-7d79dee936af HTTP/1.1[\r][\n]"
+DEBUG AWT-EventQueue-0 org.apache.http.wire - >> "Via: 1.1 localhost (Apache-HttpClient/4.1 (cache))[\r][\n]"
+DEBUG AWT-EventQueue-0 org.apache.http.wire - >> "If-None-Match: "1-406b0907c1fa54a59f0eaff384820a34"[\r][\n]"
+DEBUG AWT-EventQueue-0 org.apache.http.wire - >> "Cache-Control: max-age=0[\r][\n]"
+DEBUG AWT-EventQueue-0 org.apache.http.wire - >> "Host: lenny2.in.htwg-konstanz.de:5984[\r][\n]"
+DEBUG AWT-EventQueue-0 org.apache.http.wire - >> "Connection: Keep-Alive[\r][\n]"
+DEBUG AWT-EventQueue-0 org.apache.http.wire - >> "[\r][\n]"
+DEBUG AWT-EventQueue-0 org.apache.http.headers - >> GET /mastermind_db/172e2dc2-c735-4b56-bf8f-7d79dee936af HTTP/1.1
+DEBUG AWT-EventQueue-0 org.apache.http.headers - >> Via: 1.1 localhost (Apache-HttpClient/4.1 (cache))
+DEBUG AWT-EventQueue-0 org.apache.http.headers - >> If-None-Match: "1-406b0907c1fa54a59f0eaff384820a34"
+DEBUG AWT-EventQueue-0 org.apache.http.headers - >> Cache-Control: max-age=0
+DEBUG AWT-EventQueue-0 org.apache.http.headers - >> Host: lenny2.in.htwg-konstanz.de:5984
+DEBUG AWT-EventQueue-0 org.apache.http.headers - >> Connection: Keep-Alive
+DEBUG AWT-EventQueue-0 org.apache.http.wire - << "HTTP/1.1 304 Not Modified[\r][\n]"
+DEBUG AWT-EventQueue-0 org.apache.http.wire - << "Server: CouchDB/1.3.0 (Erlang OTP/R15B03)[\r][\n]"
+DEBUG AWT-EventQueue-0 org.apache.http.wire - << "ETag: "1-406b0907c1fa54a59f0eaff384820a34"[\r][\n]"
+DEBUG AWT-EventQueue-0 org.apache.http.wire - << "Date: Wed, 17 Jun 2015 12:19:18 GMT[\r][\n]"
+DEBUG AWT-EventQueue-0 org.apache.http.wire - << "Content-Length: 0[\r][\n]"
+DEBUG AWT-EventQueue-0 org.apache.http.wire - << "[\r][\n]"
+DEBUG AWT-EventQueue-0 org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 304 Not Modified
+DEBUG AWT-EventQueue-0 org.apache.http.headers - << HTTP/1.1 304 Not Modified
+DEBUG AWT-EventQueue-0 org.apache.http.headers - << Server: CouchDB/1.3.0 (Erlang OTP/R15B03)
+DEBUG AWT-EventQueue-0 org.apache.http.headers - << ETag: "1-406b0907c1fa54a59f0eaff384820a34"
+DEBUG AWT-EventQueue-0 org.apache.http.headers - << Date: Wed, 17 Jun 2015 12:19:18 GMT
+DEBUG AWT-EventQueue-0 org.apache.http.headers - << Content-Length: 0
+DEBUG AWT-EventQueue-0 org.apache.http.impl.client.DefaultHttpClient - Connection can be kept alive indefinitely
+DEBUG AWT-EventQueue-0 org.apache.http.impl.conn.tsccm.ThreadSafeClientConnManager - Released connection is reusable.
+DEBUG AWT-EventQueue-0 org.apache.http.impl.conn.tsccm.ConnPoolByRoute - Releasing connection [HttpRoute[{}->http://lenny2.in.htwg-konstanz.de:5984]][null]
+DEBUG AWT-EventQueue-0 org.apache.http.impl.conn.tsccm.ConnPoolByRoute - Pooling connection [HttpRoute[{}->http://lenny2.in.htwg-konstanz.de:5984]][null]; keep alive indefinitely
+DEBUG AWT-EventQueue-0 org.apache.http.impl.conn.tsccm.ConnPoolByRoute - Notifying no-one, there are no waiting threads
+DEBUG AWT-EventQueue-0 org.apache.http.impl.client.cache.CacheInvalidator - Request should not be cached
+DEBUG AWT-EventQueue-0 org.apache.http.impl.client.cache.CacheInvalidator - parent entry: null
+DEBUG AWT-EventQueue-0 org.apache.http.impl.client.cache.CacheableRequestPolicy - Request was not serveable from cache
+DEBUG AWT-EventQueue-0 org.apache.http.impl.client.cache.CachingHttpClient - Calling the backend
+DEBUG AWT-EventQueue-0 org.apache.http.impl.conn.tsccm.ThreadSafeClientConnManager - Get connection: HttpRoute[{}->http://lenny2.in.htwg-konstanz.de:5984], timeout = 1000
+DEBUG AWT-EventQueue-0 org.apache.http.impl.conn.tsccm.ConnPoolByRoute - [HttpRoute[{}->http://lenny2.in.htwg-konstanz.de:5984]] total kept alive: 1, total issued: 0, total allocated: 1 out of 20
+DEBUG AWT-EventQueue-0 org.apache.http.impl.conn.tsccm.ConnPoolByRoute - Getting free connection [HttpRoute[{}->http://lenny2.in.htwg-konstanz.de:5984]][null]
+DEBUG AWT-EventQueue-0 org.apache.http.impl.client.DefaultHttpClient - Stale connection check
+DEBUG AWT-EventQueue-0 org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: best-match
+DEBUG AWT-EventQueue-0 org.apache.http.impl.client.DefaultHttpClient - Attempt 1 to execute request
+DEBUG AWT-EventQueue-0 org.apache.http.impl.conn.DefaultClientConnection - Sending request: DELETE /mastermind_db/172e2dc2-c735-4b56-bf8f-7d79dee936af?rev=1-406b0907c1fa54a59f0eaff384820a34 HTTP/1.1
+DEBUG AWT-EventQueue-0 org.apache.http.wire - >> "DELETE /mastermind_db/172e2dc2-c735-4b56-bf8f-7d79dee936af?rev=1-406b0907c1fa54a59f0eaff384820a34 HTTP/1.1[\r][\n]"
+DEBUG AWT-EventQueue-0 org.apache.http.wire - >> "Via: 1.1 localhost (Apache-HttpClient/4.1 (cache))[\r][\n]"
+DEBUG AWT-EventQueue-0 org.apache.http.wire - >> "Host: lenny2.in.htwg-konstanz.de:5984[\r][\n]"
+DEBUG AWT-EventQueue-0 org.apache.http.wire - >> "Connection: Keep-Alive[\r][\n]"
+DEBUG AWT-EventQueue-0 org.apache.http.wire - >> "[\r][\n]"
+DEBUG AWT-EventQueue-0 org.apache.http.headers - >> DELETE /mastermind_db/172e2dc2-c735-4b56-bf8f-7d79dee936af?rev=1-406b0907c1fa54a59f0eaff384820a34 HTTP/1.1
+DEBUG AWT-EventQueue-0 org.apache.http.headers - >> Via: 1.1 localhost (Apache-HttpClient/4.1 (cache))
+DEBUG AWT-EventQueue-0 org.apache.http.headers - >> Host: lenny2.in.htwg-konstanz.de:5984
+DEBUG AWT-EventQueue-0 org.apache.http.headers - >> Connection: Keep-Alive
+DEBUG AWT-EventQueue-0 org.apache.http.wire - << "HTTP/1.1 200 OK[\r][\n]"
+DEBUG AWT-EventQueue-0 org.apache.http.wire - << "Server: CouchDB/1.3.0 (Erlang OTP/R15B03)[\r][\n]"
+DEBUG AWT-EventQueue-0 org.apache.http.wire - << "ETag: "2-33ae64680a01d50e59b8b23b23c93491"[\r][\n]"
+DEBUG AWT-EventQueue-0 org.apache.http.wire - << "Date: Wed, 17 Jun 2015 12:19:18 GMT[\r][\n]"
+DEBUG AWT-EventQueue-0 org.apache.http.wire - << "Content-Type: text/plain; charset=utf-8[\r][\n]"
+DEBUG AWT-EventQueue-0 org.apache.http.wire - << "Content-Length: 99[\r][\n]"
+DEBUG AWT-EventQueue-0 org.apache.http.wire - << "Cache-Control: must-revalidate[\r][\n]"
+DEBUG AWT-EventQueue-0 org.apache.http.wire - << "[\r][\n]"
+DEBUG AWT-EventQueue-0 org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+DEBUG AWT-EventQueue-0 org.apache.http.headers - << HTTP/1.1 200 OK
+DEBUG AWT-EventQueue-0 org.apache.http.headers - << Server: CouchDB/1.3.0 (Erlang OTP/R15B03)
+DEBUG AWT-EventQueue-0 org.apache.http.headers - << ETag: "2-33ae64680a01d50e59b8b23b23c93491"
+DEBUG AWT-EventQueue-0 org.apache.http.headers - << Date: Wed, 17 Jun 2015 12:19:18 GMT
+DEBUG AWT-EventQueue-0 org.apache.http.headers - << Content-Type: text/plain; charset=utf-8
+DEBUG AWT-EventQueue-0 org.apache.http.headers - << Content-Length: 99
+DEBUG AWT-EventQueue-0 org.apache.http.headers - << Cache-Control: must-revalidate
+DEBUG AWT-EventQueue-0 org.apache.http.impl.client.DefaultHttpClient - Connection can be kept alive indefinitely
+DEBUG AWT-EventQueue-0 org.apache.http.impl.client.cache.CachingHttpClient - Handling Backend response
+DEBUG AWT-EventQueue-0 org.apache.http.impl.client.cache.ResponseCachingPolicy - Response was not cacheable.
+DEBUG AWT-EventQueue-0 org.apache.http.wire - << "{"ok":true,"id":"172e2dc2-c735-4b56-bf8f-7d79dee936af","rev":"2-33ae64680a01d50e59b8b23b23c93491"}[\n]"
+DEBUG AWT-EventQueue-0 org.apache.http.impl.conn.tsccm.ThreadSafeClientConnManager - Released connection is reusable.
+DEBUG AWT-EventQueue-0 org.apache.http.impl.conn.tsccm.ConnPoolByRoute - Releasing connection [HttpRoute[{}->http://lenny2.in.htwg-konstanz.de:5984]][null]
+DEBUG AWT-EventQueue-0 org.apache.http.impl.conn.tsccm.ConnPoolByRoute - Pooling connection [HttpRoute[{}->http://lenny2.in.htwg-konstanz.de:5984]][null]; keep alive indefinitely
+DEBUG AWT-EventQueue-0 org.apache.http.impl.conn.tsccm.ConnPoolByRoute - Notifying no-one, there are no waiting threads
+DEBUG AWT-EventQueue-0 org.apache.http.impl.client.cache.CacheableRequestPolicy - Request was serveable from cache
+DEBUG AWT-EventQueue-0 org.apache.http.impl.client.cache.CachingHttpClient - Cache hit [host: http://lenny2.in.htwg-konstanz.de:5984; uri: /mastermind_db/81a868c2-8773-473a-9c58-4750f4a78346]
+DEBUG AWT-EventQueue-0 org.apache.http.impl.client.cache.CachedResponseSuitabilityChecker - Cache entry was not fresh enough
+DEBUG AWT-EventQueue-0 org.apache.http.impl.client.cache.CachingHttpClient - Revalidating the cache entry
+DEBUG AWT-EventQueue-0 org.apache.http.impl.conn.tsccm.ThreadSafeClientConnManager - Get connection: HttpRoute[{}->http://lenny2.in.htwg-konstanz.de:5984], timeout = 1000
+DEBUG AWT-EventQueue-0 org.apache.http.impl.conn.tsccm.ConnPoolByRoute - [HttpRoute[{}->http://lenny2.in.htwg-konstanz.de:5984]] total kept alive: 1, total issued: 0, total allocated: 1 out of 20
+DEBUG AWT-EventQueue-0 org.apache.http.impl.conn.tsccm.ConnPoolByRoute - Getting free connection [HttpRoute[{}->http://lenny2.in.htwg-konstanz.de:5984]][null]
+DEBUG AWT-EventQueue-0 org.apache.http.impl.client.DefaultHttpClient - Stale connection check
+DEBUG AWT-EventQueue-0 org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: best-match
+DEBUG AWT-EventQueue-0 org.apache.http.impl.client.DefaultHttpClient - Attempt 1 to execute request
+DEBUG AWT-EventQueue-0 org.apache.http.impl.conn.DefaultClientConnection - Sending request: GET /mastermind_db/81a868c2-8773-473a-9c58-4750f4a78346 HTTP/1.1
+DEBUG AWT-EventQueue-0 org.apache.http.wire - >> "GET /mastermind_db/81a868c2-8773-473a-9c58-4750f4a78346 HTTP/1.1[\r][\n]"
+DEBUG AWT-EventQueue-0 org.apache.http.wire - >> "Via: 1.1 localhost (Apache-HttpClient/4.1 (cache))[\r][\n]"
+DEBUG AWT-EventQueue-0 org.apache.http.wire - >> "If-None-Match: "1-e391922b48b1bbeba98ca34b4cca6c72"[\r][\n]"
+DEBUG AWT-EventQueue-0 org.apache.http.wire - >> "Cache-Control: max-age=0[\r][\n]"
+DEBUG AWT-EventQueue-0 org.apache.http.wire - >> "Host: lenny2.in.htwg-konstanz.de:5984[\r][\n]"
+DEBUG AWT-EventQueue-0 org.apache.http.wire - >> "Connection: Keep-Alive[\r][\n]"
+DEBUG AWT-EventQueue-0 org.apache.http.wire - >> "[\r][\n]"
+DEBUG AWT-EventQueue-0 org.apache.http.headers - >> GET /mastermind_db/81a868c2-8773-473a-9c58-4750f4a78346 HTTP/1.1
+DEBUG AWT-EventQueue-0 org.apache.http.headers - >> Via: 1.1 localhost (Apache-HttpClient/4.1 (cache))
+DEBUG AWT-EventQueue-0 org.apache.http.headers - >> If-None-Match: "1-e391922b48b1bbeba98ca34b4cca6c72"
+DEBUG AWT-EventQueue-0 org.apache.http.headers - >> Cache-Control: max-age=0
+DEBUG AWT-EventQueue-0 org.apache.http.headers - >> Host: lenny2.in.htwg-konstanz.de:5984
+DEBUG AWT-EventQueue-0 org.apache.http.headers - >> Connection: Keep-Alive
+DEBUG AWT-EventQueue-0 org.apache.http.wire - << "HTTP/1.1 304 Not Modified[\r][\n]"
+DEBUG AWT-EventQueue-0 org.apache.http.wire - << "Server: CouchDB/1.3.0 (Erlang OTP/R15B03)[\r][\n]"
+DEBUG AWT-EventQueue-0 org.apache.http.wire - << "ETag: "1-e391922b48b1bbeba98ca34b4cca6c72"[\r][\n]"
+DEBUG AWT-EventQueue-0 org.apache.http.wire - << "Date: Wed, 17 Jun 2015 12:19:18 GMT[\r][\n]"
+DEBUG AWT-EventQueue-0 org.apache.http.wire - << "Content-Length: 0[\r][\n]"
+DEBUG AWT-EventQueue-0 org.apache.http.wire - << "[\r][\n]"
+DEBUG AWT-EventQueue-0 org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 304 Not Modified
+DEBUG AWT-EventQueue-0 org.apache.http.headers - << HTTP/1.1 304 Not Modified
+DEBUG AWT-EventQueue-0 org.apache.http.headers - << Server: CouchDB/1.3.0 (Erlang OTP/R15B03)
+DEBUG AWT-EventQueue-0 org.apache.http.headers - << ETag: "1-e391922b48b1bbeba98ca34b4cca6c72"
+DEBUG AWT-EventQueue-0 org.apache.http.headers - << Date: Wed, 17 Jun 2015 12:19:18 GMT
+DEBUG AWT-EventQueue-0 org.apache.http.headers - << Content-Length: 0
+DEBUG AWT-EventQueue-0 org.apache.http.impl.client.DefaultHttpClient - Connection can be kept alive indefinitely
+DEBUG AWT-EventQueue-0 org.apache.http.impl.conn.tsccm.ThreadSafeClientConnManager - Released connection is reusable.
+DEBUG AWT-EventQueue-0 org.apache.http.impl.conn.tsccm.ConnPoolByRoute - Releasing connection [HttpRoute[{}->http://lenny2.in.htwg-konstanz.de:5984]][null]
+DEBUG AWT-EventQueue-0 org.apache.http.impl.conn.tsccm.ConnPoolByRoute - Pooling connection [HttpRoute[{}->http://lenny2.in.htwg-konstanz.de:5984]][null]; keep alive indefinitely
+DEBUG AWT-EventQueue-0 org.apache.http.impl.conn.tsccm.ConnPoolByRoute - Notifying no-one, there are no waiting threads
+DEBUG AWT-EventQueue-0 org.apache.http.impl.client.cache.CacheInvalidator - Request should not be cached
+DEBUG AWT-EventQueue-0 org.apache.http.impl.client.cache.CacheInvalidator - parent entry: null
+DEBUG AWT-EventQueue-0 org.apache.http.impl.client.cache.CacheableRequestPolicy - Request was not serveable from cache
+DEBUG AWT-EventQueue-0 org.apache.http.impl.client.cache.CachingHttpClient - Calling the backend
+DEBUG AWT-EventQueue-0 org.apache.http.impl.conn.tsccm.ThreadSafeClientConnManager - Get connection: HttpRoute[{}->http://lenny2.in.htwg-konstanz.de:5984], timeout = 1000
+DEBUG AWT-EventQueue-0 org.apache.http.impl.conn.tsccm.ConnPoolByRoute - [HttpRoute[{}->http://lenny2.in.htwg-konstanz.de:5984]] total kept alive: 1, total issued: 0, total allocated: 1 out of 20
+DEBUG AWT-EventQueue-0 org.apache.http.impl.conn.tsccm.ConnPoolByRoute - Getting free connection [HttpRoute[{}->http://lenny2.in.htwg-konstanz.de:5984]][null]
+DEBUG AWT-EventQueue-0 org.apache.http.impl.client.DefaultHttpClient - Stale connection check
+DEBUG AWT-EventQueue-0 org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: best-match
+DEBUG AWT-EventQueue-0 org.apache.http.impl.client.DefaultHttpClient - Attempt 1 to execute request
+DEBUG AWT-EventQueue-0 org.apache.http.impl.conn.DefaultClientConnection - Sending request: DELETE /mastermind_db/81a868c2-8773-473a-9c58-4750f4a78346?rev=1-e391922b48b1bbeba98ca34b4cca6c72 HTTP/1.1
+DEBUG AWT-EventQueue-0 org.apache.http.wire - >> "DELETE /mastermind_db/81a868c2-8773-473a-9c58-4750f4a78346?rev=1-e391922b48b1bbeba98ca34b4cca6c72 HTTP/1.1[\r][\n]"
+DEBUG AWT-EventQueue-0 org.apache.http.wire - >> "Via: 1.1 localhost (Apache-HttpClient/4.1 (cache))[\r][\n]"
+DEBUG AWT-EventQueue-0 org.apache.http.wire - >> "Host: lenny2.in.htwg-konstanz.de:5984[\r][\n]"
+DEBUG AWT-EventQueue-0 org.apache.http.wire - >> "Connection: Keep-Alive[\r][\n]"
+DEBUG AWT-EventQueue-0 org.apache.http.wire - >> "[\r][\n]"
+DEBUG AWT-EventQueue-0 org.apache.http.headers - >> DELETE /mastermind_db/81a868c2-8773-473a-9c58-4750f4a78346?rev=1-e391922b48b1bbeba98ca34b4cca6c72 HTTP/1.1
+DEBUG AWT-EventQueue-0 org.apache.http.headers - >> Via: 1.1 localhost (Apache-HttpClient/4.1 (cache))
+DEBUG AWT-EventQueue-0 org.apache.http.headers - >> Host: lenny2.in.htwg-konstanz.de:5984
+DEBUG AWT-EventQueue-0 org.apache.http.headers - >> Connection: Keep-Alive
+DEBUG AWT-EventQueue-0 org.apache.http.wire - << "HTTP/1.1 200 OK[\r][\n]"
+DEBUG AWT-EventQueue-0 org.apache.http.wire - << "Server: CouchDB/1.3.0 (Erlang OTP/R15B03)[\r][\n]"
+DEBUG AWT-EventQueue-0 org.apache.http.wire - << "ETag: "2-b8f2790e0e966233f002d672aaa4abaa"[\r][\n]"
+DEBUG AWT-EventQueue-0 org.apache.http.wire - << "Date: Wed, 17 Jun 2015 12:19:18 GMT[\r][\n]"
+DEBUG AWT-EventQueue-0 org.apache.http.wire - << "Content-Type: text/plain; charset=utf-8[\r][\n]"
+DEBUG AWT-EventQueue-0 org.apache.http.wire - << "Content-Length: 99[\r][\n]"
+DEBUG AWT-EventQueue-0 org.apache.http.wire - << "Cache-Control: must-revalidate[\r][\n]"
+DEBUG AWT-EventQueue-0 org.apache.http.wire - << "[\r][\n]"
+DEBUG AWT-EventQueue-0 org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+DEBUG AWT-EventQueue-0 org.apache.http.headers - << HTTP/1.1 200 OK
+DEBUG AWT-EventQueue-0 org.apache.http.headers - << Server: CouchDB/1.3.0 (Erlang OTP/R15B03)
+DEBUG AWT-EventQueue-0 org.apache.http.headers - << ETag: "2-b8f2790e0e966233f002d672aaa4abaa"
+DEBUG AWT-EventQueue-0 org.apache.http.headers - << Date: Wed, 17 Jun 2015 12:19:18 GMT
+DEBUG AWT-EventQueue-0 org.apache.http.headers - << Content-Type: text/plain; charset=utf-8
+DEBUG AWT-EventQueue-0 org.apache.http.headers - << Content-Length: 99
+DEBUG AWT-EventQueue-0 org.apache.http.headers - << Cache-Control: must-revalidate
+DEBUG AWT-EventQueue-0 org.apache.http.impl.client.DefaultHttpClient - Connection can be kept alive indefinitely
+DEBUG AWT-EventQueue-0 org.apache.http.impl.client.cache.CachingHttpClient - Handling Backend response
+DEBUG AWT-EventQueue-0 org.apache.http.impl.client.cache.ResponseCachingPolicy - Response was not cacheable.
+DEBUG AWT-EventQueue-0 org.apache.http.wire - << "{"ok":true,"id":"81a868c2-8773-473a-9c58-4750f4a78346","rev":"2-b8f2790e0e966233f002d672aaa4abaa"}[\n]"
+DEBUG AWT-EventQueue-0 org.apache.http.impl.conn.tsccm.ThreadSafeClientConnManager - Released connection is reusable.
+DEBUG AWT-EventQueue-0 org.apache.http.impl.conn.tsccm.ConnPoolByRoute - Releasing connection [HttpRoute[{}->http://lenny2.in.htwg-konstanz.de:5984]][null]
+DEBUG AWT-EventQueue-0 org.apache.http.impl.conn.tsccm.ConnPoolByRoute - Pooling connection [HttpRoute[{}->http://lenny2.in.htwg-konstanz.de:5984]][null]; keep alive indefinitely
+DEBUG AWT-EventQueue-0 org.apache.http.impl.conn.tsccm.ConnPoolByRoute - Notifying no-one, there are no waiting threads
 INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
               +-------------+
-              | xx xx xx xx |
+              | yl yl pk rd |
 +-------------+-------------+
 |             |             |[6]
 |             |             |[5]
 |             |             |[4]
-|             | fr gb       |[3]
-| bk          | de ch ru es |[2]
-| bk          | es fr gb us |[1]
-| wh          | us de ch ru |[0]
-+-------------+-------------+
-                [3][2][1][0]
-
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-The cell at [3],[2] has been set!
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Available Colors: yl, gr, rd, bl, or, pk, pu
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution, zn-sets the size, h-show highscores
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Please enter command: 
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-              +-------------+
-              | xx xx xx xx |
-+-------------+-------------+
-|             |             |[6]
-|             |             |[5]
-|             |             |[4]
-|             | fr gb us    |[3]
-| bk          | de ch ru es |[2]
-| bk          | es fr gb us |[1]
-| wh          | us de ch ru |[0]
-+-------------+-------------+
-                [3][2][1][0]
-
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-The cell at [3],[1] has been set!
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Available Colors: yl, gr, rd, bl, or, pk, pu
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution, zn-sets the size, h-show highscores
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Please enter command: 
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-              +-------------+
-              | xx xx xx xx |
-+-------------+-------------+
-|             |             |[6]
-|             |             |[5]
-|             |             |[4]
-|             | fr gb us de |[3]
-| bk          | de ch ru es |[2]
-| bk          | es fr gb us |[1]
-| wh          | us de ch ru |[0]
-+-------------+-------------+
-                [3][2][1][0]
-
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-The cell at [3],[0] has been set!
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Available Colors: yl, gr, rd, bl, or, pk, pu
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution, zn-sets the size, h-show highscores
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Please enter command: 
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-              +-------------+
-              | xx xx xx xx |
-+-------------+-------------+
-|             |             |[6]
-|             |             |[5]
-|             |             |[4]
-| wh          | fr gb us de |[3]
-| bk          | de ch ru es |[2]
-| bk          | es fr gb us |[1]
-| wh          | us de ch ru |[0]
-+-------------+-------------+
-                [3][2][1][0]
-
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Row [3] confirmed!
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Available Colors: yl, gr, rd, bl, or, pk, pu
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution, zn-sets the size, h-show highscores
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Please enter command: 
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-              +-------------+
-              | xx xx xx xx |
-+-------------+-------------+
-|             |             |[6]
-|             |             |[5]
-|             | ch          |[4]
-| wh          | fr gb us de |[3]
-| bk          | de ch ru es |[2]
-| bk          | es fr gb us |[1]
-| wh          | us de ch ru |[0]
-+-------------+-------------+
-                [3][2][1][0]
-
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-The cell at [4],[3] has been set!
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Available Colors: yl, gr, rd, bl, or, pk, pu
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution, zn-sets the size, h-show highscores
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Please enter command: 
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-              +-------------+
-              | xx xx xx xx |
-+-------------+-------------+
-|             |             |[6]
-|             |             |[5]
-|             | ch ru       |[4]
-| wh          | fr gb us de |[3]
-| bk          | de ch ru es |[2]
-| bk          | es fr gb us |[1]
-| wh          | us de ch ru |[0]
-+-------------+-------------+
-                [3][2][1][0]
-
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-The cell at [4],[2] has been set!
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Available Colors: yl, gr, rd, bl, or, pk, pu
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution, zn-sets the size, h-show highscores
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Please enter command: 
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-              +-------------+
-              | xx xx xx xx |
-+-------------+-------------+
-|             |             |[6]
-|             |             |[5]
-|             | ch ru es    |[4]
-| wh          | fr gb us de |[3]
-| bk          | de ch ru es |[2]
-| bk          | es fr gb us |[1]
-| wh          | us de ch ru |[0]
-+-------------+-------------+
-                [3][2][1][0]
-
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-The cell at [4],[1] has been set!
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Available Colors: yl, gr, rd, bl, or, pk, pu
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution, zn-sets the size, h-show highscores
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Please enter command: 
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-              +-------------+
-              | xx xx xx xx |
-+-------------+-------------+
-|             |             |[6]
-|             |             |[5]
-|             | ch ru es fr |[4]
-| wh          | fr gb us de |[3]
-| bk          | de ch ru es |[2]
-| bk          | es fr gb us |[1]
-| wh          | us de ch ru |[0]
-+-------------+-------------+
-                [3][2][1][0]
-
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-The cell at [4],[0] has been set!
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Available Colors: yl, gr, rd, bl, or, pk, pu
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution, zn-sets the size, h-show highscores
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Please enter command: 
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-              +-------------+
-              | xx xx xx xx |
-+-------------+-------------+
-|             |             |[6]
-|             |             |[5]
-| wh          | ch ru es fr |[4]
-| wh          | fr gb us de |[3]
-| bk          | de ch ru es |[2]
-| bk          | es fr gb us |[1]
-| wh          | us de ch ru |[0]
-+-------------+-------------+
-                [3][2][1][0]
-
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Row [4] confirmed!
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Available Colors: yl, gr, rd, bl, or, pk, pu
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution, zn-sets the size, h-show highscores
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Please enter command: 
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-              +-------------+
-              | gb ch gb gb |
-+-------------+-------------+
-|             |             |[6]
-|             |             |[5]
-| wh          | ch ru es fr |[4]
-| wh          | fr gb us de |[3]
-| bk          | de ch ru es |[2]
-| bk          | es fr gb us |[1]
-| wh          | us de ch ru |[0]
+|             |             |[3]
+|             |             |[2]
+|             |             |[1]
+|             |             |[0]
 +-------------+-------------+
                 [3][2][1][0]
 
@@ -222,20 +217,20 @@ INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui -
 Please enter command: 
 INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
               +-------------+
-              | gb ch gb gb |
+              | yl yl pk rd |
 +-------------+-------------+
 |             |             |[6]
-|             | gb          |[5]
-| wh          | ch ru es fr |[4]
-| wh          | fr gb us de |[3]
-| bk          | de ch ru es |[2]
-| bk          | es fr gb us |[1]
-| wh          | us de ch ru |[0]
+|             |             |[5]
+|             |             |[4]
+|             |             |[3]
+|             |             |[2]
+|             |             |[1]
+|             | rd          |[0]
 +-------------+-------------+
                 [3][2][1][0]
 
 INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-The cell at [5],[3] has been set!
+The cell at [0],[3] has been set!
 INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
 Available Colors: yl, gr, rd, bl, or, pk, pu
 INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
@@ -244,20 +239,20 @@ INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui -
 Please enter command: 
 INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
               +-------------+
-              | gb ch gb gb |
+              | yl yl pk rd |
 +-------------+-------------+
 |             |             |[6]
-|             | gb us       |[5]
-| wh          | ch ru es fr |[4]
-| wh          | fr gb us de |[3]
-| bk          | de ch ru es |[2]
-| bk          | es fr gb us |[1]
-| wh          | us de ch ru |[0]
+|             |             |[5]
+|             |             |[4]
+|             |             |[3]
+|             |             |[2]
+|             |             |[1]
+|             | bl          |[0]
 +-------------+-------------+
                 [3][2][1][0]
 
 INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-The cell at [5],[2] has been set!
+The cell at [0],[3] has been set!
 INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
 Available Colors: yl, gr, rd, bl, or, pk, pu
 INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
@@ -266,20 +261,20 @@ INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui -
 Please enter command: 
 INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
               +-------------+
-              | gb ch gb gb |
+              | yl yl pk rd |
 +-------------+-------------+
 |             |             |[6]
-|             | gb de       |[5]
-| wh          | ch ru es fr |[4]
-| wh          | fr gb us de |[3]
-| bk          | de ch ru es |[2]
-| bk          | es fr gb us |[1]
-| wh          | us de ch ru |[0]
+|             |             |[5]
+|             |             |[4]
+|             |             |[3]
+|             |             |[2]
+|             |             |[1]
+|             | gr          |[0]
 +-------------+-------------+
                 [3][2][1][0]
 
 INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-The cell at [5],[2] has been set!
+The cell at [0],[3] has been set!
 INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
 Available Colors: yl, gr, rd, bl, or, pk, pu
 INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
@@ -288,20 +283,20 @@ INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui -
 Please enter command: 
 INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
               +-------------+
-              | gb ch gb gb |
+              | yl yl pk rd |
 +-------------+-------------+
 |             |             |[6]
-|             | gb ch       |[5]
-| wh          | ch ru es fr |[4]
-| wh          | fr gb us de |[3]
-| bk          | de ch ru es |[2]
-| bk          | es fr gb us |[1]
-| wh          | us de ch ru |[0]
+|             |             |[5]
+|             |             |[4]
+|             |             |[3]
+|             |             |[2]
+|             |             |[1]
+|             | yl          |[0]
 +-------------+-------------+
                 [3][2][1][0]
 
 INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-The cell at [5],[2] has been set!
+The cell at [0],[3] has been set!
 INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
 Available Colors: yl, gr, rd, bl, or, pk, pu
 INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
@@ -310,20 +305,20 @@ INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui -
 Please enter command: 
 INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
               +-------------+
-              | gb ch gb gb |
+              | yl yl pk rd |
 +-------------+-------------+
 |             |             |[6]
-|             | gb ch ru    |[5]
-| wh          | ch ru es fr |[4]
-| wh          | fr gb us de |[3]
-| bk          | de ch ru es |[2]
-| bk          | es fr gb us |[1]
-| wh          | us de ch ru |[0]
+|             |             |[5]
+|             |             |[4]
+|             |             |[3]
+|             |             |[2]
+|             |             |[1]
+|             | yl or       |[0]
 +-------------+-------------+
                 [3][2][1][0]
 
 INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-The cell at [5],[1] has been set!
+The cell at [0],[2] has been set!
 INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
 Available Colors: yl, gr, rd, bl, or, pk, pu
 INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
@@ -332,20 +327,20 @@ INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui -
 Please enter command: 
 INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
               +-------------+
-              | gb ch gb gb |
+              | yl yl pk rd |
 +-------------+-------------+
 |             |             |[6]
-|             | gb ch es    |[5]
-| wh          | ch ru es fr |[4]
-| wh          | fr gb us de |[3]
-| bk          | de ch ru es |[2]
-| bk          | es fr gb us |[1]
-| wh          | us de ch ru |[0]
+|             |             |[5]
+|             |             |[4]
+|             |             |[3]
+|             |             |[2]
+|             |             |[1]
+|             | yl pu       |[0]
 +-------------+-------------+
                 [3][2][1][0]
 
 INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-The cell at [5],[1] has been set!
+The cell at [0],[2] has been set!
 INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
 Available Colors: yl, gr, rd, bl, or, pk, pu
 INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
@@ -354,20 +349,20 @@ INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui -
 Please enter command: 
 INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
               +-------------+
-              | gb ch gb gb |
+              | yl yl pk rd |
 +-------------+-------------+
 |             |             |[6]
-|             | gb ch fr    |[5]
-| wh          | ch ru es fr |[4]
-| wh          | fr gb us de |[3]
-| bk          | de ch ru es |[2]
-| bk          | es fr gb us |[1]
-| wh          | us de ch ru |[0]
+|             |             |[5]
+|             |             |[4]
+|             |             |[3]
+|             |             |[2]
+|             |             |[1]
+|             | yl pk       |[0]
 +-------------+-------------+
                 [3][2][1][0]
 
 INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-The cell at [5],[1] has been set!
+The cell at [0],[2] has been set!
 INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
 Available Colors: yl, gr, rd, bl, or, pk, pu
 INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
@@ -376,20 +371,20 @@ INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui -
 Please enter command: 
 INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
               +-------------+
-              | gb ch gb gb |
+              | yl yl pk rd |
 +-------------+-------------+
 |             |             |[6]
-|             | gb ch gb    |[5]
-| wh          | ch ru es fr |[4]
-| wh          | fr gb us de |[3]
-| bk          | de ch ru es |[2]
-| bk          | es fr gb us |[1]
-| wh          | us de ch ru |[0]
+|             |             |[5]
+|             |             |[4]
+|             |             |[3]
+|             |             |[2]
+|             |             |[1]
+|             | yl rd       |[0]
 +-------------+-------------+
                 [3][2][1][0]
 
 INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-The cell at [5],[1] has been set!
+The cell at [0],[2] has been set!
 INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
 Available Colors: yl, gr, rd, bl, or, pk, pu
 INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
@@ -398,20 +393,20 @@ INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui -
 Please enter command: 
 INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
               +-------------+
-              | gb ch gb gb |
+              | yl yl pk rd |
 +-------------+-------------+
 |             |             |[6]
-|             | gb ch gb us |[5]
-| wh          | ch ru es fr |[4]
-| wh          | fr gb us de |[3]
-| bk          | de ch ru es |[2]
-| bk          | es fr gb us |[1]
-| wh          | us de ch ru |[0]
+|             |             |[5]
+|             |             |[4]
+|             |             |[3]
+|             |             |[2]
+|             |             |[1]
+|             | yl bl       |[0]
 +-------------+-------------+
                 [3][2][1][0]
 
 INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-The cell at [5],[0] has been set!
+The cell at [0],[2] has been set!
 INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
 Available Colors: yl, gr, rd, bl, or, pk, pu
 INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
@@ -420,26 +415,510 @@ INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui -
 Please enter command: 
 INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
               +-------------+
-              | gb ch gb gb |
+              | yl yl pk rd |
 +-------------+-------------+
 |             |             |[6]
-|             | gb ch gb de |[5]
-| wh          | ch ru es fr |[4]
-| wh          | fr gb us de |[3]
-| bk          | de ch ru es |[2]
-| bk          | es fr gb us |[1]
-| wh          | us de ch ru |[0]
+|             |             |[5]
+|             |             |[4]
+|             |             |[3]
+|             |             |[2]
+|             |             |[1]
+|             | yl gr       |[0]
 +-------------+-------------+
                 [3][2][1][0]
 
 INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-The cell at [5],[0] has been set!
+The cell at [0],[2] has been set!
 INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
 Available Colors: yl, gr, rd, bl, or, pk, pu
 INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
 Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution, zn-sets the size, h-show highscores
 INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
 Please enter command: 
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+              +-------------+
+              | yl yl pk rd |
++-------------+-------------+
+|             |             |[6]
+|             |             |[5]
+|             |             |[4]
+|             |             |[3]
+|             |             |[2]
+|             |             |[1]
+|             | yl yl       |[0]
++-------------+-------------+
+                [3][2][1][0]
+
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+The cell at [0],[2] has been set!
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Available Colors: yl, gr, rd, bl, or, pk, pu
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution, zn-sets the size, h-show highscores
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Please enter command: 
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+              +-------------+
+              | yl yl pk rd |
++-------------+-------------+
+|             |             |[6]
+|             |             |[5]
+|             |             |[4]
+|             |             |[3]
+|             |             |[2]
+|             |             |[1]
+|             | yl yl or    |[0]
++-------------+-------------+
+                [3][2][1][0]
+
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+The cell at [0],[1] has been set!
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Available Colors: yl, gr, rd, bl, or, pk, pu
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution, zn-sets the size, h-show highscores
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Please enter command: 
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+              +-------------+
+              | yl yl pk rd |
++-------------+-------------+
+|             |             |[6]
+|             |             |[5]
+|             |             |[4]
+|             |             |[3]
+|             |             |[2]
+|             |             |[1]
+|             | yl yl pu    |[0]
++-------------+-------------+
+                [3][2][1][0]
+
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+The cell at [0],[1] has been set!
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Available Colors: yl, gr, rd, bl, or, pk, pu
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution, zn-sets the size, h-show highscores
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Please enter command: 
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+              +-------------+
+              | yl yl pk rd |
++-------------+-------------+
+|             |             |[6]
+|             |             |[5]
+|             |             |[4]
+|             |             |[3]
+|             |             |[2]
+|             |             |[1]
+|             | yl yl pk    |[0]
++-------------+-------------+
+                [3][2][1][0]
+
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+The cell at [0],[1] has been set!
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Available Colors: yl, gr, rd, bl, or, pk, pu
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution, zn-sets the size, h-show highscores
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Please enter command: 
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+              +-------------+
+              | yl yl pk rd |
++-------------+-------------+
+|             |             |[6]
+|             |             |[5]
+|             |             |[4]
+|             |             |[3]
+|             |             |[2]
+|             |             |[1]
+|             | yl yl rd    |[0]
++-------------+-------------+
+                [3][2][1][0]
+
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+The cell at [0],[1] has been set!
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Available Colors: yl, gr, rd, bl, or, pk, pu
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution, zn-sets the size, h-show highscores
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Please enter command: 
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+              +-------------+
+              | yl yl pk rd |
++-------------+-------------+
+|             |             |[6]
+|             |             |[5]
+|             |             |[4]
+|             |             |[3]
+|             |             |[2]
+|             |             |[1]
+|             | yl yl bl    |[0]
++-------------+-------------+
+                [3][2][1][0]
+
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+The cell at [0],[1] has been set!
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Available Colors: yl, gr, rd, bl, or, pk, pu
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution, zn-sets the size, h-show highscores
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Please enter command: 
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+              +-------------+
+              | yl yl pk rd |
++-------------+-------------+
+|             |             |[6]
+|             |             |[5]
+|             |             |[4]
+|             |             |[3]
+|             |             |[2]
+|             |             |[1]
+|             | yl yl gr    |[0]
++-------------+-------------+
+                [3][2][1][0]
+
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+The cell at [0],[1] has been set!
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Available Colors: yl, gr, rd, bl, or, pk, pu
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution, zn-sets the size, h-show highscores
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Please enter command: 
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+              +-------------+
+              | yl yl pk rd |
++-------------+-------------+
+|             |             |[6]
+|             |             |[5]
+|             |             |[4]
+|             |             |[3]
+|             |             |[2]
+|             |             |[1]
+|             | yl yl yl    |[0]
++-------------+-------------+
+                [3][2][1][0]
+
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+The cell at [0],[1] has been set!
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Available Colors: yl, gr, rd, bl, or, pk, pu
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution, zn-sets the size, h-show highscores
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Please enter command: 
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+              +-------------+
+              | yl yl pk rd |
++-------------+-------------+
+|             |             |[6]
+|             |             |[5]
+|             |             |[4]
+|             |             |[3]
+|             |             |[2]
+|             |             |[1]
+|             | yl yl or    |[0]
++-------------+-------------+
+                [3][2][1][0]
+
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+The cell at [0],[1] has been set!
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Available Colors: yl, gr, rd, bl, or, pk, pu
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution, zn-sets the size, h-show highscores
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Please enter command: 
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+              +-------------+
+              | yl yl pk rd |
++-------------+-------------+
+|             |             |[6]
+|             |             |[5]
+|             |             |[4]
+|             |             |[3]
+|             |             |[2]
+|             |             |[1]
+|             | yl yl pu    |[0]
++-------------+-------------+
+                [3][2][1][0]
+
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+The cell at [0],[1] has been set!
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Available Colors: yl, gr, rd, bl, or, pk, pu
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution, zn-sets the size, h-show highscores
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Please enter command: 
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+              +-------------+
+              | yl yl pk rd |
++-------------+-------------+
+|             |             |[6]
+|             |             |[5]
+|             |             |[4]
+|             |             |[3]
+|             |             |[2]
+|             |             |[1]
+|             | yl yl pk    |[0]
++-------------+-------------+
+                [3][2][1][0]
+
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+The cell at [0],[1] has been set!
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Available Colors: yl, gr, rd, bl, or, pk, pu
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution, zn-sets the size, h-show highscores
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Please enter command: 
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+              +-------------+
+              | yl yl pk rd |
++-------------+-------------+
+|             |             |[6]
+|             |             |[5]
+|             |             |[4]
+|             |             |[3]
+|             |             |[2]
+|             |             |[1]
+|             | yl yl pk rd |[0]
++-------------+-------------+
+                [3][2][1][0]
+
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+The cell at [0],[0] has been set!
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Available Colors: yl, gr, rd, bl, or, pk, pu
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution, zn-sets the size, h-show highscores
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Please enter command: 
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+              +-------------+
+              | yl yl pk rd |
++-------------+-------------+
+|             |             |[6]
+|             |             |[5]
+|             |             |[4]
+|             |             |[3]
+|             |             |[2]
+|             |             |[1]
+| bk bk bk bk | yl yl pk rd |[0]
++-------------+-------------+
+                [3][2][1][0]
+
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+You have won!!
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Available Colors: yl, gr, rd, bl, or, pk, pu
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution, zn-sets the size, h-show highscores
+INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
+Please enter command: 
+DEBUG AWT-EventQueue-0 org.apache.http.impl.conn.tsccm.ThreadSafeClientConnManager - Get connection: HttpRoute[{}->http://lenny2.in.htwg-konstanz.de:5984], timeout = 1000
+DEBUG AWT-EventQueue-0 org.apache.http.impl.conn.tsccm.ConnPoolByRoute - [HttpRoute[{}->http://lenny2.in.htwg-konstanz.de:5984]] total kept alive: 1, total issued: 0, total allocated: 1 out of 20
+DEBUG AWT-EventQueue-0 org.apache.http.impl.conn.tsccm.ConnPoolByRoute - Getting free connection [HttpRoute[{}->http://lenny2.in.htwg-konstanz.de:5984]][null]
+DEBUG AWT-EventQueue-0 org.apache.http.impl.client.DefaultHttpClient - Stale connection check
+DEBUG AWT-EventQueue-0 org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: best-match
+DEBUG AWT-EventQueue-0 org.apache.http.impl.client.DefaultHttpClient - Attempt 1 to execute request
+DEBUG AWT-EventQueue-0 org.apache.http.impl.conn.DefaultClientConnection - Sending request: GET /mastermind_db/_all_docs HTTP/1.1
+DEBUG AWT-EventQueue-0 org.apache.http.wire - >> "GET /mastermind_db/_all_docs HTTP/1.1[\r][\n]"
+DEBUG AWT-EventQueue-0 org.apache.http.wire - >> "Host: lenny2.in.htwg-konstanz.de:5984[\r][\n]"
+DEBUG AWT-EventQueue-0 org.apache.http.wire - >> "Connection: Keep-Alive[\r][\n]"
+DEBUG AWT-EventQueue-0 org.apache.http.wire - >> "[\r][\n]"
+DEBUG AWT-EventQueue-0 org.apache.http.headers - >> GET /mastermind_db/_all_docs HTTP/1.1
+DEBUG AWT-EventQueue-0 org.apache.http.headers - >> Host: lenny2.in.htwg-konstanz.de:5984
+DEBUG AWT-EventQueue-0 org.apache.http.headers - >> Connection: Keep-Alive
+DEBUG AWT-EventQueue-0 org.apache.http.wire - << "HTTP/1.1 200 OK[\r][\n]"
+DEBUG AWT-EventQueue-0 org.apache.http.wire - << "Transfer-Encoding: chunked[\r][\n]"
+DEBUG AWT-EventQueue-0 org.apache.http.wire - << "Server: CouchDB/1.3.0 (Erlang OTP/R15B03)[\r][\n]"
+DEBUG AWT-EventQueue-0 org.apache.http.wire - << "ETag: "7BQZG9Y4O20OTADJQ9VNOTBON"[\r][\n]"
+DEBUG AWT-EventQueue-0 org.apache.http.wire - << "Date: Wed, 17 Jun 2015 12:19:32 GMT[\r][\n]"
+DEBUG AWT-EventQueue-0 org.apache.http.wire - << "Content-Type: text/plain; charset=utf-8[\r][\n]"
+DEBUG AWT-EventQueue-0 org.apache.http.wire - << "Cache-Control: must-revalidate[\r][\n]"
+DEBUG AWT-EventQueue-0 org.apache.http.wire - << "[\r][\n]"
+DEBUG AWT-EventQueue-0 org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+DEBUG AWT-EventQueue-0 org.apache.http.headers - << HTTP/1.1 200 OK
+DEBUG AWT-EventQueue-0 org.apache.http.headers - << Transfer-Encoding: chunked
+DEBUG AWT-EventQueue-0 org.apache.http.headers - << Server: CouchDB/1.3.0 (Erlang OTP/R15B03)
+DEBUG AWT-EventQueue-0 org.apache.http.headers - << ETag: "7BQZG9Y4O20OTADJQ9VNOTBON"
+DEBUG AWT-EventQueue-0 org.apache.http.headers - << Date: Wed, 17 Jun 2015 12:19:32 GMT
+DEBUG AWT-EventQueue-0 org.apache.http.headers - << Content-Type: text/plain; charset=utf-8
+DEBUG AWT-EventQueue-0 org.apache.http.headers - << Cache-Control: must-revalidate
+DEBUG AWT-EventQueue-0 org.apache.http.impl.client.DefaultHttpClient - Connection can be kept alive indefinitely
+DEBUG AWT-EventQueue-0 org.apache.http.wire - << "25[\r][\n]"
+DEBUG AWT-EventQueue-0 org.apache.http.wire - << "{"total_rows":0,"offset":0,"rows":[[\r][\n]"
+DEBUG AWT-EventQueue-0 org.apache.http.wire - << "[\r][\n]"
+DEBUG AWT-EventQueue-0 org.apache.http.wire - << "4[\r][\n]"
+DEBUG AWT-EventQueue-0 org.apache.http.wire - << "[\r][\n]"
+DEBUG AWT-EventQueue-0 org.apache.http.wire - << "]}"
+DEBUG AWT-EventQueue-0 org.apache.http.wire - << "[\r][\n]"
+DEBUG AWT-EventQueue-0 org.apache.http.wire - << "1[\r][\n]"
+DEBUG AWT-EventQueue-0 org.apache.http.wire - << "[\n]"
+DEBUG AWT-EventQueue-0 org.apache.http.wire - << "[\r][\n]"
+DEBUG AWT-EventQueue-0 org.apache.http.wire - << "0[\r][\n]"
+DEBUG AWT-EventQueue-0 org.apache.http.wire - << "[\r][\n]"
+DEBUG AWT-EventQueue-0 org.apache.http.impl.conn.tsccm.ThreadSafeClientConnManager - Released connection is reusable.
+DEBUG AWT-EventQueue-0 org.apache.http.impl.conn.tsccm.ConnPoolByRoute - Releasing connection [HttpRoute[{}->http://lenny2.in.htwg-konstanz.de:5984]][null]
+DEBUG AWT-EventQueue-0 org.apache.http.impl.conn.tsccm.ConnPoolByRoute - Pooling connection [HttpRoute[{}->http://lenny2.in.htwg-konstanz.de:5984]][null]; keep alive indefinitely
+DEBUG AWT-EventQueue-0 org.apache.http.impl.conn.tsccm.ConnPoolByRoute - Notifying no-one, there are no waiting threads
+DEBUG AWT-EventQueue-0 org.ektorp.impl.StreamingJsonSerializer - {"name":"b","actualRow":1,"rowsAmount":8,"columnsAmount":8,"date":"2015/06/17 14:19:39","_id":"79a35ad7-1894-48c3-81b9-ac3624238590"}
+DEBUG AWT-EventQueue-0 org.apache.http.impl.client.cache.CacheInvalidator - Request should not be cached
+DEBUG AWT-EventQueue-0 org.apache.http.impl.client.cache.CacheInvalidator - parent entry: null
+DEBUG AWT-EventQueue-0 org.apache.http.impl.client.cache.CacheableRequestPolicy - Request was not serveable from cache
+DEBUG AWT-EventQueue-0 org.apache.http.impl.client.cache.CachingHttpClient - Calling the backend
+DEBUG AWT-EventQueue-0 org.apache.http.impl.conn.tsccm.ThreadSafeClientConnManager - Get connection: HttpRoute[{}->http://lenny2.in.htwg-konstanz.de:5984], timeout = 1000
+DEBUG AWT-EventQueue-0 org.apache.http.impl.conn.tsccm.ConnPoolByRoute - [HttpRoute[{}->http://lenny2.in.htwg-konstanz.de:5984]] total kept alive: 1, total issued: 0, total allocated: 1 out of 20
+DEBUG AWT-EventQueue-0 org.apache.http.impl.conn.tsccm.ConnPoolByRoute - Getting free connection [HttpRoute[{}->http://lenny2.in.htwg-konstanz.de:5984]][null]
+DEBUG AWT-EventQueue-0 org.apache.http.impl.client.DefaultHttpClient - Stale connection check
+DEBUG AWT-EventQueue-0 org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: best-match
+DEBUG AWT-EventQueue-0 org.apache.http.impl.client.DefaultHttpClient - Attempt 1 to execute request
+DEBUG AWT-EventQueue-0 org.apache.http.impl.conn.DefaultClientConnection - Sending request: PUT /mastermind_db/79a35ad7-1894-48c3-81b9-ac3624238590 HTTP/1.1
+DEBUG AWT-EventQueue-0 org.apache.http.wire - >> "PUT /mastermind_db/79a35ad7-1894-48c3-81b9-ac3624238590 HTTP/1.1[\r][\n]"
+DEBUG AWT-EventQueue-0 org.apache.http.wire - >> "Via: 1.1 localhost (Apache-HttpClient/4.1 (cache))[\r][\n]"
+DEBUG AWT-EventQueue-0 org.apache.http.wire - >> "Content-Length: 133[\r][\n]"
+DEBUG AWT-EventQueue-0 org.apache.http.wire - >> "Content-Type: application/json[\r][\n]"
+DEBUG AWT-EventQueue-0 org.apache.http.wire - >> "Host: lenny2.in.htwg-konstanz.de:5984[\r][\n]"
+DEBUG AWT-EventQueue-0 org.apache.http.wire - >> "Connection: Keep-Alive[\r][\n]"
+DEBUG AWT-EventQueue-0 org.apache.http.wire - >> "Expect: 100-continue[\r][\n]"
+DEBUG AWT-EventQueue-0 org.apache.http.wire - >> "[\r][\n]"
+DEBUG AWT-EventQueue-0 org.apache.http.headers - >> PUT /mastermind_db/79a35ad7-1894-48c3-81b9-ac3624238590 HTTP/1.1
+DEBUG AWT-EventQueue-0 org.apache.http.headers - >> Via: 1.1 localhost (Apache-HttpClient/4.1 (cache))
+DEBUG AWT-EventQueue-0 org.apache.http.headers - >> Content-Length: 133
+DEBUG AWT-EventQueue-0 org.apache.http.headers - >> Content-Type: application/json
+DEBUG AWT-EventQueue-0 org.apache.http.headers - >> Host: lenny2.in.htwg-konstanz.de:5984
+DEBUG AWT-EventQueue-0 org.apache.http.headers - >> Connection: Keep-Alive
+DEBUG AWT-EventQueue-0 org.apache.http.headers - >> Expect: 100-continue
+DEBUG AWT-EventQueue-0 org.apache.http.wire - << "HTTP/1.1 100 Continue[\r][\n]"
+DEBUG AWT-EventQueue-0 org.apache.http.wire - << "[\r][\n]"
+DEBUG AWT-EventQueue-0 org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 100 Continue
+DEBUG AWT-EventQueue-0 org.apache.http.headers - << HTTP/1.1 100 Continue
+DEBUG AWT-EventQueue-0 org.apache.http.wire - >> "{"name":"b","actualRow":1,"rowsAmount":8,"columnsAmount":8,"date":"2015/06/17 14:19:39","_id":"79a35ad7-1894-48c3-81b9-ac3624238590"}"
+DEBUG AWT-EventQueue-0 org.apache.http.wire - << "HTTP/1.1 201 Created[\r][\n]"
+DEBUG AWT-EventQueue-0 org.apache.http.wire - << "Server: CouchDB/1.3.0 (Erlang OTP/R15B03)[\r][\n]"
+DEBUG AWT-EventQueue-0 org.apache.http.wire - << "Location: http://lenny2.in.htwg-konstanz.de:5984/mastermind_db/79a35ad7-1894-48c3-81b9-ac3624238590[\r][\n]"
+DEBUG AWT-EventQueue-0 org.apache.http.wire - << "ETag: "1-15269f5e0980c09adfe26855fec5131b"[\r][\n]"
+DEBUG AWT-EventQueue-0 org.apache.http.wire - << "Date: Wed, 17 Jun 2015 12:19:39 GMT[\r][\n]"
+DEBUG AWT-EventQueue-0 org.apache.http.wire - << "Content-Type: text/plain; charset=utf-8[\r][\n]"
+DEBUG AWT-EventQueue-0 org.apache.http.wire - << "Content-Length: 99[\r][\n]"
+DEBUG AWT-EventQueue-0 org.apache.http.wire - << "Cache-Control: must-revalidate[\r][\n]"
+DEBUG AWT-EventQueue-0 org.apache.http.wire - << "[\r][\n]"
+DEBUG AWT-EventQueue-0 org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 201 Created
+DEBUG AWT-EventQueue-0 org.apache.http.headers - << HTTP/1.1 201 Created
+DEBUG AWT-EventQueue-0 org.apache.http.headers - << Server: CouchDB/1.3.0 (Erlang OTP/R15B03)
+DEBUG AWT-EventQueue-0 org.apache.http.headers - << Location: http://lenny2.in.htwg-konstanz.de:5984/mastermind_db/79a35ad7-1894-48c3-81b9-ac3624238590
+DEBUG AWT-EventQueue-0 org.apache.http.headers - << ETag: "1-15269f5e0980c09adfe26855fec5131b"
+DEBUG AWT-EventQueue-0 org.apache.http.headers - << Date: Wed, 17 Jun 2015 12:19:39 GMT
+DEBUG AWT-EventQueue-0 org.apache.http.headers - << Content-Type: text/plain; charset=utf-8
+DEBUG AWT-EventQueue-0 org.apache.http.headers - << Content-Length: 99
+DEBUG AWT-EventQueue-0 org.apache.http.headers - << Cache-Control: must-revalidate
+DEBUG AWT-EventQueue-0 org.apache.http.impl.client.DefaultHttpClient - Connection can be kept alive indefinitely
+DEBUG AWT-EventQueue-0 org.apache.http.impl.client.cache.CachingHttpClient - Handling Backend response
+DEBUG AWT-EventQueue-0 org.apache.http.impl.client.cache.ResponseCachingPolicy - Response was not cacheable.
+DEBUG AWT-EventQueue-0 org.apache.http.wire - << "{"ok":true,"id":"79a35ad7-1894-48c3-81b9-ac3624238590","rev":"1-15269f5e0980c09adfe26855fec5131b"}[\n]"
+DEBUG AWT-EventQueue-0 org.apache.http.impl.conn.tsccm.ThreadSafeClientConnManager - Released connection is reusable.
+DEBUG AWT-EventQueue-0 org.apache.http.impl.conn.tsccm.ConnPoolByRoute - Releasing connection [HttpRoute[{}->http://lenny2.in.htwg-konstanz.de:5984]][null]
+DEBUG AWT-EventQueue-0 org.apache.http.impl.conn.tsccm.ConnPoolByRoute - Pooling connection [HttpRoute[{}->http://lenny2.in.htwg-konstanz.de:5984]][null]; keep alive indefinitely
+DEBUG AWT-EventQueue-0 org.apache.http.impl.conn.tsccm.ConnPoolByRoute - Notifying no-one, there are no waiting threads
+DEBUG AWT-EventQueue-0 org.apache.http.impl.conn.tsccm.ThreadSafeClientConnManager - Get connection: HttpRoute[{}->http://lenny2.in.htwg-konstanz.de:5984], timeout = 1000
+DEBUG AWT-EventQueue-0 org.apache.http.impl.conn.tsccm.ConnPoolByRoute - [HttpRoute[{}->http://lenny2.in.htwg-konstanz.de:5984]] total kept alive: 1, total issued: 0, total allocated: 1 out of 20
+DEBUG AWT-EventQueue-0 org.apache.http.impl.conn.tsccm.ConnPoolByRoute - Getting free connection [HttpRoute[{}->http://lenny2.in.htwg-konstanz.de:5984]][null]
+DEBUG AWT-EventQueue-0 org.apache.http.impl.client.DefaultHttpClient - Stale connection check
+DEBUG AWT-EventQueue-0 org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: best-match
+DEBUG AWT-EventQueue-0 org.apache.http.impl.client.DefaultHttpClient - Attempt 1 to execute request
+DEBUG AWT-EventQueue-0 org.apache.http.impl.conn.DefaultClientConnection - Sending request: GET /mastermind_db/_all_docs HTTP/1.1
+DEBUG AWT-EventQueue-0 org.apache.http.wire - >> "GET /mastermind_db/_all_docs HTTP/1.1[\r][\n]"
+DEBUG AWT-EventQueue-0 org.apache.http.wire - >> "Host: lenny2.in.htwg-konstanz.de:5984[\r][\n]"
+DEBUG AWT-EventQueue-0 org.apache.http.wire - >> "Connection: Keep-Alive[\r][\n]"
+DEBUG AWT-EventQueue-0 org.apache.http.wire - >> "[\r][\n]"
+DEBUG AWT-EventQueue-0 org.apache.http.headers - >> GET /mastermind_db/_all_docs HTTP/1.1
+DEBUG AWT-EventQueue-0 org.apache.http.headers - >> Host: lenny2.in.htwg-konstanz.de:5984
+DEBUG AWT-EventQueue-0 org.apache.http.headers - >> Connection: Keep-Alive
+DEBUG AWT-EventQueue-0 org.apache.http.wire - << "HTTP/1.1 200 OK[\r][\n]"
+DEBUG AWT-EventQueue-0 org.apache.http.wire - << "Transfer-Encoding: chunked[\r][\n]"
+DEBUG AWT-EventQueue-0 org.apache.http.wire - << "Server: CouchDB/1.3.0 (Erlang OTP/R15B03)[\r][\n]"
+DEBUG AWT-EventQueue-0 org.apache.http.wire - << "ETag: "Q4NUW74X3NHNHAJWZWMMTY8V"[\r][\n]"
+DEBUG AWT-EventQueue-0 org.apache.http.wire - << "Date: Wed, 17 Jun 2015 12:19:49 GMT[\r][\n]"
+DEBUG AWT-EventQueue-0 org.apache.http.wire - << "Content-Type: text/plain; charset=utf-8[\r][\n]"
+DEBUG AWT-EventQueue-0 org.apache.http.wire - << "Cache-Control: must-revalidate[\r][\n]"
+DEBUG AWT-EventQueue-0 org.apache.http.wire - << "[\r][\n]"
+DEBUG AWT-EventQueue-0 org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+DEBUG AWT-EventQueue-0 org.apache.http.headers - << HTTP/1.1 200 OK
+DEBUG AWT-EventQueue-0 org.apache.http.headers - << Transfer-Encoding: chunked
+DEBUG AWT-EventQueue-0 org.apache.http.headers - << Server: CouchDB/1.3.0 (Erlang OTP/R15B03)
+DEBUG AWT-EventQueue-0 org.apache.http.headers - << ETag: "Q4NUW74X3NHNHAJWZWMMTY8V"
+DEBUG AWT-EventQueue-0 org.apache.http.headers - << Date: Wed, 17 Jun 2015 12:19:49 GMT
+DEBUG AWT-EventQueue-0 org.apache.http.headers - << Content-Type: text/plain; charset=utf-8
+DEBUG AWT-EventQueue-0 org.apache.http.headers - << Cache-Control: must-revalidate
+DEBUG AWT-EventQueue-0 org.apache.http.impl.client.DefaultHttpClient - Connection can be kept alive indefinitely
+DEBUG AWT-EventQueue-0 org.apache.http.wire - << "25[\r][\n]"
+DEBUG AWT-EventQueue-0 org.apache.http.wire - << "{"total_rows":1,"offset":0,"rows":[[\r][\n]"
+DEBUG AWT-EventQueue-0 org.apache.http.wire - << "[\r][\n]"
+DEBUG AWT-EventQueue-0 org.apache.http.wire - << "8f[\r][\n]"
+DEBUG AWT-EventQueue-0 org.apache.http.wire - << "{"id":"79a35ad7-1894-48c3-81b9-ac3624238590","key":"79a35ad7-1894-48c3-81b9-ac3624238590","value":{"rev":"1-15269f5e0980c09adfe26855fec5131b"}}"
+DEBUG AWT-EventQueue-0 org.apache.http.wire - << "[\r][\n]"
+DEBUG AWT-EventQueue-0 org.apache.http.wire - << "4[\r][\n]"
+DEBUG AWT-EventQueue-0 org.apache.http.wire - << "[\r][\n]"
+DEBUG AWT-EventQueue-0 org.apache.http.wire - << "]}"
+DEBUG AWT-EventQueue-0 org.apache.http.wire - << "[\r][\n]"
+DEBUG AWT-EventQueue-0 org.apache.http.wire - << "1[\r][\n]"
+DEBUG AWT-EventQueue-0 org.apache.http.wire - << "[\n]"
+DEBUG AWT-EventQueue-0 org.apache.http.wire - << "[\r][\n]"
+DEBUG AWT-EventQueue-0 org.apache.http.wire - << "0[\r][\n]"
+DEBUG AWT-EventQueue-0 org.apache.http.wire - << "[\r][\n]"
+DEBUG AWT-EventQueue-0 org.apache.http.impl.conn.tsccm.ThreadSafeClientConnManager - Released connection is reusable.
+DEBUG AWT-EventQueue-0 org.apache.http.impl.conn.tsccm.ConnPoolByRoute - Releasing connection [HttpRoute[{}->http://lenny2.in.htwg-konstanz.de:5984]][null]
+DEBUG AWT-EventQueue-0 org.apache.http.impl.conn.tsccm.ConnPoolByRoute - Pooling connection [HttpRoute[{}->http://lenny2.in.htwg-konstanz.de:5984]][null]; keep alive indefinitely
+DEBUG AWT-EventQueue-0 org.apache.http.impl.conn.tsccm.ConnPoolByRoute - Notifying no-one, there are no waiting threads
+DEBUG AWT-EventQueue-0 org.apache.http.impl.client.cache.CacheableRequestPolicy - Request was serveable from cache
+DEBUG AWT-EventQueue-0 org.apache.http.impl.client.cache.CachingHttpClient - Cache miss [host: http://lenny2.in.htwg-konstanz.de:5984; uri: /mastermind_db/79a35ad7-1894-48c3-81b9-ac3624238590]
+DEBUG AWT-EventQueue-0 org.apache.http.impl.client.cache.CachingHttpClient - Calling the backend
+DEBUG AWT-EventQueue-0 org.apache.http.impl.conn.tsccm.ThreadSafeClientConnManager - Get connection: HttpRoute[{}->http://lenny2.in.htwg-konstanz.de:5984], timeout = 1000
+DEBUG AWT-EventQueue-0 org.apache.http.impl.conn.tsccm.ConnPoolByRoute - [HttpRoute[{}->http://lenny2.in.htwg-konstanz.de:5984]] total kept alive: 1, total issued: 0, total allocated: 1 out of 20
+DEBUG AWT-EventQueue-0 org.apache.http.impl.conn.tsccm.ConnPoolByRoute - Getting free connection [HttpRoute[{}->http://lenny2.in.htwg-konstanz.de:5984]][null]
+DEBUG AWT-EventQueue-0 org.apache.http.impl.client.DefaultHttpClient - Stale connection check
+DEBUG AWT-EventQueue-0 org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: best-match
+DEBUG AWT-EventQueue-0 org.apache.http.impl.client.DefaultHttpClient - Attempt 1 to execute request
+DEBUG AWT-EventQueue-0 org.apache.http.impl.conn.DefaultClientConnection - Sending request: GET /mastermind_db/79a35ad7-1894-48c3-81b9-ac3624238590 HTTP/1.1
+DEBUG AWT-EventQueue-0 org.apache.http.wire - >> "GET /mastermind_db/79a35ad7-1894-48c3-81b9-ac3624238590 HTTP/1.1[\r][\n]"
+DEBUG AWT-EventQueue-0 org.apache.http.wire - >> "Via: 1.1 localhost (Apache-HttpClient/4.1 (cache))[\r][\n]"
+DEBUG AWT-EventQueue-0 org.apache.http.wire - >> "Host: lenny2.in.htwg-konstanz.de:5984[\r][\n]"
+DEBUG AWT-EventQueue-0 org.apache.http.wire - >> "Connection: Keep-Alive[\r][\n]"
+DEBUG AWT-EventQueue-0 org.apache.http.wire - >> "[\r][\n]"
+DEBUG AWT-EventQueue-0 org.apache.http.headers - >> GET /mastermind_db/79a35ad7-1894-48c3-81b9-ac3624238590 HTTP/1.1
+DEBUG AWT-EventQueue-0 org.apache.http.headers - >> Via: 1.1 localhost (Apache-HttpClient/4.1 (cache))
+DEBUG AWT-EventQueue-0 org.apache.http.headers - >> Host: lenny2.in.htwg-konstanz.de:5984
+DEBUG AWT-EventQueue-0 org.apache.http.headers - >> Connection: Keep-Alive
+DEBUG AWT-EventQueue-0 org.apache.http.wire - << "HTTP/1.1 200 OK[\r][\n]"
+DEBUG AWT-EventQueue-0 org.apache.http.wire - << "Server: CouchDB/1.3.0 (Erlang OTP/R15B03)[\r][\n]"
+DEBUG AWT-EventQueue-0 org.apache.http.wire - << "ETag: "1-15269f5e0980c09adfe26855fec5131b"[\r][\n]"
+DEBUG AWT-EventQueue-0 org.apache.http.wire - << "Date: Wed, 17 Jun 2015 12:19:49 GMT[\r][\n]"
+DEBUG AWT-EventQueue-0 org.apache.http.wire - << "Content-Type: text/plain; charset=utf-8[\r][\n]"
+DEBUG AWT-EventQueue-0 org.apache.http.wire - << "Content-Length: 178[\r][\n]"
+DEBUG AWT-EventQueue-0 org.apache.http.wire - << "Cache-Control: must-revalidate[\r][\n]"
+DEBUG AWT-EventQueue-0 org.apache.http.wire - << "[\r][\n]"
+DEBUG AWT-EventQueue-0 org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+DEBUG AWT-EventQueue-0 org.apache.http.headers - << HTTP/1.1 200 OK
+DEBUG AWT-EventQueue-0 org.apache.http.headers - << Server: CouchDB/1.3.0 (Erlang OTP/R15B03)
+DEBUG AWT-EventQueue-0 org.apache.http.headers - << ETag: "1-15269f5e0980c09adfe26855fec5131b"
+DEBUG AWT-EventQueue-0 org.apache.http.headers - << Date: Wed, 17 Jun 2015 12:19:49 GMT
+DEBUG AWT-EventQueue-0 org.apache.http.headers - << Content-Type: text/plain; charset=utf-8
+DEBUG AWT-EventQueue-0 org.apache.http.headers - << Content-Length: 178
+DEBUG AWT-EventQueue-0 org.apache.http.headers - << Cache-Control: must-revalidate
+DEBUG AWT-EventQueue-0 org.apache.http.impl.client.DefaultHttpClient - Connection can be kept alive indefinitely
+DEBUG AWT-EventQueue-0 org.apache.http.impl.client.cache.CachingHttpClient - Handling Backend response
+DEBUG AWT-EventQueue-0 org.apache.http.impl.client.cache.ResponseCachingPolicy - Response was cacheable
+DEBUG AWT-EventQueue-0 org.apache.http.wire - << "{"_id":"79a35ad7-1894-48c3-81b9-ac3624238590","_rev":"1-15269f5e0980c09adfe26855fec5131b","name":"b","actualRow":1,"rowsAmount":8,"columnsAmount":8,"date":"2015/06/17 14:19:39"}[\n]"
+DEBUG AWT-EventQueue-0 org.apache.http.impl.conn.tsccm.ThreadSafeClientConnManager - Released connection is reusable.
+DEBUG AWT-EventQueue-0 org.apache.http.impl.conn.tsccm.ConnPoolByRoute - Releasing connection [HttpRoute[{}->http://lenny2.in.htwg-konstanz.de:5984]][null]
+DEBUG AWT-EventQueue-0 org.apache.http.impl.conn.tsccm.ConnPoolByRoute - Pooling connection [HttpRoute[{}->http://lenny2.in.htwg-konstanz.de:5984]][null]; keep alive indefinitely
+DEBUG AWT-EventQueue-0 org.apache.http.impl.conn.tsccm.ConnPoolByRoute - Notifying no-one, there are no waiting threads
 INFO main org.hibernate.cfg.annotations.Version - Hibernate Annotations 3.4.0.GA
 INFO main org.hibernate.cfg.Environment - Hibernate 3.3.2.GA
 INFO main org.hibernate.cfg.Environment - hibernate.properties not found
@@ -460,7 +939,7 @@ DEBUG main org.hibernate.cfg.Configuration - hibernate.hbm2ddl.auto=update
 DEBUG main org.hibernate.cfg.Configuration - show_sql=false
 DEBUG main org.hibernate.cfg.AnnotationConfiguration - null <- org.dom4j.tree.DefaultAttribute@587c290d [Attribute: name class value "de.htwg.se.mastermind.persistence.hibernate.PersistentGrid"]
 INFO main org.hibernate.cfg.Configuration - Configured SessionFactory: null
-DEBUG main org.hibernate.cfg.Configuration - properties: {java.vendor=Oracle Corporation, show_sql=false, sun.java.launcher=SUN_STANDARD, hibernate.connection.url=jdbc:mysql://lenny2.in.htwg-konstanz.de:3306/games?createDatabaseIfNotExist=true, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, os.name=Windows 7, sun.boot.class.path=C:\Program Files\Java\jdk1.8.0_40\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_40\jre\classes, hibernate.current_session_context_class=thread, sun.desktop=windows, java.vm.specification.vendor=Oracle Corporation, java.runtime.version=1.8.0_40-b26, user.name=andmaier, connection.driver_class=com.mysql.jdbc.Driver, current_session_context_class=thread, idea.launcher.bin.path=C:\Program Files (x86)\JetBrains\IntelliJ IDEA Community Edition 14.0.3\bin, user.language=de, sun.boot.library.path=C:\Program Files\Java\jdk1.8.0_40\jre\bin, dialect=org.hibernate.dialect.MySQL5Dialect, java.version=1.8.0_40, user.timezone=Europe/Berlin, sun.arch.data.model=64, java.endorsed.dirs=C:\Program Files\Java\jdk1.8.0_40\jre\lib\endorsed, sun.cpu.isalist=amd64, sun.jnu.encoding=Cp1252, file.encoding.pkg=sun.io, file.separator=\, java.specification.name=Java Platform API Specification, java.class.version=52.0, user.country=DE, connection.url=jdbc:mysql://lenny2.in.htwg-konstanz.de:3306/games?createDatabaseIfNotExist=true, java.home=C:\Program Files\Java\jdk1.8.0_40\jre, java.vm.info=mixed mode, os.version=6.1, path.separator=;, connection.password=htwg, java.vm.version=25.40-b25, hibernate.connection.password=htwg, user.variant=, java.awt.printerjob=sun.awt.windows.WPrinterJob, sun.io.unicode.encoding=UnicodeLittle, awt.toolkit=sun.awt.windows.WToolkit, hibernate.connection.username=htwg, user.script=, user.home=C:\Users\andmaier, java.specification.vendor=Oracle Corporation, hibernate.hbm2ddl.auto=update, java.library.path=C:\Program Files\Java\jdk1.8.0_40\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Java\jdk1.8.0_40\bin;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Heroku\bin;C:\Program Files (x86)\git\cmd;C:\Program Files\MATLAB\R2013b\bin;C:\Program Files (x86)\sbt\\bin;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\sonarqube-5.0.1\bin\windows-x86-64;C:\Program Files\MySQL\MySQL Server 5.6\bin;C:\Program Files (x86)\sonar-runner-2.4\bin;C:\Program Files\activator-1.3.2-minimal;C:\Program Files\gradle-2.2.1\bin;C:\Program Files (x86)\Structure101\java;., java.vendor.url=http://java.oracle.com/, hibernate.connection.driver_class=com.mysql.jdbc.Driver, connection.username=htwg, java.vm.vendor=Oracle Corporation, hibernate.dialect=org.hibernate.dialect.MySQL5Dialect, java.runtime.name=Java(TM) SE Runtime Environment, sun.java.command=com.intellij.rt.execution.application.AppMain de.htwg.se.mastermind.Mastermind, java.class.path=C:\Program Files\Java\jdk1.8.0_40\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\ext\zipfs.jar;C:\Users\andmaier\Documents\sar\de.htwg.se.mastermind\out\production\de.htwg.se.mastermind;C:\Users\andmaier\Documents\sar\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\log4j-1.2.17.jar;C:\Users\andmaier\Documents\sar\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\aopalliance.jar;C:\Users\andmaier\Documents\sar\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\javax.inject.jar;C:\Users\andmaier\Documents\sar\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\guice-3.0.jar;C:\Users\andmaier\Documents\sar\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\guice-assistedinject-3.0.jar;C:\Users\andmaier\Documents\sar\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\db4o-8.0.249.16098-all-java5.jar;C:\Users\andmaier\Documents\sar\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\org.ektorp-1.2.2.jar;C:\Users\andmaier\Documents\sar\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\antlr-2.7.6.jar;C:\Users\andmaier\Documents\sar\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\apache-httpcomponents-httpclient-cache.jar;C:\Users\andmaier\Documents\sar\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\cglib-2.2.jar;C:\Users\andmaier\Documents\sar\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\commons-collections-3.1.jar;C:\Users\andmaier\Documents\sar\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\commons-logging-1.2.jar;C:\Users\andmaier\Documents\sar\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\dom4j-1.6.1.jar;C:\Users\andmaier\Documents\sar\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\ejb3-persistence.jar;C:\Users\andmaier\Documents\sar\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\hibernate3.jar;C:\Users\andmaier\Documents\sar\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\hibernate-annotations.jar;C:\Users\andmaier\Documents\sar\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\http-core-4.1.jar;C:\Users\andmaier\Documents\sar\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\httpclient-4.1.jar;C:\Users\andmaier\Documents\sar\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\jackson-all-1.9.0.jar;C:\Users\andmaier\Documents\sar\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\javassist-3.9.0.GA.jar;C:\Users\andmaier\Documents\sar\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\jta-1.1.jar;C:\Users\andmaier\Documents\sar\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\log4j.jar;C:\Users\andmaier\Documents\sar\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\persistence-api-1.0.jar;C:\Users\andmaier\Documents\sar\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\slf4j-api-1.5.8.jar;C:\Users\andmaier\Documents\sar\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\slf4j-api-1.7.12.jar;C:\Users\andmaier\Documents\sar\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\slf4j-log4j12.jar;C:\Users\andmaier\Documents\sar\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\hibernate-commons-annotations-3.0.0.ga.jar;C:\Users\andmaier\Documents\sar\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\com.mysql.jdbc_5.1.5.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA Community Edition 14.0.3\lib\idea_rt.jar, hibernate.bytecode.use_reflection_optimizer=false, idea.launcher.port=7532, java.vm.specification.name=Java Virtual Machine Specification, java.vm.specification.version=1.8, sun.cpu.endian=little, sun.os.patch.level=Service Pack 1, java.io.tmpdir=C:\Users\andmaier\AppData\Local\Temp\, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, os.arch=amd64, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, java.ext.dirs=C:\Program Files\Java\jdk1.8.0_40\jre\lib\ext;C:\windows\Sun\Java\lib\ext, user.dir=C:\Users\andmaier\Documents\sar\de.htwg.se.mastermind, line.separator=
+DEBUG main org.hibernate.cfg.Configuration - properties: {java.vendor=Oracle Corporation, show_sql=false, sun.java.launcher=SUN_STANDARD, hibernate.connection.url=jdbc:mysql://lenny2.in.htwg-konstanz.de:3306/games?createDatabaseIfNotExist=true, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, os.name=Windows 7, sun.boot.class.path=C:\Program Files\Java\jdk1.8.0_40\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_40\jre\classes, hibernate.current_session_context_class=thread, sun.desktop=windows, java.vm.specification.vendor=Oracle Corporation, java.runtime.version=1.8.0_40-b26, user.name=andmaier, connection.driver_class=com.mysql.jdbc.Driver, current_session_context_class=thread, idea.launcher.bin.path=C:\Program Files (x86)\JetBrains\IntelliJ IDEA Community Edition 14.0.3\bin, user.language=de, sun.boot.library.path=C:\Program Files\Java\jdk1.8.0_40\jre\bin, dialect=org.hibernate.dialect.MySQL5Dialect, java.version=1.8.0_40, user.timezone=Europe/Berlin, sun.arch.data.model=64, java.endorsed.dirs=C:\Program Files\Java\jdk1.8.0_40\jre\lib\endorsed, sun.cpu.isalist=amd64, sun.jnu.encoding=Cp1252, file.encoding.pkg=sun.io, file.separator=\, java.specification.name=Java Platform API Specification, java.class.version=52.0, user.country=DE, connection.url=jdbc:mysql://lenny2.in.htwg-konstanz.de:3306/games?createDatabaseIfNotExist=true, java.home=C:\Program Files\Java\jdk1.8.0_40\jre, java.vm.info=mixed mode, os.version=6.1, path.separator=;, connection.password=htwg, java.vm.version=25.40-b25, hibernate.connection.password=htwg, user.variant=, java.awt.printerjob=sun.awt.windows.WPrinterJob, sun.io.unicode.encoding=UnicodeLittle, awt.toolkit=sun.awt.windows.WToolkit, hibernate.connection.username=htwg, user.script=, user.home=C:\Users\andmaier, java.specification.vendor=Oracle Corporation, hibernate.hbm2ddl.auto=update, java.library.path=C:\Program Files\Java\jdk1.8.0_40\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Java\jdk1.8.0_40\bin;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Heroku\bin;C:\Program Files (x86)\git\cmd;C:\Program Files\MATLAB\R2013b\bin;C:\Program Files (x86)\sbt\\bin;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\sonarqube-5.0.1\bin\windows-x86-64;C:\Program Files\MySQL\MySQL Server 5.6\bin;C:\Program Files (x86)\sonar-runner-2.4\bin;C:\Program Files\activator-1.3.2-minimal;C:\Program Files\gradle-2.2.1\bin;C:\Program Files (x86)\Structure101\java;., java.vendor.url=http://java.oracle.com/, hibernate.connection.driver_class=com.mysql.jdbc.Driver, connection.username=htwg, java.vm.vendor=Oracle Corporation, hibernate.dialect=org.hibernate.dialect.MySQL5Dialect, java.runtime.name=Java(TM) SE Runtime Environment, sun.java.command=com.intellij.rt.execution.application.AppMain de.htwg.se.mastermind.Mastermind, java.class.path=C:\Program Files\Java\jdk1.8.0_40\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\ext\zipfs.jar;C:\Users\andmaier\Documents\sa\de.htwg.se.mastermind\out\production\de.htwg.se.mastermind;C:\Users\andmaier\Documents\sa\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\log4j-1.2.17.jar;C:\Users\andmaier\Documents\sa\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\aopalliance.jar;C:\Users\andmaier\Documents\sa\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\javax.inject.jar;C:\Users\andmaier\Documents\sa\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\guice-3.0.jar;C:\Users\andmaier\Documents\sa\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\guice-assistedinject-3.0.jar;C:\Users\andmaier\Documents\sa\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\db4o-8.0.249.16098-all-java5.jar;C:\Users\andmaier\Documents\sa\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\org.ektorp-1.2.2.jar;C:\Users\andmaier\Documents\sa\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\antlr-2.7.6.jar;C:\Users\andmaier\Documents\sa\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\apache-httpcomponents-httpclient-cache.jar;C:\Users\andmaier\Documents\sa\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\cglib-2.2.jar;C:\Users\andmaier\Documents\sa\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\commons-collections-3.1.jar;C:\Users\andmaier\Documents\sa\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\commons-logging-1.2.jar;C:\Users\andmaier\Documents\sa\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\dom4j-1.6.1.jar;C:\Users\andmaier\Documents\sa\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\ejb3-persistence.jar;C:\Users\andmaier\Documents\sa\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\hibernate3.jar;C:\Users\andmaier\Documents\sa\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\hibernate-annotations.jar;C:\Users\andmaier\Documents\sa\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\http-core-4.1.jar;C:\Users\andmaier\Documents\sa\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\httpclient-4.1.jar;C:\Users\andmaier\Documents\sa\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\javassist-3.9.0.GA.jar;C:\Users\andmaier\Documents\sa\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\jta-1.1.jar;C:\Users\andmaier\Documents\sa\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\log4j.jar;C:\Users\andmaier\Documents\sa\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\persistence-api-1.0.jar;C:\Users\andmaier\Documents\sa\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\slf4j-api-1.5.8.jar;C:\Users\andmaier\Documents\sa\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\slf4j-api-1.7.12.jar;C:\Users\andmaier\Documents\sa\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\slf4j-log4j12.jar;C:\Users\andmaier\Documents\sa\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\hibernate-commons-annotations-3.0.0.ga.jar;C:\Users\andmaier\Documents\sa\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\com.mysql.jdbc_5.1.5.jar;C:\Users\andmaier\Documents\sa\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\jackson-all-1.9.9.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA Community Edition 14.0.3\lib\idea_rt.jar, hibernate.bytecode.use_reflection_optimizer=false, idea.launcher.port=7542, java.vm.specification.name=Java Virtual Machine Specification, java.vm.specification.version=1.8, sun.cpu.endian=little, sun.os.patch.level=Service Pack 1, java.io.tmpdir=C:\Users\andmaier\AppData\Local\Temp\, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, os.arch=amd64, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, java.ext.dirs=C:\Program Files\Java\jdk1.8.0_40\jre\lib\ext;C:\windows\Sun\Java\lib\ext, user.dir=C:\Users\andmaier\Documents\sa\de.htwg.se.mastermind, line.separator=
 , java.vm.name=Java HotSpot(TM) 64-Bit Server VM, file.encoding=UTF-8, java.specification.version=1.8, hibernate.show_sql=false}
 DEBUG main org.hibernate.cfg.AnnotationConfiguration - Validator not present in classpath, ignoring event listener registration
 DEBUG main org.hibernate.cfg.search.HibernateSearchEventListenerRegister - Search not present in classpath, ignoring event listener registration.
@@ -553,7 +1032,7 @@ INFO main org.hibernate.cfg.SettingsFactory - Default entity-mode: pojo
 INFO main org.hibernate.cfg.SettingsFactory - Named query checking : enabled
 INFO main org.hibernate.impl.SessionFactoryImpl - building session factory
 DEBUG main org.hibernate.impl.SessionFactoryImpl - Session factory constructed with filter configurations : {}
-DEBUG main org.hibernate.impl.SessionFactoryImpl - instantiating session factory with properties: {java.vendor=Oracle Corporation, show_sql=false, sun.java.launcher=SUN_STANDARD, hibernate.connection.url=jdbc:mysql://lenny2.in.htwg-konstanz.de:3306/games?createDatabaseIfNotExist=true, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, os.name=Windows 7, sun.boot.class.path=C:\Program Files\Java\jdk1.8.0_40\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_40\jre\classes, hibernate.current_session_context_class=thread, sun.desktop=windows, java.vm.specification.vendor=Oracle Corporation, java.runtime.version=1.8.0_40-b26, user.name=andmaier, connection.driver_class=com.mysql.jdbc.Driver, current_session_context_class=thread, idea.launcher.bin.path=C:\Program Files (x86)\JetBrains\IntelliJ IDEA Community Edition 14.0.3\bin, user.language=de, sun.boot.library.path=C:\Program Files\Java\jdk1.8.0_40\jre\bin, dialect=org.hibernate.dialect.MySQL5Dialect, java.version=1.8.0_40, user.timezone=Europe/Berlin, sun.arch.data.model=64, java.endorsed.dirs=C:\Program Files\Java\jdk1.8.0_40\jre\lib\endorsed, sun.cpu.isalist=amd64, sun.jnu.encoding=Cp1252, file.encoding.pkg=sun.io, file.separator=\, java.specification.name=Java Platform API Specification, java.class.version=52.0, user.country=DE, connection.url=jdbc:mysql://lenny2.in.htwg-konstanz.de:3306/games?createDatabaseIfNotExist=true, java.home=C:\Program Files\Java\jdk1.8.0_40\jre, java.vm.info=mixed mode, os.version=6.1, path.separator=;, connection.password=htwg, java.vm.version=25.40-b25, hibernate.connection.password=htwg, user.variant=, java.awt.printerjob=sun.awt.windows.WPrinterJob, sun.io.unicode.encoding=UnicodeLittle, awt.toolkit=sun.awt.windows.WToolkit, hibernate.connection.username=htwg, user.script=, user.home=C:\Users\andmaier, java.specification.vendor=Oracle Corporation, hibernate.hbm2ddl.auto=update, java.library.path=C:\Program Files\Java\jdk1.8.0_40\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Java\jdk1.8.0_40\bin;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Heroku\bin;C:\Program Files (x86)\git\cmd;C:\Program Files\MATLAB\R2013b\bin;C:\Program Files (x86)\sbt\\bin;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\sonarqube-5.0.1\bin\windows-x86-64;C:\Program Files\MySQL\MySQL Server 5.6\bin;C:\Program Files (x86)\sonar-runner-2.4\bin;C:\Program Files\activator-1.3.2-minimal;C:\Program Files\gradle-2.2.1\bin;C:\Program Files (x86)\Structure101\java;., java.vendor.url=http://java.oracle.com/, hibernate.connection.driver_class=com.mysql.jdbc.Driver, connection.username=htwg, java.vm.vendor=Oracle Corporation, hibernate.dialect=org.hibernate.dialect.MySQL5Dialect, java.runtime.name=Java(TM) SE Runtime Environment, sun.java.command=com.intellij.rt.execution.application.AppMain de.htwg.se.mastermind.Mastermind, java.class.path=C:\Program Files\Java\jdk1.8.0_40\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\ext\zipfs.jar;C:\Users\andmaier\Documents\sar\de.htwg.se.mastermind\out\production\de.htwg.se.mastermind;C:\Users\andmaier\Documents\sar\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\log4j-1.2.17.jar;C:\Users\andmaier\Documents\sar\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\aopalliance.jar;C:\Users\andmaier\Documents\sar\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\javax.inject.jar;C:\Users\andmaier\Documents\sar\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\guice-3.0.jar;C:\Users\andmaier\Documents\sar\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\guice-assistedinject-3.0.jar;C:\Users\andmaier\Documents\sar\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\db4o-8.0.249.16098-all-java5.jar;C:\Users\andmaier\Documents\sar\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\org.ektorp-1.2.2.jar;C:\Users\andmaier\Documents\sar\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\antlr-2.7.6.jar;C:\Users\andmaier\Documents\sar\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\apache-httpcomponents-httpclient-cache.jar;C:\Users\andmaier\Documents\sar\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\cglib-2.2.jar;C:\Users\andmaier\Documents\sar\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\commons-collections-3.1.jar;C:\Users\andmaier\Documents\sar\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\commons-logging-1.2.jar;C:\Users\andmaier\Documents\sar\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\dom4j-1.6.1.jar;C:\Users\andmaier\Documents\sar\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\ejb3-persistence.jar;C:\Users\andmaier\Documents\sar\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\hibernate3.jar;C:\Users\andmaier\Documents\sar\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\hibernate-annotations.jar;C:\Users\andmaier\Documents\sar\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\http-core-4.1.jar;C:\Users\andmaier\Documents\sar\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\httpclient-4.1.jar;C:\Users\andmaier\Documents\sar\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\jackson-all-1.9.0.jar;C:\Users\andmaier\Documents\sar\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\javassist-3.9.0.GA.jar;C:\Users\andmaier\Documents\sar\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\jta-1.1.jar;C:\Users\andmaier\Documents\sar\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\log4j.jar;C:\Users\andmaier\Documents\sar\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\persistence-api-1.0.jar;C:\Users\andmaier\Documents\sar\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\slf4j-api-1.5.8.jar;C:\Users\andmaier\Documents\sar\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\slf4j-api-1.7.12.jar;C:\Users\andmaier\Documents\sar\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\slf4j-log4j12.jar;C:\Users\andmaier\Documents\sar\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\hibernate-commons-annotations-3.0.0.ga.jar;C:\Users\andmaier\Documents\sar\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\com.mysql.jdbc_5.1.5.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA Community Edition 14.0.3\lib\idea_rt.jar, hibernate.bytecode.use_reflection_optimizer=false, idea.launcher.port=7532, java.vm.specification.name=Java Virtual Machine Specification, java.vm.specification.version=1.8, sun.cpu.endian=little, sun.os.patch.level=Service Pack 1, java.io.tmpdir=C:\Users\andmaier\AppData\Local\Temp\, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, os.arch=amd64, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, java.ext.dirs=C:\Program Files\Java\jdk1.8.0_40\jre\lib\ext;C:\windows\Sun\Java\lib\ext, user.dir=C:\Users\andmaier\Documents\sar\de.htwg.se.mastermind, line.separator=
+DEBUG main org.hibernate.impl.SessionFactoryImpl - instantiating session factory with properties: {java.vendor=Oracle Corporation, show_sql=false, sun.java.launcher=SUN_STANDARD, hibernate.connection.url=jdbc:mysql://lenny2.in.htwg-konstanz.de:3306/games?createDatabaseIfNotExist=true, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, os.name=Windows 7, sun.boot.class.path=C:\Program Files\Java\jdk1.8.0_40\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_40\jre\classes, hibernate.current_session_context_class=thread, sun.desktop=windows, java.vm.specification.vendor=Oracle Corporation, java.runtime.version=1.8.0_40-b26, user.name=andmaier, connection.driver_class=com.mysql.jdbc.Driver, current_session_context_class=thread, idea.launcher.bin.path=C:\Program Files (x86)\JetBrains\IntelliJ IDEA Community Edition 14.0.3\bin, user.language=de, sun.boot.library.path=C:\Program Files\Java\jdk1.8.0_40\jre\bin, dialect=org.hibernate.dialect.MySQL5Dialect, java.version=1.8.0_40, user.timezone=Europe/Berlin, sun.arch.data.model=64, java.endorsed.dirs=C:\Program Files\Java\jdk1.8.0_40\jre\lib\endorsed, sun.cpu.isalist=amd64, sun.jnu.encoding=Cp1252, file.encoding.pkg=sun.io, file.separator=\, java.specification.name=Java Platform API Specification, java.class.version=52.0, user.country=DE, connection.url=jdbc:mysql://lenny2.in.htwg-konstanz.de:3306/games?createDatabaseIfNotExist=true, java.home=C:\Program Files\Java\jdk1.8.0_40\jre, java.vm.info=mixed mode, os.version=6.1, path.separator=;, connection.password=htwg, java.vm.version=25.40-b25, hibernate.connection.password=htwg, user.variant=, java.awt.printerjob=sun.awt.windows.WPrinterJob, sun.io.unicode.encoding=UnicodeLittle, awt.toolkit=sun.awt.windows.WToolkit, hibernate.connection.username=htwg, user.script=, user.home=C:\Users\andmaier, java.specification.vendor=Oracle Corporation, hibernate.hbm2ddl.auto=update, java.library.path=C:\Program Files\Java\jdk1.8.0_40\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Java\jdk1.8.0_40\bin;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Heroku\bin;C:\Program Files (x86)\git\cmd;C:\Program Files\MATLAB\R2013b\bin;C:\Program Files (x86)\sbt\\bin;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\sonarqube-5.0.1\bin\windows-x86-64;C:\Program Files\MySQL\MySQL Server 5.6\bin;C:\Program Files (x86)\sonar-runner-2.4\bin;C:\Program Files\activator-1.3.2-minimal;C:\Program Files\gradle-2.2.1\bin;C:\Program Files (x86)\Structure101\java;., java.vendor.url=http://java.oracle.com/, hibernate.connection.driver_class=com.mysql.jdbc.Driver, connection.username=htwg, java.vm.vendor=Oracle Corporation, hibernate.dialect=org.hibernate.dialect.MySQL5Dialect, java.runtime.name=Java(TM) SE Runtime Environment, sun.java.command=com.intellij.rt.execution.application.AppMain de.htwg.se.mastermind.Mastermind, java.class.path=C:\Program Files\Java\jdk1.8.0_40\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\ext\zipfs.jar;C:\Users\andmaier\Documents\sa\de.htwg.se.mastermind\out\production\de.htwg.se.mastermind;C:\Users\andmaier\Documents\sa\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\log4j-1.2.17.jar;C:\Users\andmaier\Documents\sa\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\aopalliance.jar;C:\Users\andmaier\Documents\sa\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\javax.inject.jar;C:\Users\andmaier\Documents\sa\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\guice-3.0.jar;C:\Users\andmaier\Documents\sa\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\guice-assistedinject-3.0.jar;C:\Users\andmaier\Documents\sa\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\db4o-8.0.249.16098-all-java5.jar;C:\Users\andmaier\Documents\sa\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\org.ektorp-1.2.2.jar;C:\Users\andmaier\Documents\sa\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\antlr-2.7.6.jar;C:\Users\andmaier\Documents\sa\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\apache-httpcomponents-httpclient-cache.jar;C:\Users\andmaier\Documents\sa\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\cglib-2.2.jar;C:\Users\andmaier\Documents\sa\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\commons-collections-3.1.jar;C:\Users\andmaier\Documents\sa\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\commons-logging-1.2.jar;C:\Users\andmaier\Documents\sa\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\dom4j-1.6.1.jar;C:\Users\andmaier\Documents\sa\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\ejb3-persistence.jar;C:\Users\andmaier\Documents\sa\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\hibernate3.jar;C:\Users\andmaier\Documents\sa\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\hibernate-annotations.jar;C:\Users\andmaier\Documents\sa\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\http-core-4.1.jar;C:\Users\andmaier\Documents\sa\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\httpclient-4.1.jar;C:\Users\andmaier\Documents\sa\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\javassist-3.9.0.GA.jar;C:\Users\andmaier\Documents\sa\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\jta-1.1.jar;C:\Users\andmaier\Documents\sa\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\log4j.jar;C:\Users\andmaier\Documents\sa\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\persistence-api-1.0.jar;C:\Users\andmaier\Documents\sa\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\slf4j-api-1.5.8.jar;C:\Users\andmaier\Documents\sa\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\slf4j-api-1.7.12.jar;C:\Users\andmaier\Documents\sa\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\slf4j-log4j12.jar;C:\Users\andmaier\Documents\sa\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\hibernate-commons-annotations-3.0.0.ga.jar;C:\Users\andmaier\Documents\sa\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\com.mysql.jdbc_5.1.5.jar;C:\Users\andmaier\Documents\sa\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\jackson-all-1.9.9.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA Community Edition 14.0.3\lib\idea_rt.jar, hibernate.bytecode.use_reflection_optimizer=false, idea.launcher.port=7542, java.vm.specification.name=Java Virtual Machine Specification, java.vm.specification.version=1.8, sun.cpu.endian=little, sun.os.patch.level=Service Pack 1, java.io.tmpdir=C:\Users\andmaier\AppData\Local\Temp\, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, os.arch=amd64, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, java.ext.dirs=C:\Program Files\Java\jdk1.8.0_40\jre\lib\ext;C:\windows\Sun\Java\lib\ext, user.dir=C:\Users\andmaier\Documents\sa\de.htwg.se.mastermind, line.separator=
 , java.vm.name=Java HotSpot(TM) 64-Bit Server VM, file.encoding=UTF-8, java.specification.version=1.8, hibernate.show_sql=false}
 DEBUG main org.hibernate.persister.entity.AbstractEntityPersister - Static SQL for entity: de.htwg.se.mastermind.persistence.hibernate.PersistentGrid
 DEBUG main org.hibernate.persister.entity.AbstractEntityPersister -  Version select: select id from mastermind_grid where id =?
@@ -569,7 +1048,7 @@ DEBUG main org.hibernate.loader.entity.EntityLoader - Static select for entity d
 DEBUG main org.hibernate.loader.entity.EntityLoader - Static select for action ACTION_MERGE on entity de.htwg.se.mastermind.persistence.hibernate.PersistentGrid: select persistent0_.id as id0_0_, persistent0_.actualRow as actualRow0_0_, persistent0_.columnsAmount as columnsA3_0_0_, persistent0_.date as date0_0_, persistent0_.name as name0_0_, persistent0_.rowsAmount as rowsAmount0_0_ from mastermind_grid persistent0_ where persistent0_.id=?
 DEBUG main org.hibernate.loader.entity.EntityLoader - Static select for action ACTION_REFRESH on entity de.htwg.se.mastermind.persistence.hibernate.PersistentGrid: select persistent0_.id as id0_0_, persistent0_.actualRow as actualRow0_0_, persistent0_.columnsAmount as columnsA3_0_0_, persistent0_.date as date0_0_, persistent0_.name as name0_0_, persistent0_.rowsAmount as rowsAmount0_0_ from mastermind_grid persistent0_ where persistent0_.id=?
 DEBUG main org.hibernate.impl.SessionFactoryObjectFactory - initializing class SessionFactoryObjectFactory
-DEBUG main org.hibernate.impl.SessionFactoryObjectFactory - registered: 0da59fbb4ddd0164014ddd0164c90000 (unnamed)
+DEBUG main org.hibernate.impl.SessionFactoryObjectFactory - registered: 0da59fb74e01774a014e01774b280000 (unnamed)
 INFO main org.hibernate.impl.SessionFactoryObjectFactory - Not binding factory to JNDI, no JNDI name configured
 DEBUG main org.hibernate.impl.SessionFactoryImpl - instantiated session factory
 INFO main org.hibernate.tool.hbm2ddl.SchemaUpdate - Running hbm2ddl schema update
@@ -591,7 +1070,7 @@ INFO main org.hibernate.tool.hbm2ddl.TableMetadata - indexes: [primary]
 INFO main org.hibernate.tool.hbm2ddl.SchemaUpdate - schema update complete
 DEBUG main org.hibernate.impl.SessionFactoryImpl - Checking 0 named HQL queries
 DEBUG main org.hibernate.impl.SessionFactoryImpl - Checking 0 named SQL queries
-DEBUG main org.hibernate.impl.SessionImpl - opened session at timestamp: 14339319657
+DEBUG main org.hibernate.impl.SessionImpl - opened session at timestamp: 14345436721
 INFO main de.htwg.se.mastermind.view.tui - 
               +-------------+
               | xx xx xx xx |
@@ -614,391 +1093,36 @@ INFO main de.htwg.se.mastermind.view.tui -
 Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution, zn-sets the size, h-show highscores
 INFO main de.htwg.se.mastermind.view.tui - 
 Please enter command: 
-DEBUG AWT-EventQueue-0 org.hibernate.impl.SessionImpl - opened session at timestamp: 14339319683
+DEBUG AWT-EventQueue-0 org.hibernate.impl.SessionImpl - opened session at timestamp: 14345436786
 DEBUG AWT-EventQueue-0 org.hibernate.transaction.JDBCTransaction - begin
 DEBUG AWT-EventQueue-0 org.hibernate.jdbc.ConnectionManager - opening JDBC connection
 DEBUG AWT-EventQueue-0 org.hibernate.transaction.JDBCTransaction - current autocommit status: false
 DEBUG AWT-EventQueue-0 org.hibernate.jdbc.AbstractBatcher - about to open PreparedStatement (open PreparedStatements: 0, globally: 0)
 DEBUG AWT-EventQueue-0 org.hibernate.SQL - select this_.id as id0_0_, this_.actualRow as actualRow0_0_, this_.columnsAmount as columnsA3_0_0_, this_.date as date0_0_, this_.name as name0_0_, this_.rowsAmount as rowsAmount0_0_ from mastermind_grid this_
 DEBUG AWT-EventQueue-0 org.hibernate.jdbc.AbstractBatcher - about to open ResultSet (open ResultSets: 0, globally: 0)
-DEBUG AWT-EventQueue-0 org.hibernate.loader.Loader - result row: EntityKey[de.htwg.se.mastermind.persistence.hibernate.PersistentGrid#33f4d9f3-019d-4537-a8d3-54203f22970e]
-DEBUG AWT-EventQueue-0 org.hibernate.loader.Loader - result row: EntityKey[de.htwg.se.mastermind.persistence.hibernate.PersistentGrid#9f14cbf1-1019-4a92-a671-c2e11d35611c]
-DEBUG AWT-EventQueue-0 org.hibernate.loader.Loader - result row: EntityKey[de.htwg.se.mastermind.persistence.hibernate.PersistentGrid#ba12c355-3e6d-47d9-a0b4-9b5a3fa9c939]
+DEBUG AWT-EventQueue-0 org.hibernate.loader.Loader - result row: EntityKey[de.htwg.se.mastermind.persistence.hibernate.PersistentGrid#590ecd49-436f-4770-ae81-d237a99f5292]
 DEBUG AWT-EventQueue-0 org.hibernate.jdbc.AbstractBatcher - about to close ResultSet (open ResultSets: 1, globally: 1)
 DEBUG AWT-EventQueue-0 org.hibernate.jdbc.AbstractBatcher - about to close PreparedStatement (open PreparedStatements: 1, globally: 1)
-DEBUG AWT-EventQueue-0 org.hibernate.engine.TwoPhaseLoad - resolving associations for [de.htwg.se.mastermind.persistence.hibernate.PersistentGrid#33f4d9f3-019d-4537-a8d3-54203f22970e]
-DEBUG AWT-EventQueue-0 org.hibernate.engine.TwoPhaseLoad - done materializing entity [de.htwg.se.mastermind.persistence.hibernate.PersistentGrid#33f4d9f3-019d-4537-a8d3-54203f22970e]
-DEBUG AWT-EventQueue-0 org.hibernate.engine.TwoPhaseLoad - resolving associations for [de.htwg.se.mastermind.persistence.hibernate.PersistentGrid#9f14cbf1-1019-4a92-a671-c2e11d35611c]
-DEBUG AWT-EventQueue-0 org.hibernate.engine.TwoPhaseLoad - done materializing entity [de.htwg.se.mastermind.persistence.hibernate.PersistentGrid#9f14cbf1-1019-4a92-a671-c2e11d35611c]
-DEBUG AWT-EventQueue-0 org.hibernate.engine.TwoPhaseLoad - resolving associations for [de.htwg.se.mastermind.persistence.hibernate.PersistentGrid#ba12c355-3e6d-47d9-a0b4-9b5a3fa9c939]
-DEBUG AWT-EventQueue-0 org.hibernate.engine.TwoPhaseLoad - done materializing entity [de.htwg.se.mastermind.persistence.hibernate.PersistentGrid#ba12c355-3e6d-47d9-a0b4-9b5a3fa9c939]
+DEBUG AWT-EventQueue-0 org.hibernate.engine.TwoPhaseLoad - resolving associations for [de.htwg.se.mastermind.persistence.hibernate.PersistentGrid#590ecd49-436f-4770-ae81-d237a99f5292]
+DEBUG AWT-EventQueue-0 org.hibernate.engine.TwoPhaseLoad - done materializing entity [de.htwg.se.mastermind.persistence.hibernate.PersistentGrid#590ecd49-436f-4770-ae81-d237a99f5292]
 DEBUG AWT-EventQueue-0 org.hibernate.engine.StatefulPersistenceContext - initializing non-lazy collections
-INFO main org.hibernate.cfg.annotations.Version - Hibernate Annotations 3.4.0.GA
-INFO main org.hibernate.cfg.Environment - Hibernate 3.3.2.GA
-INFO main org.hibernate.cfg.Environment - hibernate.properties not found
-INFO main org.hibernate.cfg.Environment - Bytecode provider name : javassist
-INFO main org.hibernate.cfg.Environment - using JDK 1.4 java.sql.Timestamp handling
-INFO main org.hibernate.cfg.Configuration - configuring from resource: /hibernate.cfg.xml
-INFO main org.hibernate.cfg.Configuration - Configuration resource: /hibernate.cfg.xml
-DEBUG main org.hibernate.util.DTDEntityResolver - trying to resolve system-id [http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd]
-DEBUG main org.hibernate.util.DTDEntityResolver - recognized hibernate namespace; attempting to resolve on classpath under org/hibernate/
-DEBUG main org.hibernate.util.DTDEntityResolver - located [http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd] in classpath
-DEBUG main org.hibernate.cfg.Configuration - connection.driver_class=com.mysql.jdbc.Driver
-DEBUG main org.hibernate.cfg.Configuration - connection.url=jdbc:mysql://lenny2.in.htwg-konstanz.de:3306/games?createDatabaseIfNotExist=true
-DEBUG main org.hibernate.cfg.Configuration - connection.username=htwg
-DEBUG main org.hibernate.cfg.Configuration - connection.password=htwg
-DEBUG main org.hibernate.cfg.Configuration - dialect=org.hibernate.dialect.MySQL5Dialect
-DEBUG main org.hibernate.cfg.Configuration - current_session_context_class=thread
-DEBUG main org.hibernate.cfg.Configuration - hibernate.hbm2ddl.auto=update
-DEBUG main org.hibernate.cfg.Configuration - show_sql=false
-DEBUG main org.hibernate.cfg.AnnotationConfiguration - null <- org.dom4j.tree.DefaultAttribute@587c290d [Attribute: name class value "de.htwg.se.mastermind.persistence.hibernate.PersistentGrid"]
-INFO main org.hibernate.cfg.Configuration - Configured SessionFactory: null
-DEBUG main org.hibernate.cfg.Configuration - properties: {java.vendor=Oracle Corporation, show_sql=false, sun.java.launcher=SUN_STANDARD, hibernate.connection.url=jdbc:mysql://lenny2.in.htwg-konstanz.de:3306/games?createDatabaseIfNotExist=true, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, os.name=Windows 7, sun.boot.class.path=C:\Program Files\Java\jdk1.8.0_40\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_40\jre\classes, hibernate.current_session_context_class=thread, sun.desktop=windows, java.vm.specification.vendor=Oracle Corporation, java.runtime.version=1.8.0_40-b26, user.name=andi, connection.driver_class=com.mysql.jdbc.Driver, current_session_context_class=thread, idea.launcher.bin.path=C:\Program Files (x86)\JetBrains\IntelliJ IDEA 14.1.2\bin, user.language=de, sun.boot.library.path=C:\Program Files\Java\jdk1.8.0_40\jre\bin, dialect=org.hibernate.dialect.MySQL5Dialect, java.version=1.8.0_40, user.timezone=Europe/Berlin, sun.arch.data.model=64, java.endorsed.dirs=C:\Program Files\Java\jdk1.8.0_40\jre\lib\endorsed, sun.cpu.isalist=amd64, sun.jnu.encoding=Cp1252, file.encoding.pkg=sun.io, file.separator=\, java.specification.name=Java Platform API Specification, java.class.version=52.0, user.country=DE, connection.url=jdbc:mysql://lenny2.in.htwg-konstanz.de:3306/games?createDatabaseIfNotExist=true, java.home=C:\Program Files\Java\jdk1.8.0_40\jre, java.vm.info=mixed mode, os.version=6.1, path.separator=;, connection.password=htwg, java.vm.version=25.40-b25, hibernate.connection.password=htwg, user.variant=, java.awt.printerjob=sun.awt.windows.WPrinterJob, sun.io.unicode.encoding=UnicodeLittle, awt.toolkit=sun.awt.windows.WToolkit, hibernate.connection.username=htwg, user.script=, user.home=C:\Users\andi, java.specification.vendor=Oracle Corporation, hibernate.hbm2ddl.auto=update, java.library.path=C:\Program Files\Java\jdk1.8.0_40\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Python34\;C:\Python34\Scripts;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\OpenCL SDK\3.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\3.0\bin\x64;C:\Program Files (x86)\Git\cmd;C:\Program Files\MATLAB\R2014a\runtime\win64;C:\Program Files\MATLAB\R2014a\bin;C:\Program Files (x86)\Microsoft SQL Server\90\Tools\binn\;C:\Program Files\Java\jdk1.8.0_40\\bin;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Apache Software Foundation\apache-maven-3.3.1\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;., java.vendor.url=http://java.oracle.com/, hibernate.connection.driver_class=com.mysql.jdbc.Driver, connection.username=htwg, java.vm.vendor=Oracle Corporation, hibernate.dialect=org.hibernate.dialect.MySQL5Dialect, java.runtime.name=Java(TM) SE Runtime Environment, sun.java.command=com.intellij.rt.execution.application.AppMain de.htwg.se.mastermind.Mastermind, java.class.path=C:\Program Files\Java\jdk1.8.0_40\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\ext\zipfs.jar;C:\Users\andi\Desktop\sa_temp\de.htwg.se.mastermind\out\production\de.htwg.se.mastermind;C:\Users\andi\Desktop\sa_temp\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\log4j-1.2.17.jar;C:\Users\andi\Desktop\sa_temp\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\aopalliance.jar;C:\Users\andi\Desktop\sa_temp\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\javax.inject.jar;C:\Users\andi\Desktop\sa_temp\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\guice-3.0.jar;C:\Users\andi\Desktop\sa_temp\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\guice-assistedinject-3.0.jar;C:\Users\andi\Desktop\sa_temp\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\db4o-8.0.249.16098-all-java5.jar;C:\Users\andi\Desktop\sa_temp\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\org.ektorp-1.2.2.jar;C:\Users\andi\Desktop\sa_temp\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\antlr-2.7.6.jar;C:\Users\andi\Desktop\sa_temp\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\apache-httpcomponents-httpclient-cache.jar;C:\Users\andi\Desktop\sa_temp\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\cglib-2.2.jar;C:\Users\andi\Desktop\sa_temp\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\commons-collections-3.1.jar;C:\Users\andi\Desktop\sa_temp\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\commons-logging-1.2.jar;C:\Users\andi\Desktop\sa_temp\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\dom4j-1.6.1.jar;C:\Users\andi\Desktop\sa_temp\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\ejb3-persistence.jar;C:\Users\andi\Desktop\sa_temp\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\hibernate3.jar;C:\Users\andi\Desktop\sa_temp\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\hibernate-annotations.jar;C:\Users\andi\Desktop\sa_temp\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\http-core-4.1.jar;C:\Users\andi\Desktop\sa_temp\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\httpclient-4.1.jar;C:\Users\andi\Desktop\sa_temp\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\jackson-all-1.9.0.jar;C:\Users\andi\Desktop\sa_temp\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\javassist-3.9.0.GA.jar;C:\Users\andi\Desktop\sa_temp\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\jta-1.1.jar;C:\Users\andi\Desktop\sa_temp\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\log4j.jar;C:\Users\andi\Desktop\sa_temp\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\persistence-api-1.0.jar;C:\Users\andi\Desktop\sa_temp\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\slf4j-api-1.5.8.jar;C:\Users\andi\Desktop\sa_temp\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\slf4j-api-1.7.12.jar;C:\Users\andi\Desktop\sa_temp\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\slf4j-log4j12.jar;C:\Users\andi\Desktop\sa_temp\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\hibernate-commons-annotations-3.0.0.ga.jar;C:\Users\andi\Desktop\sa_temp\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\com.mysql.jdbc_5.1.5.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA 14.1.2\lib\idea_rt.jar, hibernate.bytecode.use_reflection_optimizer=false, idea.launcher.port=7532, java.vm.specification.name=Java Virtual Machine Specification, java.vm.specification.version=1.8, sun.cpu.endian=little, sun.os.patch.level=Service Pack 1, java.io.tmpdir=C:\Users\andi\AppData\Local\Temp\, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, os.arch=amd64, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, java.ext.dirs=C:\Program Files\Java\jdk1.8.0_40\jre\lib\ext;C:\Windows\Sun\Java\lib\ext, user.dir=C:\Users\andi\Desktop\sa_temp\de.htwg.se.mastermind, line.separator=
-, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, file.encoding=windows-1252, java.specification.version=1.8, hibernate.show_sql=false}
-DEBUG main org.hibernate.cfg.AnnotationConfiguration - Validator not present in classpath, ignoring event listener registration
-DEBUG main org.hibernate.cfg.search.HibernateSearchEventListenerRegister - Search not present in classpath, ignoring event listener registration.
-INFO main org.hibernate.cfg.search.HibernateSearchEventListenerRegister - Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
-DEBUG main org.hibernate.cfg.Configuration - Preparing to build session factory with filters : {}
-DEBUG main org.hibernate.cfg.AnnotationConfiguration - Execute first pass mapping processing
-DEBUG main org.hibernate.cfg.AnnotationConfiguration - Process hbm files
-DEBUG main org.hibernate.cfg.AnnotationConfiguration - Process annotated classes
-INFO main org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: de.htwg.se.mastermind.persistence.hibernate.PersistentGrid
-DEBUG main org.hibernate.cfg.Ejb3Column - Binding column DTYPE. Unique false. Nullable false.
-DEBUG main org.hibernate.cfg.annotations.EntityBinder - Import with entity name PersistentGrid
-INFO main org.hibernate.cfg.annotations.EntityBinder - Bind entity de.htwg.se.mastermind.persistence.hibernate.PersistentGrid on table mastermind_grid
-DEBUG main org.hibernate.cfg.AnnotationBinder - Processing de.htwg.se.mastermind.persistence.hibernate.PersistentGrid property annotation
-DEBUG main org.hibernate.cfg.AnnotationBinder - Processing de.htwg.se.mastermind.persistence.hibernate.PersistentGrid field annotation
-DEBUG main org.hibernate.cfg.AnnotationBinder - Processing annotations of de.htwg.se.mastermind.persistence.hibernate.PersistentGrid.id
-DEBUG main org.hibernate.cfg.Ejb3Column - Binding column id. Unique false. Nullable true.
-DEBUG main org.hibernate.cfg.AnnotationBinder - id is an id
-DEBUG main org.hibernate.cfg.annotations.SimpleValueBinder - building SimpleValue for id
-DEBUG main org.hibernate.cfg.annotations.PropertyBinder - Building property id
-DEBUG main org.hibernate.cfg.AnnotationBinder - Bind @Id on id
-DEBUG main org.hibernate.cfg.AnnotationBinder - Processing annotations of de.htwg.se.mastermind.persistence.hibernate.PersistentGrid.actualRow
-DEBUG main org.hibernate.cfg.Ejb3Column - Binding column actualRow. Unique false. Nullable false.
-DEBUG main org.hibernate.cfg.annotations.PropertyBinder - binding property actualRow with lazy=false
-DEBUG main org.hibernate.cfg.annotations.SimpleValueBinder - building SimpleValue for actualRow
-DEBUG main org.hibernate.cfg.annotations.PropertyBinder - Building property actualRow
-DEBUG main org.hibernate.cfg.AnnotationBinder - Processing annotations of de.htwg.se.mastermind.persistence.hibernate.PersistentGrid.columnsAmount
-DEBUG main org.hibernate.cfg.Ejb3Column - Binding column columnsAmount. Unique false. Nullable false.
-DEBUG main org.hibernate.cfg.annotations.PropertyBinder - binding property columnsAmount with lazy=false
-DEBUG main org.hibernate.cfg.annotations.SimpleValueBinder - building SimpleValue for columnsAmount
-DEBUG main org.hibernate.cfg.annotations.PropertyBinder - Building property columnsAmount
-DEBUG main org.hibernate.cfg.AnnotationBinder - Processing annotations of de.htwg.se.mastermind.persistence.hibernate.PersistentGrid.date
-DEBUG main org.hibernate.cfg.Ejb3Column - Binding column date. Unique false. Nullable true.
-DEBUG main org.hibernate.cfg.annotations.PropertyBinder - binding property date with lazy=false
-DEBUG main org.hibernate.cfg.annotations.SimpleValueBinder - building SimpleValue for date
-DEBUG main org.hibernate.cfg.annotations.PropertyBinder - Building property date
-DEBUG main org.hibernate.cfg.AnnotationBinder - Processing annotations of de.htwg.se.mastermind.persistence.hibernate.PersistentGrid.name
-DEBUG main org.hibernate.cfg.Ejb3Column - Binding column name. Unique false. Nullable true.
-DEBUG main org.hibernate.cfg.annotations.PropertyBinder - binding property name with lazy=false
-DEBUG main org.hibernate.cfg.annotations.SimpleValueBinder - building SimpleValue for name
-DEBUG main org.hibernate.cfg.annotations.PropertyBinder - Building property name
-DEBUG main org.hibernate.cfg.AnnotationBinder - Processing annotations of de.htwg.se.mastermind.persistence.hibernate.PersistentGrid.rowsAmount
-DEBUG main org.hibernate.cfg.Ejb3Column - Binding column rowsAmount. Unique false. Nullable false.
-DEBUG main org.hibernate.cfg.annotations.PropertyBinder - binding property rowsAmount with lazy=false
-DEBUG main org.hibernate.cfg.annotations.SimpleValueBinder - building SimpleValue for rowsAmount
-DEBUG main org.hibernate.cfg.annotations.PropertyBinder - Building property rowsAmount
-DEBUG main org.hibernate.cfg.AnnotationConfiguration - processing fk mappings (*ToOne and JoinedSubclass)
-DEBUG main org.hibernate.cfg.Configuration - processing extends queue
-DEBUG main org.hibernate.cfg.Configuration - processing collection mappings
-DEBUG main org.hibernate.cfg.Configuration - processing native query and ResultSetMapping mappings
-DEBUG main org.hibernate.cfg.Configuration - processing association property references
-DEBUG main org.hibernate.cfg.Configuration - processing foreign key constraints
-INFO main org.hibernate.cfg.AnnotationConfiguration - Hibernate Validator not found: ignoring
-INFO main org.hibernate.connection.DriverManagerConnectionProvider - Using Hibernate built-in connection pool (not for production use!)
-INFO main org.hibernate.connection.DriverManagerConnectionProvider - Hibernate connection pool size: 20
-INFO main org.hibernate.connection.DriverManagerConnectionProvider - autocommit mode: false
-INFO main org.hibernate.connection.DriverManagerConnectionProvider - using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://lenny2.in.htwg-konstanz.de:3306/games?createDatabaseIfNotExist=true
-INFO main org.hibernate.connection.DriverManagerConnectionProvider - connection properties: {user=htwg, password=htwg}
-DEBUG main org.hibernate.connection.DriverManagerConnectionProvider - opening new JDBC connection
-WARN main org.hibernate.cfg.SettingsFactory - Could not obtain connection to query metadata
-com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
-
-Last packet sent to the server was 0 ms ago.
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
-	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
-	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1074)
-	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2104)
-	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:729)
-	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:46)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
-	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
-	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:302)
-	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:283)
-	at java.sql.DriverManager.getConnection(DriverManager.java:664)
-	at java.sql.DriverManager.getConnection(DriverManager.java:208)
-	at org.hibernate.connection.DriverManagerConnectionProvider.getConnection(DriverManagerConnectionProvider.java:133)
-	at org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:111)
-	at org.hibernate.cfg.Configuration.buildSettingsInternal(Configuration.java:2119)
-	at org.hibernate.cfg.Configuration.buildSettings(Configuration.java:2115)
-	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1339)
-	at org.hibernate.cfg.AnnotationConfiguration.buildSessionFactory(AnnotationConfiguration.java:867)
-	at de.htwg.se.mastermind.persistence.hibernate.HibernateUtil.<clinit>(HibernateUtil.java:14)
-	at de.htwg.se.mastermind.persistence.hibernate.GridHibernateDAO.<init>(GridHibernateDAO.java:19)
-	at de.htwg.se.mastermind.persistence.hibernate.GridHibernateDAO$$FastClassByGuice$$247ecab4.newInstance(<generated>)
-	at com.google.inject.internal.cglib.reflect.$FastConstructor.newInstance(FastConstructor.java:40)
-	at com.google.inject.internal.DefaultConstructionProxyFactory$1.newInstance(DefaultConstructionProxyFactory.java:60)
-	at com.google.inject.internal.ConstructorInjector.construct(ConstructorInjector.java:85)
-	at com.google.inject.internal.ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:254)
-	at com.google.inject.internal.FactoryProxy.get(FactoryProxy.java:54)
-	at com.google.inject.internal.SingleParameterInjector.inject(SingleParameterInjector.java:38)
-	at com.google.inject.internal.SingleParameterInjector.getAll(SingleParameterInjector.java:62)
-	at com.google.inject.internal.ConstructorInjector.construct(ConstructorInjector.java:84)
-	at com.google.inject.internal.ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:254)
-	at com.google.inject.internal.ProviderToInternalFactoryAdapter$1.call(ProviderToInternalFactoryAdapter.java:46)
-	at com.google.inject.internal.InjectorImpl.callInContext(InjectorImpl.java:1031)
-	at com.google.inject.internal.ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:40)
-	at com.google.inject.Scopes$1$1.get(Scopes.java:65)
-	at com.google.inject.internal.InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:40)
-	at com.google.inject.internal.FactoryProxy.get(FactoryProxy.java:54)
-	at com.google.inject.internal.InjectorImpl$4$1.call(InjectorImpl.java:978)
-	at com.google.inject.internal.InjectorImpl.callInContext(InjectorImpl.java:1024)
-	at com.google.inject.internal.InjectorImpl$4.get(InjectorImpl.java:974)
-	at com.google.inject.internal.InjectorImpl.getInstance(InjectorImpl.java:1013)
-	at de.htwg.se.mastermind.Mastermind.<init>(Mastermind.java:51)
-	at de.htwg.se.mastermind.Mastermind.getInstance(Mastermind.java:34)
-	at de.htwg.se.mastermind.Mastermind.main(Mastermind.java:65)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:497)
-	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:140)
-Caused by: java.net.ConnectException: Connection timed out: connect
-	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
-	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
-	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
-	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
-	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
-	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
-	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
-	at java.net.Socket.connect(Socket.java:589)
-	at java.net.Socket.connect(Socket.java:538)
-	at java.net.Socket.<init>(Socket.java:434)
-	at java.net.Socket.<init>(Socket.java:244)
-	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:256)
-	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:276)
-	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2027)
-	... 47 more
-INFO main org.hibernate.dialect.Dialect - Using dialect: org.hibernate.dialect.MySQL5Dialect
-INFO main org.hibernate.transaction.TransactionFactoryFactory - Using default transaction strategy (direct JDBC transactions)
-INFO main org.hibernate.transaction.TransactionManagerLookupFactory - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
-INFO main org.hibernate.cfg.SettingsFactory - Automatic flush during beforeCompletion(): disabled
-INFO main org.hibernate.cfg.SettingsFactory - Automatic session close at end of transaction: disabled
-INFO main org.hibernate.cfg.SettingsFactory - Scrollable result sets: disabled
-DEBUG main org.hibernate.cfg.SettingsFactory - Wrap result sets: disabled
-INFO main org.hibernate.cfg.SettingsFactory - JDBC3 getGeneratedKeys(): disabled
-INFO main org.hibernate.cfg.SettingsFactory - Connection release mode: auto
-INFO main org.hibernate.cfg.SettingsFactory - Maximum outer join fetch depth: 2
-INFO main org.hibernate.cfg.SettingsFactory - Default batch fetch size: 1
-INFO main org.hibernate.cfg.SettingsFactory - Generate SQL with comments: disabled
-INFO main org.hibernate.cfg.SettingsFactory - Order SQL updates by primary key: disabled
-INFO main org.hibernate.cfg.SettingsFactory - Order SQL inserts for batching: disabled
-INFO main org.hibernate.cfg.SettingsFactory - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
-INFO main org.hibernate.hql.ast.ASTQueryTranslatorFactory - Using ASTQueryTranslatorFactory
-INFO main org.hibernate.cfg.SettingsFactory - Query language substitutions: {}
-INFO main org.hibernate.cfg.SettingsFactory - JPA-QL strict compliance: disabled
-INFO main org.hibernate.cfg.SettingsFactory - Second-level cache: enabled
-INFO main org.hibernate.cfg.SettingsFactory - Query cache: disabled
-INFO main org.hibernate.cfg.SettingsFactory - Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
-INFO main org.hibernate.cfg.SettingsFactory - Optimize cache for minimal puts: disabled
-INFO main org.hibernate.cfg.SettingsFactory - Structured second-level cache entries: disabled
-INFO main org.hibernate.cfg.SettingsFactory - Statistics: disabled
-INFO main org.hibernate.cfg.SettingsFactory - Deleted entity synthetic identifier rollback: disabled
-INFO main org.hibernate.cfg.SettingsFactory - Default entity-mode: pojo
-INFO main org.hibernate.cfg.SettingsFactory - Named query checking : enabled
-INFO main org.hibernate.impl.SessionFactoryImpl - building session factory
-DEBUG main org.hibernate.impl.SessionFactoryImpl - Session factory constructed with filter configurations : {}
-DEBUG main org.hibernate.impl.SessionFactoryImpl - instantiating session factory with properties: {java.vendor=Oracle Corporation, show_sql=false, sun.java.launcher=SUN_STANDARD, hibernate.connection.url=jdbc:mysql://lenny2.in.htwg-konstanz.de:3306/games?createDatabaseIfNotExist=true, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, os.name=Windows 7, sun.boot.class.path=C:\Program Files\Java\jdk1.8.0_40\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_40\jre\classes, hibernate.current_session_context_class=thread, sun.desktop=windows, java.vm.specification.vendor=Oracle Corporation, java.runtime.version=1.8.0_40-b26, user.name=andi, connection.driver_class=com.mysql.jdbc.Driver, current_session_context_class=thread, idea.launcher.bin.path=C:\Program Files (x86)\JetBrains\IntelliJ IDEA 14.1.2\bin, user.language=de, sun.boot.library.path=C:\Program Files\Java\jdk1.8.0_40\jre\bin, dialect=org.hibernate.dialect.MySQL5Dialect, java.version=1.8.0_40, user.timezone=Europe/Berlin, sun.arch.data.model=64, java.endorsed.dirs=C:\Program Files\Java\jdk1.8.0_40\jre\lib\endorsed, sun.cpu.isalist=amd64, sun.jnu.encoding=Cp1252, file.encoding.pkg=sun.io, file.separator=\, java.specification.name=Java Platform API Specification, java.class.version=52.0, user.country=DE, connection.url=jdbc:mysql://lenny2.in.htwg-konstanz.de:3306/games?createDatabaseIfNotExist=true, java.home=C:\Program Files\Java\jdk1.8.0_40\jre, java.vm.info=mixed mode, os.version=6.1, path.separator=;, connection.password=htwg, java.vm.version=25.40-b25, hibernate.connection.password=htwg, user.variant=, java.awt.printerjob=sun.awt.windows.WPrinterJob, sun.io.unicode.encoding=UnicodeLittle, awt.toolkit=sun.awt.windows.WToolkit, hibernate.connection.username=htwg, user.script=, user.home=C:\Users\andi, java.specification.vendor=Oracle Corporation, hibernate.hbm2ddl.auto=update, java.library.path=C:\Program Files\Java\jdk1.8.0_40\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Python34\;C:\Python34\Scripts;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\OpenCL SDK\3.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\3.0\bin\x64;C:\Program Files (x86)\Git\cmd;C:\Program Files\MATLAB\R2014a\runtime\win64;C:\Program Files\MATLAB\R2014a\bin;C:\Program Files (x86)\Microsoft SQL Server\90\Tools\binn\;C:\Program Files\Java\jdk1.8.0_40\\bin;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Apache Software Foundation\apache-maven-3.3.1\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;., java.vendor.url=http://java.oracle.com/, hibernate.connection.driver_class=com.mysql.jdbc.Driver, connection.username=htwg, java.vm.vendor=Oracle Corporation, hibernate.dialect=org.hibernate.dialect.MySQL5Dialect, java.runtime.name=Java(TM) SE Runtime Environment, sun.java.command=com.intellij.rt.execution.application.AppMain de.htwg.se.mastermind.Mastermind, java.class.path=C:\Program Files\Java\jdk1.8.0_40\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\ext\zipfs.jar;C:\Users\andi\Desktop\sa_temp\de.htwg.se.mastermind\out\production\de.htwg.se.mastermind;C:\Users\andi\Desktop\sa_temp\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\log4j-1.2.17.jar;C:\Users\andi\Desktop\sa_temp\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\aopalliance.jar;C:\Users\andi\Desktop\sa_temp\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\javax.inject.jar;C:\Users\andi\Desktop\sa_temp\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\guice-3.0.jar;C:\Users\andi\Desktop\sa_temp\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\guice-assistedinject-3.0.jar;C:\Users\andi\Desktop\sa_temp\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\db4o-8.0.249.16098-all-java5.jar;C:\Users\andi\Desktop\sa_temp\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\org.ektorp-1.2.2.jar;C:\Users\andi\Desktop\sa_temp\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\antlr-2.7.6.jar;C:\Users\andi\Desktop\sa_temp\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\apache-httpcomponents-httpclient-cache.jar;C:\Users\andi\Desktop\sa_temp\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\cglib-2.2.jar;C:\Users\andi\Desktop\sa_temp\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\commons-collections-3.1.jar;C:\Users\andi\Desktop\sa_temp\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\commons-logging-1.2.jar;C:\Users\andi\Desktop\sa_temp\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\dom4j-1.6.1.jar;C:\Users\andi\Desktop\sa_temp\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\ejb3-persistence.jar;C:\Users\andi\Desktop\sa_temp\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\hibernate3.jar;C:\Users\andi\Desktop\sa_temp\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\hibernate-annotations.jar;C:\Users\andi\Desktop\sa_temp\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\http-core-4.1.jar;C:\Users\andi\Desktop\sa_temp\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\httpclient-4.1.jar;C:\Users\andi\Desktop\sa_temp\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\jackson-all-1.9.0.jar;C:\Users\andi\Desktop\sa_temp\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\javassist-3.9.0.GA.jar;C:\Users\andi\Desktop\sa_temp\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\jta-1.1.jar;C:\Users\andi\Desktop\sa_temp\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\log4j.jar;C:\Users\andi\Desktop\sa_temp\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\persistence-api-1.0.jar;C:\Users\andi\Desktop\sa_temp\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\slf4j-api-1.5.8.jar;C:\Users\andi\Desktop\sa_temp\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\slf4j-api-1.7.12.jar;C:\Users\andi\Desktop\sa_temp\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\slf4j-log4j12.jar;C:\Users\andi\Desktop\sa_temp\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\hibernate-commons-annotations-3.0.0.ga.jar;C:\Users\andi\Desktop\sa_temp\de.htwg.se.mastermind\de.htwg.se.mastermind\lib\com.mysql.jdbc_5.1.5.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA 14.1.2\lib\idea_rt.jar, hibernate.bytecode.use_reflection_optimizer=false, idea.launcher.port=7532, java.vm.specification.name=Java Virtual Machine Specification, java.vm.specification.version=1.8, sun.cpu.endian=little, sun.os.patch.level=Service Pack 1, java.io.tmpdir=C:\Users\andi\AppData\Local\Temp\, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, os.arch=amd64, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, java.ext.dirs=C:\Program Files\Java\jdk1.8.0_40\jre\lib\ext;C:\Windows\Sun\Java\lib\ext, user.dir=C:\Users\andi\Desktop\sa_temp\de.htwg.se.mastermind, line.separator=
-, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, file.encoding=windows-1252, java.specification.version=1.8, hibernate.show_sql=false}
-DEBUG main org.hibernate.persister.entity.AbstractEntityPersister - Static SQL for entity: de.htwg.se.mastermind.persistence.hibernate.PersistentGrid
-DEBUG main org.hibernate.persister.entity.AbstractEntityPersister -  Version select: select id from mastermind_grid where id =?
-DEBUG main org.hibernate.persister.entity.AbstractEntityPersister -  Snapshot select: select persistent_.id, persistent_.actualRow as actualRow0_, persistent_.columnsAmount as columnsA3_0_, persistent_.date as date0_, persistent_.name as name0_, persistent_.rowsAmount as rowsAmount0_ from mastermind_grid persistent_ where persistent_.id=?
-DEBUG main org.hibernate.persister.entity.AbstractEntityPersister -  Insert 0: insert into mastermind_grid (actualRow, columnsAmount, date, name, rowsAmount, id) values (?, ?, ?, ?, ?, ?)
-DEBUG main org.hibernate.persister.entity.AbstractEntityPersister -  Update 0: update mastermind_grid set actualRow=?, columnsAmount=?, date=?, name=?, rowsAmount=? where id=?
-DEBUG main org.hibernate.persister.entity.AbstractEntityPersister -  Delete 0: delete from mastermind_grid where id=?
-DEBUG main org.hibernate.loader.entity.EntityLoader - Static select for entity de.htwg.se.mastermind.persistence.hibernate.PersistentGrid: select persistent0_.id as id0_0_, persistent0_.actualRow as actualRow0_0_, persistent0_.columnsAmount as columnsA3_0_0_, persistent0_.date as date0_0_, persistent0_.name as name0_0_, persistent0_.rowsAmount as rowsAmount0_0_ from mastermind_grid persistent0_ where persistent0_.id=?
-DEBUG main org.hibernate.loader.entity.EntityLoader - Static select for entity de.htwg.se.mastermind.persistence.hibernate.PersistentGrid: select persistent0_.id as id0_0_, persistent0_.actualRow as actualRow0_0_, persistent0_.columnsAmount as columnsA3_0_0_, persistent0_.date as date0_0_, persistent0_.name as name0_0_, persistent0_.rowsAmount as rowsAmount0_0_ from mastermind_grid persistent0_ where persistent0_.id=?
-DEBUG main org.hibernate.loader.entity.EntityLoader - Static select for entity de.htwg.se.mastermind.persistence.hibernate.PersistentGrid: select persistent0_.id as id0_0_, persistent0_.actualRow as actualRow0_0_, persistent0_.columnsAmount as columnsA3_0_0_, persistent0_.date as date0_0_, persistent0_.name as name0_0_, persistent0_.rowsAmount as rowsAmount0_0_ from mastermind_grid persistent0_ where persistent0_.id=? for update
-DEBUG main org.hibernate.loader.entity.EntityLoader - Static select for entity de.htwg.se.mastermind.persistence.hibernate.PersistentGrid: select persistent0_.id as id0_0_, persistent0_.actualRow as actualRow0_0_, persistent0_.columnsAmount as columnsA3_0_0_, persistent0_.date as date0_0_, persistent0_.name as name0_0_, persistent0_.rowsAmount as rowsAmount0_0_ from mastermind_grid persistent0_ where persistent0_.id=? for update
-DEBUG main org.hibernate.loader.entity.EntityLoader - Static select for entity de.htwg.se.mastermind.persistence.hibernate.PersistentGrid: select persistent0_.id as id0_0_, persistent0_.actualRow as actualRow0_0_, persistent0_.columnsAmount as columnsA3_0_0_, persistent0_.date as date0_0_, persistent0_.name as name0_0_, persistent0_.rowsAmount as rowsAmount0_0_ from mastermind_grid persistent0_ where persistent0_.id=? for update
-DEBUG main org.hibernate.loader.entity.EntityLoader - Static select for action ACTION_MERGE on entity de.htwg.se.mastermind.persistence.hibernate.PersistentGrid: select persistent0_.id as id0_0_, persistent0_.actualRow as actualRow0_0_, persistent0_.columnsAmount as columnsA3_0_0_, persistent0_.date as date0_0_, persistent0_.name as name0_0_, persistent0_.rowsAmount as rowsAmount0_0_ from mastermind_grid persistent0_ where persistent0_.id=?
-DEBUG main org.hibernate.loader.entity.EntityLoader - Static select for action ACTION_REFRESH on entity de.htwg.se.mastermind.persistence.hibernate.PersistentGrid: select persistent0_.id as id0_0_, persistent0_.actualRow as actualRow0_0_, persistent0_.columnsAmount as columnsA3_0_0_, persistent0_.date as date0_0_, persistent0_.name as name0_0_, persistent0_.rowsAmount as rowsAmount0_0_ from mastermind_grid persistent0_ where persistent0_.id=?
-DEBUG main org.hibernate.impl.SessionFactoryObjectFactory - initializing class SessionFactoryObjectFactory
-DEBUG main org.hibernate.impl.SessionFactoryObjectFactory - registered: 0da548ba4df7ad4b014df7ad4bd70000 (unnamed)
-INFO main org.hibernate.impl.SessionFactoryObjectFactory - Not binding factory to JNDI, no JNDI name configured
-DEBUG main org.hibernate.impl.SessionFactoryImpl - instantiated session factory
-INFO main org.hibernate.tool.hbm2ddl.SchemaUpdate - Running hbm2ddl schema update
-INFO main org.hibernate.tool.hbm2ddl.SchemaUpdate - fetching database metadata
-DEBUG main org.hibernate.connection.DriverManagerConnectionProvider - opening new JDBC connection
-DEBUG main org.hibernate.connection.DriverManagerConnectionProvider - created connection to: jdbc:mysql://lenny2.in.htwg-konstanz.de:3306/games?createDatabaseIfNotExist=true, Isolation Level: 4
-INFO main org.hibernate.tool.hbm2ddl.SchemaUpdate - updating schema
-DEBUG main org.hibernate.cfg.AnnotationConfiguration - Execute first pass mapping processing
-DEBUG main org.hibernate.cfg.AnnotationConfiguration - Process hbm files
-DEBUG main org.hibernate.cfg.AnnotationConfiguration - Process annotated classes
-DEBUG main org.hibernate.cfg.AnnotationConfiguration - processing fk mappings (*ToOne and JoinedSubclass)
-DEBUG main org.hibernate.cfg.Configuration - processing extends queue
-DEBUG main org.hibernate.cfg.Configuration - processing collection mappings
-DEBUG main org.hibernate.cfg.Configuration - processing native query and ResultSetMapping mappings
-DEBUG main org.hibernate.cfg.Configuration - processing association property references
-DEBUG main org.hibernate.cfg.Configuration - processing foreign key constraints
-INFO main org.hibernate.tool.hbm2ddl.TableMetadata - table found: games.mastermind_grid
-INFO main org.hibernate.tool.hbm2ddl.TableMetadata - columns: [date, rowsamount, name, actualrow, id, columnsamount]
-INFO main org.hibernate.tool.hbm2ddl.TableMetadata - foreign keys: []
-INFO main org.hibernate.tool.hbm2ddl.TableMetadata - indexes: [primary]
-INFO main org.hibernate.tool.hbm2ddl.SchemaUpdate - schema update complete
-DEBUG main org.hibernate.impl.SessionFactoryImpl - Checking 0 named HQL queries
-DEBUG main org.hibernate.impl.SessionFactoryImpl - Checking 0 named SQL queries
-DEBUG main org.hibernate.impl.SessionImpl - opened session at timestamp: 14343794403
-INFO main de.htwg.se.mastermind.view.tui - 
-              +-------------+
-              | xx xx xx xx |
-+-------------+-------------+
-|             |             |[6]
-|             |             |[5]
-|             |             |[4]
-|             |             |[3]
-|             |             |[2]
-|             |             |[1]
-|             |             |[0]
-+-------------+-------------+
-                [3][2][1][0]
-
-INFO main de.htwg.se.mastermind.view.tui - 
-New game has been created!
-INFO main de.htwg.se.mastermind.view.tui - 
-Available Colors: yl, gr, rd, bl, or, pk, pu
-INFO main de.htwg.se.mastermind.view.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution, zn-sets the size, h-show highscores
-INFO main de.htwg.se.mastermind.view.tui - 
-Please enter command: 
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-              +-------------+
-              | xx xx xx xx |
-+-------------+-------------+
-|             |             |[6]
-|             |             |[5]
-|             |             |[4]
-|             |             |[3]
-|             |             |[2]
-|             |             |[1]
-|             |             |[0]
-+-------------+-------------+
-                [3][2][1][0]
-
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Welcome to Mastermind!!
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Available Colors: yl, gr, rd, bl, or, pk, pu
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution, zn-sets the size, h-show highscores
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Please enter command: 
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-              +-------------+
-              | xx xx xx xx |
-+-------------+-------------+
-|             |             |[6]
-|             |             |[5]
-|             |             |[4]
-|             |             |[3]
-|             |             |[2]
-|             |             |[1]
-|             |             |[0]
-+-------------+-------------+
-                [3][2][1][0]
-
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-New game has been created!
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Available Colors: yl, gr, rd, bl, or, pk, pu
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution, zn-sets the size, h-show highscores
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Please enter command: 
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-              +-------------+
-              | xx xx xx xx |
-+-------------+-------------+
-|             |             |[6]
-|             |             |[5]
-|             |             |[4]
-|             |             |[3]
-|             |             |[2]
-|             |             |[1]
-|             | us          |[0]
-+-------------+-------------+
-                [3][2][1][0]
-
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-The cell at [0],[3] has been set!
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Available Colors: yl, gr, rd, bl, or, pk, pu
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution, zn-sets the size, h-show highscores
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Please enter command: 
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-              +-------------+
-              | xx xx xx xx |
-+-------------+-------------+
-|             |             |[6]
-|             |             |[5]
-|             |             |[4]
-|             |             |[3]
-|             |             |[2]
-|             |             |[1]
-|             | us de       |[0]
-+-------------+-------------+
-                [3][2][1][0]
-
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-The cell at [0],[2] has been set!
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Available Colors: yl, gr, rd, bl, or, pk, pu
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution, zn-sets the size, h-show highscores
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Please enter command: 
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-              +-------------+
-              | xx xx xx xx |
-+-------------+-------------+
-|             |             |[6]
-|             |             |[5]
-|             |             |[4]
-|             |             |[3]
-|             |             |[2]
-|             |             |[1]
-|             |             |[0]
-+-------------+-------------+
-                [3][2][1][0]
-
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Welcome to Mastermind!!
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Available Colors: yl, gr, rd, bl, or, pk, pu
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Possible Commands: n-new, q-quit, c-confirm row, xyco-set a color at x, y, s-show solution, zn-sets the size, h-show highscores
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-Please enter command: 
-INFO AWT-EventQueue-0 de.htwg.se.mastermind.view.tui - 
-              +-------------+
-              | xx xx xx xx |
-+-------------+-------------+
-|             |             |[6]
-|             |             |[5]
-|             |             |[4]
-|             |             |[3]
-|             |             |[2]
-|             |             |[1]
-|             |             |[0]
-+-------------+-------------+
-                [3][2][1][0]
-
+DEBUG main org.apache.http.impl.client.cache.CacheableRequestPolicy - Request was not serveable from cache
+DEBUG main org.apache.http.impl.client.cache.CachingHttpClient - Calling the backend
+DEBUG main org.apache.http.impl.conn.tsccm.ThreadSafeClientConnManager - Get connection: HttpRoute[{}->http://lenny2.in.htwg-konstanz.de:5984], timeout = 1000
+DEBUG main org.apache.http.impl.conn.tsccm.ConnPoolByRoute - [HttpRoute[{}->http://lenny2.in.htwg-konstanz.de:5984]] total kept alive: 0, total issued: 0, total allocated: 0 out of 20
+DEBUG main org.apache.http.impl.conn.tsccm.ConnPoolByRoute - No free connections [HttpRoute[{}->http://lenny2.in.htwg-konstanz.de:5984]][null]
+DEBUG main org.apache.http.impl.conn.tsccm.ConnPoolByRoute - Available capacity: 20 out of 20 [HttpRoute[{}->http://lenny2.in.htwg-konstanz.de:5984]][null]
+DEBUG main org.apache.http.impl.conn.tsccm.ConnPoolByRoute - Creating new connection [HttpRoute[{}->http://lenny2.in.htwg-konstanz.de:5984]]
+DEBUG main org.apache.http.impl.conn.DefaultClientConnectionOperator - Connecting to lenny2.in.htwg-konstanz.de/141.37.31.237:5984
+DEBUG main org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: best-match
+DEBUG main org.apache.http.impl.client.DefaultHttpClient - Attempt 1 to execute request
+DEBUG main org.apache.http.impl.conn.DefaultClientConnection - Sending request: HEAD /mastermind_db/ HTTP/1.1
+DEBUG main org.apache.http.wire - >> "HEAD /mastermind_db/ HTTP/1.1[\r][\n]"
+DEBUG main org.apache.http.wire - >> "Via: 1.1 localhost (Apache-HttpClient/4.1 (cache))[\r][\n]"
+DEBUG main org.apache.http.wire - >> "Host: lenny2.in.htwg-konstanz.de:5984[\r][\n]"
+DEBUG main org.apache.http.wire - >> "Connection: Keep-Alive[\r][\n]"
+DEBUG main org.apache.http.wire - >> "[\r][\n]"
+DEBUG main org.apache.http.headers - >> HEAD /mastermind_db/ HTTP/1.1
+DEBUG main org.apache.http.headers - >> Via: 1.1 localhost (Apache-HttpClient/4.1 (cache))
+DEBUG main org.apache.http.headers - >> Host: lenny2.in.htwg-konstanz.de:5984
+DEBUG main org.apache.http.headers - >> Connection: Keep-Alive
