@@ -3,8 +3,6 @@ package de.htwg.se.mastermind.persistence.couchdb;
 import org.ektorp.support.CouchDbDocument;
 import org.ektorp.support.TypeDiscriminator;
 
-import java.util.Date;
-
 public class PersistentGrid extends CouchDbDocument {
 
     private static final long serialVersionUID = 1538704903825440126L;

@@ -7,9 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="273bd68d-b151-4690-adec-d0da6a88b831" name="Default" comment="Add status line to resetSize() function">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/MastermindModule.java" afterPath="$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/MastermindModule.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/de.htwg.se.mastermind/mastermind.log" afterPath="$PROJECT_DIR$/de.htwg.se.mastermind/mastermind.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/persistence/couchdb/GridCouchdbDAO.java" afterPath="$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/persistence/couchdb/GridCouchdbDAO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/view/gui/HighscoreDialog.java" afterPath="$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/view/gui/HighscoreDialog.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/persistence/couchdb/PersistentGrid.java" afterPath="$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/persistence/couchdb/PersistentGrid.java" />
     </list>
     <ignored path="de.htwg.se.mastermind.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -83,108 +83,45 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MastermindModule.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/MastermindModule.java">
+      <file leaf-file-name="GridCouchdbDAO.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/persistence/couchdb/GridCouchdbDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.33730158" vertical-offset="0" max-vertical-offset="504">
-              <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1887">
+              <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GridDb4oDAO.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/persistence/db4o/GridDb4oDAO.java">
+      <file leaf-file-name="PersistentGrid.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/persistence/couchdb/PersistentGrid.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="5" max-vertical-offset="646">
-              <caret line="46" column="33" selection-start-line="46" selection-start-column="33" selection-end-line="46" selection-end-column="33" />
-              <folding>
-                <element signature="method#getGridById#0;class#GridDb4oDAO#0" expanded="false" />
-                <element signature="method#removeAllGrids#0;class#GridDb4oDAO#0" expanded="false" />
-                <element signature="method#removeGridById#0;class#GridDb4oDAO#0" expanded="false" />
-                <element signature="class#1643:1788" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Plugin.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/util/Plugin.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
-              <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Colors.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/model/Colors.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
-              <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Controller.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/controller/Controller.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.862069" vertical-offset="2749" max-vertical-offset="3825">
-              <caret line="236" column="58" selection-start-line="236" selection-start-column="58" selection-end-line="236" selection-end-column="58" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MastercolorsPanel.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/view/gui/MastercolorsPanel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.137931" vertical-offset="1151" max-vertical-offset="1649">
-              <caret line="94" column="23" selection-start-line="94" selection-start-column="23" selection-end-line="94" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HeadPanel.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/view/gui/HeadPanel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="561">
-              <caret line="17" column="46" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HighscoreDialog.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/view/gui/HighscoreDialog.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.724138" vertical-offset="97" max-vertical-offset="1003">
-              <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="367" max-vertical-offset="1020">
+              <caret line="3" column="44" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#478#479#0" expanded="true" />
+                <element signature="e#503#504#0" expanded="true" />
+                <element signature="e#539#540#0" expanded="true" />
+                <element signature="e#567#568#0" expanded="true" />
+                <element signature="e#598#599#0" expanded="true" />
+                <element signature="e#630#631#0" expanded="true" />
+                <element signature="e#670#671#0" expanded="true" />
+                <element signature="e#702#703#0" expanded="true" />
+                <element signature="e#892#893#0" expanded="true" />
+                <element signature="e#924#925#0" expanded="true" />
+                <element signature="e#964#965#0" expanded="true" />
+                <element signature="e#996#997#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GameFieldPanel.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/view/gui/GameFieldPanel.java">
+      <file leaf-file-name="HighscoreDialog.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/view/gui/HighscoreDialog.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-169.6207" vertical-offset="623" max-vertical-offset="5695">
-              <caret line="341" column="9" selection-start-line="341" selection-start-column="9" selection-end-line="341" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TextUITest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/de.htwg.se.mastermind/test/de/htwg/se/mastermind/view/tui/TextUITest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1156">
-              <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.13492064" vertical-offset="0" max-vertical-offset="986">
+              <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -221,7 +158,6 @@
         <option value="$PROJECT_DIR$/de.htwg.se.mastermind/test/de/htwg/se/mastermind/controller/ControllerTest.java" />
         <option value="$PROJECT_DIR$/de.htwg.se.mastermind/test/de/htwg/se/mastermind/view/gui/StatusPanelTest.java" />
         <option value="$PROJECT_DIR$/de.htwg.se.mastermind/test/de/htwg/se/mastermind/view/tui/TextUITest.java" />
-        <option value="$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/persistence/couchdb/GridCouchdbDAO.java" />
         <option value="$PROJECT_DIR$/de.htwg.se.mastermind/pom.xml" />
         <option value="$PROJECT_DIR$/de.htwg.se.mastermind/src/hibernate.cfg.xml" />
         <option value="$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/persistence/hibernate/PersistentGrid.java" />
@@ -238,9 +174,11 @@
         <option value="$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/model/Colors.java" />
         <option value="$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/controller/Controller.java" />
         <option value="$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/view/gui/MastercolorsPanel.java" />
-        <option value="$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/view/gui/HighscoreDialog.java" />
         <option value="$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/view/gui/GameFieldPanel.java" />
         <option value="$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/MastermindModule.java" />
+        <option value="$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/persistence/couchdb/GridCouchdbDAO.java" />
+        <option value="$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/persistence/couchdb/PersistentGrid.java" />
+        <option value="$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/view/gui/HighscoreDialog.java" />
       </list>
     </option>
   </component>
@@ -331,6 +269,102 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="mastermind" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="de.htwg.se.mastermind" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="de.htwg.se.mastermind" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mastermind" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="de.htwg.se.mastermind" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="de.htwg.se.mastermind" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mastermind" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="de.htwg.se.mastermind" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="de.htwg.se.mastermind" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mastermind" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="persistence" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="de.htwg.se.mastermind" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="de.htwg.se.mastermind" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mastermind" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="persistence" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="couchdb" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -951,18 +985,6 @@
           <option name="timeStamp" value="52" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/persistence/couchdb/PersistentGrid.java</url>
-          <line>29</line>
-          <properties />
-          <option name="timeStamp" value="58" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/persistence/couchdb/PersistentGrid.java</url>
-          <line>2</line>
-          <properties />
-          <option name="timeStamp" value="59" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/persistence/db4o/GridDb4oDAO.java</url>
           <line>24</line>
           <properties />
@@ -1136,21 +1158,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/persistence/couchdb/PersistentGrid.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding>
-            <element signature="e#502#503#0" expanded="false" />
-            <element signature="e#527#528#0" expanded="false" />
-            <element signature="e#563#564#0" expanded="false" />
-            <element signature="e#591#592#0" expanded="false" />
-            <element signature="e#622#623#0" expanded="false" />
-            <element signature="e#654#655#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/persistence/IGridDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
@@ -1191,13 +1198,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <caret line="105" column="0" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/persistence/couchdb/GridCouchdbDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1278,67 +1278,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/view/gui/HeadPanel.java">
+    <entry file="file://$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/MastermindModule.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="561">
-          <caret line="17" column="46" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/model/Colors.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
-          <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/controller/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.862069" vertical-offset="2749" max-vertical-offset="3825">
-          <caret line="236" column="58" selection-start-line="236" selection-start-column="58" selection-end-line="236" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/view/gui/MastercolorsPanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.137931" vertical-offset="1151" max-vertical-offset="1649">
-          <caret line="94" column="23" selection-start-line="94" selection-start-column="23" selection-end-line="94" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/view/gui/HighscoreDialog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.724138" vertical-offset="97" max-vertical-offset="1003">
-          <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/view/gui/GameFieldPanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-169.6207" vertical-offset="623" max-vertical-offset="5695">
-          <caret line="341" column="9" selection-start-line="341" selection-start-column="9" selection-end-line="341" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/de.htwg.se.mastermind/test/de/htwg/se/mastermind/view/tui/TextUITest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1156">
-          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.33730158" vertical-offset="0" max-vertical-offset="504">
+          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/persistence/db4o/GridDb4oDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="5" max-vertical-offset="646">
+        <state vertical-scroll-proportion="0.5972222" vertical-offset="5" max-vertical-offset="646">
           <caret line="46" column="33" selection-start-line="46" selection-start-column="33" selection-end-line="46" selection-end-column="33" />
           <folding>
             <element signature="method#getGridById#0;class#GridDb4oDAO#0" expanded="false" />
@@ -1351,16 +1301,94 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/util/Plugin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
+        <state vertical-scroll-proportion="0.10119048" vertical-offset="0" max-vertical-offset="504">
           <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/MastermindModule.java">
+    <entry file="file://$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/model/Colors.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33730158" vertical-offset="0" max-vertical-offset="504">
-          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+        <state vertical-scroll-proportion="0.4722222" vertical-offset="0" max-vertical-offset="504">
+          <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/controller/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2968421" vertical-offset="2749" max-vertical-offset="3825">
+          <caret line="236" column="58" selection-start-line="236" selection-start-column="58" selection-end-line="236" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/view/gui/MastercolorsPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6189474" vertical-offset="1151" max-vertical-offset="1649">
+          <caret line="94" column="23" selection-start-line="94" selection-start-column="23" selection-end-line="94" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/view/gui/HeadPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33730158" vertical-offset="34" max-vertical-offset="561">
+          <caret line="17" column="46" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/view/gui/GameFieldPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="10.355789" vertical-offset="623" max-vertical-offset="5695">
+          <caret line="341" column="9" selection-start-line="341" selection-start-column="9" selection-end-line="341" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/de.htwg.se.mastermind/test/de/htwg/se/mastermind/view/tui/TextUITest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7757937" vertical-offset="0" max-vertical-offset="1156">
+          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/persistence/couchdb/GridCouchdbDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1887">
+          <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/persistence/couchdb/PersistentGrid.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="367" max-vertical-offset="1020">
+          <caret line="3" column="44" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#478#479#0" expanded="true" />
+            <element signature="e#503#504#0" expanded="true" />
+            <element signature="e#539#540#0" expanded="true" />
+            <element signature="e#567#568#0" expanded="true" />
+            <element signature="e#598#599#0" expanded="true" />
+            <element signature="e#630#631#0" expanded="true" />
+            <element signature="e#670#671#0" expanded="true" />
+            <element signature="e#702#703#0" expanded="true" />
+            <element signature="e#892#893#0" expanded="true" />
+            <element signature="e#924#925#0" expanded="true" />
+            <element signature="e#964#965#0" expanded="true" />
+            <element signature="e#996#997#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/de.htwg.se.mastermind/src/de/htwg/se/mastermind/view/gui/HighscoreDialog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.13492064" vertical-offset="0" max-vertical-offset="986">
+          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
           <folding />
         </state>
       </provider>
