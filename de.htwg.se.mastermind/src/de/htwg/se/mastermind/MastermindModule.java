@@ -11,9 +11,9 @@ public class MastermindModule extends AbstractModule {
     @Override
     protected void configure() {
         bind(IController.class).to(Controller.class);
-        //bind(IGridDAO.class).to(de.htwg.se.mastermind.persistence.db4o.GridDb4oDAO.class);
-       // bind(IGridDAO.class).to(de.htwg.se.mastermind.persistence.couchdb.GridCouchdbDAO.class);
-        bind(IGridDAO.class).to(de.htwg.se.mastermind.persistence.hibernate.GridHibernateDAO.class);
+        bind(IGridDAO.class).to(de.htwg.se.mastermind.persistence.db4o.GridDb4oDAO.class);
+        //bind(IGridDAO.class).to(de.htwg.se.mastermind.persistence.couchdb.GridCouchdbDAO.class);
+        //bind(IGridDAO.class).to(de.htwg.se.mastermind.persistence.hibernate.GridHibernateDAO.class);
         bind(Plugin.class).to(de.htwg.se.mastermind.util.ColorPlugin.class);
     }
 }
