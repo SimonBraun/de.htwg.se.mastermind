@@ -141,7 +141,6 @@ public class Grid extends AbstractGrid implements IGrid, Comparable<IGrid> {
 		ArrayList<Integer> alreadyProcessed = new ArrayList<Integer>();
 	    for (String color : masterColors) {
 	    	for (int j = 0; j < settedColors.length; j++) {
-//	    		if (color.equals(settedColors[j])) {
 		    	if (color.equals(settedColors[j]) && !alreadyProcessed.contains(j)) {
 	    			alreadyProcessed.add(j);
 	    			whiteSticks++;

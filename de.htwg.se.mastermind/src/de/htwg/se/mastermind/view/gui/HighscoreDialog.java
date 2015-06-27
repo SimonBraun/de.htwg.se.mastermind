@@ -9,20 +9,19 @@ import java.awt.*;
 public class HighscoreDialog extends JDialog {
     private JPanel mainPanel;
     private MastermindFrame mastermindFrame;
-    private IController controller;
     private String [][] dataRow;
     private String [] columnNames = {"Position", "Name", "Tries", "Date"};
     private Object [][] data;
 
-    public HighscoreDialog(IController controller, MastermindFrame frame) {
-        this.controller = controller;
+    public HighscoreDialog(IController ctrl, MastermindFrame frame) {
+        IController controller = ctrl;
         this.mastermindFrame = frame;
         this.dataRow = controller.getAllGrids();
         this.data = new Object[dataRow.length][columnNames.length];
 
         for (int i = 0; i < dataRow.length; i++) {
             data[i][0] = i + 1;
-            data[i][1] = this.dataRow[i][0] != null && this.dataRow[i][0] != ""? this.dataRow[i][0] : "(No username)";
+            data[i][1] = this.dataRow[i][0] != null && !this.dataRow[i][0].equals("")? this.dataRow[i][0] : "(No username)";
             data[i][2] = this.dataRow[i][1];
             data[i][3] = this.dataRow[i][2] != null? this.dataRow[i][2] : "(No date)";
         }

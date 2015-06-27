@@ -46,7 +46,6 @@ public final class Mastermind {
 	}
 
 	private Mastermind() {
-		//PropertyConfigurator.configure("log4j.properties");
 		Injector injector = Guice.createInjector(new MastermindModule());
 		controller = injector.getInstance(IController.class);
 		controller.create(ROWS, COLUMNS);

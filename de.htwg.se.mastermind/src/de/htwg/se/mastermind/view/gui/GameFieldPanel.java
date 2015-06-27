@@ -57,7 +57,7 @@ public class GameFieldPanel extends JPanel {
 	private static final int YROWS11 = 425;
 	private static final int YROWS3 = 105;
 	private int yStartNeu = YSTART;
-	private final String GREY = "gy";
+	private static final String GREY = "gy";
 	
 	private static final String PATH = "de.htwg.se.mastermind/src/resource/";
 	private static final String FILEEX = ".png";	
@@ -254,51 +254,6 @@ public class GameFieldPanel extends JPanel {
 		
 		return null;
 	}
-	
-/*	public Color getNextColor() {
-		
-		if (this.actualColor == Color.gray) {
-			this.actualStringColor = "yl";
-			return Color.yellow;
-		}
-		
-		if (this.actualColor == Color.yellow) {
-			this.actualStringColor = "bl";
-			return Color.blue;
-		}
-		
-		if (this.actualColor == Color.blue) {
-			this.actualStringColor = "gr";
-			return Color.green;
-		}
-		
-		if (this.actualColor == Color.green) {
-			this.actualStringColor = "rd";
-			return Color.red;
-		}
-		
-		if (this.actualColor == Color.red) {
-			this.actualStringColor = "or";
-			return Color.orange;
-		}
-		
-		if (this.actualColor == Color.orange) {
-			this.actualStringColor = "pk";
-			return Color.pink;
-		}
-		
-		if (this.actualColor == Color.pink) {
-			this.actualStringColor = "pu";
-			return Color.magenta;
-		}
-		
-		if (this.actualColor == Color.magenta) {
-			this.actualStringColor = "yl";
-			return Color.yellow;
-		}
-		
-		return null;
-	}*/
 	
 	public Color getStickColor(String stickColor) {
 

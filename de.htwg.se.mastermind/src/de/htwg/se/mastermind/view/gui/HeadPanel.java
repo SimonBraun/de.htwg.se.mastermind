@@ -16,7 +16,6 @@ public class HeadPanel extends JPanel{
 	private static final int HEIGHT = 70;
 
 	public HeadPanel(IController controller) {
-		//this.setLayout(new GridLayout(0,2));
 		this.setLayout(new FlowLayout(FlowLayout.LEFT));
 		this.setMinimumSize(new Dimension(WIDTH, HEIGHT));
 		this.setPreferredSize(new Dimension(WIDTH, HEIGHT));

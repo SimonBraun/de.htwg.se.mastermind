@@ -49,8 +49,7 @@ public class GridDb4oDAO implements IGridDAO {
         query.descend("actualRow").orderAscending();
         query.descend("date").orderAscending();
 
-        List<IGrid> grids = query.execute();
-        return grids;
+        return query.execute();
     }
 
     @Override
