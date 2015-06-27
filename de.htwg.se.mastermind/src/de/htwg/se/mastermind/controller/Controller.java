@@ -25,6 +25,8 @@ public class Controller extends Observable implements IController {
 	private String statusLine = "Welcome to Mastermind!!!";
 	private IGridDAO gridDAO;
 	private static final int TEN = 10;
+	private static final int THREE = 3;
+	private static final int FOUR = 4;
 
 	@Inject
 	public Controller(IGridDAO gridDAO) {
@@ -233,14 +235,14 @@ public class Controller extends Observable implements IController {
 	@Override
 	public String[][] getAllGrids() {
 		List<IGrid> allGrids = this.gridDAO.getAllGrids();
-		String [][] data = new String [allGrids.size()][4];
+		String [][] data = new String [allGrids.size()][FOUR];
 
 		for (int i = 0; i < allGrids.size(); i++) {
 			IGrid g = allGrids.get(i);
 			data[i][0] = g.getUsername();
 			data[i][1] = String.valueOf(g.getActualRow());
 			data[i][2] = g.getDate();
-			data[i][3] = g.getId();
+			data[i][THREE] = g.getId();
 		}
 
 		return data;
@@ -260,7 +262,7 @@ public class Controller extends Observable implements IController {
 		for (int i = 0; i < data.length; i++) {
 			if (Integer.parseInt(data[i][1]) > maxValue) {
 				maxValue = Integer.parseInt(data[i][1]);
-				id = data[i][3];
+				id = data[i][THREE];
 			}
 		}
 

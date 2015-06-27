@@ -225,26 +225,26 @@ public class GameFieldPanel extends JPanel {
 		}
 		
 		if (this.actualStringColor.equals(this.controller.getAvailableColors()[2])) {
-			this.actualStringColor = this.controller.getAvailableColors()[3];
+			this.actualStringColor = this.controller.getAvailableColors()[THREE];
 			return Color.yellow;
 		}
 		
-		if (this.actualStringColor.equals(this.controller.getAvailableColors()[3])) {
-			this.actualStringColor = this.controller.getAvailableColors()[4];
+		if (this.actualStringColor.equals(this.controller.getAvailableColors()[THREE])) {
+			this.actualStringColor = this.controller.getAvailableColors()[FOUR];
 			return Color.orange;
 		}
 		
-		if (this.actualStringColor.equals(this.controller.getAvailableColors()[4])) {
-			this.actualStringColor = this.controller.getAvailableColors()[5];
+		if (this.actualStringColor.equals(this.controller.getAvailableColors()[FOUR])) {
+			this.actualStringColor = this.controller.getAvailableColors()[FIVE];
 			return Color.magenta;
 		}
 		
-		if (this.actualStringColor.equals(this.controller.getAvailableColors()[5])) {
-			this.actualStringColor = this.controller.getAvailableColors()[6];
+		if (this.actualStringColor.equals(this.controller.getAvailableColors()[FIVE])) {
+			this.actualStringColor = this.controller.getAvailableColors()[SIX];
 			return Color.pink;
 		}
 		
-		if (this.actualStringColor.equals(this.controller.getAvailableColors()[6])) {
+		if (this.actualStringColor.equals(this.controller.getAvailableColors()[SIX])) {
 			this.actualStringColor = this.controller.getAvailableColors()[0];
 			return Color.red;
 		}

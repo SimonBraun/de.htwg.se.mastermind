@@ -19,7 +19,10 @@ public class MastercolorsPanel extends JPanel {
 	private static final int XBALLS = 45;
 	private static final int YBALLS = 25;
 	private static final int XINCREASE = 30;
-	
+	private static final int FOUR = 4;
+	private static final int EIGHT = 8;
+	private static final int TWELVE = 12;
+
 	private static final String PATH = "de.htwg.se.mastermind/src/resource/";
 	private static final String FILEEX = ".png";	
 	private Image defaultImage = Toolkit.getDefaultToolkit().getImage(createImagePath("gy"));	
@@ -81,15 +84,15 @@ public class MastercolorsPanel extends JPanel {
 		int columnsAmount = controller.getColumnsAmount();
 		
 		switch(columnsAmount) {
-			case 4:
+			case FOUR:
 				this.setPreferredSize(new Dimension(113, HEIGHT));
 				break;
 		
-			case 8:
+			case EIGHT:
 				this.setPreferredSize(new Dimension(190, HEIGHT));
 				break;
 				
-			case 12:
+			case TWELVE:
 				this.setPreferredSize(new Dimension(240, HEIGHT));
 				break;
 		}

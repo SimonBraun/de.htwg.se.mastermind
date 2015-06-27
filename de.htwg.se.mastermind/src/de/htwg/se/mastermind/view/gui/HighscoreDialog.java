@@ -12,6 +12,8 @@ public class HighscoreDialog extends JDialog {
     private String [][] dataRow;
     private String [] columnNames = {"Position", "Name", "Tries", "Date"};
     private Object [][] data;
+    private static final int TEN = 10;
+    private static final int THREE = 3;
 
     public HighscoreDialog(IController ctrl, MastermindFrame frame) {
         IController controller = ctrl;
@@ -23,12 +25,12 @@ public class HighscoreDialog extends JDialog {
             data[i][0] = i + 1;
             data[i][1] = this.dataRow[i][0] != null && !this.dataRow[i][0].equals("")? this.dataRow[i][0] : "(No username)";
             data[i][2] = this.dataRow[i][1];
-            data[i][3] = this.dataRow[i][2] != null? this.dataRow[i][2] : "(No date)";
+            data[i][THREE] = this.dataRow[i][2] != null? this.dataRow[i][2] : "(No date)";
         }
 
         mainPanel = new JPanel();
         mainPanel.setLayout(new BoxLayout(mainPanel, BoxLayout.PAGE_AXIS));
-        mainPanel.setBorder(BorderFactory.createEmptyBorder(10, 10, 10, 10));
+        mainPanel.setBorder(BorderFactory.createEmptyBorder(TEN, TEN, TEN, TEN));
         mainPanel.setPreferredSize(new Dimension(500, 220));
 
         JLabel label = new JLabel("Top ten highsores");
