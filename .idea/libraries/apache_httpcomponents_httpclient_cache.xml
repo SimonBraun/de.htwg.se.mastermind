@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="apache-httpcomponents-httpclient-cache">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/de.htwg.se.mastermind/lib/apache-httpcomponents-httpclient-cache.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>

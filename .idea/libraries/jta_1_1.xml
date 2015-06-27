@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="jta-1.1">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/de.htwg.se.mastermind/lib/jta-1.1.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>
