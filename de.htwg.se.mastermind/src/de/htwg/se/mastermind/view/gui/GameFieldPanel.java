@@ -1,9 +1,9 @@
 package de.htwg.se.mastermind.view.gui;
 
-import java.awt.Color;
-import java.awt.Graphics;
-import java.awt.Image;
-import java.awt.Toolkit;
+import de.htwg.se.mastermind.controller.IController;
+
+import javax.swing.*;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.MouseAdapter;
@@ -12,13 +12,6 @@ import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.UUID;
-
-import javax.swing.BorderFactory;
-import javax.swing.JButton;
-import javax.swing.JOptionPane;
-import javax.swing.JPanel;
-
-import de.htwg.se.mastermind.controller.IController;
 
 public class GameFieldPanel extends JPanel {
 	
@@ -64,6 +57,7 @@ public class GameFieldPanel extends JPanel {
 	private static final int YROWS11 = 425;
 	private static final int YROWS3 = 105;
 	private int yStartNeu = YSTART;
+	private final String GREY = "gy";
 	
 	private static final String PATH = "de.htwg.se.mastermind/src/resource/";
 	private static final String FILEEX = ".png";	
@@ -170,7 +164,7 @@ public class GameFieldPanel extends JPanel {
 		
 		for (int i = 0; i < rows ; i++) {
 			for (int j = columns - 1; j >= 0; j--) {
-				if(this.colorsString[i][j] == null || this.colorsString[i][j] == "gy"){
+				if(this.colorsString[i][j] == null || this.colorsString[i][j].equals(GREY)){
 					image = defaultImage;
 				}
 				else{
@@ -220,37 +214,37 @@ public class GameFieldPanel extends JPanel {
 			return Color.red;
 		}
 		
-		if (this.actualStringColor == this.controller.getAvailableColors()[0]) {
+		if (this.actualStringColor.equals(this.controller.getAvailableColors()[0])) {
 			this.actualStringColor = this.controller.getAvailableColors()[1];
 			return Color.blue;
 		}
 		
-		if (this.actualStringColor == this.controller.getAvailableColors()[1]) {
+		if (this.actualStringColor.equals(this.controller.getAvailableColors()[1])) {
 			this.actualStringColor = this.controller.getAvailableColors()[2];
 			return Color.green;
 		}
 		
-		if (this.actualStringColor == this.controller.getAvailableColors()[2]) {
+		if (this.actualStringColor.equals(this.controller.getAvailableColors()[2])) {
 			this.actualStringColor = this.controller.getAvailableColors()[3];
 			return Color.yellow;
 		}
 		
-		if (this.actualStringColor == this.controller.getAvailableColors()[3]) {
+		if (this.actualStringColor.equals(this.controller.getAvailableColors()[3])) {
 			this.actualStringColor = this.controller.getAvailableColors()[4];
 			return Color.orange;
 		}
 		
-		if (this.actualStringColor == this.controller.getAvailableColors()[4]) {
+		if (this.actualStringColor.equals(this.controller.getAvailableColors()[4])) {
 			this.actualStringColor = this.controller.getAvailableColors()[5];
 			return Color.magenta;
 		}
 		
-		if (this.actualStringColor == this.controller.getAvailableColors()[5]) {
+		if (this.actualStringColor.equals(this.controller.getAvailableColors()[5])) {
 			this.actualStringColor = this.controller.getAvailableColors()[6];
 			return Color.pink;
 		}
 		
-		if (this.actualStringColor == this.controller.getAvailableColors()[6]) {
+		if (this.actualStringColor.equals(this.controller.getAvailableColors()[6])) {
 			this.actualStringColor = this.controller.getAvailableColors()[0];
 			return Color.red;
 		}

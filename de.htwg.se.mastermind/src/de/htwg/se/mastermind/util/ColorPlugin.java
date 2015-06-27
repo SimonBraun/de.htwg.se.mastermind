@@ -2,18 +2,14 @@ package de.htwg.se.mastermind.util;
 
 public class ColorPlugin implements Plugin{
 
-	//TBD
-	
-	@Override
-	public String getMenuEntry() {
-		// TODO Auto-generated method stub
-		return null;
+	private String name;
+	public ColorPlugin(){
+		name = "country";
 	}
 
 	@Override
-	public char getMenuKey() {
-		// TODO Auto-generated method stub
-		return 0;
+	public String getMenuEntry() {
+		return name;
 	}
 
 }

@@ -79,7 +79,8 @@ public abstract class AbstractGrid implements IGrid {
 			sb.append("-");
 		}
 		
-		sb.append("+" + newLine);
+		sb.append("+");
+		sb.append(newLine);
 		
 		for (int j = amountOfRows - 2; j >= 0; j--) {
 			sb.append("|");
@@ -89,14 +90,15 @@ public abstract class AbstractGrid implements IGrid {
 				if (getCellValue(j,k) == null) {
 					sb.append("  ");
 				} else {
-					sb.append(getCellValue(j,k).toString());
+					sb.append(getCellValue(j,k));
 				}
 				
 				if(amountOfColumns/2 == k) {
 					sb.append(" |");
 				}
 			}
-			sb.append(" |[" + j  + "]" + newLine);
+			sb.append(" |[" + j  + "]");
+			sb.append(newLine);
 		}
 		
 		sb.append("+");
@@ -111,7 +113,8 @@ public abstract class AbstractGrid implements IGrid {
 			sb.append("-");
 		}
 		
-		sb.append("+" + newLine);
+		sb.append("+");
+		sb.append(newLine);
 		
 		for (int i = 0; i < spacesAmount + 2; i++) {
 			sb.append(" ");
