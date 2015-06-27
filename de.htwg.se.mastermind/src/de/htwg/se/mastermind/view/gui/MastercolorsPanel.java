@@ -22,6 +22,9 @@ public class MastercolorsPanel extends JPanel {
 	private static final int FOUR = 4;
 	private static final int EIGHT = 8;
 	private static final int TWELVE = 12;
+	private static final int ONE_H_THIRTEEN = 113;
+	private static final int ONE_H_NINETY = 190;
+	private static final int TWO_H_FORTY = 240;
 
 	private static final String PATH = "de.htwg.se.mastermind/src/resource/";
 	private static final String FILEEX = ".png";	
@@ -85,15 +88,15 @@ public class MastercolorsPanel extends JPanel {
 		
 		switch(columnsAmount) {
 			case FOUR:
-				this.setPreferredSize(new Dimension(113, HEIGHT));
+				this.setPreferredSize(new Dimension(ONE_H_THIRTEEN, HEIGHT));
 				break;
 		
 			case EIGHT:
-				this.setPreferredSize(new Dimension(190, HEIGHT));
+				this.setPreferredSize(new Dimension(ONE_H_NINETY, HEIGHT));
 				break;
 				
 			case TWELVE:
-				this.setPreferredSize(new Dimension(240, HEIGHT));
+				this.setPreferredSize(new Dimension(TWO_H_FORTY, HEIGHT));
 				break;
 		}
 	}
