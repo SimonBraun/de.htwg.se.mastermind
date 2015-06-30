@@ -147,7 +147,9 @@ public class GameFieldPanel extends JPanel {
 			for (int j = 0; j < columns; j++) {
 				g.setColor(this.sticks[i][j]);
 				g.fillOval(x, y, STICKSIZE, STICKSIZE);
-				
+				g.setColor( Color.black);
+				g.drawOval(x, y, STICKSIZE, STICKSIZE);
+
 				if (j == columns/2 - 1) {
 					x = XSTARTSTICK;
 					y -= BALLSIZE;
