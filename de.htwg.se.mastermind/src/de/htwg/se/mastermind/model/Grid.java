@@ -229,7 +229,7 @@ public class Grid extends AbstractGrid implements IGrid, Comparable<IGrid> {
 	
 	@Override
 	public void setAvailableColors(String [] chosenColor) {
-		this.availableColors = chosenColor;
+		System.arraycopy(chosenColor, 0, this.availableColors, 0, chosenColor.length);
 	}
 	
 	@Override
